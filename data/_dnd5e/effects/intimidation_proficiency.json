@@ -1,0 +1,7 @@
+{
+    "name": "威吓技能熟练项",
+    "description": "威慑或威胁某人，让他做你想做的事。",
+    "expressions": [
+        "self.proficiency.skills.intimidation +1"
+    ]
+}

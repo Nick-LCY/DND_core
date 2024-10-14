@@ -1,0 +1,7 @@
+{
+    "id": "_dnd5e:effect.{effect_name}",
+    "name": "{display_name}",
+    "description": "{description}",
+    "expressions": [],
+    "conditions": ""
+}

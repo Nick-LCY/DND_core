@@ -1,0 +1,7 @@
+{
+    "id": "_dnd5e:races.{race_name}",
+    "name": "{display_name}",
+    "description": "{discription}",
+    "subraces": [],
+    "features": []
+}

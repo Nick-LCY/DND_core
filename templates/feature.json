@@ -1,0 +1,7 @@
+{
+    "id": "_dnd5e:effect.{feature_name}",
+    "name": "{display_name}",
+    "description": "{description}",
+    "category": "{feature_category}",
+    "effects": []
+}

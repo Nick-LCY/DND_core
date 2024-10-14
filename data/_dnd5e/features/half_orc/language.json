@@ -1,0 +1,11 @@
+{
+    "name": "语言",
+    "description": "你可以说、读、写通用语和兽人语。兽人语是使用辅音的一种粗糙而难听的语言。兽人语没有自己的文字，但可以借用矮人语的文字进行书写。",
+    "category": "race_traits",
+    "effects": [
+        {"type": "permanent", "effect": "_dnd5e:effects.speak_common"},
+        {"type": "permanent", "effect": "_dnd5e:effects.speak_orc"},
+        {"type": "permanent", "effect": "_dnd5e:effects.write_common"},
+        {"type": "permanent", "effect": "_dnd5e:effects.write_dwarvish"}
+    ]
+}

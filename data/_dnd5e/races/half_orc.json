@@ -1,0 +1,15 @@
+{
+    "name": "半兽人",
+    "description": "_dnd5e:files.half_orc_description",
+    "subraces": [],
+    "features": [
+        "_dnd5e:features.half_orc.ability_increase",
+        "_dnd5e:features.half_orc.size",
+        "_dnd5e:features.half_orc.speed",
+        "_dnd5e:features.half_orc.darkvision",
+        "_dnd5e:features.half_orc.menacing",
+        "_dnd5e:features.half_orc.relentless_endurance",
+        "_dnd5e:features.half_orc.savage_attacks",
+        "_dnd5e:features.half_orc.language"
+    ]
+}

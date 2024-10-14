@@ -1,0 +1,7 @@
+{
+    "name": "读、写矮人语",
+    "description": "你能读懂及写下矮人语",
+    "expressions": [
+        "self.language.write append('dwarvish')"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "name": "体型",
+    "description": "半兽人比人类更魁梧更强壮。他们身高5尺到6尺以上。属于中型体型。",
+    "category": "race_traits",
+    "effects": [
+        {"type": "permanent", "effect": "_dnd5e:effects.middle_size"}
+    ]
+}

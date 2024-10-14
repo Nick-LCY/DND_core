@@ -1,0 +1,7 @@
+{
+    "name": "听、说通用语",
+    "description": "你能听懂及说出通用语",
+    "expressions": [
+        "self.language.speak append('common')"
+    ]
+}

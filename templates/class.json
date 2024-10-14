@@ -1,0 +1,9 @@
+{
+    "id": "_dnd5e:classes.{class_name}",
+    "name": "{display_name}",
+    "description": "{description}",
+    "hp_dice": "{dxx}",
+    "features": [],
+    "subclasses": [],
+    "subclasses_available_on_level": 1
+}

@@ -1,0 +1,7 @@
+{
+    "id": "_dnd5e:subclasses.{subclass_name}",
+    "name": "{display_name}",
+    "description": "{description}",
+    "class": "{class_id}",
+    "effects": []
+}

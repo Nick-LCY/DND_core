@@ -1,0 +1,7 @@
+{
+    "name": "中等体型",
+    "description": "你的体型为中等体型",
+    "expressions": [
+        "self.abilities.size ='middle'"
+    ]
+}
