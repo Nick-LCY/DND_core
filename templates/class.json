@@ -4,6 +4,7 @@
     "description": "{description}",
     "hp_dice": "{dxx}",
     "features": [],
+    "equipments": [],
     "subclasses": [],
     "subclasses_available_on_level": 1
 }

@@ -3,12 +3,12 @@
     "description": "当你生命值降至0而没有立即死亡时，可以改为使生命值降至1。此特质生效后必须完成一次长休后才能再次生效。",
     "expressions": [
         "self.current_hp =1",
-        "self.resources.relentless_endurance -1"
+        "self.resources|find(_dnd5e:resources.relentless_endurance).value -1"
     ],
     "conditions": {
         "operator": "and",
         "expressions": [
-            "self.resources.relentless_endurance == 1",
+            "self.resources|find(_dnd5e:resources.relentless_endurance).value == 1",
             "self.current_hp == 0"
         ]
     }
