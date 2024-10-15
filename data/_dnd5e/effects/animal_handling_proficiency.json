@@ -1,0 +1,7 @@
+{
+    "name": "驯兽技能熟练项",
+    "description": "安抚或训练动物，或让动物以某种方式行事。",
+    "expressions": [
+        "self.proficiency.skills.animal_handling +1"
+    ]
+}

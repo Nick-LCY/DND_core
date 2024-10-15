@@ -1,0 +1,34 @@
+{
+    "name": "技能",
+    "description": "从驯兽、运动、威吓、自然、察觉和生存中选两项",
+    "category": "proficiencies",
+    "effects": {
+        "choose": 2,
+        "available": [
+            {
+                "type": "permanent",
+                "effect": "_dnd5e:effects.animal_handling_proficiency"
+            },
+            {
+                "type": "permanent",
+                "effect": "_dnd5e:effects.athletics_proficiency"
+            },
+            {
+                "type": "permanent",
+                "effect": "_dnd5e:effects.intimidation_proficiency"
+            },
+            {
+                "type": "permanent",
+                "effect": "_dnd5e:effects.nature_proficiency"
+            },
+            {
+                "type": "permanent",
+                "effect": "_dnd5e:effects.perception_proficiency"
+            },
+            {
+                "type": "permanent",
+                "effect": "_dnd5e:effects.survival_proficiency"
+            }
+        ]
+    }
+}

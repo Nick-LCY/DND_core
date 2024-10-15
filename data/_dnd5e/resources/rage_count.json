@@ -1,0 +1,14 @@
+{
+    "name": "狂暴次数",
+    "description": "...",
+    "show": true,
+    "max": [
+        {"expressions": ["self.level <= 3"], "value": 2},
+        {"expressions": ["self.level <= 6"], "value": 3}
+    ],
+    "gain_on_short_rest": 0,
+    "gain_on_long_rest": [
+        {"expressions": ["self.level <= 3"], "value": 2},
+        {"expressions": ["self.level <= 6"], "value": 3}
+    ]
+}

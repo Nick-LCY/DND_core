@@ -1,0 +1,7 @@
+{
+    "name": "察觉技能熟练项",
+    "description": "使用多种感官的组合，注意容易错过的东西。",
+    "expressions": [
+        "self.proficiency.skills.perception +1"
+    ]
+}

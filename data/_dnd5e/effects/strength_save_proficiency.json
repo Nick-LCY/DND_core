@@ -1,0 +1,7 @@
+{
+    "name": "力量豁免熟练项",
+    "description": "你在使用力量豁免时可以获得熟练值加成",
+    "expressions": [
+        "self.proficiency.saves.strength +1"
+    ]
+}

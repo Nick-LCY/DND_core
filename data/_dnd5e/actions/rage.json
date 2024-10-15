@@ -1,0 +1,8 @@
+{
+    "name": "狂暴",
+    "description": "....",
+    "costs": [
+        {"resource": "_dnd5e:resources.rage_count", "count": 1},
+        {"resource": "_dnd5e:resources.bonus_action", "count": 1}
+    ]
+}

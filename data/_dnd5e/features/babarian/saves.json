@@ -1,0 +1,9 @@
+{
+    "name": "豁免",
+    "description": "力量、体质",
+    "category": "proficiencies",
+    "effects": [
+        {"type": "permanent", "effect": "_dnd5e:effects.strength_save_proficiency"},
+        {"type": "permanent", "effect": "_dnd5e:effects.constitution_save_proficiency"}
+    ]
+}

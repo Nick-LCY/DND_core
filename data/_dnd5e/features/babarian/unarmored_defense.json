@@ -1,0 +1,8 @@
+{
+    "name": "无甲防御",
+    "description": "未着装任何护甲时，你的AC等于10＋你的敏捷调整值＋你的体质调整值。使用盾牌不会影响你从此特性获益。",
+    "category": "class_traits",
+    "effects": [
+        {"type": "permanent", "effect": "_dnd5e:effects.unarmored_defense"}
+    ]
+}

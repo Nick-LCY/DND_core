@@ -1,0 +1,9 @@
+{
+    "name": "武器",
+    "description": "简易武器、军用武器",
+    "category": "proficiencies",
+    "effects": [
+        {"type": "permanent", "effect": "_dnd5e:effects.simple_weapon_proficiency"},
+        {"type": "permanent", "effect": "_dnd5e:effects.martial_weapon_proficiency"}
+    ]
+}
