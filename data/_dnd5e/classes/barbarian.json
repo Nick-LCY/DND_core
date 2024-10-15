@@ -1,6 +1,6 @@
 {
     "name": "野蛮人",
-    "description": "_dnd5e:files.babarian",
+    "description": "_dnd5e:files.barbarian",
     "hp_dice": "d12",
     "features": [
         "_dnd5e:features.babarian.armor",
