@@ -3,16 +3,20 @@
     "description": "_dnd5e:files.barbarian",
     "hp_dice": "d12",
     "features": [
-        "_dnd5e:features.babarian.armor",
-        "_dnd5e:features.babarian.weapons",
-        "_dnd5e:features.babarian.saves",
-        "_dnd5e:features.babarian.skills",
-        "_dnd5e:features.babarian.rage",
-        "_dnd5e:features.babarian.unarmored_defense",
-        "_dnd5e:features.babarian.reckless_attack",
-        "_dnd5e:features.babarian.danger_sense",
-        "_dnd5e:features.babarian.primal_path"
+        "_dnd5e:features.barbarian.armor",
+        "_dnd5e:features.barbarian.weapons",
+        "_dnd5e:features.barbarian.saves",
+        "_dnd5e:features.barbarian.skills",
+        "_dnd5e:features.barbarian.rage",
+        "_dnd5e:features.barbarian.unarmored_defense",
+        "_dnd5e:features.barbarian.reckless_attack",
+        "_dnd5e:features.barbarian.danger_sense",
+        "_dnd5e:features.barbarian.primal_path"
     ],
     "equipment": [
+    ],
+    "subclasses_available_level": 3,
+    "subclasses": [
+        "_dnd5e:subclasses.barbarian.berserker"
     ]
 }
