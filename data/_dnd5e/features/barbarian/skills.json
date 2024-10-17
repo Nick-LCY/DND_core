@@ -1,7 +1,7 @@
 {
     "name": "技能",
     "description": "从驯兽、运动、威吓、自然、察觉和生存中选两项",
-    "category": "proficiencies",
+    "category": "class_proficiencies",
     "effects": {
         "choose": 2,
         "available": [
