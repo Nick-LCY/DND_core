@@ -1,5 +1,5 @@
 {
-    "name": "生存",
+    "name": "生存技能熟练项",
     "description": "沿着足迹、觅食、寻找小径或避开自然灾害。",
     "expressions": [
         "self.proficiency.skills.survival +1"

@@ -1,0 +1,8 @@
+{
+    "name": "属性值加成",
+    "description": "你的体质加2。",
+    "category": "race_traits",
+    "effects": [
+        {"type": "permanent", "effect": "_dnd5e:effects.constitution_add_2"}
+    ]
+}

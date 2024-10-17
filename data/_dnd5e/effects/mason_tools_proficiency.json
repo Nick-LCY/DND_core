@@ -1,0 +1,7 @@
+{
+    "name": "石匠工具熟练项",
+    "description": "你能熟练运用石匠工具",
+    "expressions": [
+        "self.proficiency.weapons append('_dnd5e:#mason_tools')"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "半兽人",
+    "description": "_dnd5e:files.dwarf_description",
+    "subraces": [
+        "_dnd5e:subraces.dwarf.hill_dwarf",
+        "_dnd5e:subraces.dwarf.mountain_dwarf"
+    ],
+    "features": [
+        "_dnd5e:features.dwarf.ability_increase",
+        "_dnd5e:features.dwarf.size",
+        "_dnd5e:features.dwarf.speed",
+        "_dnd5e:features.dwarf.darkvision",
+        "_dnd5e:features.dwarf.language",
+        "_dnd5e:features.dwarf.resilience",
+        "_dnd5e:features.dwarf.combat_training",
+        "_dnd5e:features.dwarf.tool_proficiency",
+        "_dnd5e:features.dwarf.stonecunning"
+    ]
+}

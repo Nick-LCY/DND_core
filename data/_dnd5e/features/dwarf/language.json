@@ -1,0 +1,9 @@
+{
+    "name": "语言",
+    "description": "你能够说、读、写通用语和矮人语。矮人语中充满了硬辅音和喉音，这使得矮人在讲其他语言时也会带上这些特点。",
+    "category": "race_traits",
+    "effects": [
+        {"type": "permanent", "effect": "_dnd5e:effects.speak_dwarvish"},
+        {"type": "permanent", "effect": "_dnd5e:effects.write_dwarvish"}
+    ]
+}

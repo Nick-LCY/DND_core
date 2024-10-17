@@ -1,0 +1,7 @@
+{
+    "name": "体质+1",
+    "description": "你的体质增加了2",
+    "expressions": [
+        "self.abilities.constitution +2"
+    ]
+}

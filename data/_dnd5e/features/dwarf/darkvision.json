@@ -1,0 +1,8 @@
+{
+    "name": "黑暗视觉",
+    "description": "你习惯了地下生活，因而在黑暗和微光环境下有着良好的视力 。在微光光照下，你身边60尺内可以视为等同于明亮光照。而在黑暗中，该范围内可视为等同于微光光照。你无法在黑暗中分辨颜色，只能看到有灰度的黑白画面。",
+    "category": "race_traits",
+    "effects": [
+        {"type": "permanent", "effect": "_dnd5e:effects.darkvision_60"}
+    ]
+}
