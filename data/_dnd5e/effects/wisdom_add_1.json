@@ -1,0 +1,7 @@
+{
+    "name": "感知+1",
+    "description": "你的感知增加了1",
+    "expressions": [
+        "self.abilities.wisdom +1"
+    ]
+}

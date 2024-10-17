@@ -1,0 +1,8 @@
+{
+    "name": "山地矮人",
+    "description": "作为一名坚强而健壮的山地矮人，你习惯于崎岖山地的艰苦生活。你肤色较浅，而身材在矮人中算是高个子。费伦大陆北部的盾矮人shield dwarf，以及龙枪设定中掌权的海勒Hylar氏族和贵族阶级的达瓦Daewar氏族都属于山地矮人。",
+    "features": [
+        "_dnd5e:features.mountain_dwarf.ability_increase",
+        "_dnd5e:features.mountain_dwarf.armor_training"
+    ]
+}
