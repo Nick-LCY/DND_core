@@ -4,9 +4,9 @@
     "features": {
         "choose": 1,
         "available": [
-            {"type": "permanent", "effect": "_dnd5e:effects.smith_tools_proficiency.json"},
-            {"type": "permanent", "effect": "_dnd5e:effects.brewer_tools_proficiency.json"},
-            {"type": "permanent", "effect": "_dnd5e:effects.mason_tools_proficiency.json"}
+            {"type": "permanent", "effect": "_dnd5e:effects.smith_tools_proficiency"},
+            {"type": "permanent", "effect": "_dnd5e:effects.brewer_tools_proficiency"},
+            {"type": "permanent", "effect": "_dnd5e:effects.mason_tools_proficiency"}
         ]
     }
 }
