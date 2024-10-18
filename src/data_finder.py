@@ -14,7 +14,7 @@ def find_data_by_type(namespace: str, data_type: str) -> list[dict]:
         for root, _, files in os.walk(folder):
             for file in files:
                 file_path = f"{root}/{file}"
-                data_id = file_path.replace(folder, id_prefix).replace("/", ".").strip(".json")
+                data_id = file_path.replace(folder, id_prefix).replace("/", ".").replace(".json", "")
                 with open(file_path) as json_file:
                     data_name = json.load(json_file)["name"]
                 results.append({"id": data_id, "name": data_name})
