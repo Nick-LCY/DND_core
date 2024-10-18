@@ -1,0 +1,7 @@
+{
+    "name": "添加威吓技能",
+    "description": "为你的角色添加威吓技能",
+    "expressions": [
+        "self.actions append('_dnd5e:actions.intimidating_presence')"
+    ]
+}

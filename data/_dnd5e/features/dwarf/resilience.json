@@ -1,5 +1,9 @@
 {
     "name": "矮人体魄",
     "description": "你进行对抗毒素的豁免时具有优势，并且拥有毒素伤害的抗性。",
-    "category": "race_traits"
+    "category": "race_traits",
+    "effects": [
+        {"type": "permanent", "effect": "_dnd5e:effects.poison_save_advantage"},
+        {"type": "permanent", "effect": "_dnd5e:effects.poison_resistance"}
+    ]
 }
