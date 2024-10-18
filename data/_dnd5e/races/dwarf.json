@@ -10,7 +10,7 @@
         "_dnd5e:features.dwarf.size",
         "_dnd5e:features.dwarf.speed",
         "_dnd5e:features.dwarf.darkvision",
-        "_dnd5e:features.dwarf.language",
+        "_dnd5e:features.dwarf.languages",
         "_dnd5e:features.dwarf.resilience",
         "_dnd5e:features.dwarf.combat_training",
         "_dnd5e:features.dwarf.tool_proficiency",

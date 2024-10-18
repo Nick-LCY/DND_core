@@ -1,0 +1,8 @@
+{
+    "name": "侍僧",
+    "description": "_dnd5e:files.acolyte_description",
+    "features": [
+        "_dnd5e:features.acolyte.skills",
+        "_dnd5e:features.acolyte.languages"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "name": "洞悉技能熟练项",
+    "description": "辨别一个人的情绪和意图。",
+    "expressions": [
+        "self.proficiency.skills.insight +1"
+    ]
+}

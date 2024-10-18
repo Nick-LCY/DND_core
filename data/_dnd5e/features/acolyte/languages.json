@@ -1,0 +1,18 @@
+{
+    "name": "语言",
+    "description": "任选两门语言。",
+    "category": "background_traits",
+    "effects": {
+        "choose": 2,
+        "available": [
+            {"type": "permanent", "effect": "_dnd5e:effects.language_common"},
+            {"type": "permanent", "effect": "_dnd5e:effects.language_dwarvish"},
+            {"type": "permanent", "effect": "_dnd5e:effects.language_elvish"},
+            {"type": "permanent", "effect": "_dnd5e:effects.language_giant"},
+            {"type": "permanent", "effect": "_dnd5e:effects.language_gnomish"},
+            {"type": "permanent", "effect": "_dnd5e:effects.language_goblin"},
+            {"type": "permanent", "effect": "_dnd5e:effects.language_halfling"},
+            {"type": "permanent", "effect": "_dnd5e:effects.language_orc"}
+        ]
+    }
+}

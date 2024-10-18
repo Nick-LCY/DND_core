@@ -1,0 +1,9 @@
+{
+    "name": "精灵语",
+    "description": "你能使用精灵语进行沟通及写作。",
+    "expressions": [
+        "self.language.speak append('elvish')",
+        "self.language.write append('elvish')"
+    ]
+}
+
