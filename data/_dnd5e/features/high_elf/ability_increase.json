@@ -1,0 +1,8 @@
+{
+    "name": "属性值加成",
+    "description": "你的智力加1。",
+    "category": "subrace_traits",
+    "effects": [
+        {"type": "permanent", "effect": "_dnd5e:effects.intelligence_add_1"}
+    ]
+}

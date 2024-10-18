@@ -1,0 +1,11 @@
+{
+    "name": "精灵武器训练",
+    "description": "你拥有长剑、短剑、短弓和长弓的熟练项。",
+    "category": "subrace_traits",
+    "effects": [
+        {"type": "permanent", "effect": "_dnd5e:effects.longsword_proficiency"},
+        {"type": "permanent", "effect": "_dnd5e:effects.shortsword_proficiency"},
+        {"type": "permanent", "effect": "_dnd5e:effects.shortbow_proficiency"},
+        {"type": "permanent", "effect": "_dnd5e:effects.longbow_proficiency"}
+    ]
+}

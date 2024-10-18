@@ -1,0 +1,11 @@
+{
+    "name": "戏法",
+    "description": "你习得一个戏法，从法师法术列表中选择之。其施法属性为智力。",
+    "category": "subrace_traits",
+    "effects": {
+        "choose": 1,
+        "available": [
+            {"type": "permanent", "effect": "_dnd5e:effects.actions_add_something"}
+        ]
+    }
+}

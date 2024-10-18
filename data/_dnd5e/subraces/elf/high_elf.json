@@ -1,0 +1,10 @@
+{
+    "name": "高等精灵",
+    "description": "",
+    "features": [
+        "_dnd5e:features.high_elf.ability_increase",
+        "_dnd5e:features.high_elf.elf_weapon_training",
+        "_dnd5e:features.high_elf.cantrip",
+        "_dnd5e:features.high_elf.extra_language"
+    ]
+}

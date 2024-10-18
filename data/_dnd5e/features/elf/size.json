@@ -1,0 +1,8 @@
+{
+    "name": "体型",
+    "description": "精灵中有的身高低于5尺，而有的则甚至超过6尺。他们身材纤细，属于中型体型。",
+    "category": "race_traits",
+    "effects": [
+        {"type": "permanent", "effect": "_dnd5e:effects.middle_size"}
+    ]
+}

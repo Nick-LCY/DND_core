@@ -1,0 +1,18 @@
+{
+    "name": "额外语言",
+    "description": "你能说、读、写一门额外的自选语言。",
+    "category": "subrace_traits",
+    "effects": {
+        "choose": 1, 
+        "available": [
+            {"type": "permanent", "effect": "_dnd5e:effects.language_common"},
+            {"type": "permanent", "effect": "_dnd5e:effects.language_dwarvish"},
+            {"type": "permanent", "effect": "_dnd5e:effects.language_elvish"},
+            {"type": "permanent", "effect": "_dnd5e:effects.language_giant"},
+            {"type": "permanent", "effect": "_dnd5e:effects.language_gnomish"},
+            {"type": "permanent", "effect": "_dnd5e:effects.language_goblin"},
+            {"type": "permanent", "effect": "_dnd5e:effects.language_halfling"},
+            {"type": "permanent", "effect": "_dnd5e:effects.language_orc"}
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "精灵",
+    "description": "_dnd5e:files.elf_description",
+    "features": [
+        "_dnd5e:features.elf.ability_increase",
+        "_dnd5e:features.elf.size",
+        "_dnd5e:features.elf.speed",
+        "_dnd5e:features.elf.darkvision",
+        "_dnd5e:features.elf.keen_senses",
+        "_dnd5e:features.elf.fey_ancestry",
+        "_dnd5e:features.elf.languages"
+    ],
+    "subraces": [
+        "_dnd5e:subraces.elf.high_elf",
+        "_dnd5e:subraces.elf.wood_elf",
+        "_dnd5e:subraces.elf.dark_elf"
+    ]
+}

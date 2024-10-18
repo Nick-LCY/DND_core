@@ -1,0 +1,9 @@
+{
+    "name": "精类血统",
+    "description": "你进行对抗魅惑的豁免时具有优势，并且不会因魔法效应而陷入睡眠。",
+    "category": "race_traits",
+    "effects": [
+        {"type": "permanent", "effect": "_dnd5e:effects.magic_sleep_resistance"},
+        {"type": "permanent", "effect": "_dnd5e:effects.charisma_save_advantage"}
+    ]
+}
