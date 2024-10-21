@@ -15,7 +15,6 @@ def format_str(namespace: str, lang_code: str, key: str) -> str:
     if re.match(r"^\%.*\%$", key) is None:
         return key
     with open(f"{ROOT}/{namespace}/{lang_code}.json", "r") as file:
-        print(key)
         value = json.load(file)[key.strip("%")]
     if isinstance(value, list):
         value = "\n".join(value)

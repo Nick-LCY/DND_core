@@ -1,0 +1,8 @@
+{
+    "name": "%features.gnome.forest.natural_illusionist/name%",
+    "description": "%features.gnome.forest.natural_illusionist/description%",
+    "category": "subrace_traits",
+    "effects": [
+        "_dnd5e:effects.spells.gnome.forest.add_minor_illusion"
+    ]
+}

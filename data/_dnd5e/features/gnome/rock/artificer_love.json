@@ -1,0 +1,6 @@
+{
+    "name": "%features.gnome.rock.artificer_love/name%",
+    "description": "%features.gnome.rock.artificer_love/description%",
+    "category": "subrace_traits",
+    "effects": []
+}

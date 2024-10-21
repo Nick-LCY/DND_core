@@ -1,1 +1,38 @@
-{"name": "%races.gnome/name%", "description": "%races.gnome/description%", "features": ["_dnd5e:features.gnome.speed", "_dnd5e:features.gnome.size", "_dnd5e:features.gnome.darkvision", "_dnd5e:features.gnome.languages", "_dnd5e:features.gnome.abilities"], "subraces": ["_dnd5e:subraces.gnome.forest", "_dnd5e:subraces.gnome.rock"], "additional": {"page": 35, "srd": true, "heightAndWeight": {"baseHeight": 35, "heightMod": "2d4", "baseWeight": 35}, "age": {"mature": 40, "max": 500}, "traitTags": ["Uncommon Race"], "soundClip": {"type": "internal", "path": "races/gnome.mp3"}, "hasFluff": true, "hasFluffImages": true}}
+{
+    "name": "%races.gnome/name%",
+    "description": "%races.gnome/description%",
+    "features": [
+        "_dnd5e:features.gnome.speed",
+        "_dnd5e:features.gnome.size",
+        "_dnd5e:features.gnome.darkvision",
+        "_dnd5e:features.gnome.languages",
+        "_dnd5e:features.gnome.abilities",
+        "_dnd5e:features.gnome.cunning"
+    ],
+    "subraces": [
+        "_dnd5e:subraces.gnome.forest",
+        "_dnd5e:subraces.gnome.rock"
+    ],
+    "additional": {
+        "page": 35,
+        "srd": true,
+        "heightAndWeight": {
+            "baseHeight": 35,
+            "heightMod": "2d4",
+            "baseWeight": 35
+        },
+        "age": {
+            "mature": 40,
+            "max": 500
+        },
+        "traitTags": [
+            "Uncommon Race"
+        ],
+        "soundClip": {
+            "type": "internal",
+            "path": "races/gnome.mp3"
+        },
+        "hasFluff": true,
+        "hasFluffImages": true
+    }
+}

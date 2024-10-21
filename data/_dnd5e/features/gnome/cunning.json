@@ -1,0 +1,10 @@
+{
+    "name": "%features.gnome.cunning/name%",
+    "description": "%features.gnome.cunning/description%",
+    "category": "race_traits",
+    "effects":[
+        "_dnd5e:effects.advantages.saves.int_against_magic",
+        "_dnd5e:effects.advantages.saves.wis_against_magic",
+        "_dnd5e:effects.advantages.saves.cha_against_magic"
+    ]
+}

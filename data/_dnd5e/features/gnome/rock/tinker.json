@@ -1,0 +1,9 @@
+{
+    "name": "%features.gnome.rock.tinker/name%",
+    "description": "%features.gnome.rock.tinker/description%",
+    "category": "subrace_traits",
+    "effects": [
+        "_dnd5e:effects.proficiencies.tools.tinker_tools",
+        "_dnd5e:effects.actions.gnome.rock.add_construct_clockwork_device"
+    ]
+}

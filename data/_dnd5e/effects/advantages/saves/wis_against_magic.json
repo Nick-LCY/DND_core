@@ -1,0 +1,5 @@
+{
+    "name": "%effects.advantages.saves.wis_against_magic/name%",
+    "description": "%effects.advantages.saves.wis_against_magic/description%",
+    "expressions": []
+}

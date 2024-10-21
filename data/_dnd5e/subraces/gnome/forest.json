@@ -1,1 +1,25 @@
-{"name": "%subraces.gnome.forest/name%", "description": "%subraces.gnome.forest/description%", "features": ["_dnd5e:features.gnome.forest.abilities"], "subraces": [], "additional": {"page": 37, "additionalSpells": [{"ability": "int", "known": {"1": ["minor illusion#c"]}}], "hasFluff": true, "hasFluffImages": true}}
+{
+    "name": "%subraces.gnome.forest/name%",
+    "description": "%subraces.gnome.forest/description%",
+    "features": [
+        "_dnd5e:features.gnome.forest.abilities",
+        "_dnd5e:features.gnome.forest.natural_illusionist",
+        "_dnd5e:features.gnome.forest.speak_with_small_beasts"
+    ],
+    "subraces": [],
+    "additional": {
+        "page": 37,
+        "additionalSpells": [
+            {
+                "ability": "int",
+                "known": {
+                    "1": [
+                        "minor illusion#c"
+                    ]
+                }
+            }
+        ],
+        "hasFluff": true,
+        "hasFluffImages": true
+    }
+}
