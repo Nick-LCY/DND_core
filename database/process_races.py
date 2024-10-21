@@ -150,6 +150,7 @@ def build_race(
         "name": f"%{race_id}/name%",
         "description": f"%{race_id}/description%",
         "features": [f"{NAMESPACE}:{x}" for x in feature_ids if x is not None],
+        "subraces": [],
         "additional": additionals,
     }
     add_to_files(race_id, data)
@@ -426,10 +427,7 @@ def process_subraces(raw_subraces, fluff):
             TO_FILLED[f"{subrace_id}/description"] = process_entries(subrace["entries"])
 
         race_id = id_formating(f"races.{race_name}")
-        if "subraces" in FILES[race_id]:
-            FILES[race_id]["subraces"].append(subrace_id)
-        else:
-            FILES[race_id]["subraces"] = [subrace_id]
+        FILES[race_id]["subraces"].append(f"{NAMESPACE}:{subrace_id}")
 
 
 def save(root):
@@ -463,4 +461,4 @@ def main():
 
 
 main()
-save("data/_dnd5e")
+save("step1_data/_dnd5e")
