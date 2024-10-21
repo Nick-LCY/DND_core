@@ -1,0 +1,8 @@
+{
+    "name": "%features.halfling.lucky/name%",
+    "description": "%features.halfling.lucky/description%",
+    "category": "race_traits",
+    "effects": [
+        "_dnd5e:effects.halfling_lucky"
+    ]
+}

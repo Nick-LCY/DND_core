@@ -1,0 +1,6 @@
+{
+    "name": "%features.halfling.halfling_nimbleness/name%",
+    "description": "%features.halfling.halfling_nimbleness/description%",
+    "category": "race_traits",
+    "effects": []
+}

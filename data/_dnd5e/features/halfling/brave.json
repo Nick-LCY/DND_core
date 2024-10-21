@@ -1,0 +1,8 @@
+{
+    "name": "%features.halfling.brave/name%",
+    "description": "%features.halfling.brave/description%",
+    "category": "race_traits",
+    "effects": [
+        "_dnd5e:effects.advantages.saves.frightened"
+    ]
+}

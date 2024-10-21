@@ -127,6 +127,7 @@ def process_entries(
                         mod_configs=configs.update({"entries": "**{}**"}),
                     )
                 )
+                lines.append("")
             case "table":
                 if "caption" in entry:
                     lines.append(f"{prefix}{configs['table'].format(entry['caption'])}")
