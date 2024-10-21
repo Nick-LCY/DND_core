@@ -4,12 +4,22 @@
     "description": "用于描述效果，包含了实际产生效果的表达式",
     "properties": {
         "name": {
-            "$ref": "internal/name.json",
-            "description": "效果名字"
+            "$ref": "internal/i18nKey.json",
+            "title": "效果名字"
         },
         "description": {
-            "$ref": "internal/description.json",
-            "description": "效果详情"
+            "$ref": "internal/i18nKey.json",
+            "title": "效果详情"
+        },
+        "expressions": {
+            "title": "表达式列表",
+            "description": "暂时还没想好怎么设计，先空着吧",
+            "type": "array"
         }
-    }
+    },
+    "required": [
+        "name",
+        "description",
+        "expressions"
+    ]
 }
