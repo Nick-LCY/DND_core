@@ -94,22 +94,48 @@ def build_selection_feature(
     return feature_id
 
 
-def process_entries(entries):
-    content = ""
+def process_entries(
+    entries, prefix="", suffix="  ", mod_configs: dict[str, str] = None
+):
+    configs = {"entries": "## {}", "inset": "**{}**", "table": "**{}**"}
+    if mod_configs is not None:
+        configs.update(mod_configs)
+    lines = []
     for entry in entries:
-        if isinstance(entry, str):
-            content += entry + "\n"
+        if not isinstance(entry, dict):
+            lines.append(f"{prefix}{entry}{suffix}")
             continue
-        content += f"## {entry.get('name', 'WARNING_ENTRY_MISS_NAME')}\n"
-        for line in entry["entries"]:
-            if isinstance(line, str):
-                content += f"{line}\n\n"
-            elif isinstance(line, dict) and line.get("type") == "table":
-                content += f'| {" | ".join(line["colLabels"])} |\n'
-                content += f"| {' | '.join(['---' for _ in line['colLabels']])} |\n"
-                for row in line["rows"]:
-                    content += f"| {' | '.join(row)} |\n"
-    return content
+        match entry["type"]:
+            case "entries":
+                if "name" in entry:
+                    lines.append(
+                        f"{prefix}{configs['entries'].format(entry['name'])}{suffix}"
+                    )
+                lines.extend(process_entries(entry["entries"], mod_configs=configs))
+            case "inset":
+                if "name" in entry:
+                    lines.append(
+                        f"{prefix}> {configs['inset'].format(entry['name'])}{suffix}"
+                    )
+                lines.extend(
+                    process_entries(
+                        entry["entries"],
+                        prefix=prefix + "> ",
+                        mod_configs=configs.update({"entries": "**{}**"}),
+                    )
+                )
+            case "table":
+                if "caption" in entry:
+                    lines.append(f"{prefix}{configs['table'].format(entry['caption'])}")
+                lines.append(f'{prefix}| {" | ".join(entry["colLabels"])} |')
+                lines.append(
+                    f"{prefix}| {' | '.join(['---' for _ in entry['colLabels']])} |"
+                )
+                for row in entry["rows"]:
+                    lines.append(f"{prefix}| {' | '.join(row)} |")
+            case "section":
+                lines.extend(process_entries(entry["entries"], mod_configs=configs))
+    return lines
 
 
 def build_race(
@@ -124,7 +150,7 @@ def build_race(
         "name": f"%{race_id}/name%",
         "description": f"%{race_id}/description%",
         "features": [f"{NAMESPACE}:{x}" for x in feature_ids if x is not None],
-        "additional": additionals
+        "additional": additionals,
     }
     add_to_files(race_id, data)
     return race_id
@@ -142,9 +168,7 @@ def speed(data, feature_categories: list[str], category: str) -> str:
         else:
             effect_id = build_effect(["effects", "speed"], f"walk_{data['speed']}")
             effect_ids.append(effect_id)
-        feature_id = build_feature(
-            feature_categories, "speed", category, effect_ids
-        )
+        feature_id = build_feature(feature_categories, "speed", category, effect_ids)
         return feature_id
 
 
@@ -283,7 +307,7 @@ def armor_proficiencies(data, feature_categories: list[str], category: str) -> s
         return feature_id
 
 
-def process_races(raw_races):
+def process_races(raw_races, fluff):
     for race in raw_races:
         race_name = race["name"]
         feature_categories = ["features", race_name]
@@ -301,12 +325,27 @@ def process_races(raw_races):
         feature_ids.append(feature_id)
         feature_id = tool_proficiencies(race, feature_categories, "race_proficiencies")
         feature_ids.append(feature_id)
-        feature_id = weapon_proficiencies(race, feature_categories, "race_proficiencies")
+        feature_id = weapon_proficiencies(
+            race, feature_categories, "race_proficiencies"
+        )
         feature_ids.append(feature_id)
         feature_id = abilities(race, feature_categories, "race_traits")
         feature_ids.append(feature_id)
         feature_id = resists(race, feature_categories, "race_traits")
         feature_ids.append(feature_id)
+
+        description = [f"# {race_name}"]
+        if race.get("hasFluff", False):
+            for content in fluff:
+                if race_name == content["name"]:
+                    target_fluff = content
+                    break
+            description.extend(process_entries(target_fluff["entries"]))
+        if "entries" in race:
+            description.append("## Race Traits")
+            description.extend(
+                process_entries(race["entries"], mod_configs={"entries": "**{}**"})
+            )
 
         race_id = build_race(
             ["races"],
@@ -314,12 +353,11 @@ def process_races(raw_races):
             feature_ids,
             {k: v for k, v in race.items() if k not in PROCESSED_KEYS},
         )
-        TO_FILLED[f"{race_id}/name"] = race["name"]
-        if "entries" in race:
-            TO_FILLED[f"{race_id}/description"] = process_entries(race["entries"])
+        TO_FILLED[f"{race_id}/name"] = race_name
+        TO_FILLED[f"{race_id}/description"] = description
 
 
-def process_subraces(raw_subraces):
+def process_subraces(raw_subraces, fluff):
     for subrace in raw_subraces:
         if "name" not in subrace:
             continue
@@ -334,20 +372,48 @@ def process_subraces(raw_subraces):
         feature_ids.append(feature_id)
         feature_id = darkvision(subrace, feature_categories, "subrace_traits")
         feature_ids.append(feature_id)
-        feature_id = language_proficiencies(subrace, feature_categories, "subrace_traits")
+        feature_id = language_proficiencies(
+            subrace, feature_categories, "subrace_traits"
+        )
         feature_ids.append(feature_id)
-        feature_id = skill_proficiencies(subrace, feature_categories, "subrace_proficiencies")
+        feature_id = skill_proficiencies(
+            subrace, feature_categories, "subrace_proficiencies"
+        )
         feature_ids.append(feature_id)
-        feature_id = tool_proficiencies(subrace, feature_categories, "subrace_proficiencies")
+        feature_id = tool_proficiencies(
+            subrace, feature_categories, "subrace_proficiencies"
+        )
         feature_ids.append(feature_id)
-        feature_id = weapon_proficiencies(subrace, feature_categories, "subrace_proficiencies")
+        feature_id = weapon_proficiencies(
+            subrace, feature_categories, "subrace_proficiencies"
+        )
         feature_ids.append(feature_id)
-        feature_id = armor_proficiencies(subrace, feature_categories, "subrace_proficiencies")
+        feature_id = armor_proficiencies(
+            subrace, feature_categories, "subrace_proficiencies"
+        )
         feature_ids.append(feature_id)
         feature_id = abilities(subrace, feature_categories, "subrace_traits")
         feature_ids.append(feature_id)
         feature_id = resists(subrace, feature_categories, "subrace_traits")
         feature_ids.append(feature_id)
+
+        description = [f"# {subrace_name}"]
+        if subrace.get("hasFluff", False):
+            for content in fluff:
+                if race_name in content["name"] and subrace_name in content["name"]:
+                    target_fluff = content
+                    break
+            if "_copy" in target_fluff:
+                description.extend(
+                    process_entries(target_fluff["_copy"]["_mod"]["entries"]["items"])
+                )
+            if "entries" in target_fluff:
+                description.extend(process_entries(target_fluff["entries"]))
+        if "entries" in subrace:
+            description.append("## Subclass Traits")
+            description.extend(
+                process_entries(subrace["entries"], mod_configs={"entries": "**{}**"})
+            )
 
         subrace_id = build_race(
             ["subraces", race_name],
@@ -382,15 +448,18 @@ def main():
     with open("database/races.json") as file:
         root = json.load(file)
 
+    with open("database/fluff-races.json") as file:
+        fluff = json.load(file)
+
     raw_races: list[dict[str, Any]] = [
         x for x in root["race"] if "PHB" in x.get("source")
     ]
-    process_races(raw_races)
+    process_races(raw_races, fluff["raceFluff"])
 
     raw_subraces: list[dict[str, Any]] = [
         x for x in root["subrace"] if "PHB" in x.get("source")
     ]
-    process_subraces(raw_subraces)
+    process_subraces(raw_subraces, fluff["raceFluff"])
 
 
 main()
