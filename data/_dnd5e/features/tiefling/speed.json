@@ -1,0 +1,1 @@
+{"name": "%features.tiefling.speed/name%", "description": "%features.tiefling.speed/description%", "category": "race_traits", "effects": ["_dnd5e:effects.speed.walk_30"]}

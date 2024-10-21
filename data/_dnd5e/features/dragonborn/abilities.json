@@ -1,0 +1,9 @@
+{
+    "name": "%features.dragonborn.abilities/name%",
+    "description": "%features.dragonborn.abilities/description%",
+    "category": "race_traits",
+    "effects": [
+        "_dnd5e:effects.abilities.str_add_2",
+        "_dnd5e:effects.abilities.cha_add_1"
+    ]
+}

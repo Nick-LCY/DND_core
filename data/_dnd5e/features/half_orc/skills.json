@@ -1,0 +1,1 @@
+{"name": "%features.half_orc.skills/name%", "description": "%features.half_orc.skills/description%", "category": "race_proficiencies", "effects": ["_dnd5e:effects.proficiencies.skills.intimidation"]}

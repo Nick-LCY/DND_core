@@ -1,7 +1,0 @@
-{
-    "name": "力量+2",
-    "description": "你的力量增加了2",
-    "expressions": [
-        "self.abilities.strength +2"
-    ]
-}

@@ -1,8 +1,0 @@
-{
-    "name": "凶蛮攻击",
-    "description": "使用近战武器攻击造成重击时，你可以额外掷一个该武器的伤害骰，并将其数值加入到重击的额外伤害中。",
-    "category": "race_traits",
-    "effects": [
-        {"type": "permanent", "effect": "_dnd5e:effects.savage_attacks"}
-    ]
-}

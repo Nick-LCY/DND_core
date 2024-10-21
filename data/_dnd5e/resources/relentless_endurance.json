@@ -1,8 +1,0 @@
-{
-    "name": "坚韧不屈次数",
-    "description": "当你生命值降至0而没有立即死亡时，可以改为使生命值降至1。此特质生效后必须完成一次长休后才能再次生效。",
-    "show": false,
-    "max": 1,
-    "gain_on_short_rest": 0,
-    "gain_on_long_rest": 1
-}

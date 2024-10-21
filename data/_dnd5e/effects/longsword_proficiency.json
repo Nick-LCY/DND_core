@@ -1,7 +1,0 @@
-{
-    "name": "长剑熟练项",
-    "description": "你能熟练运用长剑",
-    "expressions": [
-        "self.proficiency.armor append('_dnd5e:#longsword')"
-    ]
-}

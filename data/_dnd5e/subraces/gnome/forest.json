@@ -1,0 +1,1 @@
+{"name": "%subraces.gnome.forest/name%", "description": "%subraces.gnome.forest/description%", "features": ["_dnd5e:features.gnome.forest.abilities"], "subraces": [], "additional": {"page": 37, "additionalSpells": [{"ability": "int", "known": {"1": ["minor illusion#c"]}}], "hasFluff": true, "hasFluffImages": true}}

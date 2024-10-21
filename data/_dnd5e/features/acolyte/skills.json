@@ -1,9 +1,0 @@
-{
-    "name": "技能",
-    "description": "洞悉、宗教",
-    "category": "background_proficiencies",
-    "effects": [
-        {"type": "permanent", "effect": "_dnd5e:effects.insight_proficiency"},
-        {"type": "permanent", "effect": "_dnd5e:effects.religion_proficiency"}
-    ]
-}

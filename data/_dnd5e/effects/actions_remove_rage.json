@@ -1,7 +1,0 @@
-{
-    "name": "移除狂暴技能",
-    "description": "为你的角色移除狂暴技能",
-    "expressions": [
-        "self.actions remove('_dnd5e:actions.rage')"
-    ]
-}

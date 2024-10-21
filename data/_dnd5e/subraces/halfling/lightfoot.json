@@ -1,0 +1,1 @@
+{"name": "%subraces.halfling.lightfoot/name%", "description": "%subraces.halfling.lightfoot/description%", "features": ["_dnd5e:features.halfling.lightfoot.abilities"], "subraces": [], "additional": {"page": 28, "srd": true, "basicRules": true, "hasFluff": true, "hasFluffImages": true}}

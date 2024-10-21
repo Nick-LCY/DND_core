@@ -1,7 +1,0 @@
-{
-    "name": "智力+1",
-    "description": "你的智力增加了1",
-    "expressions": [
-        "self.abilities.intelligence +1"
-    ]
-}

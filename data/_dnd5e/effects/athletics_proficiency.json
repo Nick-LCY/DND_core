@@ -1,7 +1,0 @@
-{
-    "name": "运动技能熟练项",
-    "description": "跳得比平时更远，在波涛汹涌的水中保持漂浮，或者打破什么东西。",
-    "expressions": [
-        "self.proficiency.skills.athletics +1"
-    ]
-}

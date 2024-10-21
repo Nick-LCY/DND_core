@@ -1,7 +1,0 @@
-{
-    "name": "30尺速度",
-    "description": "你的基础步行速度为30尺。",
-    "expressions": [
-        "self.speed =30"
-    ]
-}

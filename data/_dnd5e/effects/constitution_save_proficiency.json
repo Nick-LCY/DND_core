@@ -1,7 +1,0 @@
-{
-    "name": "体质豁免熟练项",
-    "description": "你在使用体质豁免时可以获得熟练值加成",
-    "expressions": [
-        "self.proficiency.saves.constitution+1"
-    ]
-}

@@ -1,0 +1,1 @@
+{"name": "%features.elf.drow.weapons/name%", "description": "%features.elf.drow.weapons/description%", "category": "subrace_proficiencies", "effects": ["_dnd5e:effects.proficiencies.weapons.rapier", "_dnd5e:effects.proficiencies.weapons.shortsword", "_dnd5e:effects.proficiencies.weapons.hand_crossbow"]}

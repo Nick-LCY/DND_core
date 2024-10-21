@@ -52,7 +52,7 @@ def build_effect(file_categories: list[str], en_name: str):
 
 
 def build_feature(
-    file_categories: list[str], en_name: str, category: str, effect_ids: list[str]
+    file_categories: list[str], en_name: str, category: str, effects: list[str]
 ):
     feature_id = f"{'.'.join(file_categories)}.{en_name}"
     feature_id = id_formating(feature_id)
@@ -60,10 +60,13 @@ def build_feature(
         "name": f"%{feature_id}/name%",
         "description": f"%{feature_id}/description%",
         "category": category,
-        "effects": [
-            {"type": "permanent", "effect": f"{NAMESPACE}:{x}"} for x in effect_ids
-        ],
+        "effects": [],
     }
+    for effect in effects:
+        if isinstance(effect, str):
+            data["effects"].append(f"{NAMESPACE}:{effect}")
+        else:
+            data["effects"].append(effect)
     add_to_files(feature_id, data)
     TO_FILLED[f"{feature_id}/name"] = ""
     TO_FILLED[f"{feature_id}/description"] = ""
@@ -442,11 +445,11 @@ def save(root):
         json.dump(TO_FILLED, file)
 
 
-def main():
-    with open("database/races.json") as file:
+def main(original_data: str):
+    with open(f"{original_data}/races.json") as file:
         root = json.load(file)
 
-    with open("database/fluff-races.json") as file:
+    with open(f"{original_data}/fluff-races.json") as file:
         fluff = json.load(file)
 
     raw_races: list[dict[str, Any]] = [
@@ -460,5 +463,5 @@ def main():
     process_subraces(raw_subraces, fluff["raceFluff"])
 
 
-main()
+main("5etools/data")
 save("step1_data/_dnd5e")

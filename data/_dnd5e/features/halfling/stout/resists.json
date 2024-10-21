@@ -1,0 +1,1 @@
+{"name": "%features.halfling.stout.resists/name%", "description": "%features.halfling.stout.resists/description%", "category": "subrace_traits", "effects": ["_dnd5e:effects.resists.poison"]}

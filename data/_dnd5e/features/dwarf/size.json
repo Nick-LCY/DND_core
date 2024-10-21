@@ -1,8 +1,1 @@
-{
-    "name": "体型",
-    "description": "矮人直立身高4到5尺，平均体重约150磅。属于中型体型。",
-    "category": "race_traits",
-    "effects": [
-        {"type": "permanent", "effect": "_dnd5e:effects.middle_size"}
-    ]
-}
+{"name": "%features.dwarf.size/name%", "description": "%features.dwarf.size/description%", "category": "race_traits", "effects": ["_dnd5e:effects.size.m"]}

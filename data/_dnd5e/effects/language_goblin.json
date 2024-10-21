@@ -1,8 +1,0 @@
-{
-    "name": "地精语",
-    "description": "你能使用地精语进行沟通，用矮人语进行写作。",
-    "expressions": [
-        "self.language.speak append('goblin')",
-        "self.language.write append('dwarvish')"
-    ]
-}

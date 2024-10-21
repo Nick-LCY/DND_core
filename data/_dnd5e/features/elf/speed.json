@@ -1,8 +1,1 @@
-{
-    "name": "速度",
-    "description": "你的基础步行速度为30尺。",
-    "category": "race_traits",
-    "effects": [
-        {"type": "permanent", "effect": "_dnd5e:effects.speed_30"}
-    ]
-}
+{"name": "%features.elf.speed/name%", "description": "%features.elf.speed/description%", "category": "race_traits", "effects": ["_dnd5e:effects.speed.walk_30"]}

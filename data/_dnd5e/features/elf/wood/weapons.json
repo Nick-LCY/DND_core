@@ -1,0 +1,1 @@
+{"name": "%features.elf.wood.weapons/name%", "description": "%features.elf.wood.weapons/description%", "category": "subrace_proficiencies", "effects": ["_dnd5e:effects.proficiencies.weapons.longsword", "_dnd5e:effects.proficiencies.weapons.shortsword", "_dnd5e:effects.proficiencies.weapons.shortbow", "_dnd5e:effects.proficiencies.weapons.longbow"]}

@@ -1,0 +1,1 @@
+{"name": "%features.tiefling.resists/name%", "description": "%features.tiefling.resists/description%", "category": "race_traits", "effects": ["_dnd5e:effects.resists.fire"]}

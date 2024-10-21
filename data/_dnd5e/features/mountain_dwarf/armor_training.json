@@ -1,9 +1,0 @@
-{
-    "name": "矮人护甲训练",
-    "description": "你拥有轻甲和中甲的熟练项。",
-    "category": "subrace_proficiencies",
-    "effects": [
-        {"type": "permanent", "effect": "_dnd5e:effects.light_armor_proficiency"},
-        {"type": "permanent", "effect": "_dnd5e:effects.medium_armor_proficiency"}
-    ]
-}

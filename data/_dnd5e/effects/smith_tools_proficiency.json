@@ -1,7 +1,0 @@
-{
-    "name": "铁匠工具熟练项",
-    "description": "你能熟练运用铁匠工具",
-    "expressions": [
-        "self.proficiency.weapons append('_dnd5e:#smith_tools')"
-    ]
-}

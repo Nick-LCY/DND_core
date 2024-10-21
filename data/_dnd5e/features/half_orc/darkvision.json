@@ -1,8 +1,1 @@
-{
-    "name": "黑暗视觉",
-    "description": "得益于你的兽人血统，你在黑暗和微光光照下有超出常人的视力。在微光光照下，你身边60尺内可以视为等同于明亮光照。而在黑暗中，该范围内可视为等同于微光光照。你无法在黑暗中分辨颜色，只能看到有灰度的黑白画面。",
-    "category": "race_traits",
-    "effects": [
-        {"type": "permanent", "effect": "_dnd5e:effects.darkvision_60"}
-    ]
-}
+{"name": "%features.half_orc.darkvision/name%", "description": "%features.half_orc.darkvision/description%", "category": "race_traits", "effects": ["_dnd5e:effects.darkvision.60"]}

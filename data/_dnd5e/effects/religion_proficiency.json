@@ -1,7 +1,0 @@
-{
-    "name": "宗教技能熟练项",
-    "description": "回想一下关于神、宗教仪式和神圣象征的传说。",
-    "expressions": [
-        "self.proficiency.skills.religion +1"
-    ]
-}

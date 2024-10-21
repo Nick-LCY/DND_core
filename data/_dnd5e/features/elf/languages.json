@@ -1,8 +1,1 @@
-{
-    "name": "语言",
-    "description": "你能够说、读、写通用语和精灵语。精灵语如流体般流畅，有着微妙的语调变化和复杂的语法结构。精灵文学十分丰富多彩，他们的诗歌在其他种族里也享有很高的评价。许多吟游诗人都会学习精灵语，并将其韵律运用在他们自己的诗作中。",
-    "category": "race_traits",
-    "effects": [
-        {"type": "permanent", "effect": "_dnd5e:effects.language_elvish"}
-    ]
-}
+{"name": "%features.elf.languages/name%", "description": "%features.elf.languages/description%", "category": "race_traits", "effects": ["_dnd5e:effects.language.common", "_dnd5e:effects.language.elvish"]}

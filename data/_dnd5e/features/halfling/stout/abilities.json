@@ -1,0 +1,1 @@
+{"name": "%features.halfling.stout.abilities/name%", "description": "%features.halfling.stout.abilities/description%", "category": "subrace_traits", "effects": ["_dnd5e:effects.abilities.con_add_1"]}

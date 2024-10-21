@@ -1,7 +1,0 @@
-{
-    "name": "军用武器熟练项",
-    "description": "你能熟练运用军用武器",
-    "expressions": [
-        "self.proficiency.weapons append('_dnd5e:#martial_weapons')"
-    ]
-}

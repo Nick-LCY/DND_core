@@ -1,8 +1,0 @@
-{
-    "name": "兽人语",
-    "description": "你能使用兽人语进行沟通，用矮人语进行写作。",
-    "expressions": [
-        "self.language.speak append('orc')",
-        "self.language.write append('dwarvish')"
-    ]
-}

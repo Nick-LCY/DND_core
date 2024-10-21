@@ -1,18 +1,1 @@
-{
-    "name": "精灵",
-    "description": "_dnd5e:files.elf_description",
-    "features": [
-        "_dnd5e:features.elf.ability_increase",
-        "_dnd5e:features.elf.size",
-        "_dnd5e:features.elf.speed",
-        "_dnd5e:features.elf.darkvision",
-        "_dnd5e:features.elf.keen_senses",
-        "_dnd5e:features.elf.fey_ancestry",
-        "_dnd5e:features.elf.languages"
-    ],
-    "subraces": [
-        "_dnd5e:subraces.elf.high_elf",
-        "_dnd5e:subraces.elf.wood_elf",
-        "_dnd5e:subraces.elf.dark_elf"
-    ]
-}
+{"name": "%races.elf/name%", "description": "%races.elf/description%", "features": ["_dnd5e:features.elf.speed", "_dnd5e:features.elf.size", "_dnd5e:features.elf.darkvision", "_dnd5e:features.elf.languages", "_dnd5e:features.elf.skills", "_dnd5e:features.elf.abilities"], "subraces": ["_dnd5e:subraces.elf.drow", "_dnd5e:subraces.elf.high", "_dnd5e:subraces.elf.wood"], "additional": {"page": 21, "srd": true, "basicRules": true, "age": {"mature": 100, "max": 750}, "traitTags": ["Improved Resting"], "soundClip": {"type": "internal", "path": "races/elf.mp3"}, "hasFluff": true, "hasFluffImages": true}}

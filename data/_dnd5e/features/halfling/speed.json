@@ -1,0 +1,1 @@
+{"name": "%features.halfling.speed/name%", "description": "%features.halfling.speed/description%", "category": "race_traits", "effects": ["_dnd5e:effects.speed.walk_25"]}

@@ -1,0 +1,1 @@
+{"name": "%features.half_orc.abilities/name%", "description": "%features.half_orc.abilities/description%", "category": "race_traits", "effects": ["_dnd5e:effects.abilities.str_add_2", "_dnd5e:effects.abilities.con_add_1"]}

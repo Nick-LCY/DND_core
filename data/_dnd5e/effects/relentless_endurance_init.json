@@ -1,8 +1,0 @@
-{
-    "name": "坚韧不屈初始化",
-    "description": "你获得了坚韧不屈的效果",
-    "expressions": [
-        "self.resources append('_dnd5e:resources.relentless_endurance')",
-        "self.resources|find('_dnd5e:resources.relentless_endurance').value =1"
-    ]
-}

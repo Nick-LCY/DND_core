@@ -1,7 +1,0 @@
-{
-    "name": "添加鲁莽攻击",
-    "description": "为你的角色添加鲁莽攻击技能",
-    "expressions": [
-        "self.actions append('_dnd5e:actions.reckless_attack')"
-    ]
-}

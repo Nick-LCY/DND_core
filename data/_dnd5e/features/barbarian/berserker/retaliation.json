@@ -1,8 +1,0 @@
-{
-    "name": "报偿",
-    "description": "第14级起，身边5尺内敌人对你造成伤害时，你可以用反应对该生物发动一次近战武器攻击。",
-    "category": "subclass_traits",
-    "effects": [
-        {"type": "permanent", "effect": "_dnd5e:effects.retaliation"}
-    ]
-}

@@ -1,7 +1,0 @@
-{
-    "name": "中甲熟练项",
-    "description": "你能熟练运用中甲",
-    "expressions": [
-        "self.proficiency.armor append('_dnd5e:#medium_armor')"
-    ]
-}

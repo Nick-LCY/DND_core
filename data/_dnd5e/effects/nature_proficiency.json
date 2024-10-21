@@ -1,7 +1,0 @@
-{
-    "name": "自然技能熟练项",
-    "description": "回忆有关地形、植物、动物和天气的传说。",
-    "expressions": [
-        "self.proficiency.skills.nature +1"
-    ]
-}

@@ -1,8 +1,0 @@
-{
-    "name": "坚韧不屈",
-    "description": "当你生命值降至0而没有立即死亡时，可以改为使生命值降至1。此特质生效后必须完成一次长休后才能再次生效。",
-    "category": "race_traits",
-    "effects": [
-        {"type": "permanent", "effect": "_dnd5e:effects.relentless_endurance"}
-    ]
-}

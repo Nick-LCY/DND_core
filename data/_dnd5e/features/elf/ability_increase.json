@@ -1,8 +1,0 @@
-{
-    "name": "属性值加成",
-    "description": "你的感知加1。",
-    "category": "race_traits",
-    "effects": [
-        {"type": "permanent", "effect": "_dnd5e:effects.wisdom_add_1"}
-    ]
-}

@@ -1,0 +1,1 @@
+{"name": "%subraces.human.variant/name%", "description": "%subraces.human.variant/description%", "features": ["_dnd5e:features.human.variant.skills", "_dnd5e:features.human.variant.abilities"], "subraces": [], "additional": {"page": 31, "basicRules": true, "feats": [{"any": 1}]}}

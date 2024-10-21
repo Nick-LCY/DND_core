@@ -1,0 +1,1 @@
+{"name": "%features.dwarf.weapons/name%", "description": "%features.dwarf.weapons/description%", "category": "race_proficiencies", "effects": ["_dnd5e:effects.proficiencies.weapons.battleaxe", "_dnd5e:effects.proficiencies.weapons.handaxe", "_dnd5e:effects.proficiencies.weapons.light_hammer", "_dnd5e:effects.proficiencies.weapons.warhammer"]}

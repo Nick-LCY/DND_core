@@ -1,8 +1,0 @@
-{
-    "name": "添加狂暴技能",
-    "description": "为你的角色添加狂暴技能",
-    "expressions": [
-        "self.actions append('_dnd5e:actions.rage')",
-        "self.resources append('_dnd5e:resources.rage_count')"
-    ]
-}

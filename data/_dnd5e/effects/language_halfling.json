@@ -1,9 +1,0 @@
-{
-    "name": "半身人语",
-    "description": "你能使用半身人语进行沟通，用通用语进行写作。",
-    "expressions": [
-        "self.language.speak append('halfling')",
-        "self.language.write append('common')"
-    ]
-}
-

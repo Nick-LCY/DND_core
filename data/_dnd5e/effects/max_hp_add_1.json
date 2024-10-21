@@ -1,7 +1,0 @@
-{
-    "name": "最大血量+1",
-    "description": "最大血量+1",
-    "effects": [
-        "self.max_hp +1"
-    ]
-}

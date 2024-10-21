@@ -1,9 +1,0 @@
-{
-    "name": "矮人刚毅",
-    "description": "你的生命值最大值加1，且此后每次升级时再加1。",
-    "category": "subrace_traits",
-    "effects": [
-        {"type": "permanent", "effect": "_dnd5e:effects.max_hp_add_1"},
-        {"type": "permanent", "effect": "_dnd5e:effects.lvl_up_hp_add_1"}
-    ]
-}

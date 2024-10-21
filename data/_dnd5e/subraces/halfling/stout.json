@@ -1,0 +1,1 @@
+{"name": "%subraces.halfling.stout/name%", "description": "%subraces.halfling.stout/description%", "features": ["_dnd5e:features.halfling.stout.abilities", "_dnd5e:features.halfling.stout.resists"], "subraces": [], "additional": {"page": 28, "basicRules": true, "hasFluff": true, "hasFluffImages": true}}

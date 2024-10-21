@@ -1,8 +1,1 @@
-{
-    "name": "速度",
-    "description": "你的基础步行速度为25尺。你的速度不会因穿着重甲而减慢。",
-    "category": "race_traits",
-    "effects": [
-        {"type": "permanent", "effect": "_dnd5e:effects.speed_25"}
-    ]
-}
+{"name": "%features.dwarf.speed/name%", "description": "%features.dwarf.speed/description%", "category": "race_traits", "effects": ["_dnd5e:effects.speed.walk_25"]}

@@ -1,8 +1,0 @@
-{
-    "name": "凶恶",
-    "description": "你获得威吓技能的熟练项。",
-    "category": "race_traits",
-    "effects": [
-        {"type": "permanent", "effect": "_dnd5e:effects.intimidation_proficiency"}
-    ]
-}

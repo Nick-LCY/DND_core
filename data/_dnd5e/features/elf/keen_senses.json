@@ -1,8 +1,0 @@
-{
-    "name": "敏锐感官",
-    "description": "你拥有察觉技能的熟练项。",
-    "category": "race_traits",
-    "effects": [
-        {"type": "permanent", "effect": "_dnd5e:effects.perception_proficiency"}
-    ]
-}
