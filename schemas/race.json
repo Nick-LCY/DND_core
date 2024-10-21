@@ -1,0 +1,35 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "种族",
+    "description": "用于描述DND5e的种族",
+    "type": "object",
+    "properties": {
+        "name": {
+            "$ref": "internal/i18nKey.json",
+            "title": "种族名字"
+        },
+        "description": {
+            "$ref": "internal/i18nKey.json",
+            "title": "种族详情"
+        },
+        "features": {
+            "title": "种族特性",
+            "$ref": "internal/featureList.json"
+        },
+        "subraces": {
+            "title": "亚种列表",
+            "description": "如果没有则留空",
+            "type": "array",
+            "items": {
+                "$ref": "internal/id.json",
+                "title": "亚种的id，推荐文件夹放置：subraces > 种族名（英文小写） > 亚种名（英文小写）"
+            }
+        }
+    },
+    "required": [
+        "name",
+        "description",
+        "features",
+        "subraces"
+    ]
+}

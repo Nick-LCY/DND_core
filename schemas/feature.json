@@ -1,0 +1,41 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "properties": {
+        "name": {
+            "$ref": "internal/i18nKey.json",
+            "description": "特性名字"
+        },
+        "description": {
+            "$ref": "internal/i18nKey.json",
+            "description": "特性详情"
+        },
+        "effects": {
+            "title": "效果列表",
+            "description": "与此特性有关的效果",
+            "anyOf": [
+                {
+                    "$ref": "internal/effectDict.json"
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "anyOf": [
+                            {
+                                "$ref": "internal/effectDict.json"
+                            },
+                            {
+                                "$ref": "internal/id.json",
+                                "title": "效果id，推荐先看看目前已有的分类"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "required": [
+        "name",
+        "description",
+        "effects"
+    ]
+}

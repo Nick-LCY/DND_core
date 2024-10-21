@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "效果",
+    "description": "用于描述效果，包含了实际产生效果的表达式",
+    "properties": {
+        "name": {
+            "$ref": "internal/name.json",
+            "description": "效果名字"
+        },
+        "description": {
+            "$ref": "internal/description.json",
+            "description": "效果详情"
+        }
+    }
+}

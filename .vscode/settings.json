@@ -1,0 +1,28 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "**/races/**/*.json"
+            ],
+            "url": "./schemas/race.json"
+        },
+        {
+            "fileMatch": [
+                "**/features/**/*.json"
+            ],
+            "url":  "./schemas/feature.json"
+        },
+        {
+            "fileMatch": [
+                "**/subraces/**/*.json"
+            ],
+            "url": "./schemas/subrace.json"
+        },
+        {
+            "fileMatch": [
+                "**/effects/**/*.json"
+            ],
+            "url": "./schemas/effect.json"
+        }
+    ]
+}

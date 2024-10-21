@@ -1,0 +1,5 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "用于定位文件的唯一标识符，格式规范为：{命名空间}:{文件夹1}.{文件夹2}.{文件名}, 中间可以添加更多的文件夹层级用于分类",
+    "type": "string"
+}
