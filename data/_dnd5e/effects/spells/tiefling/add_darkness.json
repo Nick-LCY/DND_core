@@ -1,0 +1,5 @@
+{
+    "name": "%effects.spells.tiefling.add_darkness/name%",
+    "description": "%effects.spells.tiefling.add_darkness/description%",
+    "expressions": []
+}

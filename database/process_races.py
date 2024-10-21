@@ -138,6 +138,9 @@ def process_entries(
                     lines.append(f"{prefix}| {' | '.join(row)} |")
             case "section":
                 lines.extend(process_entries(entry["entries"], mod_configs=configs))
+            case "list":
+                for item in entry["items"]:
+                    lines.append(f"{prefix}+ **{item['name']}** {item['entry']}{suffix}")
     return lines
 
 

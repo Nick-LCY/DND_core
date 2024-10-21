@@ -9,6 +9,16 @@
             "$ref": "internal/i18nKey.json",
             "description": "特性详情"
         },
+        "category": {
+            "title": "特性分类",
+            "description": "目前有：race_traits, race_proficiencies, subrace_traits, subrace_proficiencies",
+            "enum": [
+                "race_traits",
+                "race_proficiencies",
+                "subrace_proficiencies",
+                "subrace_traits"
+            ]
+        },
         "effects": {
             "title": "效果列表",
             "description": "与此特性有关的效果",
@@ -36,6 +46,7 @@
     "required": [
         "name",
         "description",
+        "category",
         "effects"
     ]
 }
