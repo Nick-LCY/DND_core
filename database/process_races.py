@@ -41,8 +41,8 @@ def build_effect(file_categories: list[str], en_name: str):
     effect_id = f"{'.'.join(file_categories)}.{en_name}"
     effect_id = id_formating(effect_id)
     data = {
-        "name": f"%{NAMESPACE}:{effect_id}/name%",
-        "description": f"%{NAMESPACE}:{effect_id}/description%",
+        "name": f"%{effect_id}/name%",
+        "description": f"%{effect_id}/description%",
         "expressions": [],
     }
     add_to_files(effect_id, data)
@@ -57,8 +57,8 @@ def build_feature(
     feature_id = f"{'.'.join(file_categories)}.{en_name}"
     feature_id = id_formating(feature_id)
     data = {
-        "name": f"%{NAMESPACE}:{feature_id}/name%",
-        "description": f"%{NAMESPACE}:{feature_id}/description%",
+        "name": f"%{feature_id}/name%",
+        "description": f"%{feature_id}/description%",
         "category": category,
         "effects": [
             {"type": "permanent", "effect": f"{NAMESPACE}:{x}"} for x in effect_ids
@@ -463,4 +463,4 @@ def main():
 
 
 main()
-save("database/data")
+save("data/_dnd5e")
