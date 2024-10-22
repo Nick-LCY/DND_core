@@ -6,16 +6,22 @@ ROOT = "/dnd-core/data"
 
 def is_id(string: str) -> bool:
     return (
-        re.match(r"^[a-zA-Z_0-9]*:(?:[a-zA-Z_0-9]*\.)+[a-zA-Z_0-9]+$", string)
+        re.match(r"^[a-zA-Z_0-9]*:(?:[a-zA-Z_0-9#]*\.)+[a-zA-Z_0-9#]+$", string)
         is not None
     )
 
 
-def format_str(namespace: str, lang_code: str, key: str) -> str:
-    if re.match(r"^\%.*\%$", key) is None:
-        return key
+def format_str(data_id: str, data_key: str | None, data_name: str, lang_code: str) -> str:
+    namespace = data_id.split(":")[0]
+    file_id = data_id.split(":")[1]
+    if data_name == "":
+        if data_key is None:
+            return data_name
+        data_name = f"%{file_id}/{data_key}%"
+    if re.match(r"^\%.*\%$", data_name) is None:
+        return data_name
     with open(f"{ROOT}/{namespace}/{lang_code}.json", "r") as file:
-        value = json.load(file)[key.strip("%")]
+        value = json.load(file).get(data_name.strip("%"), data_name)
     if isinstance(value, list):
         value = "\n".join(value)
     return value
@@ -39,7 +45,7 @@ def find_data_by_type(
                 with open(file_path) as json_file:
                     data_name = json.load(json_file)["name"]
                 results.append(
-                    {"id": data_id, "name": format_str(namespace, lang_code, data_name)}
+                    {"id": data_id, "name": format_str(data_id, "name", data_name, lang_code)}
                 )
         return results
     except:
@@ -56,27 +62,27 @@ def find_data_by_id(data_id: str, lang_code: str = "zh_CN") -> dict:
                 data = "\n".join(file.readlines())
                 return data
 
-        def visit(obj):
-            if isinstance(obj, list):
+        def visit(val, key: str | None):
+            if isinstance(val, list):
                 processed_list = []
-                for v in obj:
-                    processed_list.append(visit(v))
+                for v in val:
+                    processed_list.append(visit(v, None))
                 return processed_list
-            if isinstance(obj, dict):
+            if isinstance(val, dict):
                 processed_dict = {}
-                for k, v in obj.items():
-                    processed_dict[k] = visit(v)
+                for k, v in val.items():
+                    processed_dict[k] = visit(v, k)
                 return processed_dict
-            if is_id(str(obj)):
-                return find_data_by_id(str(obj))
-            if isinstance(obj, str):
-                return format_str(namespace, lang_code, obj)
+            if is_id(str(val)):
+                return find_data_by_id(str(val))
+            if isinstance(val, str):
+                return format_str(data_id, key, val, lang_code)
             else:
-                return obj
+                return val
 
         with open(file_path + ".json") as json_file:
             data: dict = json.load(json_file)
-            data = visit(data)
+            data = visit(data, None)
             data["id"] = data_id
             return data
     except:
