@@ -1,1 +1,1 @@
-{"name": "%features.gnome.languages/name%", "description": "%features.gnome.languages/description%", "category": "race_traits", "effects": ["_dnd5e:effects.language.common", "_dnd5e:effects.language.gnomish"]}
+{"name": "%features.gnome.languages/name%", "description": "%features.gnome.languages/description%", "category": "race_traits", "effects": ["_dnd5e:effects.languages.common", "_dnd5e:effects.languages.gnomish"]}

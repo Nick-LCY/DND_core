@@ -1,0 +1,8 @@
+{
+    "name": "%features.elf.fey_ancestry/name%",
+    "description": "%features.elf.fey_ancestry/description%",
+    "category": "race_traits",
+    "effects":[
+        "_dnd5e:effects.advantages.saves.charmed"
+    ]
+}

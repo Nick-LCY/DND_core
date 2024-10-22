@@ -1,0 +1,10 @@
+{
+    "name": "",
+    "description": "",
+    "category": "subrace_traits",
+    "effects": [
+        "_dnd5e:effects.disadvantages.checks.drow.attack",
+        "_dnd5e:effects.disadvantages.checks.drow.wisdom",
+        "_dnd5e:effects.disadvantages.checks.drow.perception"
+    ]
+}

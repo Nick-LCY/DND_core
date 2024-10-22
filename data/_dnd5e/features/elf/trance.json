@@ -1,0 +1,6 @@
+{
+    "name": "%features.elf.trance/name%",
+    "description": "%features.elf.trance/description%",
+    "category": "race_traits",
+    "effects":[]
+}

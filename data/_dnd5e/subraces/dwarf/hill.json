@@ -1,1 +1,20 @@
-{"name": "%subraces.dwarf.hill/name%", "description": "%subraces.dwarf.hill/description%", "features": ["_dnd5e:features.dwarf.hill.abilities"], "subraces": [], "additional": {"page": 20, "srd": true, "basicRules": true, "heightAndWeight": {"baseHeight": 44, "heightMod": "2d4", "baseWeight": 115, "weightMod": "2d6"}, "hasFluff": true, "hasFluffImages": true}}
+{
+    "name": "%subraces.dwarf.hill/name%",
+    "description": "%subraces.dwarf.hill/description%",
+    "features": [
+        "_dnd5e:features.dwarf.hill.abilities"
+    ],
+    "additional": {
+        "page": 20,
+        "srd": true,
+        "basicRules": true,
+        "heightAndWeight": {
+            "baseHeight": 44,
+            "heightMod": "2d4",
+            "baseWeight": 115,
+            "weightMod": "2d6"
+        },
+        "hasFluff": true,
+        "hasFluffImages": true
+    }
+}

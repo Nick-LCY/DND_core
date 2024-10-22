@@ -1,1 +1,40 @@
-{"name": "%subraces.elf.high/name%", "description": "%subraces.elf.high/description%", "features": ["_dnd5e:features.elf.high.speed", "_dnd5e:features.elf.high.languages", "_dnd5e:features.elf.high.weapons", "_dnd5e:features.elf.high.abilities"], "subraces": [], "additional": {"page": 23, "srd": true, "basicRules": true, "heightAndWeight": {"baseHeight": 54, "heightMod": "2d10", "baseWeight": 90, "weightMod": "1d4"}, "additionalSpells": [{"ability": "int", "known": {"1": {"_": [{"choose": "level=0|class=Wizard"}]}}}], "overwrite": {"languageProficiencies": true}, "hasFluff": true, "hasFluffImages": true}}
+{
+    "name": "%subraces.elf.high/name%",
+    "description": "%subraces.elf.high/description%",
+    "features": [
+        "_dnd5e:features.elf.high.languages",
+        "_dnd5e:features.elf.high.weapons",
+        "_dnd5e:features.elf.high.abilities",
+        "_dnd5e:features.elf.high.cantrip"
+    ],
+    "additional": {
+        "page": 23,
+        "srd": true,
+        "basicRules": true,
+        "heightAndWeight": {
+            "baseHeight": 54,
+            "heightMod": "2d10",
+            "baseWeight": 90,
+            "weightMod": "1d4"
+        },
+        "additionalSpells": [
+            {
+                "ability": "int",
+                "known": {
+                    "1": {
+                        "_": [
+                            {
+                                "choose": "level=0|class=Wizard"
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "overwrite": {
+            "languageProficiencies": true
+        },
+        "hasFluff": true,
+        "hasFluffImages": true
+    }
+}

@@ -212,7 +212,7 @@ def language_proficiencies(data, feature_categories: list[str], category: str) -
         effect_ids = []
         if "anyStandard" not in data["languageProficiencies"][0]:
             for key in data["languageProficiencies"][0]:
-                effect_id = build_effect(["effects", "language"], key.lower())
+                effect_id = build_effect(["effects", "languages"], key.lower())
                 TO_FILLED[f"{effect_id}/name"] = key
                 effect_ids.append(effect_id)
         feature_id = build_feature(
