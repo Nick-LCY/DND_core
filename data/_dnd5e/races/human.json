@@ -1,1 +1,34 @@
-{"name": "%races.human/name%", "description": "%races.human/description%", "features": ["_dnd5e:features.human.speed", "_dnd5e:features.human.size", "_dnd5e:features.human.languages"], "subraces": ["_dnd5e:subraces.human.variant"], "additional": {"page": 29, "srd": true, "basicRules": true, "heightAndWeight": {"baseHeight": 56, "heightMod": "2d10", "baseWeight": 110, "weightMod": "2d4"}, "age": {"mature": 20, "max": 100}, "soundClip": {"type": "internal", "path": "races/human.mp3"}, "hasFluff": true, "hasFluffImages": true}}
+{
+    "name": "%races.human/name%",
+    "description": "%races.human/description%",
+    "features": [
+        "_dnd5e:features.human.speed",
+        "_dnd5e:features.human.size",
+        "_dnd5e:features.human.languages",
+        "_dnd5e:features.human.abilities"
+    ],
+    "subraces": [
+        "_dnd5e:subraces.human.variant"
+    ],
+    "additional": {
+        "page": 29,
+        "srd": true,
+        "basicRules": true,
+        "heightAndWeight": {
+            "baseHeight": 56,
+            "heightMod": "2d10",
+            "baseWeight": 110,
+            "weightMod": "2d4"
+        },
+        "age": {
+            "mature": 20,
+            "max": 100
+        },
+        "soundClip": {
+            "type": "internal",
+            "path": "races/human.mp3"
+        },
+        "hasFluff": true,
+        "hasFluffImages": true
+    }
+}
