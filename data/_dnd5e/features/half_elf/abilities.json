@@ -1,1 +1,18 @@
-{"name": "%features.half_elf.abilities/name%", "description": "%features.half_elf.abilities/description%", "category": "race_traits", "effects": ["_dnd5e:effects.abilities.cha_add_2", {"choose": 1, "available": ["effects.abilities.str_add_2", "effects.abilities.dex_add_2", "effects.abilities.con_add_2", "effects.abilities.int_add_2", "effects.abilities.wis_add_2"]}]}
+{
+    "name": "%features.half_elf.abilities/name%",
+    "description": "%features.half_elf.abilities/description%",
+    "category": "race_traits",
+    "effects": [
+        "_dnd5e:effects.abilities.cha_add_1",
+        {
+            "choose": 2,
+            "available": [
+                "_dnd5e:effects.abilities.str_add_1",
+                "_dnd5e:effects.abilities.dex_add_1",
+                "_dnd5e:effects.abilities.con_add_1",
+                "_dnd5e:effects.abilities.int_add_1",
+                "_dnd5e:effects.abilities.wis_add_1"
+            ]
+        }
+    ]
+}

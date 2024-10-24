@@ -1,1 +1,37 @@
-{"name": "%races.half_elf/name%", "description": "%races.half_elf/description%", "features": ["_dnd5e:features.half_elf.speed", "_dnd5e:features.half_elf.size", "_dnd5e:features.half_elf.darkvision", "_dnd5e:features.half_elf.languages", "_dnd5e:features.half_elf.skills", "_dnd5e:features.half_elf.abilities"], "subraces": [], "additional": {"page": 38, "srd": true, "heightAndWeight": {"baseHeight": 57, "heightMod": "2d8", "baseWeight": 110, "weightMod": "2d4"}, "age": {"mature": 20, "max": 180}, "traitTags": ["Uncommon Race"], "soundClip": {"type": "internal", "path": "races/half-elf.mp3"}, "hasFluff": true, "hasFluffImages": true}}
+{
+    "name": "%races.half_elf/name%",
+    "description": "%races.half_elf/description%",
+    "features": [
+        "_dnd5e:features.half_elf.speed",
+        "_dnd5e:features.half_elf.size",
+        "_dnd5e:features.half_elf.darkvision",
+        "_dnd5e:features.half_elf.languages",
+        "_dnd5e:features.half_elf.skills",
+        "_dnd5e:features.half_elf.abilities",
+        "_dnd5e:features.half_elf.fey_ancestry"
+    ],
+    "subraces": [],
+    "additional": {
+        "page": 38,
+        "srd": true,
+        "heightAndWeight": {
+            "baseHeight": 57,
+            "heightMod": "2d8",
+            "baseWeight": 110,
+            "weightMod": "2d4"
+        },
+        "age": {
+            "mature": 20,
+            "max": 180
+        },
+        "traitTags": [
+            "Uncommon Race"
+        ],
+        "soundClip": {
+            "type": "internal",
+            "path": "races/half-elf.mp3"
+        },
+        "hasFluff": true,
+        "hasFluffImages": true
+    }
+}

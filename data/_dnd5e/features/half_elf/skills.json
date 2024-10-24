@@ -1,1 +1,28 @@
-{"name": "%features.half_elf.skills/name%", "description": "%features.half_elf.skills/description%", "category": "race_proficiencies", "effects": []}
+{
+    "name": "%features.half_elf.skills/name%",
+    "description": "%features.half_elf.skills/description%",
+    "category": "race_proficiencies",
+    "effects": {
+        "choose": 2,
+        "available": [
+            "_dnd5e:effects.proficiencies.skills.athletics",
+            "_dnd5e:effects.proficiencies.skills.acrobatics",
+            "_dnd5e:effects.proficiencies.skills.sleight_of_hand",
+            "_dnd5e:effects.proficiencies.skills.stealth",
+            "_dnd5e:effects.proficiencies.skills.arcana",
+            "_dnd5e:effects.proficiencies.skills.history",
+            "_dnd5e:effects.proficiencies.skills.investigation",
+            "_dnd5e:effects.proficiencies.skills.religion",
+            "_dnd5e:effects.proficiencies.skills.nature",
+            "_dnd5e:effects.proficiencies.skills.animal_handling",
+            "_dnd5e:effects.proficiencies.skills.insight",
+            "_dnd5e:effects.proficiencies.skills.medicine",
+            "_dnd5e:effects.proficiencies.skills.survival",
+            "_dnd5e:effects.proficiencies.skills.perception",
+            "_dnd5e:effects.proficiencies.skills.deception",
+            "_dnd5e:effects.proficiencies.skills.intimidation",
+            "_dnd5e:effects.proficiencies.skills.performance",
+            "_dnd5e:effects.proficiencies.skills.persuasion"
+        ]
+    }
+}
