@@ -1,0 +1,8 @@
+{
+    "name": "",
+    "description": "",
+    "category": "subrace_traits",
+    "effects": [
+        "_dnd5e:effects.feat.add_1_selectable"
+    ]
+}

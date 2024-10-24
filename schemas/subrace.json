@@ -14,6 +14,10 @@
         "features": {
             "title": "亚种特性",
             "$ref": "internal/featureList.json"
+        },
+        "remove_features": {
+            "$ref": "internal/featureList.json",
+            "title": "覆盖主种族的特性"
         }
     },
     "required": [

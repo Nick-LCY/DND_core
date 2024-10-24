@@ -1,6 +1,4 @@
 {
-    "title": "特性列表",
-    "description": "特性列表",
     "type": "array",
     "items": {
         "description": "特性的id，命名规范为 - {命名空间}:features.{种族名（英文小写）}.{特性名（英文小写）}",

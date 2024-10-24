@@ -4,14 +4,14 @@
     "category": "subrace_traits",
     "effects": [
         {
-            "choose": 1,
+            "choose": 2,
             "available": [
-                "effects.abilities.str_add_2",
-                "effects.abilities.dex_add_2",
-                "effects.abilities.con_add_2",
-                "effects.abilities.int_add_2",
-                "effects.abilities.wis_add_2",
-                "effects.abilities.cha_add_2"
+                "_dnd5e:effects.abilities.str_add_1",
+                "_dnd5e:effects.abilities.dex_add_1",
+                "_dnd5e:effects.abilities.con_add_1",
+                "_dnd5e:effects.abilities.int_add_1",
+                "_dnd5e:effects.abilities.wis_add_1",
+                "_dnd5e:effects.abilities.cha_add_1"
             ]
         }
     ]
