@@ -1,1 +1,9 @@
-{"name": "%features.dwarf.mountain.armor/name%", "description": "%features.dwarf.mountain.armor/description%", "category": "subrace_proficiencies", "effects": ["_dnd5e:effects.proficiencies.armor.{'light':_true,_'medium':_true}"]}
+{
+    "name": "%features.dwarf.mountain.armor/name%",
+    "description": "%features.dwarf.mountain.armor/description%",
+    "category": "subrace_proficiencies",
+    "effects": [
+        "_dnd5e:effects.proficiencies.armor.light",
+        "_dnd5e:effects.proficiencies.armor.medium"
+    ]
+}

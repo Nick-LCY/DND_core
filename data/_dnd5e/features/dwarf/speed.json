@@ -1,1 +1,9 @@
-{"name": "%features.dwarf.speed/name%", "description": "%features.dwarf.speed/description%", "category": "race_traits", "effects": ["_dnd5e:effects.speed.walk_25"]}
+{
+    "name": "%features.dwarf.speed/name%",
+    "description": "%features.dwarf.speed/description%",
+    "category": "race_traits",
+    "effects": [
+        "_dnd5e:effects.speed.walk_25",
+        "_dnd5e:effects.speed.not_affected_by_heavy_armor"
+    ]
+}

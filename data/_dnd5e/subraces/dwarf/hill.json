@@ -2,7 +2,8 @@
     "name": "%subraces.dwarf.hill/name%",
     "description": "%subraces.dwarf.hill/description%",
     "features": [
-        "_dnd5e:features.dwarf.hill.abilities"
+        "_dnd5e:features.dwarf.hill.abilities",
+        "_dnd5e:features.dwarf.hill.toughness"
     ],
     "additional": {
         "page": 20,

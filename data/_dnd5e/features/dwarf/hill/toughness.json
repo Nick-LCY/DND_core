@@ -1,0 +1,9 @@
+{
+    "name": "",
+    "description": "",
+    "category": "subrace_traits",
+    "effects": [
+        "_dnd5e:effects.dwarf.hill.max_hp_add_1",
+        "_dnd5e:effects.dwarf.hill.lvl_up_hp_add_1"
+    ]
+}

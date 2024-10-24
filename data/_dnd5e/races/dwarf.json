@@ -1,1 +1,34 @@
-{"name": "%races.dwarf/name%", "description": "%races.dwarf/description%", "features": ["_dnd5e:features.dwarf.speed", "_dnd5e:features.dwarf.size", "_dnd5e:features.dwarf.darkvision", "_dnd5e:features.dwarf.languages", "_dnd5e:features.dwarf.tools", "_dnd5e:features.dwarf.weapons", "_dnd5e:features.dwarf.abilities", "_dnd5e:features.dwarf.resists"], "subraces": ["_dnd5e:subraces.dwarf.hill", "_dnd5e:subraces.dwarf.mountain"], "additional": {"page": 18, "srd": true, "basicRules": true, "age": {"mature": 20, "max": 350}, "soundClip": {"type": "internal", "path": "races/dwarf.mp3"}, "hasFluff": true, "hasFluffImages": true}}
+{
+    "name": "%races.dwarf/name%",
+    "description": "%races.dwarf/description%",
+    "features": [
+        "_dnd5e:features.dwarf.speed",
+        "_dnd5e:features.dwarf.size",
+        "_dnd5e:features.dwarf.darkvision",
+        "_dnd5e:features.dwarf.languages",
+        "_dnd5e:features.dwarf.tools",
+        "_dnd5e:features.dwarf.weapons",
+        "_dnd5e:features.dwarf.abilities",
+        "_dnd5e:features.dwarf.resilience",
+        "_dnd5e:features.dwarf.stonecunning"
+    ],
+    "subraces": [
+        "_dnd5e:subraces.dwarf.hill",
+        "_dnd5e:subraces.dwarf.mountain"
+    ],
+    "additional": {
+        "page": 18,
+        "srd": true,
+        "basicRules": true,
+        "age": {
+            "mature": 20,
+            "max": 350
+        },
+        "soundClip": {
+            "type": "internal",
+            "path": "races/dwarf.mp3"
+        },
+        "hasFluff": true,
+        "hasFluffImages": true
+    }
+}

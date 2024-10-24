@@ -1,0 +1,9 @@
+{
+    "name": "",
+    "description": "",
+    "category": "race_traits",
+    "effects": [
+        "_dnd5e:effects.resists.poison",
+        "_dnd5e:effects.advantages.saves.against_poison"
+    ]
+}
