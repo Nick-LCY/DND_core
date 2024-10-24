@@ -1,1 +1,38 @@
-{"name": "%races.half_orc/name%", "description": "%races.half_orc/description%", "features": ["_dnd5e:features.half_orc.speed", "_dnd5e:features.half_orc.size", "_dnd5e:features.half_orc.darkvision", "_dnd5e:features.half_orc.languages", "_dnd5e:features.half_orc.skills", "_dnd5e:features.half_orc.abilities"], "subraces": [], "additional": {"page": 40, "srd": true, "heightAndWeight": {"baseHeight": 58, "heightMod": "2d10", "baseWeight": 140, "weightMod": "2d6"}, "age": {"mature": 14, "max": 75}, "traitTags": ["Uncommon Race"], "soundClip": {"type": "internal", "path": "races/half-orc.mp3"}, "hasFluff": true, "hasFluffImages": true}}
+{
+    "name": "%races.half_orc/name%",
+    "description": "%races.half_orc/description%",
+    "features": [
+        "_dnd5e:features.half_orc.speed",
+        "_dnd5e:features.half_orc.size",
+        "_dnd5e:features.half_orc.darkvision",
+        "_dnd5e:features.half_orc.languages",
+        "_dnd5e:features.half_orc.skills",
+        "_dnd5e:features.half_orc.abilities",
+        "_dnd5e:features.half_orc.relentless_endurance",
+        "_dnd5e:features.half_orc.savage_attacks"
+    ],
+    "subraces": [],
+    "additional": {
+        "page": 40,
+        "srd": true,
+        "heightAndWeight": {
+            "baseHeight": 58,
+            "heightMod": "2d10",
+            "baseWeight": 140,
+            "weightMod": "2d6"
+        },
+        "age": {
+            "mature": 14,
+            "max": 75
+        },
+        "traitTags": [
+            "Uncommon Race"
+        ],
+        "soundClip": {
+            "type": "internal",
+            "path": "races/half-orc.mp3"
+        },
+        "hasFluff": true,
+        "hasFluffImages": true
+    }
+}
