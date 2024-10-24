@@ -1,0 +1,20 @@
+{
+    "name": "",
+    "description": "",
+    "category": "race_traits",
+    "effects": {
+        "choose": 1,
+        "available": [
+            "_dnd5e:effects.draconic_ancestry.black",
+            "_dnd5e:effects.draconic_ancestry.blue",
+            "_dnd5e:effects.draconic_ancestry.brass",
+            "_dnd5e:effects.draconic_ancestry.bronze",
+            "_dnd5e:effects.draconic_ancestry.copper",
+            "_dnd5e:effects.draconic_ancestry.gold",
+            "_dnd5e:effects.draconic_ancestry.green",
+            "_dnd5e:effects.draconic_ancestry.red",
+            "_dnd5e:effects.draconic_ancestry.silver",
+            "_dnd5e:effects.draconic_ancestry.white"
+        ]
+    }
+}

@@ -1,1 +1,37 @@
-{"name": "%races.dragonborn/name%", "description": "%races.dragonborn/description%", "features": ["_dnd5e:features.dragonborn.speed", "_dnd5e:features.dragonborn.size", "_dnd5e:features.dragonborn.languages", "_dnd5e:features.dragonborn.abilities", "_dnd5e:features.dragonborn.resists"], "subraces": [], "additional": {"page": 32, "srd": true, "heightAndWeight": {"baseHeight": 66, "heightMod": "2d8", "baseWeight": 175, "weightMod": "2d6"}, "age": {"mature": 15, "max": 80}, "traitTags": ["Uncommon Race"], "soundClip": {"type": "internal", "path": "races/dragonborn.mp3"}, "hasFluff": true, "hasFluffImages": true}}
+{
+    "name": "%races.dragonborn/name%",
+    "description": "%races.dragonborn/description%",
+    "features": [
+        "_dnd5e:features.dragonborn.speed",
+        "_dnd5e:features.dragonborn.size",
+        "_dnd5e:features.dragonborn.languages",
+        "_dnd5e:features.dragonborn.abilities",
+        "_dnd5e:features.dragonborn.draconic_ancestry",
+        "_dnd5e:features.dragonborn.resists",
+        "_dnd5e:features.dragonborn.breath_weapon"
+    ],
+    "subraces": [],
+    "additional": {
+        "page": 32,
+        "srd": true,
+        "heightAndWeight": {
+            "baseHeight": 66,
+            "heightMod": "2d8",
+            "baseWeight": 175,
+            "weightMod": "2d6"
+        },
+        "age": {
+            "mature": 15,
+            "max": 80
+        },
+        "traitTags": [
+            "Uncommon Race"
+        ],
+        "soundClip": {
+            "type": "internal",
+            "path": "races/dragonborn.mp3"
+        },
+        "hasFluff": true,
+        "hasFluffImages": true
+    }
+}

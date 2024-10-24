@@ -1,1 +1,6 @@
-{"name": "%features.dragonborn.resists/name%", "description": "%features.dragonborn.resists/description%", "category": "race_traits", "effects": [{"choose": 1, "available": ["effects.resists.acid", "effects.resists.cold", "effects.resists.fire", "effects.resists.lightning", "effects.resists.poison"]}]}
+{
+    "name": "%features.dragonborn.resists/name%",
+    "description": "%features.dragonborn.resists/description%",
+    "category": "race_traits",
+    "effects": []
+}
