@@ -1,6 +1,6 @@
 import json, os, re
 import warnings
-from utils import build_effect, build_feature, build_selection, save, get_file
+from utils import build_effect, build_feature, build_selection, get_file
 from utils import id_formating, add_to_files, add_to_filled
 
 
@@ -229,5 +229,3 @@ def main(original_data: str):
                     process_subclass(**entry)
 
 
-main("5etools/data/class")
-save("classes_data/_dnd5e")

@@ -16,8 +16,12 @@ def add_to_files(file_id: str, data: dict):
 
 
 def add_to_filled(key: str, content: str = ""):
-    key = re.sub(r"@.*/", "", key)
-    TO_FILLED[key] = content
+    processed_key = re.sub(r"@.*/", "/", key)
+    TO_FILLED[processed_key] = content
+    if "@" in key:
+        TO_FILLED[re.sub(r"/.*$", "/ACCEPT_PARAMS", processed_key)] = len(
+            key.split("@")[-1].split("/")[0].split(",")
+        )
 
 
 def id_formating(original_id: str, namespaced: bool = False) -> str:
@@ -74,8 +78,10 @@ def build_feature(
     add_to_filled(f"{feature_id}/description")
     return feature_id
 
+
 def get_file(id):
     return FILES[id_formating(id)]
+
 
 def save(root):
     os.system(f"rm -rf {root}")
