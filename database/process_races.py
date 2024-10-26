@@ -105,10 +105,10 @@ def process_speed(speed, feature_categories: list[str], category: str) -> str:
         for key, value in speed.items():
             if value == True:
                 continue
-            effect_id = build_effect(["effects", "speed"], f"{key}_{value}")
+            effect_id = build_effect(["effects", "speed"], f"{key}@{value}")
             effect_ids.append(id_formating(effect_id, True))
     else:
-        effect_id = build_effect(["effects", "speed"], f"walk_{speed}")
+        effect_id = build_effect(["effects", "speed"], f"walk@{speed}")
         effect_ids.append(id_formating(effect_id, True))
     feature_id = build_feature(feature_categories, "speed", category, effect_ids)
     return feature_id
@@ -176,7 +176,6 @@ def process_tool_proficiencies(
         for tool in tool_proficiencies[0]["choose"]["from"]:
             item_id = build_effect(["effects", "proficiencies", "tools"], tool)
             available.append(id_formating(item_id, True))
-        print(tool_proficiencies[0])
         effect_ids.append(build_selection(available, 1))
     else:
         for tool in tool_proficiencies[0]:

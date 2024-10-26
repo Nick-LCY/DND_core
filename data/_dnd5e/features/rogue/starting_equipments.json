@@ -1,0 +1,1 @@
+{"name": "", "description": "", "category": "class_equipments", "effects": {"choose": 1, "available": ["_dnd5e:_dnd5e:effects.starting_equipments.4d4_times_10", {"choose": 1, "available": ["_dnd5e:_dnd5e:effects.starting_equipments.rogue.rapier"]}, {"choose": 1, "available": ["_dnd5e:_dnd5e:effects.starting_equipments.rogue.shortsword"]}]}}

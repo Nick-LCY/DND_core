@@ -9,7 +9,7 @@
         "_dnd5e:features.dwarf.tools",
         "_dnd5e:features.dwarf.weapons",
         "_dnd5e:features.dwarf.abilities",
-        "_dnd5e:features.dwarf.resilience",
+        "_dnd5e:features.dwarf.resists",
         "_dnd5e:features.dwarf.stonecunning"
     ],
     "subraces": [

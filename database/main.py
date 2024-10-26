@@ -4,4 +4,4 @@ from utils import save
 
 process_races("5etools/data")
 process_classes("5etools/data/class")
-save("classes_data/_dnd5e")
+save("gen_data/_dnd5e")
