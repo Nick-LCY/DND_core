@@ -1,1 +1,1 @@
-{"name": "%features.elf.wood.abilities/name%", "description": "%features.elf.wood.abilities/description%", "category": "subrace_traits", "effects": ["_dnd5e:effects.abilities.wis_add_1"]}
+{"name": "%features.elf.wood.abilities/name%", "description": "%features.elf.wood.abilities/description%", "category": "subrace_traits", "effects": ["_dnd5e:effects.abilities.wis_add@1"]}

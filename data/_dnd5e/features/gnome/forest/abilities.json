@@ -1,1 +1,1 @@
-{"name": "%features.gnome.forest.abilities/name%", "description": "%features.gnome.forest.abilities/description%", "category": "subrace_traits", "effects": ["_dnd5e:effects.abilities.dex_add_1"]}
+{"name": "%features.gnome.forest.abilities/name%", "description": "%features.gnome.forest.abilities/description%", "category": "subrace_traits", "effects": ["_dnd5e:effects.abilities.dex_add@1"]}

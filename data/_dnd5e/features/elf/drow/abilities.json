@@ -1,1 +1,1 @@
-{"name": "%features.elf.drow.abilities/name%", "description": "%features.elf.drow.abilities/description%", "category": "subrace_traits", "effects": ["_dnd5e:effects.abilities.cha_add_1"]}
+{"name": "%features.elf.drow.abilities/name%", "description": "%features.elf.drow.abilities/description%", "category": "subrace_traits", "effects": ["_dnd5e:effects.abilities.cha_add@1"]}

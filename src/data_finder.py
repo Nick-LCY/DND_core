@@ -6,12 +6,12 @@ ROOT = "/dnd-core/data"
 
 def is_id(string: str) -> bool:
     return (
-        re.match(r"^[a-zA-Z_0-9]*:(?:[a-zA-Z_0-9#]*\.)+[a-zA-Z_0-9#]+$", string)
+        re.match(r"^[a-zA-Z_0-9]*:(?:[a-zA-Z_0-9]*\.)+[a-zA-Z_0-9]+@*[a-zA-Z_0-9,]*$", string)
         is not None
     )
 
 
-def format_str(data_id: str, data_key: str | None, data_name: str, lang_code: str) -> str:
+def format_str(data_id: str, data_key: str | None, data_name: str, lang_code: str, data_params: str | None = None) -> str:
     namespace = data_id.split(":")[0]
     file_id = data_id.split(":")[1]
     if data_name == "":
@@ -24,6 +24,8 @@ def format_str(data_id: str, data_key: str | None, data_name: str, lang_code: st
         value = json.load(file).get(data_name.strip("%"), data_name)
     if isinstance(value, list):
         value = "\n".join(value)
+    if data_params is not None:
+        value = value.format(*data_params.split(","))
     return value
 
 
@@ -53,15 +55,13 @@ def find_data_by_type(
 
 
 def find_data_by_id(data_id: str, lang_code: str = "zh_CN") -> dict:
+    data_params = None
+    if len(data_id.split("@")) > 1:
+        data_id, data_params = data_id.split("@")
     namespace, data_path = data_id.split(":")
     file_path = f'{ROOT}/{namespace}/{data_path.replace(".", "/")}'
 
     try:
-        if not os.path.exists(file_path + ".json"):
-            with open(file_path + ".md") as file:
-                data = "\n".join(file.readlines())
-                return data
-
         def visit(val, key: str | None):
             if isinstance(val, list):
                 processed_list = []
@@ -76,7 +76,7 @@ def find_data_by_id(data_id: str, lang_code: str = "zh_CN") -> dict:
             if is_id(str(val)):
                 return find_data_by_id(str(val))
             if isinstance(val, str):
-                return format_str(data_id, key, val, lang_code)
+                return format_str(data_id, key, val, lang_code, data_params)
             else:
                 return val
 

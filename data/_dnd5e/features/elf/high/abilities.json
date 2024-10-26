@@ -1,1 +1,1 @@
-{"name": "%features.elf.high.abilities/name%", "description": "%features.elf.high.abilities/description%", "category": "subrace_traits", "effects": ["_dnd5e:effects.abilities.int_add_1"]}
+{"name": "%features.elf.high.abilities/name%", "description": "%features.elf.high.abilities/description%", "category": "subrace_traits", "effects": ["_dnd5e:effects.abilities.int_add@1"]}

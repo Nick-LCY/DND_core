@@ -6,12 +6,12 @@
         {
             "choose": 2,
             "available": [
-                "_dnd5e:effects.abilities.str_add_1",
-                "_dnd5e:effects.abilities.dex_add_1",
-                "_dnd5e:effects.abilities.con_add_1",
-                "_dnd5e:effects.abilities.int_add_1",
-                "_dnd5e:effects.abilities.wis_add_1",
-                "_dnd5e:effects.abilities.cha_add_1"
+                "_dnd5e:effects.abilities.str_add@1",
+                "_dnd5e:effects.abilities.dex_add@1",
+                "_dnd5e:effects.abilities.con_add@1",
+                "_dnd5e:effects.abilities.int_add@1",
+                "_dnd5e:effects.abilities.wis_add@1",
+                "_dnd5e:effects.abilities.cha_add@1"
             ]
         }
     ]

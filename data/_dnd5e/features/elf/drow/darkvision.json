@@ -1,1 +1,1 @@
-{"name": "%features.elf.drow.darkvision/name%", "description": "%features.elf.drow.darkvision/description%", "category": "subrace_traits", "effects": ["_dnd5e:effects.darkvision.120"]}
+{"name": "%features.elf.drow.darkvision/name%", "description": "%features.elf.drow.darkvision/description%", "category": "subrace_traits", "effects": ["_dnd5e:effects.darkvision@120"]}

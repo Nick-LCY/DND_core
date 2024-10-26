@@ -1,1 +1,1 @@
-{"name": "%features.gnome.speed/name%", "description": "%features.gnome.speed/description%", "category": "race_traits", "effects": ["_dnd5e:effects.speed.walk_25"]}
+{"name": "%features.gnome.speed/name%", "description": "%features.gnome.speed/description%", "category": "race_traits", "effects": ["_dnd5e:effects.speed.walk@25"]}

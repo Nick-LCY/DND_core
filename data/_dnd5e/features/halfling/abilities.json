@@ -1,1 +1,1 @@
-{"name": "%features.halfling.abilities/name%", "description": "%features.halfling.abilities/description%", "category": "race_traits", "effects": ["_dnd5e:effects.abilities.dex_add_2"]}
+{"name": "%features.halfling.abilities/name%", "description": "%features.halfling.abilities/description%", "category": "race_traits", "effects": ["_dnd5e:effects.abilities.dex_add@2"]}

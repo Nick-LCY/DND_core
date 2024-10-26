@@ -1,1 +1,1 @@
-{"name": "%features.tiefling.darkvision/name%", "description": "%features.tiefling.darkvision/description%", "category": "race_traits", "effects": ["_dnd5e:effects.darkvision.60"]}
+{"name": "%features.tiefling.darkvision/name%", "description": "%features.tiefling.darkvision/description%", "category": "race_traits", "effects": ["_dnd5e:effects.darkvision@60"]}

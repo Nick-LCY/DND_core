@@ -1,1 +1,1 @@
-{"name": "%features.gnome.rock.abilities/name%", "description": "%features.gnome.rock.abilities/description%", "category": "subrace_traits", "effects": ["_dnd5e:effects.abilities.con_add_1"]}
+{"name": "%features.gnome.rock.abilities/name%", "description": "%features.gnome.rock.abilities/description%", "category": "subrace_traits", "effects": ["_dnd5e:effects.abilities.con_add@1"]}

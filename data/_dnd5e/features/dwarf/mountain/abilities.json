@@ -1,1 +1,1 @@
-{"name": "%features.dwarf.mountain.abilities/name%", "description": "%features.dwarf.mountain.abilities/description%", "category": "subrace_traits", "effects": ["_dnd5e:effects.abilities.str_add_2"]}
+{"name": "%features.dwarf.mountain.abilities/name%", "description": "%features.dwarf.mountain.abilities/description%", "category": "subrace_traits", "effects": ["_dnd5e:effects.abilities.str_add@2"]}

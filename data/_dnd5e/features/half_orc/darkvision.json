@@ -1,1 +1,1 @@
-{"name": "%features.half_orc.darkvision/name%", "description": "%features.half_orc.darkvision/description%", "category": "race_traits", "effects": ["_dnd5e:effects.darkvision.60"]}
+{"name": "%features.half_orc.darkvision/name%", "description": "%features.half_orc.darkvision/description%", "category": "race_traits", "effects": ["_dnd5e:effects.darkvision@60"]}

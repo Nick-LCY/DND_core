@@ -1,1 +1,1 @@
-{"name": "%features.half_orc.speed/name%", "description": "%features.half_orc.speed/description%", "category": "race_traits", "effects": ["_dnd5e:effects.speed.walk_30"]}
+{"name": "%features.half_orc.speed/name%", "description": "%features.half_orc.speed/description%", "category": "race_traits", "effects": ["_dnd5e:effects.speed.walk@30"]}
