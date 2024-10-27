@@ -1,0 +1,3 @@
+[submodule "DND5e_chm"]
+	path = DND5e_chm
+	url = https://github.com/DND5eChm/DND5e_chm.git
