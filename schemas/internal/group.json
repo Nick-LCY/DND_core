@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "array",
+    "title": "效果组",
+    "description": "用于将数个效果归为一组",
+    "items": {
+        "anyOf": [
+            {"$ref": "selection.json"},
+            {"$ref": "id.json"},
+            {"$ref": "group.json"}
+        ]
+    },
+    "required": ["choose", "available"]
+}

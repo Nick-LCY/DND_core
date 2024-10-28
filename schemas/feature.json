@@ -22,25 +22,7 @@
         "effects": {
             "title": "效果列表",
             "description": "与此特性有关的效果",
-            "anyOf": [
-                {
-                    "$ref": "internal/effectDict.json"
-                },
-                {
-                    "type": "array",
-                    "items": {
-                        "anyOf": [
-                            {
-                                "$ref": "internal/effectDict.json"
-                            },
-                            {
-                                "$ref": "internal/id.json",
-                                "title": "效果id，推荐先看看目前已有的分类"
-                            }
-                        ]
-                    }
-                }
-            ]
+            "$ref": "internal/group.json"
         }
     },
     "required": [

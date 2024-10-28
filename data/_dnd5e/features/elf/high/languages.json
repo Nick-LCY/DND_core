@@ -2,15 +2,17 @@
     "name": "%features.elf.high.languages/name%",
     "description": "%features.elf.high.languages/description%",
     "category": "subrace_traits",
-    "effects": {
-        "choose": 1,
-        "available": [
-            "_dnd5e:effects.languages.draconic",
-            "_dnd5e:effects.languages.dwarvish",
-            "_dnd5e:effects.languages.gnomish",
-            "_dnd5e:effects.languages.halfling",
-            "_dnd5e:effects.languages.infernal",
-            "_dnd5e:effects.languages.orc"
-        ]
-    }
+    "effects": [
+        {
+            "choose": 1,
+            "available": [
+                "_dnd5e:effects.languages.draconic",
+                "_dnd5e:effects.languages.dwarvish",
+                "_dnd5e:effects.languages.gnomish",
+                "_dnd5e:effects.languages.halfling",
+                "_dnd5e:effects.languages.infernal",
+                "_dnd5e:effects.languages.orc"
+            ]
+        }
+    ]
 }

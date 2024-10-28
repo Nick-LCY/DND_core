@@ -2,23 +2,25 @@
     "name": "",
     "description": "",
     "category": "subrace_traits",
-    "effects": {
-        "choose": 1,
-        "available": [
-            "_dnd5e:effects.cantrips.wizard.acid_splash@int",
-            "_dnd5e:effects.cantrips.wizard.chill_touch@int",
-            "_dnd5e:effects.cantrips.wizard.dancing_lights@int",
-            "_dnd5e:effects.cantrips.wizard.fire_bolt@int",
-            "_dnd5e:effects.cantrips.wizard.light@int",
-            "_dnd5e:effects.cantrips.wizard.mage_hand@int",
-            "_dnd5e:effects.cantrips.wizard.mending@int",
-            "_dnd5e:effects.cantrips.wizard.message@int",
-            "_dnd5e:effects.cantrips.wizard.minor_illusion@int",
-            "_dnd5e:effects.cantrips.wizard.poison_spray@int",
-            "_dnd5e:effects.cantrips.wizard.prestidigitation@int",
-            "_dnd5e:effects.cantrips.wizard.ray_of_frost@int",
-            "_dnd5e:effects.cantrips.wizard.shocking_grasp@int",
-            "_dnd5e:effects.cantrips.wizard.true_strike@int"
-        ]
-    }
+    "effects": [
+        {
+            "choose": 1,
+            "available": [
+                "_dnd5e:effects.cantrips.wizard.acid_splash@int",
+                "_dnd5e:effects.cantrips.wizard.chill_touch@int",
+                "_dnd5e:effects.cantrips.wizard.dancing_lights@int",
+                "_dnd5e:effects.cantrips.wizard.fire_bolt@int",
+                "_dnd5e:effects.cantrips.wizard.light@int",
+                "_dnd5e:effects.cantrips.wizard.mage_hand@int",
+                "_dnd5e:effects.cantrips.wizard.mending@int",
+                "_dnd5e:effects.cantrips.wizard.message@int",
+                "_dnd5e:effects.cantrips.wizard.minor_illusion@int",
+                "_dnd5e:effects.cantrips.wizard.poison_spray@int",
+                "_dnd5e:effects.cantrips.wizard.prestidigitation@int",
+                "_dnd5e:effects.cantrips.wizard.ray_of_frost@int",
+                "_dnd5e:effects.cantrips.wizard.shocking_grasp@int",
+                "_dnd5e:effects.cantrips.wizard.true_strike@int"
+            ]
+        }
+    ]
 }

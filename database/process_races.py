@@ -253,41 +253,41 @@ def process_races(race):
     feature_ids = []
 
     feature_id = process_speed(race["speed"], feature_categories, "race_traits")
-    feature_ids.append(id_formating(feature_id))
+    feature_ids.append(id_formating(feature_id, True))
     feature_id = process_size(race["size"], feature_categories, "race_traits")
-    feature_ids.append(id_formating(feature_id))
+    feature_ids.append(id_formating(feature_id, True))
     if "darkvision" in race:
         feature_id = process_darkvision(
             race["darkvision"], feature_categories, "race_traits"
         )
-    feature_ids.append(id_formating(feature_id))
+        feature_ids.append(id_formating(feature_id, True))
     feature_id = process_language_proficiencies(
         race["languageProficiencies"], feature_categories, "race_traits"
     )
-    feature_ids.append(id_formating(feature_id))
+    feature_ids.append(id_formating(feature_id, True))
     if "skillProficiencies" in race:
         feature_id = process_skill_proficiencies(
             race["skillProficiencies"], feature_categories, "race_proficiencies"
         )
-        feature_ids.append(id_formating(feature_id))
+        feature_ids.append(id_formating(feature_id, True))
     if "toolProficiencies" in race:
         feature_id = process_tool_proficiencies(
             race["toolProficiencies"], feature_categories, "race_proficiencies"
         )
-        feature_ids.append(id_formating(feature_id))
+        feature_ids.append(id_formating(feature_id, True))
     if "weaponProficiencies" in race:
         feature_id = process_weapon_proficiencies(
             race["weaponProficiencies"], feature_categories, "race_proficiencies"
         )
-        feature_ids.append(id_formating(feature_id))
+        feature_ids.append(id_formating(feature_id, True))
     if "ability" in race:
         feature_id = process_abilities(
             race["ability"], feature_categories, "race_traits"
         )
-        feature_ids.append(id_formating(feature_id))
+        feature_ids.append(id_formating(feature_id, True))
     if "resist" in race:
         feature_id = process_resists(race["resist"], feature_categories, "race_traits")
-        feature_ids.append(id_formating(feature_id))
+        feature_ids.append(id_formating(feature_id, True))
 
     build_race(
         ["races"],
@@ -309,50 +309,50 @@ def process_subraces(subrace):
         feature_id = process_speed(
             subrace["speed"], feature_categories, "subrace_traits"
         )
-        feature_ids.append(id_formating(feature_id))
+        feature_ids.append(id_formating(feature_id, True))
     if "size" in subrace:
         feature_id = process_size(subrace["size"], feature_categories, "subrace_traits")
-        feature_ids.append(id_formating(feature_id))
+        feature_ids.append(id_formating(feature_id, True))
     if "darkvision" in subrace:
         feature_id = process_darkvision(
             subrace["darkvision"], feature_categories, "subrace_traits"
         )
-        feature_ids.append(id_formating(feature_id))
+        feature_ids.append(id_formating(feature_id, True))
     if "languageProficiencies" in subrace:
         feature_id = process_language_proficiencies(
             subrace["languageProficiencies"], feature_categories, "subrace_traits"
         )
-        feature_ids.append(id_formating(feature_id))
+        feature_ids.append(id_formating(feature_id, True))
     if "skillProficiencies" in subrace:
         feature_id = process_skill_proficiencies(
             subrace["skillProficiencies"], feature_categories, "subrace_proficiencies"
         )
-        feature_ids.append(id_formating(feature_id))
+        feature_ids.append(id_formating(feature_id, True))
     if "toolProficiencies" in subrace:
         feature_id = process_tool_proficiencies(
             subrace["toolProficiencies"], feature_categories, "subrace_proficiencies"
         )
-        feature_ids.append(id_formating(feature_id))
+        feature_ids.append(id_formating(feature_id, True))
     if "weaponProficiencies" in subrace:
         feature_id = process_weapon_proficiencies(
             subrace["weaponProficiencies"], feature_categories, "subrace_proficiencies"
         )
-        feature_ids.append(id_formating(feature_id))
+        feature_ids.append(id_formating(feature_id, True))
     if "armorProficiencies" in subrace:
         feature_id = process_armor_proficiencies(
             subrace["armorProficiencies"], feature_categories, "subrace_proficiencies"
         )
-        feature_ids.append(id_formating(feature_id))
+        feature_ids.append(id_formating(feature_id, True))
     if "ability" in subrace:
         feature_id = process_abilities(
             subrace["ability"], feature_categories, "subrace_traits"
         )
-        feature_ids.append(id_formating(feature_id))
+        feature_ids.append(id_formating(feature_id, True))
     if "resist" in subrace:
         feature_id = process_resists(
             subrace["resist"], feature_categories, "subrace_traits"
         )
-        feature_ids.append(id_formating(feature_id))
+        feature_ids.append(id_formating(feature_id, True))
 
     subrace_id = build_race(
         ["subraces", race_name],

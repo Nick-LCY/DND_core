@@ -36,7 +36,8 @@ def process_proficiencies(
                 if "choose" in item:
                     available = []
                     for i in item["choose"]["from"]:
-                        available.append(build_effect(CATEGORY_MAPPING[key], i))
+                        effect_id = build_effect(CATEGORY_MAPPING[key], i)
+                        available.append(id_formating(effect_id, True))
                     effects.append(build_selection(available, item["choose"]["count"]))
                 else:
                     for i in item:
@@ -52,7 +53,9 @@ def process_proficiencies(
         )
     effects = []
     for proficiency in proficiencies:
-        effect_id = id_formating(build_effect(["effects", "proficiencies", "saves"], proficiency))
+        effect_id = id_formating(
+            build_effect(["effects", "proficiencies", "saves"], proficiency)
+        )
         effects.append(id_formating(effect_id, True))
     features.append(
         build_feature(
@@ -62,13 +65,10 @@ def process_proficiencies(
     return features
 
 
-def process_equipments(
-    equipments: list, feature_categories: list[str], class_name: str
-):
+def process_equipments(equipments: list, feature_categories: list[str]):
     categories_prefix = ["effects", "starting_equipments"]
     gold_name = equipments["goldAlternative"].split("|")[1]
-    gold_effect_id = build_effect(categories_prefix, gold_name)
-    effects = [id_formating(gold_effect_id, True)]
+    gold_effect_id = build_effect(categories_prefix, f"gold_{gold_name}")
 
     def process_item(item: dict | str):
         if isinstance(item, dict) and "equipmentType" not in item:
@@ -76,32 +76,43 @@ def process_equipments(
             item_name = item_name.split("|")[0]
             if "quantity" in item:
                 item_name = f"{item_name}@{item['quantity']}"
-            item_name = re.sub(r"(.*)\((\d+)\)", r"\1@\2", item_name)
-            effect_id = build_effect(categories_prefix + [class_name], item_name)
+            elif re.match(r".*\(\d+\)", item_name):
+                item_name = re.sub(r"(.*)\((\d+)\)", r"\1@\2", item_name)
+            else:
+                item_name = f"{item_name}@1"
+            effect_id = build_effect(categories_prefix, item_name)
             return id_formating(effect_id, True)
         elif isinstance(item, str):
             item_name = item.split("|")[0]
-            item_name = re.sub(r"(.*)\((\d+)\)", r"\1@\2", item_name)
-            effect_id = build_effect(categories_prefix + [class_name], item_name)
+            if re.match(r".*\(\d+\)", item_name):
+                item_name = re.sub(r"(.*)\((\d+)\)", r"\1@\2", item_name)
+            else:
+                item_name = f"{item_name}@1"
+            effect_id = build_effect(categories_prefix, item_name)
             return id_formating(effect_id, True)
         else:
             available = [item["equipmentType"]]
             return build_selection(available, 1)
 
+    equipment_groups = []
     for equipment in equipments["defaultData"]:
+        group = []
         if len(equipment) == 1:
             for item in equipment["_"]:
-                effects.append(process_item(item))
+                group.append(process_item(item))
         else:
+            available = []
             for option in equipment.values():
-                available = []
                 for item in option:
                     available.append(process_item(item))
-                effects.append(build_selection(available, 1))
-        selection = [build_selection(effects, 1)]
-        return build_feature(
-            feature_categories, "starting_equipments", "class_equipments", selection
-        )
+            group = build_selection(available, 1)
+        equipment_groups.append(group)
+    selection = [
+        build_selection([equipment_groups, id_formating(gold_effect_id, True)], 1)
+    ]
+    return build_feature(
+        feature_categories, "starting_equipments", "class_equipments", selection
+    )
 
 
 def build_class(class_name: str, features: list[str], class_obj: dict):
@@ -138,23 +149,29 @@ def build_class(class_name: str, features: list[str], class_obj: dict):
     return class_id
 
 
-def process_class(class_obj: dict):
+def process_class(class_obj: dict, features: list[dict]):
     class_name = class_obj["name"]
     feature_categories = ["features", class_name]
-    features = []
+    feature_ids = []
     feature_id = process_hd(class_obj["hd"], feature_categories)
-    features.append(id_formating(feature_id, True))
-    feature_ids = process_proficiencies(
+    feature_ids.append(id_formating(feature_id, True))
+    proficiencies = process_proficiencies(
         class_obj["startingProficiencies"],
         class_obj["proficiency"],
         feature_categories,
     )
-    features.extend([id_formating(x, True) for x in feature_ids])
-    feature_id = process_equipments(
-        class_obj["startingEquipment"], feature_categories, class_name
-    )
-    features.append(id_formating(feature_id, True))
-    build_class(class_name, features, class_obj)
+    feature_ids.extend([id_formating(x, True) for x in proficiencies])
+    feature_id = process_equipments(class_obj["startingEquipment"], feature_categories)
+    feature_ids.append(id_formating(feature_id, True))
+    for feature in features:
+        feature_id = build_feature(
+            ["features", class_name],
+            feature["name"],
+            "class_level_traits",
+            [],
+        )
+        feature_ids.append(id_formating(feature_id, True))
+    build_class(class_name, feature_ids, class_obj)
 
 
 def build_subclass(
@@ -187,12 +204,12 @@ def process_subclass(subclass: dict, features: list[dict]):
         feature_id = build_feature(
             ["features", class_name, subclass_name],
             feature["name"],
-            "subclass_traits",
+            "subclass_level_traits",
             [],
         )
         feature_ids.append(id_formating(feature_id, True))
     get_file(f"classes.{class_name}")["subclasses_available_level"] = min_level
-    subclass_id = build_subclass(subclass_name, class_name, features, subclass)
+    subclass_id = build_subclass(subclass_name, class_name, feature_ids, subclass)
     get_file(f"classes.{class_name}")["subclasses"].append(
         id_formating(subclass_id, True)
     )
@@ -204,12 +221,23 @@ def main(original_data: str):
             continue
         with open(f"{original_data}/{filename}") as file:
             root = json.load(file)
+            class_dict = {}
             if "class" in root:
-                if root["class"][0]["source"] == "PHB":
-                    class_obj = root["class"][0]
-                    # {'subclassTitle', 'classFeatures', 'multiclassing'}
-                    # hd, startingProficiencies, proficiency, startingEquipment
-                    process_class(class_obj)
+                for class_obj in root["class"]:
+                    if class_obj.get("source") != "PHB":
+                        continue
+                    class_dict[class_obj["name"]] = {
+                        "class_obj": class_obj,
+                        "features": [],
+                    }
+                for class_feature in root["classFeature"]:
+                    if class_feature["source"] != "PHB":
+                        continue
+                    class_dict[class_feature["className"]]["features"].append(
+                        class_feature
+                    )
+                for entry in class_dict.values():
+                    process_class(**entry)
             subclass_dict = {}
             if "subclass" in root:
                 for subclass in root["subclass"]:
@@ -227,5 +255,3 @@ def main(original_data: str):
                     ].append(subclass_feature)
                 for entry in subclass_dict.values():
                     process_subclass(**entry)
-
-

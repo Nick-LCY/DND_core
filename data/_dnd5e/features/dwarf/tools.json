@@ -2,12 +2,14 @@
     "name": "%features.dwarf.tools/name%",
     "description": "%features.dwarf.tools/description%",
     "category": "race_proficiencies",
-    "effects": {
-        "choose": 1,
-        "available": [
-            "_dnd5e:effects.proficiencies.tools.smith_tools",
-            "_dnd5e:effects.proficiencies.tools.brewer_supplies",
-            "_dnd5e:effects.proficiencies.tools.mason_tools"
-        ]
-    }
+    "effects": [
+        {
+            "choose": 1,
+            "available": [
+                "_dnd5e:effects.proficiencies.tools.smith_tools",
+                "_dnd5e:effects.proficiencies.tools.brewer_supplies",
+                "_dnd5e:effects.proficiencies.tools.mason_tools"
+            ]
+        }
+    ]
 }

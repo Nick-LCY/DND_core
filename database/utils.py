@@ -29,6 +29,8 @@ def id_formating(original_id: str, namespaced: bool = False) -> str:
     processed = re.sub(r"(?:\s|_|-)+", "_", processed)
     processed = re.sub(r"_+@", "@", processed)
     processed = processed.replace("\u00d7", "times")
+    processed = processed.replace("/", "or")
+    processed = processed.strip("_")
     if namespaced:
         processed = f"{NAMESPACE}:{processed}"
     return processed.lower()
@@ -45,12 +47,7 @@ def build_effect(file_categories: list[str], en_name: str):
 
 
 def build_selection(available: list[str], choose: int):
-    selection = {"choose": choose, "available": []}
-    for item in available:
-        if isinstance(item, str):
-            selection["available"] += [f"{NAMESPACE}:{item}"]
-        else:
-            selection["available"] += [item]
+    selection = {"choose": choose, "available": available}
     return selection
 
 
@@ -65,14 +62,7 @@ def build_feature(
         "category": category,
         "effects": [],
     }
-    if len(effects) == 1 and not isinstance(effects[0], str):
-        data["effects"] = effects[0]
-    else:
-        for effect in effects:
-            if isinstance(effect, str):
-                data["effects"].append(f"{NAMESPACE}:{effect}")
-            else:
-                data["effects"].append(effect)
+    data["effects"] = effects
     add_to_files(feature_id, data)
     add_to_filled(f"{feature_id}/name")
     add_to_filled(f"{feature_id}/description")
@@ -91,5 +81,5 @@ def save(root):
         os.system(f"mkdir -p {root}/{'/'.join(dirs)}")
         with open(f"{root}/{'/'.join(dirs)}/{file}", "w") as file:
             json.dump(FILES[path], file)
-    with open(f"{root}/en_US.json", "w") as file:
+    with open(f"{root}/zh_CN.json", "w") as file:
         json.dump(TO_FILLED, file)
