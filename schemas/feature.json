@@ -16,7 +16,14 @@
                 "race_traits",
                 "race_proficiencies",
                 "subrace_proficiencies",
-                "subrace_traits"
+                "subrace_traits",
+                "class_traits",
+                "class_level_traits",
+                "class_proficiencies",
+                "class_equipments",
+                "subclass_traits",
+                "subclass_level_traits",
+                "subclass_proficiencies"
             ]
         },
         "effects": {
