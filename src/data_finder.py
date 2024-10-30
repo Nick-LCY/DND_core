@@ -6,7 +6,7 @@ ROOT = "/dnd-core/data"
 
 def is_id(string: str) -> bool:
     return (
-        re.match(r"^[a-zA-Z_0-9]*:(?:[a-zA-Z_0-9]*\.)+[a-zA-Z_0-9]+@*[a-zA-Z_0-9,]*$", string)
+        re.match(r"^[a-zA-Z_0-9]*:(?:[a-zA-Z_0-9]*\.)+[a-zA-Z_0-9]+@*(?:[^,]+,{0,1})*$", string)
         is not None
     )
 

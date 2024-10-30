@@ -8,18 +8,7 @@
         "_dnd5e:features.bard.tool_proficiencies",
         "_dnd5e:features.bard.skills",
         "_dnd5e:features.bard.save_proficiencies",
-        "_dnd5e:features.bard.starting_equipments",
-        "_dnd5e:features.bard.bardic_inspiration",
-        "_dnd5e:features.bard.spellcasting",
-        "_dnd5e:features.bard.jack_of_all_trades",
-        "_dnd5e:features.bard.song_of_rest",
-        "_dnd5e:features.bard.bard_college",
-        "_dnd5e:features.bard.expertise",
-        "_dnd5e:features.bard.ability_score_improvement",
-        "_dnd5e:features.bard.font_of_inspiration",
-        "_dnd5e:features.bard.countercharm",
-        "_dnd5e:features.bard.magical_secrets",
-        "_dnd5e:features.bard.superior_inspiration"
+        "_dnd5e:features.bard.starting_equipments"
     ],
     "additional": {
         "spellcastingAbility": "cha",
@@ -515,5 +504,105 @@
         "_dnd5e:subclasses.bard.lore",
         "_dnd5e:subclasses.bard.valor"
     ],
-    "subclasses_available_level": 3
+    "subclasses_available_level": 3,
+    "leveled_features": [
+        {
+            "start_level": 1,
+            "end_level": 5,
+            "feature": "_dnd5e:features.bard.bardic_inspiration@Ⅰ,6"
+        },
+        {
+            "start_level": 5,
+            "end_level": 10,
+            "feature": "_dnd5e:features.bard.bardic_inspiration@Ⅱ,8"
+        },
+        {
+            "start_level": 10,
+            "end_level": 15,
+            "feature": "_dnd5e:features.bard.bardic_inspiration@Ⅲ,10"
+        },
+        {
+            "start_level": 15,
+            "feature": "_dnd5e:features.bard.bardic_inspiration@Ⅳ,12"
+        },
+        {
+            "start_level": 1,
+            "feature": "_dnd5e:features.bard.spellcasting"
+        },
+        {
+            "start_level": 2,
+            "feature": "_dnd5e:features.bard.jack_of_all_trades"
+        },
+        {
+            "start_level": 2,
+            "end_level": 9,
+            "feature": "_dnd5e:features.bard.song_of_rest@Ⅰ,6"
+        },
+        {
+            "start_level": 9,
+            "end_level": 13,
+            "feature": "_dnd5e:features.bard.song_of_rest@Ⅱ,8"
+        },
+        {
+            "start_level": 13,
+            "end_level": 17,
+            "feature": "_dnd5e:features.bard.song_of_rest@Ⅲ,10"
+        },
+        {
+            "start_level": 17,
+            "feature": "_dnd5e:features.bard.song_of_rest@Ⅳ,12"
+        },
+        {
+            "start_level": 3,
+            "feature": "_dnd5e:features.bard.expertise@Ⅰ"
+        },
+        {
+            "start_level": 10,
+            "feature": "_dnd5e:features.bard.expertise@Ⅱ"
+        },
+        {
+            "start_level": 4,
+            "feature": "_dnd5e:features.bard.ability_score_improvement@Ⅰ"
+        },
+        {
+            "start_level": 8,
+            "feature": "_dnd5e:features.bard.ability_score_improvement@Ⅱ"
+        },
+        {
+            "start_level": 12,
+            "feature": "_dnd5e:features.bard.ability_score_improvement@Ⅲ"
+        },
+        {
+            "start_level": 16,
+            "feature": "_dnd5e:features.bard.ability_score_improvement@Ⅳ"
+        },
+        {
+            "start_level": 19,
+            "feature": "_dnd5e:features.bard.ability_score_improvement@Ⅴ"
+        },
+        {
+            "start_level": 5,
+            "feature": "_dnd5e:features.bard.font_of_inspiration"
+        },
+        {
+            "start_level": 6,
+            "feature": "_dnd5e:features.bard.countercharm"
+        },
+        {
+            "start_level": 10,
+            "feature": "_dnd5e:features.bard.magical_secrets@Ⅰ"
+        },
+        {
+            "start_level": 14,
+            "feature": "_dnd5e:features.bard.magical_secrets@Ⅱ"
+        },
+        {
+            "start_level": 18,
+            "feature": "_dnd5e:features.bard.magical_secrets@Ⅲ"
+        },
+        {
+            "start_level": 20,
+            "feature": "_dnd5e:features.bard.superior_inspiration"
+        }
+    ]
 }

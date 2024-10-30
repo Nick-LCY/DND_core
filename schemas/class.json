@@ -1,0 +1,53 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "职业",
+    "description": "用于描述DND5e的职业",
+    "type": "object",
+    "properties": {
+        "name": {
+            "$ref": "internal/i18nKey.json",
+            "title": "职业名字"
+        },
+        "description": {
+            "$ref": "internal/i18nKey.json",
+            "title": "职业详情"
+        },
+        "subclass_name": {
+            "$ref": "internal/i18nKey.json",
+            "title": "子职业名字"
+        },
+        "subclasses_available_level": {
+            "type": "integer",
+            "title": "子职业可用等级"
+        },
+        "features": {
+            "title": "职业固有特性",
+            "$ref": "internal/featureList.json"
+        },
+        "leveled_features": {
+            "title": "不同等级时额外提供的职业特性",
+            "type": "array",
+            "items": {
+                "$ref": "internal/leveledFeature.json"
+            }
+        },
+        "subclasses": {
+            "title": "子职业列表",
+            "description": "如果没有则留空",
+            "type": "array",
+            "items": {
+                "$ref": "internal/id.json",
+                "title": "子职业的id，推荐文件夹放置：subclasses > 职业名（英文小写） > 子职业名（英文小写）"
+            }
+        }
+    },
+    "required": [
+        "name",
+        "description",
+        "subclass_name",
+        "subclasses_available_level",
+        "leveled_features",
+        "features",
+        "subclasses"
+    ]
+}

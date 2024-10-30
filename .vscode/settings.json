@@ -23,6 +23,18 @@
                 "**/effects/**/*.json"
             ],
             "url": "./schemas/effect.json"
+        },
+        {
+            "fileMatch": [
+                "**/classes/**/*.json"
+            ],
+            "url": "./schemas/class.json"
+        },
+        {
+            "fileMatch": [
+                "**/subclasses/**/*.json"
+            ],
+            "url": "./schemas/subclass.json"
         }
     ]
 }

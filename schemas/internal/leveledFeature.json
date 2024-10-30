@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "feature": {
+            "$ref": "id.json",
+            "description": "特性id"
+        },
+        "start_level": {
+            "type": "integer",
+            "description": "从第几级开始有此特性"
+        },
+        "end_level": {
+            "type": "integer",
+            "description": "从第几级时失去此特性，如不写则为不再失去"
+        }
+    },
+    "required": [
+        "feature",
+        "start_level"
+    ]
+}
