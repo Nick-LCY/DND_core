@@ -1,0 +1,44 @@
+{
+    "name": "",
+    "description": "",
+    "category": "class_equipments",
+    "effects": [
+        {
+            "choose": 1,
+            "available": [
+                [
+                    {
+                        "choose": 1,
+                        "available": [
+                            "_dnd5e:effects.starting_equipments.scale_mail@1",
+                            "_dnd5e:effects.starting_equipments.leather_armor@1"
+                        ]
+                    },
+                    {
+                        "choose": 1,
+                        "available": [
+                            "_dnd5e:effects.starting_equipments.shortsword@2",
+                            {
+                                "id": "weaponSimpleMelee",
+                                "name": "",
+                                "description": ""
+                            }
+                        ]
+                    },
+                    {
+                        "choose": 1,
+                        "available": [
+                            "_dnd5e:effects.starting_equipments.dungeoneer_pack@1",
+                            "_dnd5e:effects.starting_equipments.explorer_pack@1"
+                        ]
+                    },
+                    [
+                        "_dnd5e:effects.starting_equipments.longbow@1",
+                        "_dnd5e:effects.starting_equipments.arrows@20"
+                    ]
+                ],
+                "_dnd5e:effects.starting_equipments.gold_5d4_times_10"
+            ]
+        }
+    ]
+}
