@@ -1,1 +1,1 @@
-{"name": "", "description": "", "expressions": []}
+{"name": "", "description": "", "expressions": ["this.character.saves.cha = true"]}

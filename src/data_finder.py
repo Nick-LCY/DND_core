@@ -19,7 +19,10 @@ def format_str(data_id: str, data_key: str | None, data_name: str, lang_code: st
             return data_name
         data_name = f"%{file_id}/{data_key}%"
     if re.match(r"^\%.*\%$", data_name) is None:
-        return data_name
+        if data_params is not None:
+            return data_name.format(*data_params.split(","))
+        else:
+            return data_name
     with open(f"{ROOT}/{namespace}/{lang_code}.json", "r") as file:
         value = json.load(file).get(data_name.strip("%"), data_name)
     if isinstance(value, list):
