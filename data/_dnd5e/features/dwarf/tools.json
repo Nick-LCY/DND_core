@@ -4,7 +4,7 @@
     "category": "race_proficiencies",
     "effects": [
         {
-            "choose": 1,
+            "type": "selection", "choose": 1,
             "available": [
                 "_dnd5e:effects.proficiencies.tools.smith_tools",
                 "_dnd5e:effects.proficiencies.tools.brewer_supplies",

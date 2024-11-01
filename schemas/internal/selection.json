@@ -11,10 +11,19 @@
         "available": {
             "$ref": "group.json",
             "description": "有哪些可选"
+        },
+        "allow_repeat": {
+            "type": "boolean",
+            "description": "是否允许复选，默认值为false"
+        },
+        "type": {
+            "title": "用于标记类型",
+            "enum": ["selection"]
         }
     },
     "required": [
         "choose",
-        "available"
+        "available",
+        "type"
     ]
 }

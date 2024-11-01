@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "title": "效果组",
+    "description": "用于将数个效果归为一组",
+    "properties": {
+        "group": {
+            "$ref": "group.json"
+        },
+        "type": {
+            "enum": [
+                "group_dict"
+            ]
+        },
+        "name": {
+            "$ref": "i18nKey.json"
+        },
+        "description": {
+            "$ref": "i18nKey.json"
+        }
+    },
+    "required": [
+        "type",
+        "group",
+        "name",
+        "description"
+    ]
+}

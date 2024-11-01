@@ -4,7 +4,7 @@
     "category": "class_proficiencies",
     "effects": [
         {
-            "choose": 3,
+            "type": "selection", "choose": 3,
             "available": [
                 "_dnd5e:effects.proficiencies.skills.acrobatics",
                 "_dnd5e:effects.proficiencies.skills.animal_handling",

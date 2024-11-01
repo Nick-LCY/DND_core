@@ -4,7 +4,7 @@
     "category": "subrace_traits",
     "effects": [
         {
-            "choose": 1,
+            "type": "selection", "choose": 1,
             "available": [
                 "_dnd5e:effects.cantrips.wizard.acid_splash@int",
                 "_dnd5e:effects.cantrips.wizard.chill_touch@int",

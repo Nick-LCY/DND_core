@@ -24,7 +24,7 @@
                 "_dnd5e:effects.proficiencies.skills.stealth",
                 "_dnd5e:effects.proficiencies.skills.survival"
             ],
-            "choose": 3
+            "type": "selection", "choose": 3
         }
     ]
 }

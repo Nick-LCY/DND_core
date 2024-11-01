@@ -1,1 +1,1 @@
-{"name": "", "description": "", "category": "class_proficiencies", "effects": [{"choose": 1, "available": []}, {"choose": 1, "available": []}]}
+{"name": "", "description": "", "category": "class_proficiencies", "effects": [{"type": "selection", "choose": 1, "available": []}, {"type": "selection", "choose": 1, "available": []}]}

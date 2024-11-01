@@ -4,11 +4,11 @@
     "category": "class_equipments",
     "effects": [
         {
-            "choose": 1,
+            "type": "selection", "choose": 1,
             "available": [
                 [
                     {
-                        "choose": 1,
+                        "type": "selection", "choose": 1,
                         "available": [
                             "_dnd5e:effects.starting_equipments.rapier@1",
                             "_dnd5e:effects.starting_equipments.longsword@1",
@@ -20,14 +20,14 @@
                         ]
                     },
                     {
-                        "choose": 1,
+                        "type": "selection", "choose": 1,
                         "available": [
                             "_dnd5e:effects.starting_equipments.diplomat_pack@1",
                             "_dnd5e:effects.starting_equipments.entertainer_pack@1"
                         ]
                     },
                     {
-                        "choose": 1,
+                        "type": "selection", "choose": 1,
                         "available": [
                             "_dnd5e:effects.starting_equipments.lute@1",
                             {

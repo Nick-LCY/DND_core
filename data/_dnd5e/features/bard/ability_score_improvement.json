@@ -1,1 +1,14 @@
-{"name": "", "description": "", "category": "class_level_traits", "effects": []}
+{"name": "", "description": "", "category": "class_level_traits", "effects": [
+    {
+        "type": "selection", "choose": 2,
+        "allow_repeat": true,
+        "available": [
+                "_dnd5e:effects.abilities.str_add@1",
+                "_dnd5e:effects.abilities.dex_add@1",
+                "_dnd5e:effects.abilities.con_add@1",
+                "_dnd5e:effects.abilities.int_add@1",
+                "_dnd5e:effects.abilities.wis_add@1",
+                "_dnd5e:effects.abilities.cha_add@1"
+        ]
+    }
+]}

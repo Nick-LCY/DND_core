@@ -4,7 +4,7 @@
     "category": "race_proficiencies",
     "effects": [
         {
-            "choose": 2,
+            "type": "selection", "choose": 2,
             "available": [
                 "_dnd5e:effects.proficiencies.skills.athletics",
                 "_dnd5e:effects.proficiencies.skills.acrobatics",
