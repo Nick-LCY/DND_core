@@ -12,11 +12,7 @@
                         "available": [
                             "_dnd5e:effects.starting_equipments.rapier@1",
                             "_dnd5e:effects.starting_equipments.longsword@1",
-                            {
-                                "id": "weaponSimple",
-                                "name": "简易武器",
-                                "description": "TODO"
-                            }
+                            "_dnd5e:effects.todo@简易武器weaponSimple"
                         ]
                     },
                     {
@@ -30,11 +26,7 @@
                         "type": "selection", "choose": 1,
                         "available": [
                             "_dnd5e:effects.starting_equipments.lute@1",
-                            {
-                                "id": "instrumentMusical",
-                                "name": "其他乐器",
-                                "description": "TODO"
-                            }
+                            "_dnd5e:effects.todo@其他乐器instrumentMusical"
                         ]
                     },
                     [
