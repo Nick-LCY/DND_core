@@ -18,11 +18,7 @@
                         "type": "selection", "choose": 1,
                         "available": [
                             "_dnd5e:effects.starting_equipments.shortsword@2",
-                            {
-                                "id": "weaponSimpleMelee",
-                                "name": "",
-                                "description": ""
-                            }
+                            "_dnd5e:effects.todo@weaponSimpleMelee"
                         ]
                     },
                     {
