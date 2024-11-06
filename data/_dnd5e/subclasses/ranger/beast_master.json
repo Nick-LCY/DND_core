@@ -1,1 +1,32 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.ranger.beast_master.beast_master", "_dnd5e:features.ranger.beast_master.ranger_companion", "_dnd5e:features.ranger.beast_master.exceptional_training", "_dnd5e:features.ranger.beast_master.bestial_fury", "_dnd5e:features.ranger.beast_master.share_spells"], "additional": {"classSource": "PHB", "subclassFeatures": ["Beast Master|Ranger||Beast Master||3", "Exceptional Training|Ranger||Beast Master||7", "Bestial Fury|Ranger||Beast Master||11", "Share Spells|Ranger||Beast Master||15"]}}
+{
+    "name": "",
+    "description": "",
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 3,
+            "feature": "_dnd5e:features.ranger.beast_master.ranger_companion"
+        },
+        {
+            "start_level": 7,
+            "feature": "_dnd5e:features.ranger.beast_master.exceptional_training"
+        },
+        {
+            "start_level": 11,
+            "feature": "_dnd5e:features.ranger.beast_master.bestial_fury"
+        },
+        {
+            "start_level": 15,
+            "feature": "_dnd5e:features.ranger.beast_master.share_spells"
+        }
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "subclassFeatures": [
+            "Beast Master|Ranger||Beast Master||3",
+            "Exceptional Training|Ranger||Beast Master||7",
+            "Bestial Fury|Ranger||Beast Master||11",
+            "Share Spells|Ranger||Beast Master||15"
+        ]
+    }
+}

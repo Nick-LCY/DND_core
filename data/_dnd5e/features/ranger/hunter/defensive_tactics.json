@@ -1,1 +1,16 @@
-{"name": "", "description": "", "category": "subclass_level_traits", "effects": []}
+{
+    "name": "",
+    "description": "",
+    "category": "subclass_level_traits",
+    "effects": [
+        {
+            "type": "selection",
+            "choose": 1,
+            "available": [
+                "_dnd5e:effects.ranger.hunter.defensive_tactics.escape_the_horde",
+                "_dnd5e:effects.ranger.hunter.defensive_tactics.multiattack_defense",
+                "_dnd5e:effects.ranger.hunter.defensive_tactics.steel_will"
+            ]
+        }
+    ]
+}

@@ -1,1 +1,15 @@
-{"name": "", "description": "", "category": "subclass_level_traits", "effects": []}
+{
+    "name": "",
+    "description": "",
+    "category": "subclass_level_traits",
+    "effects": [
+        {
+            "type": "selection",
+            "choose": 1,
+            "available": [
+                "_dnd5e:effects.ranger.hunter.multiattack.volley",
+                "_dnd5e:effects.ranger.hunter.multiattack.whirlwind_attack"
+            ]
+        }
+    ]
+}

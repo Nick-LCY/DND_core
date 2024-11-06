@@ -1,1 +1,16 @@
-{"name": "", "description": "", "category": "subclass_level_traits", "effects": []}
+{
+    "name": "",
+    "description": "",
+    "category": "subclass_level_traits",
+    "effects": [
+        {
+            "type": "selection",
+            "choose": 1,
+            "available": [
+                "_dnd5e:effects.ranger.hunter.superior_hunter_defense.evasion",
+                "_dnd5e:effects.ranger.hunter.superior_hunter_defense.stand_against_the_tide",
+                "_dnd5e:effects.ranger.hunter.superior_hunter_defense.uncanny_dodge"
+            ]
+        }
+    ]
+}

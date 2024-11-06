@@ -1,1 +1,33 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.ranger.hunter.hunter", "_dnd5e:features.ranger.hunter.horde_breaker", "_dnd5e:features.ranger.hunter.hunter_prey", "_dnd5e:features.ranger.hunter.colossus_slayer", "_dnd5e:features.ranger.hunter.giant_killer", "_dnd5e:features.ranger.hunter.defensive_tactics", "_dnd5e:features.ranger.hunter.escape_the_horde", "_dnd5e:features.ranger.hunter.multiattack_defense", "_dnd5e:features.ranger.hunter.steel_will", "_dnd5e:features.ranger.hunter.multiattack", "_dnd5e:features.ranger.hunter.volley", "_dnd5e:features.ranger.hunter.whirlwind_attack", "_dnd5e:features.ranger.hunter.evasion", "_dnd5e:features.ranger.hunter.stand_against_the_tide", "_dnd5e:features.ranger.hunter.superior_hunter_defense", "_dnd5e:features.ranger.hunter.uncanny_dodge"], "additional": {"classSource": "PHB", "srd": true, "subclassFeatures": ["Hunter|Ranger||Hunter||3", "Defensive Tactics|Ranger||Hunter||7", "Multiattack|Ranger||Hunter||11", "Superior Hunter's Defense|Ranger||Hunter||15"]}}
+{
+    "name": "",
+    "description": "",
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 3,
+            "feature": "_dnd5e:features.ranger.hunter.hunter_prey"
+        },
+        {
+            "start_level": 7,
+            "feature": "_dnd5e:features.ranger.hunter.defensive_tactics"
+        },
+        {
+            "start_level": 11,
+            "feature": "_dnd5e:features.ranger.hunter.multiattack"
+        },
+        {
+            "start_level": 15,
+            "feature": "_dnd5e:features.ranger.hunter.superior_hunter_defense"
+        }
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "srd": true,
+        "subclassFeatures": [
+            "Hunter|Ranger||Hunter||3",
+            "Defensive Tactics|Ranger||Hunter||7",
+            "Multiattack|Ranger||Hunter||11",
+            "Superior Hunter's Defense|Ranger||Hunter||15"
+        ]
+    }
+}

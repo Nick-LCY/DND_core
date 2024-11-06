@@ -1,1 +1,16 @@
-{"name": "", "description": "", "category": "subclass_level_traits", "effects": []}
+{
+    "name": "",
+    "description": "",
+    "category": "subclass_level_traits",
+    "effects": [
+        {
+            "type": "selection",
+            "choose": 1,
+            "available": [
+                "_dnd5e:effects.ranger.hunter.hunter_prey.horde_breaker",
+                "_dnd5e:effects.ranger.hunter.hunter_prey.colossus_slayer",
+                "_dnd5e:effects.ranger.hunter.hunter_prey.giant_killer"
+            ]
+        }
+    ]
+}
