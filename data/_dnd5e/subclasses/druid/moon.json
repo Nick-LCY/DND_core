@@ -1,1 +1,50 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.druid.moon.circle_of_the_moon", "_dnd5e:features.druid.moon.circle_forms", "_dnd5e:features.druid.moon.combat_wild_shape", "_dnd5e:features.druid.moon.primal_strike", "_dnd5e:features.druid.moon.elemental_wild_shape", "_dnd5e:features.druid.moon.thousand_forms"], "additional": {"classSource": "PHB", "additionalSpells": [{"known": {"14": ["alter self"]}}], "subclassFeatures": ["Circle of the Moon|Druid||Moon||2", "Primal Strike|Druid||Moon||6", "Elemental Wild Shape|Druid||Moon||10", "Thousand Forms|Druid||Moon||14"]}}
+{
+    "name": "",
+    "description": "",
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 2,
+            "end_level": 6,
+            "feature": "_dnd5e:features.druid.moon.circle_forms@Ⅰ,1"
+        },
+        {
+            "start_level": 6,
+            "feature": "_dnd5e:features.druid.moon.circle_forms@Ⅱ,德鲁伊等级除以3（向下取整）"
+        },
+        {
+            "start_level": 2,
+            "feature": "_dnd5e:features.druid.moon.combat_wild_shape"
+        },
+        {
+            "start_level": 6,
+            "feature": "_dnd5e:features.druid.moon.primal_strike"
+        },
+        {
+            "start_level": 10,
+            "feature": "_dnd5e:features.druid.moon.elemental_wild_shape"
+        },
+        {
+            "start_level": 14,
+            "feature": "_dnd5e:features.druid.moon.thousand_forms"
+        }
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "additionalSpells": [
+            {
+                "known": {
+                    "14": [
+                        "alter self"
+                    ]
+                }
+            }
+        ],
+        "subclassFeatures": [
+            "Circle of the Moon|Druid||Moon||2",
+            "Primal Strike|Druid||Moon||6",
+            "Elemental Wild Shape|Druid||Moon||10",
+            "Thousand Forms|Druid||Moon||14"
+        ]
+    }
+}

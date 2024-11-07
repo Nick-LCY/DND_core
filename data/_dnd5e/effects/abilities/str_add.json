@@ -2,6 +2,10 @@
     "name": "",
     "description": "",
     "expressions": [
-        "this.character.abilities.str += {}"
+        {
+            "target": "character.abilities.str",
+            "operation": "+=",
+            "values": ["{}"]
+        }
     ]
 }

@@ -1,1 +1,13 @@
-{"name": "", "description": "", "expressions": ["this.character.saves.con = true"]}
+{
+    "name": "",
+    "description": "",
+    "expressions": [
+        {
+            "target": "character.saves.con",
+            "operation": "=",
+            "values": [
+                true
+            ]
+        }
+    ]
+}

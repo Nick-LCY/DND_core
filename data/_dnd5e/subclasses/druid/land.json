@@ -1,1 +1,295 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.druid.land.circle_of_the_land", "_dnd5e:features.druid.land.bonus_cantrip", "_dnd5e:features.druid.land.circle_spells", "_dnd5e:features.druid.land.natural_recovery", "_dnd5e:features.druid.land.land_stride", "_dnd5e:features.druid.land.nature_ward", "_dnd5e:features.druid.land.nature_sanctuary"], "additional": {"classSource": "PHB", "srd": true, "additionalSpells": [{"name": "Arctic", "known": {"1": {"_": [{"choose": "level=0|class=Druid"}]}}, "prepared": {"3": ["hold person", "spike growth"], "5": ["sleet storm", "slow"], "7": ["freedom of movement", "ice storm"], "9": ["commune with nature", "cone of cold"]}}, {"name": "Coast", "known": {"1": {"_": [{"choose": "level=0|class=Druid"}]}}, "prepared": {"3": ["mirror image", "misty step"], "5": ["water breathing", "water walk"], "7": ["control water", "freedom of movement"], "9": ["conjure elemental", "scrying"]}}, {"name": "Desert", "known": {"1": {"_": [{"choose": "level=0|class=Druid"}]}}, "prepared": {"3": ["blur", "silence"], "5": ["create food and water", "protection from energy"], "7": ["blight", "hallucinatory terrain"], "9": ["insect plague", "wall of stone"]}}, {"name": "Forest", "known": {"1": {"_": [{"choose": "level=0|class=Druid"}]}}, "prepared": {"3": ["barkskin", "spider climb"], "5": ["call lightning", "plant growth"], "7": ["divination", "freedom of movement"], "9": ["commune with nature", "tree stride"]}}, {"name": "Grassland", "known": {"1": {"_": [{"choose": "level=0|class=Druid"}]}}, "prepared": {"3": ["invisibility", "pass without trace"], "5": ["daylight", "haste"], "7": ["divination", "freedom of movement"], "9": ["dream", "insect plague"]}}, {"name": "Mountain", "known": {"1": {"_": [{"choose": "level=0|class=Druid"}]}}, "prepared": {"3": ["spider climb", "spike growth"], "5": ["lightning bolt", "meld into stone"], "7": ["stone shape", "stoneskin"], "9": ["passwall", "wall of stone"]}}, {"name": "Swamp", "known": {"1": {"_": [{"choose": "level=0|class=Druid"}]}}, "prepared": {"3": ["darkness", "Melf's acid arrow"], "5": ["water walk", "stinking cloud"], "7": ["freedom of movement", "locate creature"], "9": ["insect plague", "scrying"]}}, {"name": "Underdark", "known": {"1": {"_": [{"choose": "level=0|class=Druid"}]}}, "prepared": {"3": ["spider climb", "web"], "5": ["gaseous form", "stinking cloud"], "7": ["greater invisibility", "stone shape"], "9": ["cloudkill", "insect plague"]}}], "subclassFeatures": ["Circle of the Land|Druid||Land||2", "Land's Stride|Druid||Land||6", "Nature's Ward|Druid||Land||10", "Nature's Sanctuary|Druid||Land||14"]}}
+{
+    "name": "",
+    "description": "",
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 2,
+            "feature": "_dnd5e:features.druid.land.bonus_cantrip"
+        },
+        {
+            "start_level": 2,
+            "feature": "_dnd5e:features.druid.land.natural_recovery"
+        },
+        {
+            "start_level": 3,
+            "feature": "_dnd5e:features.druid.land.circle_spells@Ⅰ"
+        },
+        {
+            "start_level": 5,
+            "feature": "_dnd5e:features.druid.land.circle_spells@Ⅱ"
+        },
+        {
+            "start_level": 7,
+            "feature": "_dnd5e:features.druid.land.circle_spells@Ⅲ"
+        },
+        {
+            "start_level": 9,
+            "feature": "_dnd5e:features.druid.land.circle_spells@Ⅳ"
+        },
+        {
+            "start_level": 6,
+            "feature": "_dnd5e:features.druid.land.land_stride"
+        },
+        {
+            "start_level": 10,
+            "feature": "_dnd5e:features.druid.land.nature_ward"
+        },
+        {
+            "start_level": 14,
+            "feature": "_dnd5e:features.druid.land.nature_sanctuary"
+        }
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "srd": true,
+        "additionalSpells": [
+            {
+                "name": "Arctic",
+                "known": {
+                    "1": {
+                        "_": [
+                            {
+                                "choose": "level=0|class=Druid"
+                            }
+                        ]
+                    }
+                },
+                "prepared": {
+                    "3": [
+                        "hold person",
+                        "spike growth"
+                    ],
+                    "5": [
+                        "sleet storm",
+                        "slow"
+                    ],
+                    "7": [
+                        "freedom of movement",
+                        "ice storm"
+                    ],
+                    "9": [
+                        "commune with nature",
+                        "cone of cold"
+                    ]
+                }
+            },
+            {
+                "name": "Coast",
+                "known": {
+                    "1": {
+                        "_": [
+                            {
+                                "choose": "level=0|class=Druid"
+                            }
+                        ]
+                    }
+                },
+                "prepared": {
+                    "3": [
+                        "mirror image",
+                        "misty step"
+                    ],
+                    "5": [
+                        "water breathing",
+                        "water walk"
+                    ],
+                    "7": [
+                        "control water",
+                        "freedom of movement"
+                    ],
+                    "9": [
+                        "conjure elemental",
+                        "scrying"
+                    ]
+                }
+            },
+            {
+                "name": "Desert",
+                "known": {
+                    "1": {
+                        "_": [
+                            {
+                                "choose": "level=0|class=Druid"
+                            }
+                        ]
+                    }
+                },
+                "prepared": {
+                    "3": [
+                        "blur",
+                        "silence"
+                    ],
+                    "5": [
+                        "create food and water",
+                        "protection from energy"
+                    ],
+                    "7": [
+                        "blight",
+                        "hallucinatory terrain"
+                    ],
+                    "9": [
+                        "insect plague",
+                        "wall of stone"
+                    ]
+                }
+            },
+            {
+                "name": "Forest",
+                "known": {
+                    "1": {
+                        "_": [
+                            {
+                                "choose": "level=0|class=Druid"
+                            }
+                        ]
+                    }
+                },
+                "prepared": {
+                    "3": [
+                        "barkskin",
+                        "spider climb"
+                    ],
+                    "5": [
+                        "call lightning",
+                        "plant growth"
+                    ],
+                    "7": [
+                        "divination",
+                        "freedom of movement"
+                    ],
+                    "9": [
+                        "commune with nature",
+                        "tree stride"
+                    ]
+                }
+            },
+            {
+                "name": "Grassland",
+                "known": {
+                    "1": {
+                        "_": [
+                            {
+                                "choose": "level=0|class=Druid"
+                            }
+                        ]
+                    }
+                },
+                "prepared": {
+                    "3": [
+                        "invisibility",
+                        "pass without trace"
+                    ],
+                    "5": [
+                        "daylight",
+                        "haste"
+                    ],
+                    "7": [
+                        "divination",
+                        "freedom of movement"
+                    ],
+                    "9": [
+                        "dream",
+                        "insect plague"
+                    ]
+                }
+            },
+            {
+                "name": "Mountain",
+                "known": {
+                    "1": {
+                        "_": [
+                            {
+                                "choose": "level=0|class=Druid"
+                            }
+                        ]
+                    }
+                },
+                "prepared": {
+                    "3": [
+                        "spider climb",
+                        "spike growth"
+                    ],
+                    "5": [
+                        "lightning bolt",
+                        "meld into stone"
+                    ],
+                    "7": [
+                        "stone shape",
+                        "stoneskin"
+                    ],
+                    "9": [
+                        "passwall",
+                        "wall of stone"
+                    ]
+                }
+            },
+            {
+                "name": "Swamp",
+                "known": {
+                    "1": {
+                        "_": [
+                            {
+                                "choose": "level=0|class=Druid"
+                            }
+                        ]
+                    }
+                },
+                "prepared": {
+                    "3": [
+                        "darkness",
+                        "Melf's acid arrow"
+                    ],
+                    "5": [
+                        "water walk",
+                        "stinking cloud"
+                    ],
+                    "7": [
+                        "freedom of movement",
+                        "locate creature"
+                    ],
+                    "9": [
+                        "insect plague",
+                        "scrying"
+                    ]
+                }
+            },
+            {
+                "name": "Underdark",
+                "known": {
+                    "1": {
+                        "_": [
+                            {
+                                "choose": "level=0|class=Druid"
+                            }
+                        ]
+                    }
+                },
+                "prepared": {
+                    "3": [
+                        "spider climb",
+                        "web"
+                    ],
+                    "5": [
+                        "gaseous form",
+                        "stinking cloud"
+                    ],
+                    "7": [
+                        "greater invisibility",
+                        "stone shape"
+                    ],
+                    "9": [
+                        "cloudkill",
+                        "insect plague"
+                    ]
+                }
+            }
+        ],
+        "subclassFeatures": [
+            "Circle of the Land|Druid||Land||2",
+            "Land's Stride|Druid||Land||6",
+            "Nature's Ward|Druid||Land||10",
+            "Nature's Sanctuary|Druid||Land||14"
+        ]
+    }
+}

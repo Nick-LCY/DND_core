@@ -3,7 +3,7 @@
     "description": "%features.half_elf.abilities/description%",
     "category": "race_traits",
     "effects": [
-        "_dnd5e:effects.abilities.cha_add@1",
+        "_dnd5e:effects.abilities.cha_add@2",
         {
             "type": "selection", "choose": 2,
             "available": [

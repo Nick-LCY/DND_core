@@ -1,1 +1,37 @@
-{"name": "", "description": "", "category": "class_equipments", "effects": [{"type": "selection", "choose": 1, "available": [[{"type": "selection", "choose": 1, "available": ["_dnd5e:effects.starting_equipments.shield@1", {"type": "selection", "choose": 1, "available": ["weaponSimple"]}]}, {"type": "selection", "choose": 1, "available": ["_dnd5e:effects.starting_equipments.scimitar@1", {"type": "selection", "choose": 1, "available": ["weaponSimpleMelee"]}]}, ["_dnd5e:effects.starting_equipments.leather_armor@1", "_dnd5e:effects.starting_equipments.explorer_pack@1", {"type": "selection", "choose": 1, "available": ["focusSpellcastingDruidic"]}]], "_dnd5e:effects.starting_equipments.gold_2d4_times_10"]}]}
+{
+    "name": "",
+    "description": "",
+    "category": "class_equipments",
+    "effects": [
+        {
+            "type": "selection",
+            "choose": 1,
+            "available": [
+                [
+                    {
+                        "type": "selection",
+                        "choose": 1,
+                        "available": [
+                            "_dnd5e:effects.starting_equipments.shield@1",
+                            "_dnd5e:effects.todo@weaponSimple"
+                        ]
+                    },
+                    {
+                        "type": "selection",
+                        "choose": 1,
+                        "available": [
+                            "_dnd5e:effects.starting_equipments.scimitar@1",
+                            "_dnd5e:effects.todo@weaponSimpleMelee"
+                        ]
+                    },
+                    [
+                        "_dnd5e:effects.starting_equipments.leather_armor@1",
+                        "_dnd5e:effects.starting_equipments.explorer_pack@1",
+                        "_dnd5e:effects.todo@focusSpellcastingDruidic"
+                    ]
+                ],
+                "_dnd5e:effects.starting_equipments.gold_2d4_times_10"
+            ]
+        }
+    ]
+}
