@@ -1,0 +1,44 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "target": {
+            "type": "string",
+            "title": "表达式的操作目标"
+        },
+        "operation": {
+            "type": "string",
+            "enum": [
+                "+=",
+                "-=",
+                "+",
+                "-",
+                "="
+            ]
+        },
+        "values": {
+            "type": "array",
+            "items": {
+                "anyOf": [
+                    {
+                        "type": "string"
+                    },
+                    {
+                        "$ref": "expression.json"
+                    },
+                    {
+                        "type": "number"
+                    },
+                    {
+                        "type": "boolean"
+                    }
+                ]
+            }
+        }
+    },
+    "required": [
+        "values",
+        "target",
+        "operation"
+    ]
+}

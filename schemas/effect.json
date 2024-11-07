@@ -14,7 +14,10 @@
         "expressions": {
             "title": "表达式列表",
             "description": "暂时还没想好怎么设计，先空着吧",
-            "type": "array"
+            "type": "array",
+            "items": {
+                "$ref": "internal/expression.json"
+            }
         }
     },
     "required": [
