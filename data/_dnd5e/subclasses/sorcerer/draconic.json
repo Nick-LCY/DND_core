@@ -1,1 +1,37 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.sorcerer.draconic.draconic_bloodline", "_dnd5e:features.sorcerer.draconic.draconic_resilience", "_dnd5e:features.sorcerer.draconic.dragon_ancestor", "_dnd5e:features.sorcerer.draconic.elemental_affinity", "_dnd5e:features.sorcerer.draconic.dragon_wings", "_dnd5e:features.sorcerer.draconic.draconic_presence"], "additional": {"classSource": "PHB", "srd": true, "subclassFeatures": ["Draconic Bloodline|Sorcerer||Draconic||1", "Elemental Affinity|Sorcerer||Draconic||6", "Dragon Wings|Sorcerer||Draconic||14", "Draconic Presence|Sorcerer||Draconic||18"]}}
+{
+    "name": "",
+    "description": "",
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 1,
+            "feature": "_dnd5e:features.sorcerer.draconic.dragon_ancestor"
+        },
+        {
+            "start_level": 1,
+            "feature": "_dnd5e:features.sorcerer.draconic.draconic_resilience"
+        },
+        {
+            "start_level": 6,
+            "feature": "_dnd5e:features.sorcerer.draconic.elemental_affinity"
+        },
+        {
+            "start_level": 14,
+            "feature": "_dnd5e:features.sorcerer.draconic.dragon_wings"
+        },
+        {
+            "start_level": 18,
+            "feature": "_dnd5e:features.sorcerer.draconic.draconic_presence"
+        }
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "srd": true,
+        "subclassFeatures": [
+            "Draconic Bloodline|Sorcerer||Draconic||1",
+            "Elemental Affinity|Sorcerer||Draconic||6",
+            "Dragon Wings|Sorcerer||Draconic||14",
+            "Draconic Presence|Sorcerer||Draconic||18"
+        ]
+    }
+}

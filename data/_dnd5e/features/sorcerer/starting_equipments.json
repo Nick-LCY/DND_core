@@ -1,1 +1,46 @@
-{"name": "", "description": "", "category": "class_equipments", "effects": [{"type": "selection", "choose": 1, "available": [[{"type": "selection", "choose": 1, "available": ["_dnd5e:effects.starting_equipments.light_crossbow@1", "_dnd5e:effects.starting_equipments.crossbow_bolts@20", {"type": "selection", "choose": 1, "available": ["weaponSimple"]}]}, {"type": "selection", "choose": 1, "available": ["_dnd5e:effects.starting_equipments.component_pouch@1", {"type": "selection", "choose": 1, "available": ["focusSpellcastingArcane"]}]}, {"type": "selection", "choose": 1, "available": ["_dnd5e:effects.starting_equipments.dungeoneer_pack@1", "_dnd5e:effects.starting_equipments.explorer_pack@1"]}, ["_dnd5e:effects.starting_equipments.dagger@2"]], "_dnd5e:effects.starting_equipments.gold_3d4_times_10"]}]}
+{
+    "name": "",
+    "description": "",
+    "category": "class_equipments",
+    "effects": [
+        {
+            "type": "selection",
+            "choose": 1,
+            "available": [
+                [
+                    {
+                        "type": "selection",
+                        "choose": 1,
+                        "available": [
+                            [
+                                "_dnd5e:effects.starting_equipments.light_crossbow@1",
+                                "_dnd5e:effects.starting_equipments.crossbow_bolts@20"
+                            ],
+                            "_dnd5e:effects.todo@weaponSimple"
+                        ]
+                    },
+                    {
+                        "type": "selection",
+                        "choose": 1,
+                        "available": [
+                            "_dnd5e:effects.starting_equipments.component_pouch@1",
+                            "_dnd5e:effects.todo@focusSpellcastingArcane"
+                        ]
+                    },
+                    {
+                        "type": "selection",
+                        "choose": 1,
+                        "available": [
+                            "_dnd5e:effects.starting_equipments.dungeoneer_pack@1",
+                            "_dnd5e:effects.starting_equipments.explorer_pack@1"
+                        ]
+                    },
+                    [
+                        "_dnd5e:effects.starting_equipments.dagger@2"
+                    ]
+                ],
+                "_dnd5e:effects.starting_equipments.gold_3d4_times_10"
+            ]
+        }
+    ]
+}

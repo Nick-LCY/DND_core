@@ -562,23 +562,23 @@
         },
         {
             "start_level": 4,
-            "feature": "_dnd5e:features.bard.ability_score_improvement@Ⅰ"
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅰ"
         },
         {
             "start_level": 8,
-            "feature": "_dnd5e:features.bard.ability_score_improvement@Ⅱ"
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅱ"
         },
         {
             "start_level": 12,
-            "feature": "_dnd5e:features.bard.ability_score_improvement@Ⅲ"
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅲ"
         },
         {
             "start_level": 16,
-            "feature": "_dnd5e:features.bard.ability_score_improvement@Ⅳ"
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅳ"
         },
         {
             "start_level": 19,
-            "feature": "_dnd5e:features.bard.ability_score_improvement@Ⅴ"
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅴ"
         },
         {
             "start_level": 5,

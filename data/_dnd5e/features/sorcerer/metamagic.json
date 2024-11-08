@@ -1,1 +1,21 @@
-{"name": "", "description": "", "category": "class_level_traits", "effects": []}
+{
+    "name": "",
+    "description": "",
+    "category": "class_level_traits",
+    "effects": [
+        {
+            "type": "selection",
+            "choose": 2,
+            "available": [
+                "_dnd5e:effects.sorcerer.metamagic.careful",
+                "_dnd5e:effects.sorcerer.metamagic.distant",
+                "_dnd5e:effects.sorcerer.metamagic.empowered",
+                "_dnd5e:effects.sorcerer.metamagic.extended",
+                "_dnd5e:effects.sorcerer.metamagic.heightened",
+                "_dnd5e:effects.sorcerer.metamagic.quickened",
+                "_dnd5e:effects.sorcerer.metamagic.subtle",
+                "_dnd5e:effects.sorcerer.metamagic.twinned"
+            ]
+        }
+    ]
+}

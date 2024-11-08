@@ -1,1 +1,37 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.sorcerer.wild.wild_magic", "_dnd5e:features.sorcerer.wild.tides_of_chaos", "_dnd5e:features.sorcerer.wild.wild_magic_surge", "_dnd5e:features.sorcerer.wild.bend_luck", "_dnd5e:features.sorcerer.wild.controlled_chaos", "_dnd5e:features.sorcerer.wild.spell_bombardment"], "additional": {"classSource": "PHB", "subclassFeatures": ["Wild Magic|Sorcerer||Wild||1", "Bend Luck|Sorcerer||Wild||6", "Controlled Chaos|Sorcerer||Wild||14", "Spell Bombardment|Sorcerer||Wild||18"], "hasFluffImages": true}}
+{
+    "name": "",
+    "description": "",
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 1,
+            "feature": "_dnd5e:features.sorcerer.wild.tides_of_chaos"
+        },
+        {
+            "start_level": 1,
+            "feature": "_dnd5e:features.sorcerer.wild.wild_magic_surge"
+        },
+        {
+            "start_level": 6,
+            "feature": "_dnd5e:features.sorcerer.wild.bend_luck"
+        },
+        {
+            "start_level": 14,
+            "feature": "_dnd5e:features.sorcerer.wild.controlled_chaos"
+        },
+        {
+            "start_level": 18,
+            "feature": "_dnd5e:features.sorcerer.wild.spell_bombardment"
+        }
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "subclassFeatures": [
+            "Wild Magic|Sorcerer||Wild||1",
+            "Bend Luck|Sorcerer||Wild||6",
+            "Controlled Chaos|Sorcerer||Wild||14",
+            "Spell Bombardment|Sorcerer||Wild||18"
+        ],
+        "hasFluffImages": true
+    }
+}
