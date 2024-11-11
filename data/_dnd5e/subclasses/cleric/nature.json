@@ -1,1 +1,59 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.cleric.nature.nature_domain", "_dnd5e:features.cleric.nature.acolyte_of_nature", "_dnd5e:features.cleric.nature.bonus_proficiency", "_dnd5e:features.cleric.nature.channel_divinity:_charm_animals_and_plants", "_dnd5e:features.cleric.nature.dampen_elements", "_dnd5e:features.cleric.nature.divine_strike", "_dnd5e:features.cleric.nature.master_of_nature"], "additional": {"classSource": "PHB", "additionalSpells": [{"known": {"1": {"_": [{"choose": "level=0|class=Druid"}]}}, "prepared": {"1": ["animal friendship", "speak with animals"], "3": ["barkskin", "spike growth"], "5": ["plant growth", "wind wall"], "7": ["dominate beast", "grasping vine"], "9": ["insect plague", "tree stride"]}}], "subclassFeatures": ["Nature Domain|Cleric||Nature||1", "Channel Divinity: Charm Animals and Plants|Cleric||Nature||2", "Dampen Elements|Cleric||Nature||6", "Divine Strike|Cleric||Nature||8", "Blessed Strikes|Cleric||Nature||8|TCE", "Master of Nature|Cleric||Nature||17"]}}
+{
+    "name": "",
+    "description": "",
+    "features": [
+        "_dnd5e:features.cleric.nature.nature_domain",
+        "_dnd5e:features.cleric.nature.acolyte_of_nature",
+        "_dnd5e:features.cleric.nature.bonus_proficiency",
+        "_dnd5e:features.cleric.nature.channel_divinity_charm_animals_and_plants",
+        "_dnd5e:features.cleric.nature.dampen_elements",
+        "_dnd5e:features.cleric.nature.divine_strike",
+        "_dnd5e:features.cleric.nature.master_of_nature"
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "additionalSpells": [
+            {
+                "known": {
+                    "1": {
+                        "_": [
+                            {
+                                "choose": "level=0|class=Druid"
+                            }
+                        ]
+                    }
+                },
+                "prepared": {
+                    "1": [
+                        "animal friendship",
+                        "speak with animals"
+                    ],
+                    "3": [
+                        "barkskin",
+                        "spike growth"
+                    ],
+                    "5": [
+                        "plant growth",
+                        "wind wall"
+                    ],
+                    "7": [
+                        "dominate beast",
+                        "grasping vine"
+                    ],
+                    "9": [
+                        "insect plague",
+                        "tree stride"
+                    ]
+                }
+            }
+        ],
+        "subclassFeatures": [
+            "Nature Domain|Cleric||Nature||1",
+            "Channel Divinity: Charm Animals and Plants|Cleric||Nature||2",
+            "Dampen Elements|Cleric||Nature||6",
+            "Divine Strike|Cleric||Nature||8",
+            "Blessed Strikes|Cleric||Nature||8|TCE",
+            "Master of Nature|Cleric||Nature||17"
+        ]
+    }
+}

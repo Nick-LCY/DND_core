@@ -1,1 +1,64 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.cleric.knowledge.knowledge_domain", "_dnd5e:features.cleric.knowledge.blessings_of_knowledge", "_dnd5e:features.cleric.knowledge.channel_divinity:_knowledge_of_the_ages", "_dnd5e:features.cleric.knowledge.channel_divinity:_read_thoughts", "_dnd5e:features.cleric.knowledge.potent_spellcasting", "_dnd5e:features.cleric.knowledge.visions_of_the_past"], "additional": {"classSource": "PHB", "additionalSpells": [{"prepared": {"1": ["command", "identify"], "3": ["augury", "suggestion"], "5": ["nondetection", "speak with dead"], "7": ["arcane eye", "confusion"], "9": ["legend lore", "scrying"]}}], "subclassFeatures": ["Knowledge Domain|Cleric||Knowledge||1", "Channel Divinity: Knowledge of the Ages|Cleric||Knowledge||2", "Channel Divinity: Read Thoughts|Cleric||Knowledge||6", "Potent Spellcasting|Cleric||Knowledge||8", "Blessed Strikes|Cleric||Knowledge||8|TCE", "Visions of the Past|Cleric||Knowledge||17"]}}
+{
+    "name": "",
+    "description": "",
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 1,
+            "feature": "_dnd5e:features.cleric.knowledge.blessings_of_knowledge"
+        },
+        {
+            "start_level": 2,
+            "feature": "_dnd5e:features.cleric.knowledge.channel_divinity_knowledge_of_the_ages"
+        },
+        {
+            "start_level": 6,
+            "feature": "_dnd5e:features.cleric.knowledge.channel_divinity_read_thoughts"
+        },
+        {
+            "start_level": 8,
+            "feature": "_dnd5e:features.cleric.knowledge.potent_spellcasting"
+        },
+        {
+            "start_level": 17,
+            "feature": "_dnd5e:features.cleric.knowledge.visions_of_the_past"
+        }
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "additionalSpells": [
+            {
+                "prepared": {
+                    "1": [
+                        "command",
+                        "identify"
+                    ],
+                    "3": [
+                        "augury",
+                        "suggestion"
+                    ],
+                    "5": [
+                        "nondetection",
+                        "speak with dead"
+                    ],
+                    "7": [
+                        "arcane eye",
+                        "confusion"
+                    ],
+                    "9": [
+                        "legend lore",
+                        "scrying"
+                    ]
+                }
+            }
+        ],
+        "subclassFeatures": [
+            "Knowledge Domain|Cleric||Knowledge||1",
+            "Channel Divinity: Knowledge of the Ages|Cleric||Knowledge||2",
+            "Channel Divinity: Read Thoughts|Cleric||Knowledge||6",
+            "Potent Spellcasting|Cleric||Knowledge||8",
+            "Blessed Strikes|Cleric||Knowledge||8|TCE",
+            "Visions of the Past|Cleric||Knowledge||17"
+        ]
+    }
+}

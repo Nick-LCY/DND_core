@@ -1,1 +1,55 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.cleric.light.light_domain", "_dnd5e:features.cleric.light.bonus_cantrip", "_dnd5e:features.cleric.light.warding_flare", "_dnd5e:features.cleric.light.channel_divinity:_radiance_of_the_dawn", "_dnd5e:features.cleric.light.improved_flare", "_dnd5e:features.cleric.light.potent_spellcasting", "_dnd5e:features.cleric.light.corona_of_light"], "additional": {"classSource": "PHB", "additionalSpells": [{"prepared": {"1": ["burning hands", "faerie fire"], "3": ["flaming sphere", "scorching ray"], "5": ["daylight", "fireball"], "7": ["guardian of faith", "wall of fire"], "9": ["flame strike", "scrying"]}, "known": {"1": ["light#c"]}}], "subclassFeatures": ["Light Domain|Cleric||Light||1", "Channel Divinity: Radiance of the Dawn|Cleric||Light||2", "Improved Flare|Cleric||Light||6", "Potent Spellcasting|Cleric||Light||8", "Blessed Strikes|Cleric||Light||8|TCE", "Corona of Light|Cleric||Light||17"]}}
+{
+    "name": "",
+    "description": "",
+    "features": [
+        "_dnd5e:features.cleric.light.light_domain",
+        "_dnd5e:features.cleric.light.bonus_cantrip",
+        "_dnd5e:features.cleric.light.warding_flare",
+        "_dnd5e:features.cleric.light.channel_divinity_radiance_of_the_dawn",
+        "_dnd5e:features.cleric.light.improved_flare",
+        "_dnd5e:features.cleric.light.potent_spellcasting",
+        "_dnd5e:features.cleric.light.corona_of_light"
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "additionalSpells": [
+            {
+                "prepared": {
+                    "1": [
+                        "burning hands",
+                        "faerie fire"
+                    ],
+                    "3": [
+                        "flaming sphere",
+                        "scorching ray"
+                    ],
+                    "5": [
+                        "daylight",
+                        "fireball"
+                    ],
+                    "7": [
+                        "guardian of faith",
+                        "wall of fire"
+                    ],
+                    "9": [
+                        "flame strike",
+                        "scrying"
+                    ]
+                },
+                "known": {
+                    "1": [
+                        "light#c"
+                    ]
+                }
+            }
+        ],
+        "subclassFeatures": [
+            "Light Domain|Cleric||Light||1",
+            "Channel Divinity: Radiance of the Dawn|Cleric||Light||2",
+            "Improved Flare|Cleric||Light||6",
+            "Potent Spellcasting|Cleric||Light||8",
+            "Blessed Strikes|Cleric||Light||8|TCE",
+            "Corona of Light|Cleric||Light||17"
+        ]
+    }
+}

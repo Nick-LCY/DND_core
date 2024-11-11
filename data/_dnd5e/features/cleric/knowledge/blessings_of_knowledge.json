@@ -1,1 +1,31 @@
-{"name": "", "description": "", "category": "subclass_level_traits", "effects": []}
+{
+    "name": "",
+    "description": "",
+    "category": "subclass_level_traits",
+    "effects": [
+        {
+            "type": "selection",
+            "choose": 2,
+            "available": [
+                "_dnd5e:effects.languages.common",
+                "_dnd5e:effects.languages.draconic",
+                "_dnd5e:effects.languages.dwarvish",
+                "_dnd5e:effects.languages.elvish",
+                "_dnd5e:effects.languages.gnomish",
+                "_dnd5e:effects.languages.halfling",
+                "_dnd5e:effects.languages.infernal",
+                "_dnd5e:effects.languages.orc"
+            ]
+        },
+        {
+            "type": "selection",
+            "choose": 2,
+            "available": [
+                "_dnd5e:effects.proficiencies.skills.arcana",
+                "_dnd5e:effects.proficiencies.skills.history",
+                "_dnd5e:effects.proficiencies.skills.religion",
+                "_dnd5e:effects.proficiencies.skills.nature"
+            ]
+        }
+    ]
+}

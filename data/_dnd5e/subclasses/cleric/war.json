@@ -1,1 +1,50 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.cleric.war.war_domain", "_dnd5e:features.cleric.war.bonus_proficiencies", "_dnd5e:features.cleric.war.war_priest", "_dnd5e:features.cleric.war.channel_divinity:_guided_strike", "_dnd5e:features.cleric.war.channel_divinity:_war_god_blessing", "_dnd5e:features.cleric.war.divine_strike", "_dnd5e:features.cleric.war.avatar_of_battle"], "additional": {"classSource": "PHB", "additionalSpells": [{"prepared": {"1": ["divine favor", "shield of faith"], "3": ["magic weapon", "spiritual weapon"], "5": ["crusader's mantle", "spirit guardians"], "7": ["freedom of movement", "stoneskin"], "9": ["flame strike", "hold monster"]}}], "subclassFeatures": ["War Domain|Cleric||War||1", "Channel Divinity: Guided Strike|Cleric||War||2", "Channel Divinity: War God's Blessing|Cleric||War||6", "Divine Strike|Cleric||War||8", "Blessed Strikes|Cleric||War||8|TCE", "Avatar of Battle|Cleric||War||17"]}}
+{
+    "name": "",
+    "description": "",
+    "features": [
+        "_dnd5e:features.cleric.war.war_domain",
+        "_dnd5e:features.cleric.war.bonus_proficiencies",
+        "_dnd5e:features.cleric.war.war_priest",
+        "_dnd5e:features.cleric.war.channel_divinity_guided_strike",
+        "_dnd5e:features.cleric.war.channel_divinity_war_god_blessing",
+        "_dnd5e:features.cleric.war.divine_strike",
+        "_dnd5e:features.cleric.war.avatar_of_battle"
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "additionalSpells": [
+            {
+                "prepared": {
+                    "1": [
+                        "divine favor",
+                        "shield of faith"
+                    ],
+                    "3": [
+                        "magic weapon",
+                        "spiritual weapon"
+                    ],
+                    "5": [
+                        "crusader's mantle",
+                        "spirit guardians"
+                    ],
+                    "7": [
+                        "freedom of movement",
+                        "stoneskin"
+                    ],
+                    "9": [
+                        "flame strike",
+                        "hold monster"
+                    ]
+                }
+            }
+        ],
+        "subclassFeatures": [
+            "War Domain|Cleric||War||1",
+            "Channel Divinity: Guided Strike|Cleric||War||2",
+            "Channel Divinity: War God's Blessing|Cleric||War||6",
+            "Divine Strike|Cleric||War||8",
+            "Blessed Strikes|Cleric||War||8|TCE",
+            "Avatar of Battle|Cleric||War||17"
+        ]
+    }
+}

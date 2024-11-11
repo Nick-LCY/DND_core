@@ -1,1 +1,52 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.cleric.life.life_domain", "_dnd5e:features.cleric.life.bonus_proficiency", "_dnd5e:features.cleric.life.disciple_of_life", "_dnd5e:features.cleric.life.channel_divinity:_preserve_life", "_dnd5e:features.cleric.life.blessed_healer", "_dnd5e:features.cleric.life.divine_strike", "_dnd5e:features.cleric.life.supreme_healing"], "additional": {"classSource": "PHB", "srd": true, "basicRules": true, "additionalSpells": [{"prepared": {"1": ["bless", "cure wounds"], "3": ["lesser restoration", "spiritual weapon"], "5": ["beacon of hope", "revivify"], "7": ["death ward", "guardian of faith"], "9": ["mass cure wounds", "raise dead"]}}], "subclassFeatures": ["Life Domain|Cleric||Life||1", "Channel Divinity: Preserve Life|Cleric||Life||2", "Blessed Healer|Cleric||Life||6", "Divine Strike|Cleric||Life||8", "Blessed Strikes|Cleric||Life||8|TCE", "Supreme Healing|Cleric||Life||17"]}}
+{
+    "name": "",
+    "description": "",
+    "features": [
+        "_dnd5e:features.cleric.life.life_domain",
+        "_dnd5e:features.cleric.life.bonus_proficiency",
+        "_dnd5e:features.cleric.life.disciple_of_life",
+        "_dnd5e:features.cleric.life.channel_divinity_preserve_life",
+        "_dnd5e:features.cleric.life.blessed_healer",
+        "_dnd5e:features.cleric.life.divine_strike",
+        "_dnd5e:features.cleric.life.supreme_healing"
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "srd": true,
+        "basicRules": true,
+        "additionalSpells": [
+            {
+                "prepared": {
+                    "1": [
+                        "bless",
+                        "cure wounds"
+                    ],
+                    "3": [
+                        "lesser restoration",
+                        "spiritual weapon"
+                    ],
+                    "5": [
+                        "beacon of hope",
+                        "revivify"
+                    ],
+                    "7": [
+                        "death ward",
+                        "guardian of faith"
+                    ],
+                    "9": [
+                        "mass cure wounds",
+                        "raise dead"
+                    ]
+                }
+            }
+        ],
+        "subclassFeatures": [
+            "Life Domain|Cleric||Life||1",
+            "Channel Divinity: Preserve Life|Cleric||Life||2",
+            "Blessed Healer|Cleric||Life||6",
+            "Divine Strike|Cleric||Life||8",
+            "Blessed Strikes|Cleric||Life||8|TCE",
+            "Supreme Healing|Cleric||Life||17"
+        ]
+    }
+}

@@ -1,1 +1,50 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.cleric.tempest.tempest_domain", "_dnd5e:features.cleric.tempest.bonus_proficiencies", "_dnd5e:features.cleric.tempest.wrath_of_the_storm", "_dnd5e:features.cleric.tempest.channel_divinity:_destructive_wrath", "_dnd5e:features.cleric.tempest.thunderbolt_strike", "_dnd5e:features.cleric.tempest.divine_strike", "_dnd5e:features.cleric.tempest.stormborn"], "additional": {"classSource": "PHB", "additionalSpells": [{"prepared": {"1": ["fog cloud", "thunderwave"], "3": ["gust of wind", "shatter"], "5": ["call lightning", "sleet storm"], "7": ["control water", "ice storm"], "9": ["destructive wave", "insect plague"]}}], "subclassFeatures": ["Tempest Domain|Cleric||Tempest||1", "Channel Divinity: Destructive Wrath|Cleric||Tempest||2", "Thunderbolt Strike|Cleric||Tempest||6", "Divine Strike|Cleric||Tempest||8", "Blessed Strikes|Cleric||Tempest||8|TCE", "Stormborn|Cleric||Tempest||17"]}}
+{
+    "name": "",
+    "description": "",
+    "features": [
+        "_dnd5e:features.cleric.tempest.tempest_domain",
+        "_dnd5e:features.cleric.tempest.bonus_proficiencies",
+        "_dnd5e:features.cleric.tempest.wrath_of_the_storm",
+        "_dnd5e:features.cleric.tempest.channel_divinity_destructive_wrath",
+        "_dnd5e:features.cleric.tempest.thunderbolt_strike",
+        "_dnd5e:features.cleric.tempest.divine_strike",
+        "_dnd5e:features.cleric.tempest.stormborn"
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "additionalSpells": [
+            {
+                "prepared": {
+                    "1": [
+                        "fog cloud",
+                        "thunderwave"
+                    ],
+                    "3": [
+                        "gust of wind",
+                        "shatter"
+                    ],
+                    "5": [
+                        "call lightning",
+                        "sleet storm"
+                    ],
+                    "7": [
+                        "control water",
+                        "ice storm"
+                    ],
+                    "9": [
+                        "destructive wave",
+                        "insect plague"
+                    ]
+                }
+            }
+        ],
+        "subclassFeatures": [
+            "Tempest Domain|Cleric||Tempest||1",
+            "Channel Divinity: Destructive Wrath|Cleric||Tempest||2",
+            "Thunderbolt Strike|Cleric||Tempest||6",
+            "Divine Strike|Cleric||Tempest||8",
+            "Blessed Strikes|Cleric||Tempest||8|TCE",
+            "Stormborn|Cleric||Tempest||17"
+        ]
+    }
+}
