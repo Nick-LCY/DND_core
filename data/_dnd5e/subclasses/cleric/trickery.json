@@ -1,13 +1,33 @@
 {
     "name": "",
     "description": "",
-    "features": [
-        "_dnd5e:features.cleric.trickery.trickery_domain",
-        "_dnd5e:features.cleric.trickery.blessing_of_the_trickster",
-        "_dnd5e:features.cleric.trickery.channel_divinity_invoke_duplicity",
-        "_dnd5e:features.cleric.trickery.channel_divinity_cloak_of_shadows",
-        "_dnd5e:features.cleric.trickery.divine_strike",
-        "_dnd5e:features.cleric.trickery.improved_duplicity"
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 1,
+            "feature": "_dnd5e:features.cleric.trickery.blessing_of_the_trickster"
+        },
+        {
+            "start_level": 2,
+            "feature": "_dnd5e:features.cleric.trickery.channel_divinity_invoke_duplicity"
+        },
+        {
+            "start_level": 6,
+            "feature": "_dnd5e:features.cleric.trickery.channel_divinity_cloak_of_shadows"
+        },
+        {
+            "start_level": 8,
+            "end_level": 14,
+            "feature": "_dnd5e:features.cleric.trickery.divine_strike@Ⅰ,1d8"
+        },
+        {
+            "start_level": 14,
+            "feature": "_dnd5e:features.cleric.trickery.divine_strike@Ⅱ,2d8"
+        },
+        {
+            "start_level": 17,
+            "feature": "_dnd5e:features.cleric.trickery.improved_duplicity"
+        }
     ],
     "additional": {
         "classSource": "PHB",

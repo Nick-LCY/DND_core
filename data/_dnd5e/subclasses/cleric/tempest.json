@@ -1,14 +1,37 @@
 {
     "name": "",
     "description": "",
-    "features": [
-        "_dnd5e:features.cleric.tempest.tempest_domain",
-        "_dnd5e:features.cleric.tempest.bonus_proficiencies",
-        "_dnd5e:features.cleric.tempest.wrath_of_the_storm",
-        "_dnd5e:features.cleric.tempest.channel_divinity_destructive_wrath",
-        "_dnd5e:features.cleric.tempest.thunderbolt_strike",
-        "_dnd5e:features.cleric.tempest.divine_strike",
-        "_dnd5e:features.cleric.tempest.stormborn"
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 1,
+            "feature": "_dnd5e:features.cleric.tempest.bonus_proficiencies"
+        },
+        {
+            "start_level": 1,
+            "feature": "_dnd5e:features.cleric.tempest.wrath_of_the_storm"
+        },
+        {
+            "start_level": 2,
+            "feature": "_dnd5e:features.cleric.tempest.channel_divinity_destructive_wrath"
+        },
+        {
+            "start_level": 6,
+            "feature": "_dnd5e:features.cleric.tempest.thunderbolt_strike"
+        },
+        {
+            "start_level": 8,
+            "end_level": 14,
+            "feature": "_dnd5e:features.cleric.tempest.divine_strike@Ⅰ,1d8"
+        },
+        {
+            "start_level": 14,
+            "feature": "_dnd5e:features.cleric.tempest.divine_strike@Ⅱ,2d8"
+        },
+        {
+            "start_level": 17,
+            "feature": "_dnd5e:features.cleric.tempest.stormborn"
+        }
     ],
     "additional": {
         "classSource": "PHB",

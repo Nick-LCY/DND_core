@@ -1,14 +1,37 @@
 {
     "name": "",
     "description": "",
-    "features": [
-        "_dnd5e:features.cleric.life.life_domain",
-        "_dnd5e:features.cleric.life.bonus_proficiency",
-        "_dnd5e:features.cleric.life.disciple_of_life",
-        "_dnd5e:features.cleric.life.channel_divinity_preserve_life",
-        "_dnd5e:features.cleric.life.blessed_healer",
-        "_dnd5e:features.cleric.life.divine_strike",
-        "_dnd5e:features.cleric.life.supreme_healing"
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 1,
+            "feature": "_dnd5e:features.cleric.life.bonus_proficiency"
+        },
+        {
+            "start_level": 1,
+            "feature": "_dnd5e:features.cleric.life.disciple_of_life"
+        },
+        {
+            "start_level": 2,
+            "feature": "_dnd5e:features.cleric.life.channel_divinity_preserve_life"
+        },
+        {
+            "start_level": 6,
+            "feature": "_dnd5e:features.cleric.life.blessed_healer"
+        },
+        {
+            "start_level": 8,
+            "end_level": 14,
+            "feature": "_dnd5e:features.cleric.life.divine_strike@Ⅰ,1d8"
+        },
+        {
+            "start_level": 14,
+            "feature": "_dnd5e:features.cleric.life.divine_strike@Ⅱ,2d8"
+        },
+        {
+            "start_level": 17,
+            "feature": "_dnd5e:features.cleric.life.supreme_healing"
+        }
     ],
     "additional": {
         "classSource": "PHB",

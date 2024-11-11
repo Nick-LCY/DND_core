@@ -1,14 +1,37 @@
 {
     "name": "",
     "description": "",
-    "features": [
-        "_dnd5e:features.cleric.nature.nature_domain",
-        "_dnd5e:features.cleric.nature.acolyte_of_nature",
-        "_dnd5e:features.cleric.nature.bonus_proficiency",
-        "_dnd5e:features.cleric.nature.channel_divinity_charm_animals_and_plants",
-        "_dnd5e:features.cleric.nature.dampen_elements",
-        "_dnd5e:features.cleric.nature.divine_strike",
-        "_dnd5e:features.cleric.nature.master_of_nature"
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 1,
+            "feature": "_dnd5e:features.cleric.nature.acolyte_of_nature"
+        },
+        {
+            "start_level": 1,
+            "feature": "_dnd5e:features.cleric.nature.bonus_proficiency"
+        },
+        {
+            "start_level": 2,
+            "feature": "_dnd5e:features.cleric.nature.channel_divinity_charm_animals_and_plants"
+        },
+        {
+            "start_level": 6,
+            "feature": "_dnd5e:features.cleric.nature.dampen_elements"
+        },
+        {
+            "start_level": 8,
+            "end_level": 14,
+            "feature": "_dnd5e:features.cleric.nature.divine_strike@Ⅰ,1d8"
+        },
+        {
+            "start_level": 14,
+            "feature": "_dnd5e:features.cleric.nature.divine_strike@Ⅱ,2d8"
+        },
+        {
+            "start_level": 17,
+            "feature": "_dnd5e:features.cleric.nature.master_of_nature"
+        }
     ],
     "additional": {
         "classSource": "PHB",

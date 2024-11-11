@@ -1,14 +1,32 @@
 {
     "name": "",
     "description": "",
-    "features": [
-        "_dnd5e:features.cleric.light.light_domain",
-        "_dnd5e:features.cleric.light.bonus_cantrip",
-        "_dnd5e:features.cleric.light.warding_flare",
-        "_dnd5e:features.cleric.light.channel_divinity_radiance_of_the_dawn",
-        "_dnd5e:features.cleric.light.improved_flare",
-        "_dnd5e:features.cleric.light.potent_spellcasting",
-        "_dnd5e:features.cleric.light.corona_of_light"
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 1,
+            "feature": "_dnd5e:features.cleric.light.bonus_cantrip"
+        },
+        {
+            "start_level": 1,
+            "feature": "_dnd5e:features.cleric.light.warding_flare"
+        },
+        {
+            "start_level": 2,
+            "feature": "_dnd5e:features.cleric.light.channel_divinity_radiance_of_the_dawn"
+        },
+        {
+            "start_level": 6,
+            "feature": "_dnd5e:features.cleric.light.improved_flare"
+        },
+        {
+            "start_level": 8,
+            "feature": "_dnd5e:features.cleric.light.potent_spellcasting"
+        },
+        {
+            "start_level": 17,
+            "feature": "_dnd5e:features.cleric.light.corona_of_light"
+        }
     ],
     "additional": {
         "classSource": "PHB",
