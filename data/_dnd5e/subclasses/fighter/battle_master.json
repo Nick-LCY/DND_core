@@ -1,1 +1,72 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.fighter.battle_master.battle_master", "_dnd5e:features.fighter.battle_master.combat_superiority", "_dnd5e:features.fighter.battle_master.maneuvers", "_dnd5e:features.fighter.battle_master.student_of_war", "_dnd5e:features.fighter.battle_master.additional_maneuvers", "_dnd5e:features.fighter.battle_master.additional_superiority_die", "_dnd5e:features.fighter.battle_master.know_your_enemy", "_dnd5e:features.fighter.battle_master.additional_maneuvers", "_dnd5e:features.fighter.battle_master.improved_combat_superiority_d10", "_dnd5e:features.fighter.battle_master.additional_maneuvers", "_dnd5e:features.fighter.battle_master.additional_superiority_die", "_dnd5e:features.fighter.battle_master.relentless", "_dnd5e:features.fighter.battle_master.improved_combat_superiority_d12"], "additional": {"classSource": "PHB", "optionalfeatureProgression": [{"name": "Maneuvers", "featureType": ["MV:B"], "progression": {"3": 3, "7": 5, "10": 7, "15": 9}}], "subclassFeatures": ["Battle Master|Fighter||Battle Master||3", "Additional Maneuvers|Fighter||Battle Master||7", "Additional Superiority Die|Fighter||Battle Master||7", "Know Your Enemy|Fighter||Battle Master||7", "Additional Maneuvers|Fighter||Battle Master||10", "Improved Combat Superiority (d10)|Fighter||Battle Master||10", "Additional Maneuvers|Fighter||Battle Master||15", "Additional Superiority Die|Fighter||Battle Master||15", "Relentless|Fighter||Battle Master||15", "Improved Combat Superiority (d12)|Fighter||Battle Master||18"]}}
+{
+    "name": "",
+    "description": "",
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 3,
+            "end_level": 7,
+            "feature": "_dnd5e:features.fighter.battle_master.combat_superiority@Ⅰ,3,4,d8"
+        },
+        {
+            "start_level": 7,
+            "end_level": 10,
+            "feature": "_dnd5e:features.fighter.battle_master.combat_superiority@Ⅱ,5,5,d8"
+        },
+        {
+            "start_level": 10,
+            "end_level": 15,
+            "feature": "_dnd5e:features.fighter.battle_master.combat_superiority@Ⅲ,7,5,d10"
+        },
+        {
+            "start_level": 15,
+            "end_level": 18,
+            "feature": "_dnd5e:features.fighter.battle_master.combat_superiority@Ⅳ,9,6,d10"
+        },
+        {
+            "start_level": 18,
+            "feature": "_dnd5e:features.fighter.battle_master.combat_superiority@Ⅴ,9,6,d12"
+        },
+        {
+            "start_level": 3,
+            "feature": "_dnd5e:features.fighter.battle_master.student_of_war"
+        },
+        {
+            "start_level": 7,
+            "feature": "_dnd5e:features.fighter.battle_master.know_your_enemy"
+        },
+        {
+            "start_level": 15,
+            "feature": "_dnd5e:features.fighter.battle_master.relentless"
+        }
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "optionalfeatureProgression": [
+            {
+                "name": "Maneuvers",
+                "featureType": [
+                    "MV:B"
+                ],
+                "progression": {
+                    "3": 3,
+                    "7": 5,
+                    "10": 7,
+                    "15": 9
+                }
+            }
+        ],
+        "subclassFeatures": [
+            "Battle Master|Fighter||Battle Master||3",
+            "Additional Maneuvers|Fighter||Battle Master||7",
+            "Additional Superiority Die|Fighter||Battle Master||7",
+            "Know Your Enemy|Fighter||Battle Master||7",
+            "Additional Maneuvers|Fighter||Battle Master||10",
+            "Improved Combat Superiority (d10)|Fighter||Battle Master||10",
+            "Additional Maneuvers|Fighter||Battle Master||15",
+            "Additional Superiority Die|Fighter||Battle Master||15",
+            "Relentless|Fighter||Battle Master||15",
+            "Improved Combat Superiority (d12)|Fighter||Battle Master||18"
+        ]
+    }
+}

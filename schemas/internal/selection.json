@@ -6,7 +6,14 @@
     "properties": {
         "choose": {
             "description": "选择几个",
-            "type": "integer"
+            "anyOf": [
+                {
+                    "type": "integer"
+                },
+                {
+                    "type": "string"
+                }
+            ]
         },
         "available": {
             "$ref": "group.json",
@@ -18,7 +25,9 @@
         },
         "type": {
             "title": "用于标记类型",
-            "enum": ["selection"]
+            "enum": [
+                "selection"
+            ]
         }
     },
     "required": [

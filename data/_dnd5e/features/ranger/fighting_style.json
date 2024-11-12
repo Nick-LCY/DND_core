@@ -7,10 +7,10 @@
             "type": "selection",
             "choose": 1,
             "available": [
-                "_dnd5e:effects.ranger.fighting_style.archery",
-                "_dnd5e:effects.ranger.fighting_style.defense",
-                "_dnd5e:effects.ranger.fighting_style.dueling",
-                "_dnd5e:effects.ranger.fighting_style.two_weapon_fighting"
+                "_dnd5e:effects.fighting_style.archery",
+                "_dnd5e:effects.fighting_style.defense",
+                "_dnd5e:effects.fighting_style.dueling",
+                "_dnd5e:effects.fighting_style.two_weapon_fighting"
             ]
         }
     ]

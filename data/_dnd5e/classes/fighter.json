@@ -1,1 +1,161 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.fighter.hit_dice", "_dnd5e:features.fighter.armor", "_dnd5e:features.fighter.weapons", "_dnd5e:features.fighter.skills", "_dnd5e:features.fighter.save_proficiencies", "_dnd5e:features.fighter.starting_equipments", "_dnd5e:features.fighter.fighting_style", "_dnd5e:features.fighter.second_wind", "_dnd5e:features.fighter.action_surge", "_dnd5e:features.fighter.martial_archetype", "_dnd5e:features.fighter.ability_score_improvement", "_dnd5e:features.fighter.extra_attack", "_dnd5e:features.fighter.ability_score_improvement", "_dnd5e:features.fighter.martial_archetype_feature", "_dnd5e:features.fighter.ability_score_improvement", "_dnd5e:features.fighter.indomitable", "_dnd5e:features.fighter.martial_archetype_feature", "_dnd5e:features.fighter.extra_attack_2", "_dnd5e:features.fighter.ability_score_improvement", "_dnd5e:features.fighter.indomitable_two_uses", "_dnd5e:features.fighter.ability_score_improvement", "_dnd5e:features.fighter.martial_archetype_feature", "_dnd5e:features.fighter.ability_score_improvement", "_dnd5e:features.fighter.action_surge_two_uses", "_dnd5e:features.fighter.indomitable_three_uses", "_dnd5e:features.fighter.martial_archetype_feature", "_dnd5e:features.fighter.ability_score_improvement", "_dnd5e:features.fighter.extra_attack_3"], "additional": {"basicRules": true, "optionalfeatureProgression": [{"name": "Fighting Style", "featureType": ["FS:F"], "progression": {"1": 1}}], "multiclassing": {"requirements": {"or": [{"str": 13, "dex": 13}]}, "proficienciesGained": {"armor": ["light", "medium", "shield"], "weapons": ["simple", "martial"]}}, "classFeatures": ["Fighting Style|Fighter||1", "Second Wind|Fighter||1", "Action Surge|Fighter||2", {"classFeature": "Martial Archetype|Fighter||3", "gainSubclassFeature": true}, "Ability Score Improvement|Fighter||4", "Martial Versatility|Fighter||4|TCE", "Extra Attack|Fighter||5", "Ability Score Improvement|Fighter||6", {"classFeature": "Martial Archetype feature|Fighter||7", "gainSubclassFeature": true}, "Ability Score Improvement|Fighter||8", "Indomitable|Fighter||9", {"classFeature": "Martial Archetype feature|Fighter||10", "gainSubclassFeature": true}, "Extra Attack (2)|Fighter||11", "Ability Score Improvement|Fighter||12", "Indomitable (two uses)|Fighter||13", "Ability Score Improvement|Fighter||14", {"classFeature": "Martial Archetype feature|Fighter||15", "gainSubclassFeature": true}, "Ability Score Improvement|Fighter||16", "Action Surge (two uses)|Fighter||17", "Indomitable (three uses)|Fighter||17", {"classFeature": "Martial Archetype feature|Fighter||18", "gainSubclassFeature": true}, "Ability Score Improvement|Fighter||19", "Extra Attack (3)|Fighter||20"]}, "subclass_name": "", "subclasses": ["_dnd5e:subclasses.fighter.battle_master", "_dnd5e:subclasses.fighter.champion", "_dnd5e:subclasses.fighter.eldritch_knight"], "subclasses_available_level": 3}
+{
+    "name": "",
+    "description": "",
+    "features": [
+        "_dnd5e:features.fighter.hit_dice",
+        "_dnd5e:features.fighter.armor",
+        "_dnd5e:features.fighter.weapons",
+        "_dnd5e:features.fighter.skills",
+        "_dnd5e:features.fighter.save_proficiencies",
+        "_dnd5e:features.fighter.starting_equipments"
+    ],
+    "leveled_features": [
+        {
+            "start_level": 1,
+            "feature": "_dnd5e:features.fighter.fighting_style"
+        },
+        {
+            "start_level": 1,
+            "feature": "_dnd5e:features.fighter.second_wind"
+        },
+        {
+            "start_level": 2,
+            "end_level": 17,
+            "feature": "_dnd5e:features.fighter.action_surge@Ⅰ,1"
+        },
+        {
+            "start_level": 17,
+            "feature": "_dnd5e:features.fighter.action_surge@Ⅱ,2"
+        },
+        {
+            "start_level": 4,
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅰ"
+        },
+        {
+            "start_level": 8,
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅱ"
+        },
+        {
+            "start_level": 12,
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅲ"
+        },
+        {
+            "start_level": 16,
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅳ"
+        },
+        {
+            "start_level": 19,
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅴ"
+        },
+        {
+            "start_level": 5,
+            "end_level": 11,
+            "feature": "_dnd5e:features.fighter.extra_attack@Ⅰ,2"
+        },
+        {
+            "start_level": 11,
+            "end_level": 20,
+            "feature": "_dnd5e:features.fighter.extra_attack@Ⅱ,3"
+        },
+        {
+            "start_level": 20,
+            "feature": "_dnd5e:features.fighter.extra_attack@Ⅲ,4"
+        },
+        {
+            "start_level": 9,
+            "end_level": 13,
+            "feature": "_dnd5e:features.fighter.indomitable@Ⅰ,1"
+        },
+        {
+            "start_level": 13,
+            "end_level": 17,
+            "feature": "_dnd5e:features.fighter.indomitable@Ⅱ,2"
+        },
+        {
+            "start_level": 17,
+            "feature": "_dnd5e:features.fighter.indomitable@Ⅲ,3"
+        }
+    ],
+    "additional": {
+        "basicRules": true,
+        "optionalfeatureProgression": [
+            {
+                "name": "Fighting Style",
+                "featureType": [
+                    "FS:F"
+                ],
+                "progression": {
+                    "1": 1
+                }
+            }
+        ],
+        "multiclassing": {
+            "requirements": {
+                "or": [
+                    {
+                        "str": 13,
+                        "dex": 13
+                    }
+                ]
+            },
+            "proficienciesGained": {
+                "armor": [
+                    "light",
+                    "medium",
+                    "shield"
+                ],
+                "weapons": [
+                    "simple",
+                    "martial"
+                ]
+            }
+        },
+        "classFeatures": [
+            "Fighting Style|Fighter||1",
+            "Second Wind|Fighter||1",
+            "Action Surge|Fighter||2",
+            {
+                "classFeature": "Martial Archetype|Fighter||3",
+                "gainSubclassFeature": true
+            },
+            "Ability Score Improvement|Fighter||4",
+            "Martial Versatility|Fighter||4|TCE",
+            "Extra Attack|Fighter||5",
+            "Ability Score Improvement|Fighter||6",
+            {
+                "classFeature": "Martial Archetype feature|Fighter||7",
+                "gainSubclassFeature": true
+            },
+            "Ability Score Improvement|Fighter||8",
+            "Indomitable|Fighter||9",
+            {
+                "classFeature": "Martial Archetype feature|Fighter||10",
+                "gainSubclassFeature": true
+            },
+            "Extra Attack (2)|Fighter||11",
+            "Ability Score Improvement|Fighter||12",
+            "Indomitable (two uses)|Fighter||13",
+            "Ability Score Improvement|Fighter||14",
+            {
+                "classFeature": "Martial Archetype feature|Fighter||15",
+                "gainSubclassFeature": true
+            },
+            "Ability Score Improvement|Fighter||16",
+            "Action Surge (two uses)|Fighter||17",
+            "Indomitable (three uses)|Fighter||17",
+            {
+                "classFeature": "Martial Archetype feature|Fighter||18",
+                "gainSubclassFeature": true
+            },
+            "Ability Score Improvement|Fighter||19",
+            "Extra Attack (3)|Fighter||20"
+        ]
+    },
+    "subclass_name": "",
+    "subclasses": [
+        "_dnd5e:subclasses.fighter.battle_master",
+        "_dnd5e:subclasses.fighter.champion",
+        "_dnd5e:subclasses.fighter.eldritch_knight"
+    ],
+    "subclasses_available_level": 3
+}

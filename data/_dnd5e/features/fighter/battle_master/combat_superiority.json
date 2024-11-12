@@ -1,1 +1,29 @@
-{"name": "", "description": "", "category": "subclass_level_traits", "effects": []}
+{
+    "name": "",
+    "description": "",
+    "category": "subclass_level_traits",
+    "effects": [
+        {
+            "type": "selection",
+            "choose": "{1}",
+            "available": [
+                "_dnd5e:effects.fighter.maneuvers.commander_strike",
+                "_dnd5e:effects.fighter.maneuvers.disarming_attack",
+                "_dnd5e:effects.fighter.maneuvers.distracting_strike",
+                "_dnd5e:effects.fighter.maneuvers.evasive_footwork",
+                "_dnd5e:effects.fighter.maneuvers.feinting_attack",
+                "_dnd5e:effects.fighter.maneuvers.goading_attack",
+                "_dnd5e:effects.fighter.maneuvers.lunging_attack",
+                "_dnd5e:effects.fighter.maneuvers.maneuvering_attack",
+                "_dnd5e:effects.fighter.maneuvers.menacing_attack",
+                "_dnd5e:effects.fighter.maneuvers.parry",
+                "_dnd5e:effects.fighter.maneuvers.precision_attack",
+                "_dnd5e:effects.fighter.maneuvers.pushing_attack",
+                "_dnd5e:effects.fighter.maneuvers.rally",
+                "_dnd5e:effects.fighter.maneuvers.riposte",
+                "_dnd5e:effects.fighter.maneuvers.sweeping_attack",
+                "_dnd5e:effects.fighter.maneuvers.trip_attack"
+            ]
+        }
+    ]
+}
