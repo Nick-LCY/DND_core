@@ -1,1 +1,11 @@
-{"name": "", "description": "", "expressions": []}
+{
+    "name": "",
+    "description": "",
+    "expressions": [
+        {
+            "target": "character.skills.stealth",
+            "operation": "=",
+            "values": [{"type": "number", "value": "{}"}]
+        }
+    ]
+}

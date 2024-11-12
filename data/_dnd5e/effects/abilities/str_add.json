@@ -5,7 +5,7 @@
         {
             "target": "character.abilities.str",
             "operation": "+=",
-            "values": ["{}"]
+            "values": [{"type": "number", "value": "{}"}]
         }
     ]
 }

@@ -1,1 +1,11 @@
-{"name": "", "description": "", "expressions": []}
+{
+    "name": "",
+    "description": "",
+    "expressions": [
+        {
+            "target": "character.skills.sleight_of_hand",
+            "operation": "=",
+            "values": [{"type": "number", "value": "{}"}]
+        }
+    ]
+}

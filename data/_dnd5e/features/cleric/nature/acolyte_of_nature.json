@@ -7,9 +7,9 @@
             "type": "selection",
             "choose": 1,
             "available": [
-                "_dnd5e:effects.proficiencies.skills.animal_handling",
-                "_dnd5e:effects.proficiencies.skills.nature",
-                "_dnd5e:effects.proficiencies.skills.survival"
+                "_dnd5e:effects.proficiencies.skills.animal_handling@1",
+                "_dnd5e:effects.proficiencies.skills.nature@1",
+                "_dnd5e:effects.proficiencies.skills.survival@1"
             ]
         }
     ]

@@ -21,10 +21,10 @@
             "type": "selection",
             "choose": 2,
             "available": [
-                "_dnd5e:effects.proficiencies.skills.arcana",
-                "_dnd5e:effects.proficiencies.skills.history",
-                "_dnd5e:effects.proficiencies.skills.religion",
-                "_dnd5e:effects.proficiencies.skills.nature"
+                "_dnd5e:effects.proficiencies.skills.arcana@1",
+                "_dnd5e:effects.proficiencies.skills.history@1",
+                "_dnd5e:effects.proficiencies.skills.religion@1",
+                "_dnd5e:effects.proficiencies.skills.nature@1"
             ]
         }
     ]

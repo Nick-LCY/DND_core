@@ -1,1 +1,11 @@
-{"name": "", "description": "", "expressions": []}
+{
+    "name": "",
+    "description": "",
+    "expressions": [
+        {
+            "target": "character.skills.survival",
+            "operation": "=",
+            "values": [{"type": "number", "value": "{}"}]
+        }
+    ]
+}

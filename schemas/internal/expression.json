@@ -2,6 +2,17 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "type": "object",
     "properties": {
+        "type": {
+            "title": "数据类型",
+            "type": "string",
+            "enum": [
+                "number",
+                "string",
+                "boolean",
+                "void"
+            ],
+            "description": "默认值为void"
+        },
         "target": {
             "type": "string",
             "title": "表达式的操作目标"
@@ -31,6 +42,21 @@
                     },
                     {
                         "type": "boolean"
+                    },
+                    {
+                        "type": "object",
+                        "properties": {
+                            "type": {
+                                "enum": [
+                                    "number",
+                                    "string",
+                                    "boolean"
+                                ]
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        }
                     }
                 ]
             }

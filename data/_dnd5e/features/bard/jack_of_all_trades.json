@@ -1,1 +1,25 @@
-{"name": "", "description": "", "category": "class_level_traits", "effects": []}
+{
+    "name": "",
+    "description": "",
+    "category": "class_level_traits",
+    "effects": [
+        "_dnd5e:effects.proficiencies.skills.acrobatics@0.5",
+        "_dnd5e:effects.proficiencies.skills.animal_handling@0.5",
+        "_dnd5e:effects.proficiencies.skills.arcana@0.5",
+        "_dnd5e:effects.proficiencies.skills.athletics@0.5",
+        "_dnd5e:effects.proficiencies.skills.deception@0.5",
+        "_dnd5e:effects.proficiencies.skills.history@0.5",
+        "_dnd5e:effects.proficiencies.skills.insight@0.5",
+        "_dnd5e:effects.proficiencies.skills.intimidation@0.5",
+        "_dnd5e:effects.proficiencies.skills.investigation@0.5",
+        "_dnd5e:effects.proficiencies.skills.medicine@0.5",
+        "_dnd5e:effects.proficiencies.skills.nature@0.5",
+        "_dnd5e:effects.proficiencies.skills.perception@0.5",
+        "_dnd5e:effects.proficiencies.skills.performance@0.5",
+        "_dnd5e:effects.proficiencies.skills.persuasion@0.5",
+        "_dnd5e:effects.proficiencies.skills.religion@0.5",
+        "_dnd5e:effects.proficiencies.skills.sleight_of_hand@0.5",
+        "_dnd5e:effects.proficiencies.skills.stealth@0.5",
+        "_dnd5e:effects.proficiencies.skills.survival@0.5"
+    ]
+}

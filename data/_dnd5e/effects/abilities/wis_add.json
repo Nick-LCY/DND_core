@@ -5,7 +5,7 @@
         {
             "target": "character.abilities.wis",
             "operation": "+=",
-            "values": ["{}"]
+            "values": [{"type": "number", "value": "{}"}]
         }
     ]
 }

@@ -1,1 +1,1 @@
-{"name": "%features.elf.skills/name%", "description": "%features.elf.skills/description%", "category": "race_proficiencies", "effects": ["_dnd5e:effects.proficiencies.skills.perception"]}
+{"name": "%features.elf.skills/name%", "description": "%features.elf.skills/description%", "category": "race_proficiencies", "effects": ["_dnd5e:effects.proficiencies.skills.perception@1"]}

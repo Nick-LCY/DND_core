@@ -5,24 +5,24 @@
     "effects": [
         {
             "available": [
-                "_dnd5e:effects.proficiencies.skills.acrobatics",
-                "_dnd5e:effects.proficiencies.skills.animal_handling",
-                "_dnd5e:effects.proficiencies.skills.arcana",
-                "_dnd5e:effects.proficiencies.skills.athletics",
-                "_dnd5e:effects.proficiencies.skills.deception",
-                "_dnd5e:effects.proficiencies.skills.history",
-                "_dnd5e:effects.proficiencies.skills.insight",
-                "_dnd5e:effects.proficiencies.skills.intimidation",
-                "_dnd5e:effects.proficiencies.skills.investigation",
-                "_dnd5e:effects.proficiencies.skills.medicine",
-                "_dnd5e:effects.proficiencies.skills.nature",
-                "_dnd5e:effects.proficiencies.skills.perception",
-                "_dnd5e:effects.proficiencies.skills.performance",
-                "_dnd5e:effects.proficiencies.skills.persuasion",
-                "_dnd5e:effects.proficiencies.skills.religion",
-                "_dnd5e:effects.proficiencies.skills.sleight_of_hand",
-                "_dnd5e:effects.proficiencies.skills.stealth",
-                "_dnd5e:effects.proficiencies.skills.survival"
+                "_dnd5e:effects.proficiencies.skills.acrobatics@1",
+                "_dnd5e:effects.proficiencies.skills.animal_handling@1",
+                "_dnd5e:effects.proficiencies.skills.arcana@1",
+                "_dnd5e:effects.proficiencies.skills.athletics@1",
+                "_dnd5e:effects.proficiencies.skills.deception@1",
+                "_dnd5e:effects.proficiencies.skills.history@1",
+                "_dnd5e:effects.proficiencies.skills.insight@1",
+                "_dnd5e:effects.proficiencies.skills.intimidation@1",
+                "_dnd5e:effects.proficiencies.skills.investigation@1",
+                "_dnd5e:effects.proficiencies.skills.medicine@1",
+                "_dnd5e:effects.proficiencies.skills.nature@1",
+                "_dnd5e:effects.proficiencies.skills.perception@1",
+                "_dnd5e:effects.proficiencies.skills.performance@1",
+                "_dnd5e:effects.proficiencies.skills.persuasion@1",
+                "_dnd5e:effects.proficiencies.skills.religion@1",
+                "_dnd5e:effects.proficiencies.skills.sleight_of_hand@1",
+                "_dnd5e:effects.proficiencies.skills.stealth@1",
+                "_dnd5e:effects.proficiencies.skills.survival@1"
             ],
             "type": "selection", "choose": 3
         }

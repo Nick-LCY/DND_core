@@ -5,7 +5,7 @@
         {
             "target": "character.abilities.dex",
             "operation": "+=",
-            "values": ["{}"]
+            "values": [{"type": "number", "value": "{}"}]
         }
     ]
 }

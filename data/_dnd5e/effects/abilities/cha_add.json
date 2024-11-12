@@ -3,9 +3,10 @@
     "description": "",
     "expressions": [
         {
+            "type": "void",
             "target": "character.abilities.cha",
             "operation": "+=",
-            "values": ["{}"]
+            "values": [{"type": "number", "value": "{}"}]
         }
     ]
 }
