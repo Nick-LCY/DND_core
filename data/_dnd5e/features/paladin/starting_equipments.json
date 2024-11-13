@@ -1,1 +1,50 @@
-{"name": "", "description": "", "category": "class_equipments", "effects": [{"type": "selection", "choose": 1, "available": [[{"type": "selection", "choose": 1, "available": [{"type": "selection", "choose": 1, "available": ["weaponMartial"]}, "_dnd5e:effects.starting_equipments.shield@1", {"type": "selection", "choose": 1, "available": ["weaponMartial"]}]}, {"type": "selection", "choose": 1, "available": ["_dnd5e:effects.starting_equipments.javelin@5", {"type": "selection", "choose": 1, "available": ["weaponSimpleMelee"]}]}, {"type": "selection", "choose": 1, "available": ["_dnd5e:effects.starting_equipments.priest_pack@1", "_dnd5e:effects.starting_equipments.explorer_pack@1"]}, ["_dnd5e:effects.starting_equipments.chain_mail@1", {"type": "selection", "choose": 1, "available": ["focusSpellcastingHoly"]}]], "_dnd5e:effects.starting_equipments.gold_5d4_times_10"]}]}
+{
+    "name": "",
+    "description": "",
+    "category": "class_equipments",
+    "effects": [
+        {
+            "type": "selection",
+            "choose": 1,
+            "available": [
+                [
+                    {
+                        "type": "selection",
+                        "choose": 1,
+                        "available": [
+                            [
+                                "_dnd5e:effects.todo@weaponMartial",
+                                "_dnd5e:effects.todo@weaponMartial"
+                            ],
+                            [
+                                "_dnd5e:effects.starting_equipments.shield@1",
+                                "_dnd5e:effects.todo@weaponMartial"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "selection",
+                        "choose": 1,
+                        "available": [
+                            "_dnd5e:effects.starting_equipments.javelin@5",
+                            "_dnd5e:effects.todo@weaponSimpleMelee"
+                        ]
+                    },
+                    {
+                        "type": "selection",
+                        "choose": 1,
+                        "available": [
+                            "_dnd5e:effects.starting_equipments.priest_pack@1",
+                            "_dnd5e:effects.starting_equipments.explorer_pack@1"
+                        ]
+                    },
+                    [
+                        "_dnd5e:effects.starting_equipments.chain_mail@1",
+                        "_dnd5e:effects.todo@focusSpellcastingHoly"
+                    ]
+                ],
+                "_dnd5e:effects.starting_equipments.gold_5d4_times_10"
+            ]
+        }
+    ]
+}

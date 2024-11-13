@@ -1254,11 +1254,11 @@
     "features.paladin.devotion.tenets_of_devotion/name": "奉献之信条",
     "features.paladin.devotion.tenets_of_devotion/description": [
         "尽管对奉献之誓的精确定义和要求有许多不同的说法，但立下此誓言的圣武士都赞成以下信条。  ",
-        "**诚实Honesty。** 不诳语不欺骗，言出必行。",
-        "**勇敢Courage。** 谨慎深思，并无畏躬行。",
-        "**怜悯Compassion。** 援助他人，行锄强扶弱。宽恕敌人，并用心感化。",
-        "**荣誉Honor。** 公平待人，躬行荣誉为世人树立典范。力行善举，避免造成不必要的伤害。",
-        "**责任Duty。** 服从上级，为自己的行为与表现尽责，为所护卫之人尽责。"
+        "**诚实Honesty。** 不诳语不欺骗，言出必行。  ",
+        "**勇敢Courage。** 谨慎深思，并无畏躬行。  ",
+        "**怜悯Compassion。** 援助他人，行锄强扶弱。宽恕敌人，并用心感化。  ",
+        "**荣誉Honor。** 公平待人，躬行荣誉为世人树立典范。力行善举，避免造成不必要的伤害。  ",
+        "**责任Duty。** 服从上级，为自己的行为与表现尽责，为所护卫之人尽责。  "
     ],
     "features.paladin.devotion.aura_of_devotion/name": "奉献灵光 {}",
     "features.paladin.devotion.aura_of_devotion/description": "你与友方生物在你身边{1}尺内不会被魅惑。提供该增益时你必须保持意识清醒。",
@@ -1296,10 +1296,10 @@
     "features.paladin.ancients.tenets_of_the_ancients/name": "古贤之信条",
     "features.paladin.ancients.tenets_of_the_ancients/description": [
         "古贤之誓的信条，已经传承了无数个世纪。这远古誓言强调善良的准则较所谓的守序和混乱更为重要。古贤之誓包括四个简练的核心准则。  ",
-        "**点亮光明Kindle the Light。** 广播你的慈善与宽怀，点亮希望，驱散绝望。",
-        "**守护光明Shelter the Light。** 守护世间的善美与爱乐，抵挡秽恶的侵噬。守护生命的成长与收获，抵抗凋零的蔓延。",
-        "**维持光明Preserve Your Own Light。** 沉浸歌声与欢笑，享受美丽与艺术，先使自己充满光，再为他人传播光。",
-        "**成为光明Be the Light。** 欢乐与勇气照耀你的善行，然后你即为光，成为绝望者前行的信标。"
+        "**点亮光明Kindle the Light。** 广播你的慈善与宽怀，点亮希望，驱散绝望。  ",
+        "**守护光明Shelter the Light。** 守护世间的善美与爱乐，抵挡秽恶的侵噬。守护生命的成长与收获，抵抗凋零的蔓延。  ",
+        "**维持光明Preserve Your Own Light。** 沉浸歌声与欢笑，享受美丽与艺术，先使自己充满光，再为他人传播光。  ",
+        "**成为光明Be the Light。** 欢乐与勇气照耀你的善行，然后你即为光，成为绝望者前行的信标。  "
     ],
     "features.paladin.ancients.aura_of_warding/name": "守御灵光 {}",
     "features.paladin.ancients.aura_of_warding/description": "强大的远古魔法眷顾着你，以至于在你身边形成了一道神秘的结界。你和距离你{1}尺以内的友善生物获得对法术伤害的抗性。",

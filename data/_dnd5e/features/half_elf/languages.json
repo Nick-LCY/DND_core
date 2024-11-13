@@ -1,1 +1,21 @@
-{"name": "%features.half_elf.languages/name%", "description": "%features.half_elf.languages/description%", "category": "race_traits", "effects": []}
+{
+    "name": "",
+    "description": "",
+    "category": "race_traits",
+    "effects": [
+        "_dnd5e:effects.languages.common",
+        "_dnd5e:effects.languages.elvish",
+        {
+            "choose": 1,
+            "type": "selection",
+            "available": [
+                "_dnd5e:effects.languages.draconic",
+                "_dnd5e:effects.languages.dwarvish",
+                "_dnd5e:effects.languages.gnomish",
+                "_dnd5e:effects.languages.halfling",
+                "_dnd5e:effects.languages.infernal",
+                "_dnd5e:effects.languages.orc"
+            ]
+        }
+    ]
+}

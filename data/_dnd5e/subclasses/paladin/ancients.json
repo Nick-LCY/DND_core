@@ -5,15 +5,15 @@
     "leveled_features": [
         {
             "start_level": 3,
+            "feature": "_dnd5e:features.paladin.ancients.tenets_of_the_ancients"
+        },
+        {
+            "start_level": 3,
             "feature": "_dnd5e:features.paladin.ancients.channel_divinity"
         },
         {
             "start_level": 3,
             "feature": "_dnd5e:features.paladin.ancients.oath_spells"
-        },
-        {
-            "start_level": 3,
-            "feature": "_dnd5e:features.paladin.ancients.tenets_of_the_ancients"
         },
         {
             "start_level": 7,

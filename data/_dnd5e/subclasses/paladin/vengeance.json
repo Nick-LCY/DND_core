@@ -5,15 +5,15 @@
     "leveled_features": [
         {
             "start_level": 3,
+            "feature": "_dnd5e:features.paladin.vengeance.tenets_of_vengeance"
+        },
+        {
+            "start_level": 3,
             "feature": "_dnd5e:features.paladin.vengeance.channel_divinity"
         },
         {
             "start_level": 3,
             "feature": "_dnd5e:features.paladin.vengeance.oath_spells"
-        },
-        {
-            "start_level": 3,
-            "feature": "_dnd5e:features.paladin.vengeance.tenets_of_vengeance"
         },
         {
             "start_level": 7,
