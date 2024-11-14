@@ -1,1 +1,31 @@
-{"name": "%features.human.variant.skills/name%", "description": "%features.human.variant.skills/description%", "category": "subrace_proficiencies", "effects": []}
+{
+    "name": "",
+    "description": "",
+    "category": "subrace_proficiencies",
+    "effects": [
+        {
+            "type": "selection",
+            "choose": 1,
+            "available": [
+                "_dnd5e:effects.proficiencies.skills.athletics@1",
+                "_dnd5e:effects.proficiencies.skills.acrobatics@1",
+                "_dnd5e:effects.proficiencies.skills.sleight_of_hand@1",
+                "_dnd5e:effects.proficiencies.skills.stealth@1",
+                "_dnd5e:effects.proficiencies.skills.arcana@1",
+                "_dnd5e:effects.proficiencies.skills.history@1",
+                "_dnd5e:effects.proficiencies.skills.investigation@1",
+                "_dnd5e:effects.proficiencies.skills.religion@1",
+                "_dnd5e:effects.proficiencies.skills.nature@1",
+                "_dnd5e:effects.proficiencies.skills.animal_handling@1",
+                "_dnd5e:effects.proficiencies.skills.insight@1",
+                "_dnd5e:effects.proficiencies.skills.medicine@1",
+                "_dnd5e:effects.proficiencies.skills.survival@1",
+                "_dnd5e:effects.proficiencies.skills.perception@1",
+                "_dnd5e:effects.proficiencies.skills.deception@1",
+                "_dnd5e:effects.proficiencies.skills.intimidation@1",
+                "_dnd5e:effects.proficiencies.skills.performance@1",
+                "_dnd5e:effects.proficiencies.skills.persuasion@1"
+            ]
+        }
+    ]
+}
