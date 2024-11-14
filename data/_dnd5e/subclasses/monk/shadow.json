@@ -1,1 +1,55 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.monk.shadow.way_of_shadow", "_dnd5e:features.monk.shadow.shadow_arts", "_dnd5e:features.monk.shadow.shadow_step", "_dnd5e:features.monk.shadow.cloak_of_shadows", "_dnd5e:features.monk.shadow.opportunist"], "additional": {"classSource": "PHB", "additionalSpells": [{"known": {"3": ["minor illusion#c"]}, "innate": {"3": {"resource": {"2": ["darkness", "darkvision", "pass without trace", "silence"]}}}, "resourceName": "Ki", "ability": "wis"}], "subclassFeatures": ["Way of Shadow|Monk||Shadow||3", "Shadow Step|Monk||Shadow||6", "Cloak of Shadows|Monk||Shadow||11", "Opportunist|Monk||Shadow||17"]}}
+{
+    "name": "",
+    "description": "",
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 3,
+            "feature": "_dnd5e:features.monk.shadow.shadow_arts"
+        },
+        {
+            "start_level": 6,
+            "feature": "_dnd5e:features.monk.shadow.shadow_step"
+        },
+        {
+            "start_level": 11,
+            "feature": "_dnd5e:features.monk.shadow.cloak_of_shadows"
+        },
+        {
+            "start_level": 17,
+            "feature": "_dnd5e:features.monk.shadow.opportunist"
+        }
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "additionalSpells": [
+            {
+                "known": {
+                    "3": [
+                        "minor illusion#c"
+                    ]
+                },
+                "innate": {
+                    "3": {
+                        "resource": {
+                            "2": [
+                                "darkness",
+                                "darkvision",
+                                "pass without trace",
+                                "silence"
+                            ]
+                        }
+                    }
+                },
+                "resourceName": "Ki",
+                "ability": "wis"
+            }
+        ],
+        "subclassFeatures": [
+            "Way of Shadow|Monk||Shadow||3",
+            "Shadow Step|Monk||Shadow||6",
+            "Cloak of Shadows|Monk||Shadow||11",
+            "Opportunist|Monk||Shadow||17"
+        ]
+    }
+}

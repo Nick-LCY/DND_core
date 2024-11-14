@@ -1,1 +1,30 @@
-{"name": "", "description": "", "category": "subclass_level_traits", "effects": []}
+{
+    "name": "",
+    "description": "",
+    "category": "subclass_level_traits",
+    "effects": [
+        {
+            "choose": "{1}",
+            "type": "selection",
+            "available": [
+                "_dnd5e:effects.monk.elemental_disciplines.elemental_attunement",
+                "_dnd5e:effects.monk.elemental_disciplines.fangs_of_the_fire_snake",
+                "_dnd5e:effects.monk.elemental_disciplines.fist_of_four_thunders",
+                "_dnd5e:effects.monk.elemental_disciplines.fist_of_unbroken_air",
+                "_dnd5e:effects.monk.elemental_disciplines.rush_of_the_gale_spirits",
+                "_dnd5e:effects.monk.elemental_disciplines.shape_the_flowing_river",
+                "_dnd5e:effects.monk.elemental_disciplines.sweeping_cinder_strike",
+                "_dnd5e:effects.monk.elemental_disciplines.water_whip",
+                "_dnd5e:effects.monk.elemental_disciplines.clench_of_the_north_wind",
+                "_dnd5e:effects.monk.elemental_disciplines.gong_of_the_summit",
+                "_dnd5e:effects.monk.elemental_disciplines.mist_stance",
+                "_dnd5e:effects.monk.elemental_disciplines.ride_the_wind",
+                "_dnd5e:effects.monk.elemental_disciplines.flames_of_the_phoenix",
+                "_dnd5e:effects.monk.elemental_disciplines.breath_of_winter",
+                "_dnd5e:effects.monk.elemental_disciplines.eternal_mountain_defense",
+                "_dnd5e:effects.monk.elemental_disciplines.river_of_hungry_flame",
+                "_dnd5e:effects.monk.elemental_disciplines.wave_of_rolling_earth"
+            ]
+        }
+    ]
+}

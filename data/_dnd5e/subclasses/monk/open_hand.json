@@ -1,1 +1,47 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.monk.open_hand.way_of_the_open_hand", "_dnd5e:features.monk.open_hand.open_hand_technique", "_dnd5e:features.monk.open_hand.wholeness_of_body", "_dnd5e:features.monk.open_hand.tranquility", "_dnd5e:features.monk.open_hand.quivering_palm"], "additional": {"classSource": "PHB", "srd": true, "additionalSpells": [{"innate": {"11": {"daily": {"1": ["sanctuary"]}}}, "ability": "wis"}], "subclassFeatures": ["Way of the Open Hand|Monk||Open Hand||3", "Wholeness of Body|Monk||Open Hand||6", "Tranquility|Monk||Open Hand||11", "Quivering Palm|Monk||Open Hand||17"]}}
+{
+    "name": "",
+    "description": "",
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 3,
+            "feature": "_dnd5e:features.monk.open_hand.open_hand_technique"
+        },
+        {
+            "start_level": 6,
+            "feature": "_dnd5e:features.monk.open_hand.wholeness_of_body"
+        },
+        {
+            "start_level": 11,
+            "feature": "_dnd5e:features.monk.open_hand.tranquility"
+        },
+        {
+            "start_level": 17,
+            "feature": "_dnd5e:features.monk.open_hand.quivering_palm"
+        }
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "srd": true,
+        "additionalSpells": [
+            {
+                "innate": {
+                    "11": {
+                        "daily": {
+                            "1": [
+                                "sanctuary"
+                            ]
+                        }
+                    }
+                },
+                "ability": "wis"
+            }
+        ],
+        "subclassFeatures": [
+            "Way of the Open Hand|Monk||Open Hand||3",
+            "Wholeness of Body|Monk||Open Hand||6",
+            "Tranquility|Monk||Open Hand||11",
+            "Quivering Palm|Monk||Open Hand||17"
+        ]
+    }
+}

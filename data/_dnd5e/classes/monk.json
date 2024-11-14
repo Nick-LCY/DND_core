@@ -1,1 +1,544 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.monk.hit_dice", "_dnd5e:features.monk.weapons", "_dnd5e:features.monk.toolproficiencies", "_dnd5e:features.monk.skills", "_dnd5e:features.monk.save_proficiencies", "_dnd5e:features.monk.starting_equipments", "_dnd5e:features.monk.martial_arts", "_dnd5e:features.monk.unarmored_defense", "_dnd5e:features.monk.flurry_of_blows", "_dnd5e:features.monk.ki", "_dnd5e:features.monk.patient_defense", "_dnd5e:features.monk.step_of_the_wind", "_dnd5e:features.monk.unarmored_movement", "_dnd5e:features.monk.deflect_missiles", "_dnd5e:features.monk.monastic_tradition", "_dnd5e:features.monk.ability_score_improvement", "_dnd5e:features.monk.slow_fall", "_dnd5e:features.monk.extra_attack", "_dnd5e:features.monk.stunning_strike", "_dnd5e:features.monk.ki_empowered_strikes", "_dnd5e:features.monk.monastic_tradition_feature", "_dnd5e:features.monk.evasion", "_dnd5e:features.monk.stillness_of_mind", "_dnd5e:features.monk.ability_score_improvement", "_dnd5e:features.monk.unarmored_movement_improvement", "_dnd5e:features.monk.purity_of_body", "_dnd5e:features.monk.monastic_tradition_feature", "_dnd5e:features.monk.ability_score_improvement", "_dnd5e:features.monk.tongue_of_the_sun_and_moon", "_dnd5e:features.monk.diamond_soul", "_dnd5e:features.monk.timeless_body", "_dnd5e:features.monk.ability_score_improvement", "_dnd5e:features.monk.monastic_tradition_feature", "_dnd5e:features.monk.empty_body", "_dnd5e:features.monk.ability_score_improvement", "_dnd5e:features.monk.perfect_self"], "additional": {"multiclassing": {"requirements": {"dex": 13, "wis": 13}, "proficienciesGained": {"weapons": ["simple", "{@item shortsword|phb|shortswords}"]}}, "classTableGroups": [{"colLabels": ["Martial Arts", "Ki Points", "Unarmored Movement"], "rows": [[{"type": "dice", "toRoll": [{"number": 1, "faces": 4}], "rollable": true}, 0, {"type": "bonusSpeed", "value": 0}], [{"type": "dice", "toRoll": [{"number": 1, "faces": 4}], "rollable": true}, 2, {"type": "bonusSpeed", "value": 10}], [{"type": "dice", "toRoll": [{"number": 1, "faces": 4}], "rollable": true}, 3, {"type": "bonusSpeed", "value": 10}], [{"type": "dice", "toRoll": [{"number": 1, "faces": 4}], "rollable": true}, 4, {"type": "bonusSpeed", "value": 10}], [{"type": "dice", "toRoll": [{"number": 1, "faces": 6}], "rollable": true}, 5, {"type": "bonusSpeed", "value": 10}], [{"type": "dice", "toRoll": [{"number": 1, "faces": 6}], "rollable": true}, 6, {"type": "bonusSpeed", "value": 15}], [{"type": "dice", "toRoll": [{"number": 1, "faces": 6}], "rollable": true}, 7, {"type": "bonusSpeed", "value": 15}], [{"type": "dice", "toRoll": [{"number": 1, "faces": 6}], "rollable": true}, 8, {"type": "bonusSpeed", "value": 15}], [{"type": "dice", "toRoll": [{"number": 1, "faces": 6}], "rollable": true}, 9, {"type": "bonusSpeed", "value": 15}], [{"type": "dice", "toRoll": [{"number": 1, "faces": 6}], "rollable": true}, 10, {"type": "bonusSpeed", "value": 20}], [{"type": "dice", "toRoll": [{"number": 1, "faces": 8}], "rollable": true}, 11, {"type": "bonusSpeed", "value": 20}], [{"type": "dice", "toRoll": [{"number": 1, "faces": 8}], "rollable": true}, 12, {"type": "bonusSpeed", "value": 20}], [{"type": "dice", "toRoll": [{"number": 1, "faces": 8}], "rollable": true}, 13, {"type": "bonusSpeed", "value": 20}], [{"type": "dice", "toRoll": [{"number": 1, "faces": 8}], "rollable": true}, 14, {"type": "bonusSpeed", "value": 25}], [{"type": "dice", "toRoll": [{"number": 1, "faces": 8}], "rollable": true}, 15, {"type": "bonusSpeed", "value": 25}], [{"type": "dice", "toRoll": [{"number": 1, "faces": 8}], "rollable": true}, 16, {"type": "bonusSpeed", "value": 25}], [{"type": "dice", "toRoll": [{"number": 1, "faces": 10}], "rollable": true}, 17, {"type": "bonusSpeed", "value": 25}], [{"type": "dice", "toRoll": [{"number": 1, "faces": 10}], "rollable": true}, 18, {"type": "bonusSpeed", "value": 30}], [{"type": "dice", "toRoll": [{"number": 1, "faces": 10}], "rollable": true}, 19, {"type": "bonusSpeed", "value": 30}], [{"type": "dice", "toRoll": [{"number": 1, "faces": 10}], "rollable": true}, 20, {"type": "bonusSpeed", "value": 30}]]}], "classFeatures": ["Unarmored Defense|Monk||1", "Martial Arts|Monk||1", "Ki|Monk||2", "Dedicated Weapon|Monk||2|TCE", "Unarmored Movement|Monk||2", "Deflect Missiles|Monk||3", {"classFeature": "Monastic Tradition|Monk||3", "gainSubclassFeature": true}, "Ki-Fueled Attack|Monk||3|TCE", "Ability Score Improvement|Monk||4", "Slow Fall|Monk||4", "Quickened Healing|Monk||4|TCE", "Extra Attack|Monk||5", "Stunning Strike|Monk||5", "Focused Aim|Monk||5|TCE", "Ki-Empowered Strikes|Monk||6", {"classFeature": "Monastic Tradition feature|Monk||6", "gainSubclassFeature": true}, "Evasion|Monk||7", "Stillness of Mind|Monk||7", "Ability Score Improvement|Monk||8", "Unarmored Movement improvement|Monk||9", "Purity of Body|Monk||10", {"classFeature": "Monastic Tradition feature|Monk||11", "gainSubclassFeature": true}, "Ability Score Improvement|Monk||12", "Tongue of the Sun and Moon|Monk||13", "Diamond Soul|Monk||14", "Timeless Body|Monk||15", "Ability Score Improvement|Monk||16", {"classFeature": "Monastic Tradition feature|Monk||17", "gainSubclassFeature": true}, "Empty Body|Monk||18", "Ability Score Improvement|Monk||19", "Perfect Self|Monk||20"]}, "subclass_name": "", "subclasses": ["_dnd5e:subclasses.monk.shadow", "_dnd5e:subclasses.monk.four_elements", "_dnd5e:subclasses.monk.open_hand"], "subclasses_available_level": 3}
+{
+    "name": "",
+    "description": "",
+    "features": [
+        "_dnd5e:features.monk.hit_dice",
+        "_dnd5e:features.monk.weapons",
+        "_dnd5e:features.monk.toolproficiencies",
+        "_dnd5e:features.monk.skills",
+        "_dnd5e:features.monk.save_proficiencies",
+        "_dnd5e:features.monk.starting_equipments"
+    ],
+    "leveled_features": [
+        {
+            "start_level": 1,
+            "feature": "_dnd5e:features.monk.martial_arts"
+        },
+        {
+            "start_level": 1,
+            "feature": "_dnd5e:features.monk.unarmored_defense"
+        },
+        {
+            "start_level": 1,
+            "feature": "_dnd5e:features.monk.ki"
+        },
+        {
+            "start_level": 2,
+            "end_level": 6,
+            "feature": "_dnd5e:features.monk.unarmored_movement@Ⅰ,10"
+        },
+        {
+            "start_level": 6,
+            "end_level": 9,
+            "feature": "_dnd5e:features.monk.unarmored_movement@Ⅱ,15"
+        },
+        {
+            "start_level": 9,
+            "end_level": 10,
+            "feature": "_dnd5e:features.monk.unarmored_movement_improvement@Ⅱ,15"
+        },
+        {
+            "start_level": 10,
+            "end_level": 14,
+            "feature": "_dnd5e:features.monk.unarmored_movement_improvement@Ⅲ,20"
+        },
+        {
+            "start_level": 14,
+            "end_level": 18,
+            "feature": "_dnd5e:features.monk.unarmored_movement_improvement@Ⅳ,25"
+        },
+        {
+            "start_level": 18,
+            "feature": "_dnd5e:features.monk.unarmored_movement_improvement@Ⅴ,30"
+        },
+        {
+            "start_level": 3,
+            "feature": "_dnd5e:features.monk.deflect_missiles"
+        },
+        {
+            "start_level": 4,
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅰ"
+        },
+        {
+            "start_level": 8,
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅱ"
+        },
+        {
+            "start_level": 12,
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅲ"
+        },
+        {
+            "start_level": 16,
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅳ"
+        },
+        {
+            "start_level": 19,
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅴ"
+        },
+        {
+            "start_level": 4,
+            "feature": "_dnd5e:features.monk.slow_fall"
+        },
+        {
+            "start_level": 5,
+            "feature": "_dnd5e:features.monk.extra_attack"
+        },
+        {
+            "start_level": 5,
+            "feature": "_dnd5e:features.monk.stunning_strike"
+        },
+        {
+            "start_level": 6,
+            "feature": "_dnd5e:features.monk.ki_empowered_strikes"
+        },
+        {
+            "start_level": 7,
+            "feature": "_dnd5e:features.monk.evasion"
+        },
+        {
+            "start_level": 7,
+            "feature": "_dnd5e:features.monk.stillness_of_mind"
+        },
+        {
+            "start_level": 10,
+            "feature": "_dnd5e:features.monk.purity_of_body"
+        },
+        {
+            "start_level": 13,
+            "feature": "_dnd5e:features.monk.tongue_of_the_sun_and_moon"
+        },
+        {
+            "start_level": 14,
+            "feature": "_dnd5e:features.monk.diamond_soul"
+        },
+        {
+            "start_level": 15,
+            "feature": "_dnd5e:features.monk.timeless_body"
+        },
+        {
+            "start_level": 18,
+            "feature": "_dnd5e:features.monk.empty_body"
+        },
+        {
+            "start_level": 20,
+            "feature": "_dnd5e:features.monk.perfect_self"
+        }
+    ],
+    "additional": {
+        "multiclassing": {
+            "requirements": {
+                "dex": 13,
+                "wis": 13
+            },
+            "proficienciesGained": {
+                "weapons": [
+                    "simple",
+                    "{@item shortsword|phb|shortswords}"
+                ]
+            }
+        },
+        "classTableGroups": [
+            {
+                "colLabels": [
+                    "Martial Arts",
+                    "Ki Points",
+                    "Unarmored Movement"
+                ],
+                "rows": [
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 1,
+                                    "faces": 4
+                                }
+                            ],
+                            "rollable": true
+                        },
+                        0,
+                        {
+                            "type": "bonusSpeed",
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 1,
+                                    "faces": 4
+                                }
+                            ],
+                            "rollable": true
+                        },
+                        2,
+                        {
+                            "type": "bonusSpeed",
+                            "value": 10
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 1,
+                                    "faces": 4
+                                }
+                            ],
+                            "rollable": true
+                        },
+                        3,
+                        {
+                            "type": "bonusSpeed",
+                            "value": 10
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 1,
+                                    "faces": 4
+                                }
+                            ],
+                            "rollable": true
+                        },
+                        4,
+                        {
+                            "type": "bonusSpeed",
+                            "value": 10
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 1,
+                                    "faces": 6
+                                }
+                            ],
+                            "rollable": true
+                        },
+                        5,
+                        {
+                            "type": "bonusSpeed",
+                            "value": 10
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 1,
+                                    "faces": 6
+                                }
+                            ],
+                            "rollable": true
+                        },
+                        6,
+                        {
+                            "type": "bonusSpeed",
+                            "value": 15
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 1,
+                                    "faces": 6
+                                }
+                            ],
+                            "rollable": true
+                        },
+                        7,
+                        {
+                            "type": "bonusSpeed",
+                            "value": 15
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 1,
+                                    "faces": 6
+                                }
+                            ],
+                            "rollable": true
+                        },
+                        8,
+                        {
+                            "type": "bonusSpeed",
+                            "value": 15
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 1,
+                                    "faces": 6
+                                }
+                            ],
+                            "rollable": true
+                        },
+                        9,
+                        {
+                            "type": "bonusSpeed",
+                            "value": 15
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 1,
+                                    "faces": 6
+                                }
+                            ],
+                            "rollable": true
+                        },
+                        10,
+                        {
+                            "type": "bonusSpeed",
+                            "value": 20
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 1,
+                                    "faces": 8
+                                }
+                            ],
+                            "rollable": true
+                        },
+                        11,
+                        {
+                            "type": "bonusSpeed",
+                            "value": 20
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 1,
+                                    "faces": 8
+                                }
+                            ],
+                            "rollable": true
+                        },
+                        12,
+                        {
+                            "type": "bonusSpeed",
+                            "value": 20
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 1,
+                                    "faces": 8
+                                }
+                            ],
+                            "rollable": true
+                        },
+                        13,
+                        {
+                            "type": "bonusSpeed",
+                            "value": 20
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 1,
+                                    "faces": 8
+                                }
+                            ],
+                            "rollable": true
+                        },
+                        14,
+                        {
+                            "type": "bonusSpeed",
+                            "value": 25
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 1,
+                                    "faces": 8
+                                }
+                            ],
+                            "rollable": true
+                        },
+                        15,
+                        {
+                            "type": "bonusSpeed",
+                            "value": 25
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 1,
+                                    "faces": 8
+                                }
+                            ],
+                            "rollable": true
+                        },
+                        16,
+                        {
+                            "type": "bonusSpeed",
+                            "value": 25
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 1,
+                                    "faces": 10
+                                }
+                            ],
+                            "rollable": true
+                        },
+                        17,
+                        {
+                            "type": "bonusSpeed",
+                            "value": 25
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 1,
+                                    "faces": 10
+                                }
+                            ],
+                            "rollable": true
+                        },
+                        18,
+                        {
+                            "type": "bonusSpeed",
+                            "value": 30
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 1,
+                                    "faces": 10
+                                }
+                            ],
+                            "rollable": true
+                        },
+                        19,
+                        {
+                            "type": "bonusSpeed",
+                            "value": 30
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 1,
+                                    "faces": 10
+                                }
+                            ],
+                            "rollable": true
+                        },
+                        20,
+                        {
+                            "type": "bonusSpeed",
+                            "value": 30
+                        }
+                    ]
+                ]
+            }
+        ],
+        "classFeatures": [
+            "Unarmored Defense|Monk||1",
+            "Martial Arts|Monk||1",
+            "Ki|Monk||2",
+            "Dedicated Weapon|Monk||2|TCE",
+            "Unarmored Movement|Monk||2",
+            "Deflect Missiles|Monk||3",
+            {
+                "classFeature": "Monastic Tradition|Monk||3",
+                "gainSubclassFeature": true
+            },
+            "Ki-Fueled Attack|Monk||3|TCE",
+            "Ability Score Improvement|Monk||4",
+            "Slow Fall|Monk||4",
+            "Quickened Healing|Monk||4|TCE",
+            "Extra Attack|Monk||5",
+            "Stunning Strike|Monk||5",
+            "Focused Aim|Monk||5|TCE",
+            "Ki-Empowered Strikes|Monk||6",
+            {
+                "classFeature": "Monastic Tradition feature|Monk||6",
+                "gainSubclassFeature": true
+            },
+            "Evasion|Monk||7",
+            "Stillness of Mind|Monk||7",
+            "Ability Score Improvement|Monk||8",
+            "Unarmored Movement improvement|Monk||9",
+            "Purity of Body|Monk||10",
+            {
+                "classFeature": "Monastic Tradition feature|Monk||11",
+                "gainSubclassFeature": true
+            },
+            "Ability Score Improvement|Monk||12",
+            "Tongue of the Sun and Moon|Monk||13",
+            "Diamond Soul|Monk||14",
+            "Timeless Body|Monk||15",
+            "Ability Score Improvement|Monk||16",
+            {
+                "classFeature": "Monastic Tradition feature|Monk||17",
+                "gainSubclassFeature": true
+            },
+            "Empty Body|Monk||18",
+            "Ability Score Improvement|Monk||19",
+            "Perfect Self|Monk||20"
+        ]
+    },
+    "subclass_name": "",
+    "subclasses": [
+        "_dnd5e:subclasses.monk.shadow",
+        "_dnd5e:subclasses.monk.four_elements",
+        "_dnd5e:subclasses.monk.open_hand"
+    ],
+    "subclasses_available_level": 3
+}
