@@ -1,1 +1,11 @@
-{"name": "", "description": "", "category": "subclass_level_traits", "effects": []}
+{
+    "name": "",
+    "description": "",
+    "category": "subclass_level_traits",
+    "effects": [
+        "_dnd5e:effects.proficiencies.skills.athletics@0.5",
+        "_dnd5e:effects.proficiencies.skills.acrobatics@0.5",
+        "_dnd5e:effects.proficiencies.skills.sleight_of_hand@0.5",
+        "_dnd5e:effects.proficiencies.skills.stealth@0.5"
+    ]
+}

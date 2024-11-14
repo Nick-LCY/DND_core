@@ -6,11 +6,11 @@
         {
             "start_level": 2,
             "end_level": 6,
-            "feature": "_dnd5e:features.druid.moon.circle_forms@Ⅰ,1"
+            "feature": "_dnd5e:features.druid.moon.circle_forms"
         },
         {
             "start_level": 6,
-            "feature": "_dnd5e:features.druid.moon.circle_forms@Ⅱ,德鲁伊等级除以3（向下取整）"
+            "feature": "_dnd5e:features.druid.moon.improved_circle_forms"
         },
         {
             "start_level": 2,

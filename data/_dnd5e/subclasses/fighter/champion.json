@@ -1,1 +1,51 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.fighter.champion.champion", "_dnd5e:features.fighter.champion.improved_critical", "_dnd5e:features.fighter.champion.remarkable_athlete", "_dnd5e:features.fighter.champion.additional_fighting_style", "_dnd5e:features.fighter.champion.superior_critical", "_dnd5e:features.fighter.champion.survivor"], "additional": {"classSource": "PHB", "srd": true, "basicRules": true, "optionalfeatureProgression": [{"name": "Fighting Style", "featureType": ["FS:F"], "progression": {"10": 1}}], "subclassFeatures": ["Champion|Fighter||Champion||3", "Remarkable Athlete|Fighter||Champion||7", "Additional Fighting Style|Fighter||Champion||10", "Superior Critical|Fighter||Champion||15", "Survivor|Fighter||Champion||18"]}}
+{
+    "name": "",
+    "description": "",
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 3,
+            "end_level": 15,
+            "feature": "_dnd5e:features.fighter.champion.improved_critical"
+        },
+        {
+            "start_level": 7,
+            "feature": "_dnd5e:features.fighter.champion.remarkable_athlete"
+        },
+        {
+            "start_level": 10,
+            "feature": "_dnd5e:features.fighter.champion.additional_fighting_style"
+        },
+        {
+            "start_level": 15,
+            "feature": "_dnd5e:features.fighter.champion.superior_critical"
+        },
+        {
+            "start_level": 18,
+            "feature": "_dnd5e:features.fighter.champion.survivor"
+        }
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "srd": true,
+        "basicRules": true,
+        "optionalfeatureProgression": [
+            {
+                "name": "Fighting Style",
+                "featureType": [
+                    "FS:F"
+                ],
+                "progression": {
+                    "10": 1
+                }
+            }
+        ],
+        "subclassFeatures": [
+            "Champion|Fighter||Champion||3",
+            "Remarkable Athlete|Fighter||Champion||7",
+            "Additional Fighting Style|Fighter||Champion||10",
+            "Superior Critical|Fighter||Champion||15",
+            "Survivor|Fighter||Champion||18"
+        ]
+    }
+}

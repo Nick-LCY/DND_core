@@ -1,1 +1,19 @@
-{"name": "", "description": "", "category": "subclass_level_traits", "effects": []}
+{
+    "name": "",
+    "description": "",
+    "category": "subclass_level_traits",
+    "effects": [
+        {
+            "type": "selection",
+            "choose": 1,
+            "available": [
+                "_dnd5e:effects.fighting_style.archery",
+                "_dnd5e:effects.fighting_style.defense",
+                "_dnd5e:effects.fighting_style.dueling",
+                "_dnd5e:effects.fighting_style.great_weapon_fighting",
+                "_dnd5e:effects.fighting_style.protection",
+                "_dnd5e:effects.fighting_style.two_weapon_fighting"
+            ]
+        }
+    ]
+}
