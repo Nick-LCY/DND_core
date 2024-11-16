@@ -1,1 +1,16 @@
-{"name": "", "description": "", "category": "subclass_level_traits", "effects": []}
+{
+    "name": "",
+    "description": "",
+    "category": "subclass_level_traits",
+    "effects": [
+        {
+            "type": "selection",
+            "choose": 1,
+            "available": [
+                "_dnd5e:effects.barbarian.totem_warrior.lvl14_bear",
+                "_dnd5e:effects.barbarian.totem_warrior.lvl14_eagle",
+                "_dnd5e:effects.barbarian.totem_warrior.lvl14_wolf"
+            ]
+        }
+    ]
+}

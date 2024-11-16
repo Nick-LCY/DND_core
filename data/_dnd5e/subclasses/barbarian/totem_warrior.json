@@ -1,1 +1,54 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.barbarian.totem_warrior.bear", "_dnd5e:features.barbarian.totem_warrior.eagle", "_dnd5e:features.barbarian.totem_warrior.path_of_the_totem_warrior", "_dnd5e:features.barbarian.totem_warrior.wolf", "_dnd5e:features.barbarian.totem_warrior.spirit_seeker", "_dnd5e:features.barbarian.totem_warrior.totem_spirit", "_dnd5e:features.barbarian.totem_warrior.bear", "_dnd5e:features.barbarian.totem_warrior.eagle", "_dnd5e:features.barbarian.totem_warrior.wolf", "_dnd5e:features.barbarian.totem_warrior.aspect_of_the_beast", "_dnd5e:features.barbarian.totem_warrior.spirit_walker", "_dnd5e:features.barbarian.totem_warrior.bear", "_dnd5e:features.barbarian.totem_warrior.eagle", "_dnd5e:features.barbarian.totem_warrior.wolf", "_dnd5e:features.barbarian.totem_warrior.totemic_attunement"], "additional": {"classSource": "PHB", "additionalSpells": [{"innate": {"3": {"ritual": ["beast sense", "speak with animals"]}, "10": {"ritual": ["commune with nature"]}}}], "subclassFeatures": ["Path of the Totem Warrior|Barbarian||Totem Warrior||3", "Aspect of the Beast|Barbarian||Totem Warrior||6", "Spirit Walker|Barbarian||Totem Warrior||10", "Totemic Attunement|Barbarian||Totem Warrior||14"], "hasFluffImages": true}}
+{
+    "name": "",
+    "description": "",
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 3,
+            "feature": "_dnd5e:features.barbarian.totem_warrior.spirit_seeker"
+        },
+        {
+            "start_level": 3,
+            "feature": "_dnd5e:features.barbarian.totem_warrior.totem_spirit"
+        },
+        {
+            "start_level": 6,
+            "feature": "_dnd5e:features.barbarian.totem_warrior.aspect_of_the_beast"
+        },
+        {
+            "start_level": 10,
+            "feature": "_dnd5e:features.barbarian.totem_warrior.spirit_walker"
+        },
+        {
+            "start_level": 15,
+            "feature": "_dnd5e:features.barbarian.totem_warrior.totemic_attunement"
+        }
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "additionalSpells": [
+            {
+                "innate": {
+                    "3": {
+                        "ritual": [
+                            "beast sense",
+                            "speak with animals"
+                        ]
+                    },
+                    "10": {
+                        "ritual": [
+                            "commune with nature"
+                        ]
+                    }
+                }
+            }
+        ],
+        "subclassFeatures": [
+            "Path of the Totem Warrior|Barbarian||Totem Warrior||3",
+            "Aspect of the Beast|Barbarian||Totem Warrior||6",
+            "Spirit Walker|Barbarian||Totem Warrior||10",
+            "Totemic Attunement|Barbarian||Totem Warrior||14"
+        ],
+        "hasFluffImages": true
+    }
+}
