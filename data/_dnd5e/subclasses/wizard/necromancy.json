@@ -1,1 +1,36 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.wizard.necromancy.school_of_necromancy", "_dnd5e:features.wizard.necromancy.grim_harvest", "_dnd5e:features.wizard.necromancy.necromancy_savant", "_dnd5e:features.wizard.necromancy.undead_thralls", "_dnd5e:features.wizard.necromancy.inured_to_undeath", "_dnd5e:features.wizard.necromancy.command_undead"], "additional": {"classSource": "PHB", "subclassFeatures": ["School of Necromancy|Wizard||Necromancy||2", "Undead Thralls|Wizard||Necromancy||6", "Inured to Undeath|Wizard||Necromancy||10", "Command Undead|Wizard||Necromancy||14"]}}
+{
+    "name": "",
+    "description": "",
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 2,
+            "feature": "_dnd5e:features.wizard.necromancy.necromancy_savant"
+        },
+        {
+            "start_level": 2,
+            "feature": "_dnd5e:features.wizard.necromancy.grim_harvest"
+        },
+        {
+            "start_level": 6,
+            "feature": "_dnd5e:features.wizard.necromancy.undead_thralls"
+        },
+        {
+            "start_level": 10,
+            "feature": "_dnd5e:features.wizard.necromancy.inured_to_undeath"
+        },
+        {
+            "start_level": 14,
+            "feature": "_dnd5e:features.wizard.necromancy.command_undead"
+        }
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "subclassFeatures": [
+            "School of Necromancy|Wizard||Necromancy||2",
+            "Undead Thralls|Wizard||Necromancy||6",
+            "Inured to Undeath|Wizard||Necromancy||10",
+            "Command Undead|Wizard||Necromancy||14"
+        ]
+    }
+}

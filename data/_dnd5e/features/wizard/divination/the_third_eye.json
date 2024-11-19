@@ -1,1 +1,17 @@
-{"name": "", "description": "", "category": "subclass_level_traits", "effects": []}
+{
+    "name": "",
+    "description": "",
+    "category": "subclass_level_traits",
+    "effects": [
+        {
+            "type": "selection",
+            "choose": 1,
+            "available": [
+                "_dnd5e:effects.darkvision@60",
+                "_dnd5e:effects.wizard.the_third_eye.ethereal_sight",
+                "_dnd5e:effects.wizard.the_third_eye.greater_comprehension",
+                "_dnd5e:effects.wizard.the_third_eye.see_invisibility"
+            ]
+        }
+    ]
+}

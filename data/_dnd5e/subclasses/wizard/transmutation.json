@@ -1,1 +1,36 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.wizard.transmutation.school_of_transmutation", "_dnd5e:features.wizard.transmutation.minor_alchemy", "_dnd5e:features.wizard.transmutation.transmutation_savant", "_dnd5e:features.wizard.transmutation.transmuter_stone", "_dnd5e:features.wizard.transmutation.shapechanger", "_dnd5e:features.wizard.transmutation.master_transmuter"], "additional": {"classSource": "PHB", "subclassFeatures": ["School of Transmutation|Wizard||Transmutation||2", "Transmuter's Stone|Wizard||Transmutation||6", "Shapechanger|Wizard||Transmutation||10", "Master Transmuter|Wizard||Transmutation||14"]}}
+{
+    "name": "",
+    "description": "",
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 2,
+            "feature": "_dnd5e:features.wizard.transmutation.transmutation_savant"
+        },
+        {
+            "start_level": 2,
+            "feature": "_dnd5e:features.wizard.transmutation.minor_alchemy"
+        },
+        {
+            "start_level": 6,
+            "feature": "_dnd5e:features.wizard.transmutation.transmuter_stone"
+        },
+        {
+            "start_level": 10,
+            "feature": "_dnd5e:features.wizard.transmutation.shapechanger"
+        },
+        {
+            "start_level": 14,
+            "feature": "_dnd5e:features.wizard.transmutation.master_transmuter"
+        }
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "subclassFeatures": [
+            "School of Transmutation|Wizard||Transmutation||2",
+            "Transmuter's Stone|Wizard||Transmutation||6",
+            "Shapechanger|Wizard||Transmutation||10",
+            "Master Transmuter|Wizard||Transmutation||14"
+        ]
+    }
+}

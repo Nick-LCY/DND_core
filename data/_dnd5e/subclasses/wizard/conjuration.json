@@ -1,1 +1,36 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.wizard.conjuration.school_of_conjuration", "_dnd5e:features.wizard.conjuration.conjuration_savant", "_dnd5e:features.wizard.conjuration.minor_conjuration", "_dnd5e:features.wizard.conjuration.benign_transposition", "_dnd5e:features.wizard.conjuration.focused_conjuration", "_dnd5e:features.wizard.conjuration.durable_summons"], "additional": {"classSource": "PHB", "subclassFeatures": ["School of Conjuration|Wizard||Conjuration||2", "Benign Transposition|Wizard||Conjuration||6", "Focused Conjuration|Wizard||Conjuration||10", "Durable Summons|Wizard||Conjuration||14"]}}
+{
+    "name": "",
+    "description": "",
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 2,
+            "feature": "_dnd5e:features.wizard.conjuration.conjuration_savant"
+        },
+        {
+            "start_level": 2,
+            "feature": "_dnd5e:features.wizard.conjuration.minor_conjuration"
+        },
+        {
+            "start_level": 6,
+            "feature": "_dnd5e:features.wizard.conjuration.benign_transposition"
+        },
+        {
+            "start_level": 10,
+            "feature": "_dnd5e:features.wizard.conjuration.focused_conjuration"
+        },
+        {
+            "start_level": 14,
+            "feature": "_dnd5e:features.wizard.conjuration.durable_summons"
+        }
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "subclassFeatures": [
+            "School of Conjuration|Wizard||Conjuration||2",
+            "Benign Transposition|Wizard||Conjuration||6",
+            "Focused Conjuration|Wizard||Conjuration||10",
+            "Durable Summons|Wizard||Conjuration||14"
+        ]
+    }
+}

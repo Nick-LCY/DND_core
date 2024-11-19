@@ -1,1 +1,45 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.wizard.illusion.school_of_illusion", "_dnd5e:features.wizard.illusion.illusion_savant", "_dnd5e:features.wizard.illusion.improved_minor_illusion", "_dnd5e:features.wizard.illusion.malleable_illusions", "_dnd5e:features.wizard.illusion.illusory_self", "_dnd5e:features.wizard.illusion.illusory_reality"], "additional": {"classSource": "PHB", "additionalSpells": [{"known": {"1": ["minor illusion#c"]}}], "subclassFeatures": ["School of Illusion|Wizard||Illusion||2", "Malleable Illusions|Wizard||Illusion||6", "Illusory Self|Wizard||Illusion||10", "Illusory Reality|Wizard||Illusion||14"]}}
+{
+    "name": "",
+    "description": "",
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 2,
+            "feature": "_dnd5e:features.wizard.illusion.illusion_savant"
+        },
+        {
+            "start_level": 2,
+            "feature": "_dnd5e:features.wizard.illusion.improved_minor_illusion"
+        },
+        {
+            "start_level": 6,
+            "feature": "_dnd5e:features.wizard.illusion.malleable_illusions"
+        },
+        {
+            "start_level": 10,
+            "feature": "_dnd5e:features.wizard.illusion.illusory_self"
+        },
+        {
+            "start_level": 14,
+            "feature": "_dnd5e:features.wizard.illusion.illusory_reality"
+        }
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "additionalSpells": [
+            {
+                "known": {
+                    "1": [
+                        "minor illusion#c"
+                    ]
+                }
+            }
+        ],
+        "subclassFeatures": [
+            "School of Illusion|Wizard||Illusion||2",
+            "Malleable Illusions|Wizard||Illusion||6",
+            "Illusory Self|Wizard||Illusion||10",
+            "Illusory Reality|Wizard||Illusion||14"
+        ]
+    }
+}

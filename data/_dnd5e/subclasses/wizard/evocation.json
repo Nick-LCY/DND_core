@@ -1,1 +1,38 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.wizard.evocation.school_of_evocation", "_dnd5e:features.wizard.evocation.evocation_savant", "_dnd5e:features.wizard.evocation.sculpt_spells", "_dnd5e:features.wizard.evocation.potent_cantrip", "_dnd5e:features.wizard.evocation.empowered_evocation", "_dnd5e:features.wizard.evocation.overchannel"], "additional": {"classSource": "PHB", "srd": true, "basicRules": true, "subclassFeatures": ["School of Evocation|Wizard||Evocation||2", "Potent Cantrip|Wizard||Evocation||6", "Empowered Evocation|Wizard||Evocation||10", "Overchannel|Wizard||Evocation||14"]}}
+{
+    "name": "",
+    "description": "",
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 2,
+            "feature": "_dnd5e:features.wizard.evocation.evocation_savant"
+        },
+        {
+            "start_level": 2,
+            "feature": "_dnd5e:features.wizard.evocation.sculpt_spells"
+        },
+        {
+            "start_level": 6,
+            "feature": "_dnd5e:features.wizard.evocation.potent_cantrip"
+        },
+        {
+            "start_level": 10,
+            "feature": "_dnd5e:features.wizard.evocation.empowered_evocation"
+        },
+        {
+            "start_level": 14,
+            "feature": "_dnd5e:features.wizard.evocation.overchannel"
+        }
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "srd": true,
+        "basicRules": true,
+        "subclassFeatures": [
+            "School of Evocation|Wizard||Evocation||2",
+            "Potent Cantrip|Wizard||Evocation||6",
+            "Empowered Evocation|Wizard||Evocation||10",
+            "Overchannel|Wizard||Evocation||14"
+        ]
+    }
+}
