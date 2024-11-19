@@ -1,1 +1,36 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.rogue.assassin.assassin", "_dnd5e:features.rogue.assassin.assassinate", "_dnd5e:features.rogue.assassin.bonus_proficiencies", "_dnd5e:features.rogue.assassin.infiltration_expertise", "_dnd5e:features.rogue.assassin.impostor", "_dnd5e:features.rogue.assassin.death_strike"], "additional": {"classSource": "PHB", "subclassFeatures": ["Assassin|Rogue||Assassin||3", "Infiltration Expertise|Rogue||Assassin||9", "Impostor|Rogue||Assassin||13", "Death Strike|Rogue||Assassin||17"]}}
+{
+    "name": "",
+    "description": "",
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 3,
+            "feature": "_dnd5e:features.rogue.assassin.assassinate"
+        },
+        {
+            "start_level": 3,
+            "feature": "_dnd5e:features.rogue.assassin.bonus_proficiencies"
+        },
+        {
+            "start_level": 9,
+            "feature": "_dnd5e:features.rogue.assassin.infiltration_expertise"
+        },
+        {
+            "start_level": 13,
+            "feature": "_dnd5e:features.rogue.assassin.impostor"
+        },
+        {
+            "start_level": 17,
+            "feature": "_dnd5e:features.rogue.assassin.death_strike"
+        }
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "subclassFeatures": [
+            "Assassin|Rogue||Assassin||3",
+            "Infiltration Expertise|Rogue||Assassin||9",
+            "Impostor|Rogue||Assassin||13",
+            "Death Strike|Rogue||Assassin||17"
+        ]
+    }
+}

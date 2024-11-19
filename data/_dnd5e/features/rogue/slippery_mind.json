@@ -1,1 +1,6 @@
-{"name": "", "description": "", "category": "class_level_traits", "effects": []}
+{
+    "name": "",
+    "description": "",
+    "category": "class_level_traits",
+    "effects": ["_dnd5e:effects.proficiencies.saves.wis"]
+}

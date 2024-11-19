@@ -1,1 +1,349 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.rogue.arcane_trickster.arcane_trickster", "_dnd5e:features.rogue.arcane_trickster.mage_hand_legerdemain", "_dnd5e:features.rogue.arcane_trickster.spellcasting", "_dnd5e:features.rogue.arcane_trickster.magical_ambush", "_dnd5e:features.rogue.arcane_trickster.versatile_trickster", "_dnd5e:features.rogue.arcane_trickster.spell_thief"], "additional": {"classSource": "PHB", "spellcastingAbility": "int", "casterProgression": "1/3", "cantripProgression": [0, 0, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3], "spellsKnownProgression": [0, 0, 3, 4, 4, 4, 5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 11, 11, 12, 13], "additionalSpells": [{"known": {"3": ["mage hand#c"]}, "expanded": {"3": [{"all": "level=0|class=Wizard"}, {"all": "level=1|class=Wizard"}], "7": [{"all": "level=2|class=Wizard"}], "13": [{"all": "level=3|class=Wizard"}], "19": [{"all": "level=4|class=Wizard"}]}}], "subclassTableGroups": [{"subclasses": [{"name": "Arcane Trickster", "source": "PHB"}], "colLabels": ["{@filter Cantrips Known|spells|level=0|subclass=Rogue: Arcane Trickster}", "{@filter Spells Known|spells|subclass=Rogue: Arcane Trickster}"], "rows": [[0, 0], [0, 0], [3, 3], [3, 4], [3, 4], [3, 4], [3, 5], [3, 6], [3, 6], [4, 7], [4, 8], [4, 8], [4, 9], [4, 10], [4, 10], [4, 11], [4, 11], [4, 11], [4, 12], [4, 13]]}, {"title": "Spell Slots per Spell Level", "subclasses": [{"name": "Arcane Trickster", "source": "PHB"}], "colLabels": ["{@filter 1st|spells|level=1|subclass=Rogue: Arcane Trickster}", "{@filter 2nd|spells|level=2|subclass=Rogue: Arcane Trickster}", "{@filter 3rd|spells|level=3|subclass=Rogue: Arcane Trickster}", "{@filter 4th|spells|level=4|subclass=Rogue: Arcane Trickster}"], "rowsSpellProgression": [[0, 0, 0, 0], [0, 0, 0, 0], [2, 0, 0, 0], [3, 0, 0, 0], [3, 0, 0, 0], [3, 0, 0, 0], [4, 2, 0, 0], [4, 2, 0, 0], [4, 2, 0, 0], [4, 3, 0, 0], [4, 3, 0, 0], [4, 3, 0, 0], [4, 3, 2, 0], [4, 3, 2, 0], [4, 3, 2, 0], [4, 3, 3, 0], [4, 3, 3, 0], [4, 3, 3, 0], [4, 3, 3, 1], [4, 3, 3, 1]]}], "subclassFeatures": ["Arcane Trickster|Rogue||Arcane Trickster||3", "Magical Ambush|Rogue||Arcane Trickster||9", "Versatile Trickster|Rogue||Arcane Trickster||13", "Spell Thief|Rogue||Arcane Trickster||17"]}}
+{
+    "name": "",
+    "description": "",
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 3,
+            "feature": "_dnd5e:features.rogue.arcane_trickster.mage_hand_legerdemain"
+        },
+        {
+            "start_level": 3,
+            "feature": "_dnd5e:features.rogue.arcane_trickster.spellcasting"
+        },
+        {
+            "start_level": 9,
+            "feature": "_dnd5e:features.rogue.arcane_trickster.magical_ambush"
+        },
+        {
+            "start_level": 13,
+            "feature": "_dnd5e:features.rogue.arcane_trickster.versatile_trickster"
+        },
+        {
+            "start_level": 17,
+            "feature": "_dnd5e:features.rogue.arcane_trickster.spell_thief"
+        }
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "spellcastingAbility": "int",
+        "casterProgression": "1/3",
+        "cantripProgression": [
+            0,
+            0,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+        ],
+        "spellsKnownProgression": [
+            0,
+            0,
+            3,
+            4,
+            4,
+            4,
+            5,
+            6,
+            6,
+            7,
+            8,
+            8,
+            9,
+            10,
+            10,
+            11,
+            11,
+            11,
+            12,
+            13
+        ],
+        "additionalSpells": [
+            {
+                "known": {
+                    "3": [
+                        "mage hand#c"
+                    ]
+                },
+                "expanded": {
+                    "3": [
+                        {
+                            "all": "level=0|class=Wizard"
+                        },
+                        {
+                            "all": "level=1|class=Wizard"
+                        }
+                    ],
+                    "7": [
+                        {
+                            "all": "level=2|class=Wizard"
+                        }
+                    ],
+                    "13": [
+                        {
+                            "all": "level=3|class=Wizard"
+                        }
+                    ],
+                    "19": [
+                        {
+                            "all": "level=4|class=Wizard"
+                        }
+                    ]
+                }
+            }
+        ],
+        "subclassTableGroups": [
+            {
+                "subclasses": [
+                    {
+                        "name": "Arcane Trickster",
+                        "source": "PHB"
+                    }
+                ],
+                "colLabels": [
+                    "{@filter Cantrips Known|spells|level=0|subclass=Rogue: Arcane Trickster}",
+                    "{@filter Spells Known|spells|subclass=Rogue: Arcane Trickster}"
+                ],
+                "rows": [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        3,
+                        3
+                    ],
+                    [
+                        3,
+                        4
+                    ],
+                    [
+                        3,
+                        4
+                    ],
+                    [
+                        3,
+                        4
+                    ],
+                    [
+                        3,
+                        5
+                    ],
+                    [
+                        3,
+                        6
+                    ],
+                    [
+                        3,
+                        6
+                    ],
+                    [
+                        4,
+                        7
+                    ],
+                    [
+                        4,
+                        8
+                    ],
+                    [
+                        4,
+                        8
+                    ],
+                    [
+                        4,
+                        9
+                    ],
+                    [
+                        4,
+                        10
+                    ],
+                    [
+                        4,
+                        10
+                    ],
+                    [
+                        4,
+                        11
+                    ],
+                    [
+                        4,
+                        11
+                    ],
+                    [
+                        4,
+                        11
+                    ],
+                    [
+                        4,
+                        12
+                    ],
+                    [
+                        4,
+                        13
+                    ]
+                ]
+            },
+            {
+                "title": "Spell Slots per Spell Level",
+                "subclasses": [
+                    {
+                        "name": "Arcane Trickster",
+                        "source": "PHB"
+                    }
+                ],
+                "colLabels": [
+                    "{@filter 1st|spells|level=1|subclass=Rogue: Arcane Trickster}",
+                    "{@filter 2nd|spells|level=2|subclass=Rogue: Arcane Trickster}",
+                    "{@filter 3rd|spells|level=3|subclass=Rogue: Arcane Trickster}",
+                    "{@filter 4th|spells|level=4|subclass=Rogue: Arcane Trickster}"
+                ],
+                "rowsSpellProgression": [
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        2,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        3,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        3,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        3,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        4,
+                        2,
+                        0,
+                        0
+                    ],
+                    [
+                        4,
+                        2,
+                        0,
+                        0
+                    ],
+                    [
+                        4,
+                        2,
+                        0,
+                        0
+                    ],
+                    [
+                        4,
+                        3,
+                        0,
+                        0
+                    ],
+                    [
+                        4,
+                        3,
+                        0,
+                        0
+                    ],
+                    [
+                        4,
+                        3,
+                        0,
+                        0
+                    ],
+                    [
+                        4,
+                        3,
+                        2,
+                        0
+                    ],
+                    [
+                        4,
+                        3,
+                        2,
+                        0
+                    ],
+                    [
+                        4,
+                        3,
+                        2,
+                        0
+                    ],
+                    [
+                        4,
+                        3,
+                        3,
+                        0
+                    ],
+                    [
+                        4,
+                        3,
+                        3,
+                        0
+                    ],
+                    [
+                        4,
+                        3,
+                        3,
+                        0
+                    ],
+                    [
+                        4,
+                        3,
+                        3,
+                        1
+                    ],
+                    [
+                        4,
+                        3,
+                        3,
+                        1
+                    ]
+                ]
+            }
+        ],
+        "subclassFeatures": [
+            "Arcane Trickster|Rogue||Arcane Trickster||3",
+            "Magical Ambush|Rogue||Arcane Trickster||9",
+            "Versatile Trickster|Rogue||Arcane Trickster||13",
+            "Spell Thief|Rogue||Arcane Trickster||17"
+        ]
+    }
+}

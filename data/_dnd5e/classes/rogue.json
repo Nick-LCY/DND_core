@@ -1,1 +1,462 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.rogue.hit_dice", "_dnd5e:features.rogue.armor", "_dnd5e:features.rogue.weapons", "_dnd5e:features.rogue.toolproficiencies", "_dnd5e:features.rogue.skills", "_dnd5e:features.rogue.save_proficiencies", "_dnd5e:features.rogue.starting_equipments", "_dnd5e:features.rogue.expertise", "_dnd5e:features.rogue.sneak_attack", "_dnd5e:features.rogue.thieve_cant", "_dnd5e:features.rogue.cunning_action", "_dnd5e:features.rogue.roguish_archetype", "_dnd5e:features.rogue.ability_score_improvement", "_dnd5e:features.rogue.uncanny_dodge", "_dnd5e:features.rogue.expertise", "_dnd5e:features.rogue.evasion", "_dnd5e:features.rogue.ability_score_improvement", "_dnd5e:features.rogue.roguish_archetype_feature", "_dnd5e:features.rogue.ability_score_improvement", "_dnd5e:features.rogue.reliable_talent", "_dnd5e:features.rogue.ability_score_improvement", "_dnd5e:features.rogue.roguish_archetype_feature", "_dnd5e:features.rogue.blindsense", "_dnd5e:features.rogue.slippery_mind", "_dnd5e:features.rogue.ability_score_improvement", "_dnd5e:features.rogue.roguish_archetype_feature", "_dnd5e:features.rogue.elusive", "_dnd5e:features.rogue.ability_score_improvement", "_dnd5e:features.rogue.stroke_of_luck"], "additional": {"basicRules": true, "multiclassing": {"requirements": {"dex": 13}, "proficienciesGained": {"armor": ["light"], "skills": [{"choose": {"from": ["acrobatics", "athletics", "deception", "insight", "intimidation", "investigation", "perception", "performance", "persuasion", "sleight of hand", "stealth"], "count": 1}}], "tools": ["{@item thieves' tools|PHB}"], "toolProficiencies": [{"thieves' tools": true}]}}, "classTableGroups": [{"colLabels": ["Sneak Attack"], "rows": [[{"type": "dice", "toRoll": [{"number": 1, "faces": 6}], "rollable": true}], [{"type": "dice", "toRoll": [{"number": 1, "faces": 6}], "rollable": true}], [{"type": "dice", "toRoll": [{"number": 2, "faces": 6}], "rollable": true}], [{"type": "dice", "toRoll": [{"number": 2, "faces": 6}], "rollable": true}], [{"type": "dice", "toRoll": [{"number": 3, "faces": 6}], "rollable": true}], [{"type": "dice", "toRoll": [{"number": 3, "faces": 6}], "rollable": true}], [{"type": "dice", "toRoll": [{"number": 4, "faces": 6}], "rollable": true}], [{"type": "dice", "toRoll": [{"number": 4, "faces": 6}], "rollable": true}], [{"type": "dice", "toRoll": [{"number": 5, "faces": 6}], "rollable": true}], [{"type": "dice", "toRoll": [{"number": 5, "faces": 6}], "rollable": true}], [{"type": "dice", "toRoll": [{"number": 6, "faces": 6}], "rollable": true}], [{"type": "dice", "toRoll": [{"number": 6, "faces": 6}], "rollable": true}], [{"type": "dice", "toRoll": [{"number": 7, "faces": 6}], "rollable": true}], [{"type": "dice", "toRoll": [{"number": 7, "faces": 6}], "rollable": true}], [{"type": "dice", "toRoll": [{"number": 8, "faces": 6}], "rollable": true}], [{"type": "dice", "toRoll": [{"number": 8, "faces": 6}], "rollable": true}], [{"type": "dice", "toRoll": [{"number": 9, "faces": 6}], "rollable": true}], [{"type": "dice", "toRoll": [{"number": 9, "faces": 6}], "rollable": true}], [{"type": "dice", "toRoll": [{"number": 10, "faces": 6}], "rollable": true}], [{"type": "dice", "toRoll": [{"number": 10, "faces": 6}], "rollable": true}]]}], "classFeatures": ["Expertise|Rogue||1", "Sneak Attack|Rogue||1", "Thieves' Cant|Rogue||1", "Cunning Action|Rogue||2", {"classFeature": "Roguish Archetype|Rogue||3", "gainSubclassFeature": true}, "Steady Aim|Rogue||3|TCE", "Ability Score Improvement|Rogue||4", "Uncanny Dodge|Rogue||5", "Expertise|Rogue||6", "Evasion|Rogue||7", "Ability Score Improvement|Rogue||8", {"classFeature": "Roguish Archetype feature|Rogue||9", "gainSubclassFeature": true}, "Ability Score Improvement|Rogue||10", "Reliable Talent|Rogue||11", "Ability Score Improvement|Rogue||12", {"classFeature": "Roguish Archetype feature|Rogue||13", "gainSubclassFeature": true}, "Blindsense|Rogue||14", "Slippery Mind|Rogue||15", "Ability Score Improvement|Rogue||16", {"classFeature": "Roguish Archetype feature|Rogue||17", "gainSubclassFeature": true}, "Elusive|Rogue||18", "Ability Score Improvement|Rogue||19", "Stroke of Luck|Rogue||20"]}, "subclass_name": "", "subclasses": ["_dnd5e:subclasses.rogue.arcane_trickster", "_dnd5e:subclasses.rogue.assassin", "_dnd5e:subclasses.rogue.thief"], "subclasses_available_level": 3}
+{
+    "name": "",
+    "description": "",
+    "features": [
+        "_dnd5e:features.rogue.hit_dice",
+        "_dnd5e:features.rogue.armor",
+        "_dnd5e:features.rogue.weapons",
+        "_dnd5e:features.rogue.toolproficiencies",
+        "_dnd5e:features.rogue.skills",
+        "_dnd5e:features.rogue.save_proficiencies",
+        "_dnd5e:features.rogue.starting_equipments"
+    ],
+    "leveled_features": [
+        {
+            "start_level": 1,
+            "feature": "_dnd5e:features.rogue.expertise@Ⅰ"
+        },
+        {
+            "start_level": 6,
+            "feature": "_dnd5e:features.rogue.expertise@Ⅱ"
+        },
+        {
+            "start_level": 1,
+            "end_level": 3,
+            "feature": "_dnd5e:features.rogue.sneak_attack@Ⅰ,1"
+        },
+        {
+            "start_level": 3,
+            "end_level": 5,
+            "feature": "_dnd5e:features.rogue.sneak_attack@Ⅱ,2"
+        },
+        {
+            "start_level": 5,
+            "end_level": 7,
+            "feature": "_dnd5e:features.rogue.sneak_attack@Ⅲ,3"
+        },
+        {
+            "start_level": 7,
+            "end_level": 9,
+            "feature": "_dnd5e:features.rogue.sneak_attack@Ⅳ,4"
+        },
+        {
+            "start_level": 9,
+            "end_level": 11,
+            "feature": "_dnd5e:features.rogue.sneak_attack@Ⅴ,5"
+        },
+        {
+            "start_level": 11,
+            "end_level": 13,
+            "feature": "_dnd5e:features.rogue.sneak_attack@Ⅵ,6"
+        },
+        {
+            "start_level": 13,
+            "end_level": 15,
+            "feature": "_dnd5e:features.rogue.sneak_attack@Ⅶ,7"
+        },
+        {
+            "start_level": 15,
+            "end_level": 17,
+            "feature": "_dnd5e:features.rogue.sneak_attack@Ⅷ,8"
+        },
+        {
+            "start_level": 17,
+            "end_level": 19,
+            "feature": "_dnd5e:features.rogue.sneak_attack@Ⅸ,9"
+        },
+        {
+            "start_level": 19,
+            "feature": "_dnd5e:features.rogue.sneak_attack@Ⅹ,10"
+        },
+        {
+            "start_level": 1,
+            "feature": "_dnd5e:features.rogue.thieve_cant"
+        },
+        {
+            "start_level": 2,
+            "feature": "_dnd5e:features.rogue.cunning_action"
+        },
+        {
+            "start_level": 4,
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅰ"
+        },
+        {
+            "start_level": 8,
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅱ"
+        },
+        {
+            "start_level": 12,
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅲ"
+        },
+        {
+            "start_level": 16,
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅳ"
+        },
+        {
+            "start_level": 19,
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅴ"
+        },
+        {
+            "start_level": 5,
+            "feature": "_dnd5e:features.rogue.uncanny_dodge"
+        },
+        {
+            "start_level": 7,
+            "feature": "_dnd5e:features.rogue.evasion"
+        },
+        {
+            "start_level": 11,
+            "feature": "_dnd5e:features.rogue.reliable_talent"
+        },
+        {
+            "start_level": 14,
+            "feature": "_dnd5e:features.rogue.blindsense"
+        },
+        {
+            "start_level": 15,
+            "feature": "_dnd5e:features.rogue.slippery_mind"
+        },
+        {
+            "start_level": 18,
+            "feature": "_dnd5e:features.rogue.elusive"
+        },
+        {
+            "start_level": 20,
+            "feature": "_dnd5e:features.rogue.stroke_of_luck"
+        }
+    ],
+    "additional": {
+        "basicRules": true,
+        "multiclassing": {
+            "requirements": {
+                "dex": 13
+            },
+            "proficienciesGained": {
+                "armor": [
+                    "light"
+                ],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "acrobatics",
+                                "athletics",
+                                "deception",
+                                "insight",
+                                "intimidation",
+                                "investigation",
+                                "perception",
+                                "performance",
+                                "persuasion",
+                                "sleight of hand",
+                                "stealth"
+                            ],
+                            "count": 1
+                        }
+                    }
+                ],
+                "tools": [
+                    "{@item thieves' tools|PHB}"
+                ],
+                "toolProficiencies": [
+                    {
+                        "thieves' tools": true
+                    }
+                ]
+            }
+        },
+        "classTableGroups": [
+            {
+                "colLabels": [
+                    "Sneak Attack"
+                ],
+                "rows": [
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 1,
+                                    "faces": 6
+                                }
+                            ],
+                            "rollable": true
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 1,
+                                    "faces": 6
+                                }
+                            ],
+                            "rollable": true
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 2,
+                                    "faces": 6
+                                }
+                            ],
+                            "rollable": true
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 2,
+                                    "faces": 6
+                                }
+                            ],
+                            "rollable": true
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 3,
+                                    "faces": 6
+                                }
+                            ],
+                            "rollable": true
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 3,
+                                    "faces": 6
+                                }
+                            ],
+                            "rollable": true
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 4,
+                                    "faces": 6
+                                }
+                            ],
+                            "rollable": true
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 4,
+                                    "faces": 6
+                                }
+                            ],
+                            "rollable": true
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 5,
+                                    "faces": 6
+                                }
+                            ],
+                            "rollable": true
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 5,
+                                    "faces": 6
+                                }
+                            ],
+                            "rollable": true
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 6,
+                                    "faces": 6
+                                }
+                            ],
+                            "rollable": true
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 6,
+                                    "faces": 6
+                                }
+                            ],
+                            "rollable": true
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 7,
+                                    "faces": 6
+                                }
+                            ],
+                            "rollable": true
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 7,
+                                    "faces": 6
+                                }
+                            ],
+                            "rollable": true
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 8,
+                                    "faces": 6
+                                }
+                            ],
+                            "rollable": true
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 8,
+                                    "faces": 6
+                                }
+                            ],
+                            "rollable": true
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 9,
+                                    "faces": 6
+                                }
+                            ],
+                            "rollable": true
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 9,
+                                    "faces": 6
+                                }
+                            ],
+                            "rollable": true
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 10,
+                                    "faces": 6
+                                }
+                            ],
+                            "rollable": true
+                        }
+                    ],
+                    [
+                        {
+                            "type": "dice",
+                            "toRoll": [
+                                {
+                                    "number": 10,
+                                    "faces": 6
+                                }
+                            ],
+                            "rollable": true
+                        }
+                    ]
+                ]
+            }
+        ],
+        "classFeatures": [
+            "Expertise|Rogue||1",
+            "Sneak Attack|Rogue||1",
+            "Thieves' Cant|Rogue||1",
+            "Cunning Action|Rogue||2",
+            {
+                "classFeature": "Roguish Archetype|Rogue||3",
+                "gainSubclassFeature": true
+            },
+            "Steady Aim|Rogue||3|TCE",
+            "Ability Score Improvement|Rogue||4",
+            "Uncanny Dodge|Rogue||5",
+            "Expertise|Rogue||6",
+            "Evasion|Rogue||7",
+            "Ability Score Improvement|Rogue||8",
+            {
+                "classFeature": "Roguish Archetype feature|Rogue||9",
+                "gainSubclassFeature": true
+            },
+            "Ability Score Improvement|Rogue||10",
+            "Reliable Talent|Rogue||11",
+            "Ability Score Improvement|Rogue||12",
+            {
+                "classFeature": "Roguish Archetype feature|Rogue||13",
+                "gainSubclassFeature": true
+            },
+            "Blindsense|Rogue||14",
+            "Slippery Mind|Rogue||15",
+            "Ability Score Improvement|Rogue||16",
+            {
+                "classFeature": "Roguish Archetype feature|Rogue||17",
+                "gainSubclassFeature": true
+            },
+            "Elusive|Rogue||18",
+            "Ability Score Improvement|Rogue||19",
+            "Stroke of Luck|Rogue||20"
+        ]
+    },
+    "subclass_name": "",
+    "subclasses": [
+        "_dnd5e:subclasses.rogue.arcane_trickster",
+        "_dnd5e:subclasses.rogue.assassin",
+        "_dnd5e:subclasses.rogue.thief"
+    ],
+    "subclasses_available_level": 3
+}

@@ -1,1 +1,38 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.rogue.thief.thief", "_dnd5e:features.rogue.thief.fast_hands", "_dnd5e:features.rogue.thief.second_story_work", "_dnd5e:features.rogue.thief.supreme_sneak", "_dnd5e:features.rogue.thief.use_magic_device", "_dnd5e:features.rogue.thief.thief_reflexes"], "additional": {"classSource": "PHB", "srd": true, "basicRules": true, "subclassFeatures": ["Thief|Rogue||Thief||3", "Supreme Sneak|Rogue||Thief||9", "Use Magic Device|Rogue||Thief||13", "Thief's Reflexes|Rogue||Thief||17"]}}
+{
+    "name": "",
+    "description": "",
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 3,
+            "feature": "_dnd5e:features.rogue.thief.fast_hands"
+        },
+        {
+            "start_level": 3,
+            "feature": "_dnd5e:features.rogue.thief.second_story_work"
+        },
+        {
+            "start_level": 9,
+            "feature": "_dnd5e:features.rogue.thief.supreme_sneak"
+        },
+        {
+            "start_level": 13,
+            "feature": "_dnd5e:features.rogue.thief.use_magic_device"
+        },
+        {
+            "start_level": 17,
+            "feature": "_dnd5e:features.rogue.thief.thief_reflexes"
+        }
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "srd": true,
+        "basicRules": true,
+        "subclassFeatures": [
+            "Thief|Rogue||Thief||3",
+            "Supreme Sneak|Rogue||Thief||9",
+            "Use Magic Device|Rogue||Thief||13",
+            "Thief's Reflexes|Rogue||Thief||17"
+        ]
+    }
+}

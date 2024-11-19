@@ -4,36 +4,45 @@
     "category": "class_equipments",
     "effects": [
         {
-            "type": "selection", "choose": 1,
+            "type": "selection",
+            "choose": 1,
             "available": [
-                [
-                    {
-                        "type": "selection", "choose": 1,
-                        "available": [
-                            "_dnd5e:effects.starting_equipments.rapier@1",
-                            "_dnd5e:effects.starting_equipments.longsword@1",
-                            "_dnd5e:effects.todo@简易武器weaponSimple"
+                {
+                    "type": "group_dict",
+                    "name": "装备",
+                    "description": "",
+                    "group": [
+                        {
+                            "type": "selection",
+                            "choose": 1,
+                            "available": [
+                                "_dnd5e:effects.starting_equipments.rapier@1",
+                                "_dnd5e:effects.starting_equipments.longsword@1",
+                                "_dnd5e:effects.todo@简易武器weaponSimple"
+                            ]
+                        },
+                        {
+                            "type": "selection",
+                            "choose": 1,
+                            "available": [
+                                "_dnd5e:effects.starting_equipments.diplomat_pack@1",
+                                "_dnd5e:effects.starting_equipments.entertainer_pack@1"
+                            ]
+                        },
+                        {
+                            "type": "selection",
+                            "choose": 1,
+                            "available": [
+                                "_dnd5e:effects.starting_equipments.lute@1",
+                                "_dnd5e:effects.todo@其他乐器instrumentMusical"
+                            ]
+                        },
+                        [
+                            "_dnd5e:effects.starting_equipments.leather_armor@1",
+                            "_dnd5e:effects.starting_equipments.dagger@1"
                         ]
-                    },
-                    {
-                        "type": "selection", "choose": 1,
-                        "available": [
-                            "_dnd5e:effects.starting_equipments.diplomat_pack@1",
-                            "_dnd5e:effects.starting_equipments.entertainer_pack@1"
-                        ]
-                    },
-                    {
-                        "type": "selection", "choose": 1,
-                        "available": [
-                            "_dnd5e:effects.starting_equipments.lute@1",
-                            "_dnd5e:effects.todo@其他乐器instrumentMusical"
-                        ]
-                    },
-                    [
-                        "_dnd5e:effects.starting_equipments.leather_armor@1",
-                        "_dnd5e:effects.starting_equipments.dagger@1"
                     ]
-                ],
+                },
                 "_dnd5e:effects.starting_equipments.gold_5d4_times_10"
             ]
         }

@@ -1,1 +1,32 @@
-{"name": "", "description": "", "category": "class_level_traits", "effects": []}
+{
+    "name": "",
+    "description": "",
+    "category": "class_level_traits",
+    "effects": [
+        {
+            "type": "selection",
+            "choose": 2,
+            "available": [
+                "_dnd5e:effects.proficiencies.skills.athletics@2",
+                "_dnd5e:effects.proficiencies.skills.acrobatics@2",
+                "_dnd5e:effects.proficiencies.skills.sleight_of_hand@2",
+                "_dnd5e:effects.proficiencies.skills.stealth@2",
+                "_dnd5e:effects.proficiencies.skills.arcana@2",
+                "_dnd5e:effects.proficiencies.skills.history@2",
+                "_dnd5e:effects.proficiencies.skills.investigation@2",
+                "_dnd5e:effects.proficiencies.skills.religion@2",
+                "_dnd5e:effects.proficiencies.skills.nature@2",
+                "_dnd5e:effects.proficiencies.skills.animal_handling@2",
+                "_dnd5e:effects.proficiencies.skills.insight@2",
+                "_dnd5e:effects.proficiencies.skills.medicine@2",
+                "_dnd5e:effects.proficiencies.skills.survival@2",
+                "_dnd5e:effects.proficiencies.skills.perception@2",
+                "_dnd5e:effects.proficiencies.skills.deception@2",
+                "_dnd5e:effects.proficiencies.skills.intimidation@2",
+                "_dnd5e:effects.proficiencies.skills.performance@2",
+                "_dnd5e:effects.proficiencies.skills.persuasion@2",
+                "_dnd5e:effects.proficiencies.tools.thieve_tools"
+            ]
+        }
+    ]
+}
