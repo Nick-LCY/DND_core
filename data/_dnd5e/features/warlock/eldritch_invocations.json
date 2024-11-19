@@ -1,1 +1,45 @@
-{"name": "", "description": "", "category": "class_level_traits", "effects": []}
+{
+    "name": "",
+    "description": "",
+    "category": "class_level_traits",
+    "effects": [
+        {
+            "type": "selection",
+            "choose": "{1}",
+            "available": [
+                "_dnd5e:effects.warlock.eldritch_invocations.agonizing_blast",
+                "_dnd5e:effects.warlock.eldritch_invocations.armor_of_shadows",
+                "_dnd5e:effects.warlock.eldritch_invocations.ascendant_step",
+                "_dnd5e:effects.warlock.eldritch_invocations.beast_speech",
+                "_dnd5e:effects.warlock.eldritch_invocations.beguiling_influence",
+                "_dnd5e:effects.warlock.eldritch_invocations.bewitching_whispers",
+                "_dnd5e:effects.warlock.eldritch_invocations.book_of_ancient_secrets",
+                "_dnd5e:effects.warlock.eldritch_invocations.chains_of_carceri",
+                "_dnd5e:effects.warlock.eldritch_invocations.devil_sight",
+                "_dnd5e:effects.warlock.eldritch_invocations.dreadful_word",
+                "_dnd5e:effects.warlock.eldritch_invocations.eldritch_sight",
+                "_dnd5e:effects.warlock.eldritch_invocations.eldritch_spear",
+                "_dnd5e:effects.warlock.eldritch_invocations.eyes_of_the_rune_keeper",
+                "_dnd5e:effects.warlock.eldritch_invocations.fiendish_vigor",
+                "_dnd5e:effects.warlock.eldritch_invocations.gaze_of_two_minds",
+                "_dnd5e:effects.warlock.eldritch_invocations.lifedrinker",
+                "_dnd5e:effects.warlock.eldritch_invocations.mask_of_many_faces",
+                "_dnd5e:effects.warlock.eldritch_invocations.master_of_myriad_forms",
+                "_dnd5e:effects.warlock.eldritch_invocations.minions_of_chaos",
+                "_dnd5e:effects.warlock.eldritch_invocations.mire_the_mind",
+                "_dnd5e:effects.warlock.eldritch_invocations.misty_visions",
+                "_dnd5e:effects.warlock.eldritch_invocations.one_with_shadows",
+                "_dnd5e:effects.warlock.eldritch_invocations.otherworldly_leap",
+                "_dnd5e:effects.warlock.eldritch_invocations.repelling_blast",
+                "_dnd5e:effects.warlock.eldritch_invocations.sculptor_of_flesh",
+                "_dnd5e:effects.warlock.eldritch_invocations.sign_of_ill_omen",
+                "_dnd5e:effects.warlock.eldritch_invocations.thief_of_five_fates",
+                "_dnd5e:effects.warlock.eldritch_invocations.thirsting_blade",
+                "_dnd5e:effects.warlock.eldritch_invocations.visions_of_distant_realms",
+                "_dnd5e:effects.warlock.eldritch_invocations.voice_of_the_chain_master",
+                "_dnd5e:effects.warlock.eldritch_invocations.whispers_of_the_grave",
+                "_dnd5e:effects.warlock.eldritch_invocations.witch_sight"
+            ]
+        }
+    ]
+}

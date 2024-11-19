@@ -1,1 +1,59 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.warlock.fiend.the_fiend", "_dnd5e:features.warlock.fiend.dark_one_blessing", "_dnd5e:features.warlock.fiend.dark_one_own_luck", "_dnd5e:features.warlock.fiend.fiendish_resilience", "_dnd5e:features.warlock.fiend.hurl_through_hell"], "additional": {"classSource": "PHB", "srd": true, "additionalSpells": [{"expanded": {"s1": ["burning hands", "command"], "s2": ["blindness/deafness", "scorching ray"], "s3": ["fireball", "stinking cloud"], "s4": ["fire shield", "wall of fire"], "s5": ["flame strike", "hallow"]}}], "subclassFeatures": ["The Fiend|Warlock||Fiend||1", "Dark One's Own Luck|Warlock||Fiend||6", "Fiendish Resilience|Warlock||Fiend||10", "Hurl Through Hell|Warlock||Fiend||14"]}}
+{
+    "name": "",
+    "description": "",
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 1,
+            "feature": "_dnd5e:features.warlock.fiend.dark_one_blessing"
+        },
+        {
+            "start_level": 6,
+            "feature": "_dnd5e:features.warlock.fiend.dark_one_own_luck"
+        },
+        {
+            "start_level": 10,
+            "feature": "_dnd5e:features.warlock.fiend.fiendish_resilience"
+        },
+        {
+            "start_level": 14,
+            "feature": "_dnd5e:features.warlock.fiend.hurl_through_hell"
+        }
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "srd": true,
+        "additionalSpells": [
+            {
+                "expanded": {
+                    "s1": [
+                        "burning hands",
+                        "command"
+                    ],
+                    "s2": [
+                        "blindness/deafness",
+                        "scorching ray"
+                    ],
+                    "s3": [
+                        "fireball",
+                        "stinking cloud"
+                    ],
+                    "s4": [
+                        "fire shield",
+                        "wall of fire"
+                    ],
+                    "s5": [
+                        "flame strike",
+                        "hallow"
+                    ]
+                }
+            }
+        ],
+        "subclassFeatures": [
+            "The Fiend|Warlock||Fiend||1",
+            "Dark One's Own Luck|Warlock||Fiend||6",
+            "Fiendish Resilience|Warlock||Fiend||10",
+            "Hurl Through Hell|Warlock||Fiend||14"
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "description": "",
+    "expressions": [],
+    "name": "",
+    "prerequisite": {
+        "target": "character.class.level",
+        "operation": ">=",
+        "values": [
+            9
+        ]
+    }
+}

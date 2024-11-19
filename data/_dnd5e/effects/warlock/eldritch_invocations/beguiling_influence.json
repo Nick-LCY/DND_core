@@ -1,0 +1,20 @@
+{
+    "description": "",
+    "expressions": [
+        {
+            "target": "character.skills.persuasion",
+            "operation": "=",
+            "values": [
+                1
+            ]
+        },
+        {
+            "target": "character.skills.deception",
+            "operation": "=",
+            "values": [
+                1
+            ]
+        }
+    ],
+    "name": ""
+}

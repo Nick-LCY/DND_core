@@ -1,1 +1,58 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.warlock.archfey.the_archfey", "_dnd5e:features.warlock.archfey.fey_presence", "_dnd5e:features.warlock.archfey.misty_escape", "_dnd5e:features.warlock.archfey.beguiling_defenses", "_dnd5e:features.warlock.archfey.dark_delirium"], "additional": {"classSource": "PHB", "additionalSpells": [{"expanded": {"s1": ["faerie fire", "sleep"], "s2": ["calm emotions", "phantasmal force"], "s3": ["blink", "plant growth"], "s4": ["dominate beast", "greater invisibility"], "s5": ["dominate person", "seeming"]}}], "subclassFeatures": ["The Archfey|Warlock||Archfey||1", "Misty Escape|Warlock||Archfey||6", "Beguiling Defenses|Warlock||Archfey||10", "Dark Delirium|Warlock||Archfey||14"]}}
+{
+    "name": "",
+    "description": "",
+    "features": [],
+    "leveled_features": [
+        {
+            "start_level": 1,
+            "feature": "_dnd5e:features.warlock.archfey.fey_presence"
+        },
+        {
+            "start_level": 6,
+            "feature": "_dnd5e:features.warlock.archfey.misty_escape"
+        },
+        {
+            "start_level": 10,
+            "feature": "_dnd5e:features.warlock.archfey.beguiling_defenses"
+        },
+        {
+            "start_level": 14,
+            "feature": "_dnd5e:features.warlock.archfey.dark_delirium"
+        }
+    ],
+    "additional": {
+        "classSource": "PHB",
+        "additionalSpells": [
+            {
+                "expanded": {
+                    "s1": [
+                        "faerie fire",
+                        "sleep"
+                    ],
+                    "s2": [
+                        "calm emotions",
+                        "phantasmal force"
+                    ],
+                    "s3": [
+                        "blink",
+                        "plant growth"
+                    ],
+                    "s4": [
+                        "dominate beast",
+                        "greater invisibility"
+                    ],
+                    "s5": [
+                        "dominate person",
+                        "seeming"
+                    ]
+                }
+            }
+        ],
+        "subclassFeatures": [
+            "The Archfey|Warlock||Archfey||1",
+            "Misty Escape|Warlock||Archfey||6",
+            "Beguiling Defenses|Warlock||Archfey||10",
+            "Dark Delirium|Warlock||Archfey||14"
+        ]
+    }
+}

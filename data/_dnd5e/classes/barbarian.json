@@ -62,6 +62,26 @@
             "feature": "_dnd5e:features.barbarian.reckless_attack"
         },
         {
+            "start_level": 4,
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅰ"
+        },
+        {
+            "start_level": 8,
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅱ"
+        },
+        {
+            "start_level": 12,
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅲ"
+        },
+        {
+            "start_level": 16,
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅳ"
+        },
+        {
+            "start_level": 19,
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅴ"
+        },
+        {
             "start_level": 5,
             "feature": "_dnd5e:features.barbarian.extra_attack"
         },

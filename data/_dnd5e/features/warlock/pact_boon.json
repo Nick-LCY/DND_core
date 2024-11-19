@@ -1,1 +1,16 @@
-{"name": "", "description": "", "category": "class_level_traits", "effects": []}
+{
+    "name": "",
+    "description": "",
+    "category": "class_level_traits",
+    "effects": [
+        {
+            "type": "selection",
+            "choose": 1,
+            "available": [
+                "_dnd5e:effects.warlock.pact_boon.chain",
+                "_dnd5e:effects.warlock.pact_boon.blade",
+                "_dnd5e:effects.warlock.pact_boon.tome"
+            ]
+        }
+    ]
+}

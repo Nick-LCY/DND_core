@@ -18,6 +18,10 @@
             "items": {
                 "$ref": "internal/expression.json"
             }
+        },
+        "prerequisite": {
+            "title": "Effect可被选择的先决条件",
+            "$ref": "internal/expression.json"
         }
     },
     "required": [

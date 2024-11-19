@@ -1,1 +1,402 @@
-{"name": "", "description": "", "features": ["_dnd5e:features.warlock.hit_dice", "_dnd5e:features.warlock.armor", "_dnd5e:features.warlock.weapons", "_dnd5e:features.warlock.skills", "_dnd5e:features.warlock.save_proficiencies", "_dnd5e:features.warlock.starting_equipments", "_dnd5e:features.warlock.otherworldly_patron", "_dnd5e:features.warlock.pact_magic", "_dnd5e:features.warlock.eldritch_invocations", "_dnd5e:features.warlock.pact_boon", "_dnd5e:features.warlock.ability_score_improvement", "_dnd5e:features.warlock.otherworldly_patron_feature", "_dnd5e:features.warlock.ability_score_improvement", "_dnd5e:features.warlock.otherworldly_patron_feature", "_dnd5e:features.warlock.mystic_arcanum_6th_level", "_dnd5e:features.warlock.ability_score_improvement", "_dnd5e:features.warlock.mystic_arcanum_7th_level", "_dnd5e:features.warlock.otherworldly_patron_feature", "_dnd5e:features.warlock.mystic_arcanum_8th_level", "_dnd5e:features.warlock.ability_score_improvement", "_dnd5e:features.warlock.mystic_arcanum_9th_level", "_dnd5e:features.warlock.ability_score_improvement", "_dnd5e:features.warlock.eldritch_master"], "additional": {"spellcastingAbility": "cha", "casterProgression": "pact", "cantripProgression": [2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], "spellsKnownProgression": [2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15], "spellsKnownProgressionFixedByLevel": {"11": {"6": 1}, "13": {"7": 1}, "15": {"8": 1}, "17": {"9": 1}}, "optionalfeatureProgression": [{"name": "Eldritch Invocations", "featureType": ["EI"], "progression": [0, 2, 2, 2, 3, 3, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8]}, {"name": "Pact Boon", "featureType": ["PB"], "progression": {"3": 1}}], "multiclassing": {"requirements": {"cha": 13}, "proficienciesGained": {"armor": ["light"], "weapons": ["simple"]}}, "classTableGroups": [{"colLabels": ["{@filter Cantrips Known|spells|level=0|class=Warlock}", "{@filter Spells Known|spells|class=Warlock}", "Spell Slots", "Slot Level", "{@filter Invocations Known|optionalfeatures|feature type=ei}"], "rows": [[2, 2, 1, "{@filter 1st|spells|level=1|class=Warlock}", 0], [2, 3, 2, "{@filter 1st|spells|level=1|class=Warlock}", 2], [2, 4, 2, "{@filter 2nd|spells|level=2|class=Warlock}", 2], [3, 5, 2, "{@filter 2nd|spells|level=2|class=Warlock}", 2], [3, 6, 2, "{@filter 3rd|spells|level=3|class=Warlock}", 3], [3, 7, 2, "{@filter 3rd|spells|level=3|class=Warlock}", 3], [3, 8, 2, "{@filter 4th|spells|level=4|class=Warlock}", 4], [3, 9, 2, "{@filter 4th|spells|level=4|class=Warlock}", 4], [3, 10, 2, "{@filter 5th|spells|level=5|class=Warlock}", 5], [4, 10, 2, "{@filter 5th|spells|level=5|class=Warlock}", 5], [4, 11, 3, "{@filter 5th|spells|level=5|class=Warlock}", 5], [4, 11, 3, "{@filter 5th|spells|level=5|class=Warlock}", 6], [4, 12, 3, "{@filter 5th|spells|level=5|class=Warlock}", 6], [4, 12, 3, "{@filter 5th|spells|level=5|class=Warlock}", 6], [4, 13, 3, "{@filter 5th|spells|level=5|class=Warlock}", 7], [4, 13, 3, "{@filter 5th|spells|level=5|class=Warlock}", 7], [4, 14, 4, "{@filter 5th|spells|level=5|class=Warlock}", 7], [4, 14, 4, "{@filter 5th|spells|level=5|class=Warlock}", 8], [4, 15, 4, "{@filter 5th|spells|level=5|class=Warlock}", 8], [4, 15, 4, "{@filter 5th|spells|level=5|class=Warlock}", 8]]}], "classFeatures": ["Pact Magic|Warlock||1", {"classFeature": "Otherworldly Patron|Warlock||1", "gainSubclassFeature": true}, "Eldritch Invocations|Warlock||2", "Pact Boon|Warlock||3", "Ability Score Improvement|Warlock||4", "Eldritch Versatility|Warlock||4|TCE", {"classFeature": "Otherworldly Patron feature|Warlock||6", "gainSubclassFeature": true}, "Ability Score Improvement|Warlock||8", {"classFeature": "Otherworldly Patron feature|Warlock||10", "gainSubclassFeature": true}, "Mystic Arcanum (6th level)|Warlock||11", "Ability Score Improvement|Warlock||12", "Mystic Arcanum (7th level)|Warlock||13", {"classFeature": "Otherworldly Patron feature|Warlock||14", "gainSubclassFeature": true}, "Mystic Arcanum (8th level)|Warlock||15", "Ability Score Improvement|Warlock||16", "Mystic Arcanum (9th level)|Warlock||17", "Ability Score Improvement|Warlock||19", "Eldritch Master|Warlock||20"]}, "subclass_name": "", "subclasses": ["_dnd5e:subclasses.warlock.archfey", "_dnd5e:subclasses.warlock.fiend", "_dnd5e:subclasses.warlock.great_old_one"], "subclasses_available_level": 1}
+{
+    "name": "",
+    "description": "",
+    "features": [
+        "_dnd5e:features.warlock.hit_dice",
+        "_dnd5e:features.warlock.armor",
+        "_dnd5e:features.warlock.weapons",
+        "_dnd5e:features.warlock.skills",
+        "_dnd5e:features.warlock.save_proficiencies",
+        "_dnd5e:features.warlock.starting_equipments"
+    ],
+    "leveled_features": [
+        {
+            "start_level": 1,
+            "feature": "_dnd5e:features.warlock.pact_magic"
+        },
+        {
+            "start_level": 2,
+            "end_level": 5,
+            "feature": "_dnd5e:features.warlock.eldritch_invocations@Ⅰ,2"
+        },
+        {
+            "start_level": 5,
+            "end_level": 7,
+            "feature": "_dnd5e:features.warlock.eldritch_invocations@Ⅱ,3"
+        },
+        {
+            "start_level": 7,
+            "end_level": 9,
+            "feature": "_dnd5e:features.warlock.eldritch_invocations@Ⅲ,4"
+        },
+        {
+            "start_level": 9,
+            "end_level": 12,
+            "feature": "_dnd5e:features.warlock.eldritch_invocations@Ⅳ,5"
+        },
+        {
+            "start_level": 12,
+            "end_level": 15,
+            "feature": "_dnd5e:features.warlock.eldritch_invocations@Ⅴ,6"
+        },
+        {
+            "start_level": 15,
+            "end_level": 18,
+            "feature": "_dnd5e:features.warlock.eldritch_invocations@Ⅵ,7"
+        },
+        {
+            "start_level": 18,
+            "feature": "_dnd5e:features.warlock.eldritch_invocations@Ⅶ,8"
+        },
+        {
+            "start_level": 3,
+            "feature": "_dnd5e:features.warlock.pact_boon"
+        },
+        {
+            "start_level": 4,
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅰ"
+        },
+        {
+            "start_level": 8,
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅱ"
+        },
+        {
+            "start_level": 12,
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅲ"
+        },
+        {
+            "start_level": 16,
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅳ"
+        },
+        {
+            "start_level": 19,
+            "feature": "_dnd5e:features.ability_score_improvement@Ⅴ"
+        },
+        {
+            "start_level": 11,
+            "feature": "_dnd5e:features.warlock.mystic_arcanum@Ⅰ,6"
+        },
+        {
+            "start_level": 13,
+            "feature": "_dnd5e:features.warlock.mystic_arcanum@Ⅱ,7"
+        },
+        {
+            "start_level": 15,
+            "feature": "_dnd5e:features.warlock.mystic_arcanum@Ⅲ,8"
+        },
+        {
+            "start_level": 17,
+            "feature": "_dnd5e:features.warlock.mystic_arcanum@Ⅳ,9"
+        },
+        {
+            "start_level": 20,
+            "feature": "_dnd5e:features.warlock.eldritch_master"
+        }
+    ],
+    "additional": {
+        "spellcastingAbility": "cha",
+        "casterProgression": "pact",
+        "cantripProgression": [
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+        ],
+        "spellsKnownProgression": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            10,
+            11,
+            11,
+            12,
+            12,
+            13,
+            13,
+            14,
+            14,
+            15,
+            15
+        ],
+        "spellsKnownProgressionFixedByLevel": {
+            "11": {
+                "6": 1
+            },
+            "13": {
+                "7": 1
+            },
+            "15": {
+                "8": 1
+            },
+            "17": {
+                "9": 1
+            }
+        },
+        "optionalfeatureProgression": [
+            {
+                "name": "Eldritch Invocations",
+                "featureType": [
+                    "EI"
+                ],
+                "progression": [
+                    0,
+                    2,
+                    2,
+                    2,
+                    3,
+                    3,
+                    4,
+                    4,
+                    5,
+                    5,
+                    5,
+                    6,
+                    6,
+                    6,
+                    7,
+                    7,
+                    7,
+                    8,
+                    8,
+                    8
+                ]
+            },
+            {
+                "name": "Pact Boon",
+                "featureType": [
+                    "PB"
+                ],
+                "progression": {
+                    "3": 1
+                }
+            }
+        ],
+        "multiclassing": {
+            "requirements": {
+                "cha": 13
+            },
+            "proficienciesGained": {
+                "armor": [
+                    "light"
+                ],
+                "weapons": [
+                    "simple"
+                ]
+            }
+        },
+        "classTableGroups": [
+            {
+                "colLabels": [
+                    "{@filter Cantrips Known|spells|level=0|class=Warlock}",
+                    "{@filter Spells Known|spells|class=Warlock}",
+                    "Spell Slots",
+                    "Slot Level",
+                    "{@filter Invocations Known|optionalfeatures|feature type=ei}"
+                ],
+                "rows": [
+                    [
+                        2,
+                        2,
+                        1,
+                        "{@filter 1st|spells|level=1|class=Warlock}",
+                        0
+                    ],
+                    [
+                        2,
+                        3,
+                        2,
+                        "{@filter 1st|spells|level=1|class=Warlock}",
+                        2
+                    ],
+                    [
+                        2,
+                        4,
+                        2,
+                        "{@filter 2nd|spells|level=2|class=Warlock}",
+                        2
+                    ],
+                    [
+                        3,
+                        5,
+                        2,
+                        "{@filter 2nd|spells|level=2|class=Warlock}",
+                        2
+                    ],
+                    [
+                        3,
+                        6,
+                        2,
+                        "{@filter 3rd|spells|level=3|class=Warlock}",
+                        3
+                    ],
+                    [
+                        3,
+                        7,
+                        2,
+                        "{@filter 3rd|spells|level=3|class=Warlock}",
+                        3
+                    ],
+                    [
+                        3,
+                        8,
+                        2,
+                        "{@filter 4th|spells|level=4|class=Warlock}",
+                        4
+                    ],
+                    [
+                        3,
+                        9,
+                        2,
+                        "{@filter 4th|spells|level=4|class=Warlock}",
+                        4
+                    ],
+                    [
+                        3,
+                        10,
+                        2,
+                        "{@filter 5th|spells|level=5|class=Warlock}",
+                        5
+                    ],
+                    [
+                        4,
+                        10,
+                        2,
+                        "{@filter 5th|spells|level=5|class=Warlock}",
+                        5
+                    ],
+                    [
+                        4,
+                        11,
+                        3,
+                        "{@filter 5th|spells|level=5|class=Warlock}",
+                        5
+                    ],
+                    [
+                        4,
+                        11,
+                        3,
+                        "{@filter 5th|spells|level=5|class=Warlock}",
+                        6
+                    ],
+                    [
+                        4,
+                        12,
+                        3,
+                        "{@filter 5th|spells|level=5|class=Warlock}",
+                        6
+                    ],
+                    [
+                        4,
+                        12,
+                        3,
+                        "{@filter 5th|spells|level=5|class=Warlock}",
+                        6
+                    ],
+                    [
+                        4,
+                        13,
+                        3,
+                        "{@filter 5th|spells|level=5|class=Warlock}",
+                        7
+                    ],
+                    [
+                        4,
+                        13,
+                        3,
+                        "{@filter 5th|spells|level=5|class=Warlock}",
+                        7
+                    ],
+                    [
+                        4,
+                        14,
+                        4,
+                        "{@filter 5th|spells|level=5|class=Warlock}",
+                        7
+                    ],
+                    [
+                        4,
+                        14,
+                        4,
+                        "{@filter 5th|spells|level=5|class=Warlock}",
+                        8
+                    ],
+                    [
+                        4,
+                        15,
+                        4,
+                        "{@filter 5th|spells|level=5|class=Warlock}",
+                        8
+                    ],
+                    [
+                        4,
+                        15,
+                        4,
+                        "{@filter 5th|spells|level=5|class=Warlock}",
+                        8
+                    ]
+                ]
+            }
+        ],
+        "classFeatures": [
+            "Pact Magic|Warlock||1",
+            {
+                "classFeature": "Otherworldly Patron|Warlock||1",
+                "gainSubclassFeature": true
+            },
+            "Eldritch Invocations|Warlock||2",
+            "Pact Boon|Warlock||3",
+            "Ability Score Improvement|Warlock||4",
+            "Eldritch Versatility|Warlock||4|TCE",
+            {
+                "classFeature": "Otherworldly Patron feature|Warlock||6",
+                "gainSubclassFeature": true
+            },
+            "Ability Score Improvement|Warlock||8",
+            {
+                "classFeature": "Otherworldly Patron feature|Warlock||10",
+                "gainSubclassFeature": true
+            },
+            "Mystic Arcanum (6th level)|Warlock||11",
+            "Ability Score Improvement|Warlock||12",
+            "Mystic Arcanum (7th level)|Warlock||13",
+            {
+                "classFeature": "Otherworldly Patron feature|Warlock||14",
+                "gainSubclassFeature": true
+            },
+            "Mystic Arcanum (8th level)|Warlock||15",
+            "Ability Score Improvement|Warlock||16",
+            "Mystic Arcanum (9th level)|Warlock||17",
+            "Ability Score Improvement|Warlock||19",
+            "Eldritch Master|Warlock||20"
+        ]
+    },
+    "subclass_name": "",
+    "subclasses": [
+        "_dnd5e:subclasses.warlock.archfey",
+        "_dnd5e:subclasses.warlock.fiend",
+        "_dnd5e:subclasses.warlock.great_old_one"
+    ],
+    "subclasses_available_level": 1
+}
