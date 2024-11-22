@@ -1,1 +1,13 @@
-{"name": "%effects.proficiencies.tools.tinker_tools/name%", "description": "%effects.proficiencies.tools.tinker_tools/description%", "expressions": []}
+{
+    "name": "%effects.proficiencies.tools.tinker_tools/name%",
+    "description": "%effects.proficiencies.tools.tinker_tools/description%",
+    "expressions": [
+        {
+            "target": "character.proficiencies",
+            "operation": "push",
+            "values": [
+                "%effects.proficiencies.tools.tinker_tools/name%"
+            ]
+        }
+    ]
+}

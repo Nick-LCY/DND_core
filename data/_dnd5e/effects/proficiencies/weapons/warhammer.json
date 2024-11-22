@@ -1,1 +1,1 @@
-{"name": "%effects.proficiencies.weapons.warhammer/name%", "description": "%effects.proficiencies.weapons.warhammer/description%", "expressions": []}
+{"name": "%effects.proficiencies.weapons.warhammer/name%", "description": "%effects.proficiencies.weapons.warhammer/description%", "expressions": [{"target": "character.proficiencies", "operation": "push", "values": ["%effects.proficiencies.weapons.warhammer/name%"]}]}

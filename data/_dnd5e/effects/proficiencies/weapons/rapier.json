@@ -1,1 +1,1 @@
-{"name": "%effects.proficiencies.weapons.rapier/name%", "description": "%effects.proficiencies.weapons.rapier/description%", "expressions": []}
+{"name": "%effects.proficiencies.weapons.rapier/name%", "description": "%effects.proficiencies.weapons.rapier/description%", "expressions": [{"target": "character.proficiencies", "operation": "push", "values": ["%effects.proficiencies.weapons.rapier/name%"]}]}

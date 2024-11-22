@@ -1,1 +1,1 @@
-{"name": "", "description": "", "expressions": []}
+{"name": "", "description": "", "expressions": [{"target": "character.proficiencies", "operation": "push", "values": ["%effects.proficiencies.weapons.dagger/name%"]}]}

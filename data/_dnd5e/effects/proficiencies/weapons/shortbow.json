@@ -1,1 +1,1 @@
-{"name": "%effects.proficiencies.weapons.shortbow/name%", "description": "%effects.proficiencies.weapons.shortbow/description%", "expressions": []}
+{"name": "%effects.proficiencies.weapons.shortbow/name%", "description": "%effects.proficiencies.weapons.shortbow/description%", "expressions": [{"target": "character.proficiencies", "operation": "push", "values": ["%effects.proficiencies.weapons.shortbow/name%"]}]}

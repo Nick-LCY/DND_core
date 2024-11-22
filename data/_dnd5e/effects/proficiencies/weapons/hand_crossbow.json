@@ -1,1 +1,1 @@
-{"name": "%effects.proficiencies.weapons.hand_crossbow/name%", "description": "%effects.proficiencies.weapons.hand_crossbow/description%", "expressions": []}
+{"name": "%effects.proficiencies.weapons.hand_crossbow/name%", "description": "%effects.proficiencies.weapons.hand_crossbow/description%", "expressions": [{"target": "character.proficiencies", "operation": "push", "values": ["%effects.proficiencies.weapons.hand_crossbow/name%"]}]}

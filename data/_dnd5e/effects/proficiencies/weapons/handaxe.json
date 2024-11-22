@@ -1,1 +1,1 @@
-{"name": "%effects.proficiencies.weapons.handaxe/name%", "description": "%effects.proficiencies.weapons.handaxe/description%", "expressions": []}
+{"name": "%effects.proficiencies.weapons.handaxe/name%", "description": "%effects.proficiencies.weapons.handaxe/description%", "expressions": [{"target": "character.proficiencies", "operation": "push", "values": ["%effects.proficiencies.weapons.handaxe/name%"]}]}

@@ -1,1 +1,17 @@
-{"name": "", "description": "", "category": "class_level_traits", "effects": []}
+{
+    "name": "",
+    "description": "",
+    "category": "class_level_traits",
+    "effects": [
+        {
+            "choose": 1,
+            "type": "selection",
+            "available": [
+                "_dnd5e:effects.fighting_style.defense",
+                "_dnd5e:effects.fighting_style.dueling",
+                "_dnd5e:effects.fighting_style.great_weapon_fighting",
+                "_dnd5e:effects.fighting_style.protection"
+            ]
+        }
+    ]
+}
