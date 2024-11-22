@@ -398,5 +398,12 @@
         "_dnd5e:subclasses.warlock.fiend",
         "_dnd5e:subclasses.warlock.great_old_one"
     ],
-    "subclasses_available_level": 1
+    "subclasses_available_level": 1,
+    "spell_slots": [
+        {"spell_level": 1, "class_level": [1, 2, 3], "capacity": [1, 2, 0]},
+        {"spell_level": 2, "class_level": [3, 5], "capacity": [2, 0]},
+        {"spell_level": 3, "class_level": [5, 7], "capacity": [2, 0]},
+        {"spell_level": 4, "class_level": [7, 9], "capacity": [2, 0]},
+        {"spell_level": 5, "class_level": [9, 11, 17], "capacity": [2, 3, 4]}
+    ]
 }
