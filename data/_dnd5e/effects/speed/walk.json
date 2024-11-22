@@ -1,1 +1,1 @@
-{"name": "", "description": "", "expressions": []}
+{"name": "", "description": "", "expressions": [{"target": "character.speed", "operation": "=", "values": [{"type": "number", "value": "{}"}]}]}

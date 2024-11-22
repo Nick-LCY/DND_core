@@ -1,1 +1,13 @@
-{"name": "%effects.languages.infernal/name%", "description": "%effects.languages.infernal/description%", "expressions": []}
+{
+    "name": "%effects.languages.infernal/name%",
+    "description": "%effects.languages.infernal/description%",
+    "expressions": [
+        {
+            "target": "character.languages",
+            "operation": "push",
+            "values": [
+                "%effects.languages.infernal/name%"
+            ]
+        }
+    ]
+}

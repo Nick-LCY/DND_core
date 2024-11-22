@@ -1,1 +1,13 @@
-{"name": "%effects.languages.halfling/name%", "description": "%effects.languages.halfling/description%", "expressions": []}
+{
+    "name": "%effects.languages.halfling/name%",
+    "description": "%effects.languages.halfling/description%",
+    "expressions": [
+        {
+            "target": "character.languages",
+            "operation": "push",
+            "values": [
+                "%effects.languages.halfling/name%"
+            ]
+        }
+    ]
+}
