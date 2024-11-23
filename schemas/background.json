@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "背景",
+    "description": "用于描述DND5e的背景",
+    "type": "object",
+    "properties": {
+        "name": {
+            "$ref": "internal/i18nKey.json",
+            "title": "背景名字"
+        },
+        "description": {
+            "$ref": "internal/i18nKey.json",
+            "title": "背景详情"
+        },
+        "features": {
+            "title": "背景特性",
+            "$ref": "internal/featureList.json"
+        }
+    },
+    "required": [
+        "name",
+        "description",
+        "features"
+    ]
+}

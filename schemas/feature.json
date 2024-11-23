@@ -22,7 +22,10 @@
                 "class_equipments",
                 "subclass_traits",
                 "subclass_level_traits",
-                "subclass_proficiencies"
+                "subclass_proficiencies",
+                "background_traits",
+                "background_equipment",
+                "background_proficiencies"
             ]
         },
         "effects": {

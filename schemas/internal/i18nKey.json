@@ -1,5 +1,5 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "type": "string",
-    "description": "不要直接写文字，而是写i18n的key，两侧使用%标记这是一个key"
+    "description": "不要直接写文字，而是写i18n的key，两侧使用%标记这是一个key，如果是name或discription直接留空也可，程序会自动寻找对应的key"
 }
