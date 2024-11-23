@@ -71,14 +71,14 @@ for background in data["background"]:
                     [
                         build_selection(
                             [
-                                "effects.languages.common",
-                                "effects.languages.draconic",
-                                "effects.languages.dwarvish",
-                                "effects.languages.elvish",
-                                "effects.languages.gnomish",
-                                "effects.languages.halfling",
-                                "effects.languages.infernal",
-                                "effects.languages.orc",
+                                "_dnd5e:effects.languages.common",
+                                "_dnd5e:effects.languages.draconic",
+                                "_dnd5e:effects.languages.dwarvish",
+                                "_dnd5e:effects.languages.elvish",
+                                "_dnd5e:effects.languages.gnomish",
+                                "_dnd5e:effects.languages.halfling",
+                                "_dnd5e:effects.languages.infernal",
+                                "_dnd5e:effects.languages.orc",
                             ],
                             background["languageProficiencies"][0]["anyStandard"],
                         )
