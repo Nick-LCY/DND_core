@@ -1,13 +1,1 @@
-{
-    "name": "%effects.languages.gnomish/name%",
-    "description": "%effects.languages.gnomish/description%",
-    "expressions": [
-        {
-            "target": "character.languages",
-            "operation": "push",
-            "values": [
-                "%effects.languages.gnomish/name%"
-            ]
-        }
-    ]
-}
+{"name": "%effects.languages.gnomish/name%", "description": "%effects.languages.gnomish/description%", "expressions": [{"target": "character.languages", "operation": "push", "values": ["%effects.languages.gnomish/name%"]}], "type": "effect"}

@@ -1,13 +1,1 @@
-{
-    "name": "%effects.languages.elvish/name%",
-    "description": "%effects.languages.elvish/description%",
-    "expressions": [
-        {
-            "target": "character.languages",
-            "operation": "push",
-            "values": [
-                "%effects.languages.elvish/name%"
-            ]
-        }
-    ]
-}
+{"name": "%effects.languages.elvish/name%", "description": "%effects.languages.elvish/description%", "expressions": [{"target": "character.languages", "operation": "push", "values": ["%effects.languages.elvish/name%"]}], "type": "effect"}

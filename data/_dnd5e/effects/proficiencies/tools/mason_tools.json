@@ -1,13 +1,1 @@
-{
-    "name": "%effects.proficiencies.tools.mason_tools/name%",
-    "description": "%effects.proficiencies.tools.mason_tools/description%",
-    "expressions": [
-        {
-            "target": "character.proficiencies",
-            "operation": "push",
-            "values": [
-                "%effects.proficiencies.tools.mason_tools/name%"
-            ]
-        }
-    ]
-}
+{"name": "%effects.proficiencies.tools.mason_tools/name%", "description": "%effects.proficiencies.tools.mason_tools/description%", "expressions": [{"target": "character.proficiencies", "operation": "push", "values": ["%effects.proficiencies.tools.mason_tools/name%"]}], "type": "effect"}

@@ -1,11 +1,1 @@
-{
-    "name": "",
-    "description": "",
-    "expressions": [
-        {
-            "target": "character.abilities.str",
-            "operation": "+=",
-            "values": [{"type": "number", "value": "{}"}]
-        }
-    ]
-}
+{"name": "", "description": "", "expressions": [{"target": "character.abilities.str", "operation": "+=", "values": [{"type": "number", "value": "{}"}]}], "type": "effect"}

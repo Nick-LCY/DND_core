@@ -1,13 +1,1 @@
-{
-    "name": "%effects.languages.common/name%",
-    "description": "%effects.languages.common/description%",
-    "expressions": [
-        {
-            "target": "character.languages",
-            "operation": "push",
-            "values": [
-                "%effects.languages.common/name%"
-            ]
-        }
-    ]
-}
+{"name": "%effects.languages.common/name%", "description": "%effects.languages.common/description%", "expressions": [{"target": "character.languages", "operation": "push", "values": ["%effects.languages.common/name%"]}], "type": "effect"}

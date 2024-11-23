@@ -1,5 +1,1 @@
-{
-    "name": "{}",
-    "description": "这是一个用来装所有不确定的effects的临时effect",
-    "expressions": []
-}
+{"name": "{}", "description": "\u8fd9\u662f\u4e00\u4e2a\u7528\u6765\u88c5\u6240\u6709\u4e0d\u786e\u5b9a\u7684effects\u7684\u4e34\u65f6effect", "expressions": [], "type": "effect"}

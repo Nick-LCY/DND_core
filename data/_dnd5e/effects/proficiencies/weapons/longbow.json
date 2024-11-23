@@ -1,1 +1,1 @@
-{"name": "%effects.proficiencies.weapons.longbow/name%", "description": "%effects.proficiencies.weapons.longbow/description%", "expressions": [{"target": "character.proficiencies", "operation": "push", "values": ["%effects.proficiencies.weapons.longbow/name%"]}]}
+{"name": "%effects.proficiencies.weapons.longbow/name%", "description": "%effects.proficiencies.weapons.longbow/description%", "expressions": [{"target": "character.proficiencies", "operation": "push", "values": ["%effects.proficiencies.weapons.longbow/name%"]}], "type": "effect"}

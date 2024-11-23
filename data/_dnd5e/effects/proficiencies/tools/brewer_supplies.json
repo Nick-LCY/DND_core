@@ -1,13 +1,1 @@
-{
-    "name": "%effects.proficiencies.tools.brewer_supplies/name%",
-    "description": "%effects.proficiencies.tools.brewer_supplies/description%",
-    "expressions": [
-        {
-            "target": "character.proficiencies",
-            "operation": "push",
-            "values": [
-                "%effects.proficiencies.tools.brewer_supplies/name%"
-            ]
-        }
-    ]
-}
+{"name": "%effects.proficiencies.tools.brewer_supplies/name%", "description": "%effects.proficiencies.tools.brewer_supplies/description%", "expressions": [{"target": "character.proficiencies", "operation": "push", "values": ["%effects.proficiencies.tools.brewer_supplies/name%"]}], "type": "effect"}

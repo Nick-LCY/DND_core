@@ -1,12 +1,1 @@
-{
-    "description": "",
-    "expressions": [],
-    "prerequisite": {
-        "target": "character.class.level",
-        "operation": ">=",
-        "values": [
-            15
-        ]
-    },
-    "name": ""
-}
+{"description": "", "expressions": [], "prerequisite": {"target": "character.class.level", "operation": ">=", "values": [15]}, "name": "", "type": "effect"}

@@ -1,1 +1,1 @@
-{"name": "", "description": "", "expressions": [{"target": "character.proficiencies", "operation": "push", "values": ["%effects.proficiencies.weapons.light_crossbow/name%"]}]}
+{"name": "", "description": "", "expressions": [{"target": "character.proficiencies", "operation": "push", "values": ["%effects.proficiencies.weapons.light_crossbow/name%"]}], "type": "effect"}

@@ -1,1 +1,1 @@
-{"name": "", "description": "", "expressions": [{"target": "character.hit_dice", "operation": "=", "values": [{"type": "number", "value": "{}"}]}]}
+{"name": "", "description": "", "expressions": [{"target": "character.hit_dice", "operation": "=", "values": [{"type": "number", "value": "{}"}]}], "type": "effect"}

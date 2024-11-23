@@ -1,5 +1,1 @@
-{
-    "name": "%effects.advantages.saves.charmed/name%",
-    "description": "%effects.advantages.saves.charmed/description%",
-    "expressions": []
-}
+{"name": "%effects.advantages.saves.charmed/name%", "description": "%effects.advantages.saves.charmed/description%", "expressions": [], "type": "effect"}

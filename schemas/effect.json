@@ -3,6 +3,10 @@
     "title": "效果",
     "description": "用于描述效果，包含了实际产生效果的表达式",
     "properties": {
+        "type": {
+            "type": "string",
+            "enum": ["effect"]
+        },
         "name": {
             "$ref": "internal/i18nKey.json",
             "title": "效果名字"

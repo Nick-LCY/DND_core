@@ -1,13 +1,1 @@
-{
-    "name": "",
-    "description": "",
-    "expressions": [
-        {
-            "target": "character.saves.cha",
-            "operation": "=",
-            "values": [
-                true
-            ]
-        }
-    ]
-}
+{"name": "", "description": "", "expressions": [{"target": "character.saves.cha", "operation": "=", "values": [true]}], "type": "effect"}

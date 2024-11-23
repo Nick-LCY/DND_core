@@ -1,1 +1,1 @@
-{"name": "%effects.proficiencies.weapons.battleaxe/name%", "description": "%effects.proficiencies.weapons.battleaxe/description%", "expressions": [{"target": "character.proficiencies", "operation": "push", "values": ["%effects.proficiencies.weapons.battleaxe/name%"]}]}
+{"name": "%effects.proficiencies.weapons.battleaxe/name%", "description": "%effects.proficiencies.weapons.battleaxe/description%", "expressions": [{"target": "character.proficiencies", "operation": "push", "values": ["%effects.proficiencies.weapons.battleaxe/name%"]}], "type": "effect"}

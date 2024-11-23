@@ -1,13 +1,1 @@
-{
-    "name": "%effects.languages.draconic/name%",
-    "description": "%effects.languages.draconic/description%",
-    "expressions": [
-        {
-            "target": "character.languages",
-            "operation": "push",
-            "values": [
-                "%effects.languages.draconic/name%"
-            ]
-        }
-    ]
-}
+{"name": "%effects.languages.draconic/name%", "description": "%effects.languages.draconic/description%", "expressions": [{"target": "character.languages", "operation": "push", "values": ["%effects.languages.draconic/name%"]}], "type": "effect"}

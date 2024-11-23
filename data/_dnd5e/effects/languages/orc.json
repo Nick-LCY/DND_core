@@ -1,13 +1,1 @@
-{
-    "name": "%effects.languages.orc/name%",
-    "description": "%effects.languages.orc/description%",
-    "expressions": [
-        {
-            "target": "character.languages",
-            "operation": "push",
-            "values": [
-                "%effects.languages.orc/name%"
-            ]
-        }
-    ]
-}
+{"name": "%effects.languages.orc/name%", "description": "%effects.languages.orc/description%", "expressions": [{"target": "character.languages", "operation": "push", "values": ["%effects.languages.orc/name%"]}], "type": "effect"}

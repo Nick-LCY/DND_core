@@ -1,5 +1,1 @@
-{
-    "name": "%effects.spells.tiefling.add_thaumaturgy/name%",
-    "description": "%effects.spells.tiefling.add_thaumaturgy/description%",
-    "expressions": []
-}
+{"name": "%effects.spells.tiefling.add_thaumaturgy/name%", "description": "%effects.spells.tiefling.add_thaumaturgy/description%", "expressions": [], "type": "effect"}

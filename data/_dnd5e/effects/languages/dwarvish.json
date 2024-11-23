@@ -1,13 +1,1 @@
-{
-    "name": "%effects.languages.dwarvish/name%",
-    "description": "%effects.languages.dwarvish/description%",
-    "expressions": [
-        {
-            "target": "character.languages",
-            "operation": "push",
-            "values": [
-                "%effects.languages.dwarvish/name%"
-            ]
-        }
-    ]
-}
+{"name": "%effects.languages.dwarvish/name%", "description": "%effects.languages.dwarvish/description%", "expressions": [{"target": "character.languages", "operation": "push", "values": ["%effects.languages.dwarvish/name%"]}], "type": "effect"}

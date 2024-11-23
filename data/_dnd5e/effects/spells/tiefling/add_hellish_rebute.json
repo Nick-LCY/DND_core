@@ -1,5 +1,1 @@
-{
-    "name": "%effects.spells.tiefling.add_hellish_rebute/name%",
-    "description": "%effects.spells.tiefling.add_hellish_rebute/description%",
-    "expressions": []
-}
+{"name": "%effects.spells.tiefling.add_hellish_rebute/name%", "description": "%effects.spells.tiefling.add_hellish_rebute/description%", "expressions": [], "type": "effect"}

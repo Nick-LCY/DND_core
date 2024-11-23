@@ -1,13 +1,1 @@
-{
-    "name": "",
-    "description": "",
-    "expressions": [
-        {
-            "target": "character.proficiencies",
-            "operation": "push",
-            "values": [
-                "%effects.proficiencies.armor.shield/name%"
-            ]
-        }
-    ]
-}
+{"name": "", "description": "", "expressions": [{"target": "character.proficiencies", "operation": "push", "values": ["%effects.proficiencies.armor.shield/name%"]}], "type": "effect"}

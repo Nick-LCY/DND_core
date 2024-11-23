@@ -1,1 +1,1 @@
-{"name": "%effects.proficiencies.weapons.light_hammer/name%", "description": "%effects.proficiencies.weapons.light_hammer/description%", "expressions": [{"target": "character.proficiencies", "operation": "push", "values": ["%effects.proficiencies.weapons.light_hammer/name%"]}]}
+{"name": "%effects.proficiencies.weapons.light_hammer/name%", "description": "%effects.proficiencies.weapons.light_hammer/description%", "expressions": [{"target": "character.proficiencies", "operation": "push", "values": ["%effects.proficiencies.weapons.light_hammer/name%"]}], "type": "effect"}

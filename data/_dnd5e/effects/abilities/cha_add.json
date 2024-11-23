@@ -1,12 +1,1 @@
-{
-    "name": "",
-    "description": "",
-    "expressions": [
-        {
-            "type": "void",
-            "target": "character.abilities.cha",
-            "operation": "+=",
-            "values": [{"type": "number", "value": "{}"}]
-        }
-    ]
-}
+{"name": "", "description": "", "expressions": [{"type": "void", "target": "character.abilities.cha", "operation": "+=", "values": [{"type": "number", "value": "{}"}]}], "type": "effect"}

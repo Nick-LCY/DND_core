@@ -1,11 +1,1 @@
-{
-    "name": "",
-    "description": "",
-    "expressions": [
-        {
-            "target": "character.skills.performance",
-            "operation": "=",
-            "values": [{"type": "number", "value": "{}"}]
-        }
-    ]
-}
+{"name": "", "description": "", "expressions": [{"target": "character.skills.performance", "operation": "=", "values": [{"type": "number", "value": "{}"}]}], "type": "effect"}
