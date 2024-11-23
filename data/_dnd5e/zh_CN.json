@@ -4311,7 +4311,7 @@
     "| 5  | 我无法抗拒欺骗强权的冲动。 |",
     "| 6  | 我见势不妙会立刻逃跑。 |"
     ],
-    （是不是少了effects的添加）
+    
     "features.criminal.tools/name": "工具熟练项",
     "features.criminal.tools/description": "一种赌具，盗贼工具",
     "features.criminal.skills/name": "技能熟练项",
@@ -4402,7 +4402,7 @@
     "",
     "> 虽然你的能力水平与那些盗窃犯或走私犯区别不大，但你却以一种不同寻常的方式接受教育与训练：即作为一名从事谍报活动的探子。你可能曾是一名官方认可的皇家密探，也可能是价高者得的情报贩卖者。"
     ],
-    （同上）
+    
     "features.entertainer.tools/name": "工具熟练项",
     "features.entertainer.tools/description": "易容工具，一种乐器",
     "features.entertainer.skills/name": "技能熟练项",
