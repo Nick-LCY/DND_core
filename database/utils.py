@@ -47,7 +47,7 @@ def build_effect(file_categories: list[str], en_name: str):
 
 
 def build_selection(available: list[str], choose: int):
-    selection = {"choose": choose, "available": available}
+    selection = {"choose": choose, "available": available, "type": "selection"}
     return selection
 
 
