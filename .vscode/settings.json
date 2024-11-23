@@ -35,6 +35,12 @@
                 "**/subclasses/**/*.json"
             ],
             "url": "./schemas/subclass.json"
+        },
+        {
+            "fileMatch": [
+                "**/backgrounds/**/*.json"
+            ],
+            "url": "/schemas/background.json"
         }
     ]
 }
