@@ -23,11 +23,9 @@ def build_background(bg_name: str, features: list[str]):
 with open("5etools/data/backgrounds.json") as file:
     data = json.load(file)
 
-tmp = set(data["background"][0].keys())
 for background in data["background"]:
     if background["source"] != "PHB":
         continue
-    tmp.update(background.keys())
     bg_id = id_formating(background["name"])
     if "custom" in bg_id or "variant" in bg_id:
         continue
@@ -112,18 +110,32 @@ for background in data["background"]:
                 True,
             ),
         )
-    for key in ["personality_trait", "ideal", "bond", "flaw"]:
-        features.append(
-            id_formating(
-                build_feature(
-                    ["features", bg_id],
-                    key,
-                    "background_traits",
-                    [build_selection([], 1)],
-                ),
-                True,
+    if "entries" in background:
+        tmp = background["entries"][-1]["entries"]
+        for i in range(1, 5):
+            dn = int(tmp[i]["colLabels"][0][1:])
+            name = id_formating(tmp[i]["colLabels"][1])
+            effects = []
+            for j in range(1, dn + 1):
+                effects.append(
+                    id_formating(
+                        build_effect(
+                            ["effects", "background_traits", bg_id], f"{name}_d{j}"
+                        ),
+                        True,
+                    )
+                )
+            features.append(
+                id_formating(
+                    build_feature(
+                        ["features", bg_id],
+                        name,
+                        "background_traits",
+                        [build_selection(effects, 1)],
+                    ),
+                    True,
+                )
             )
-        )
 
     build_background(bg_id, features)
 
