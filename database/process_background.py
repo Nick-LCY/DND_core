@@ -112,6 +112,19 @@ for background in data["background"]:
                 True,
             ),
         )
+    for key in ["personality_trait", "ideal", "bond", "flaw"]:
+        features.append(
+            id_formating(
+                build_feature(
+                    ["features", bg_id],
+                    key,
+                    "background_traits",
+                    [build_selection([], 1)],
+                ),
+                True,
+            )
+        )
+
     build_background(bg_id, features)
 
 save("gen_data/background")
