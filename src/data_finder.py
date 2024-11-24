@@ -2,16 +2,26 @@ import os, json, re
 
 
 ROOT = "/dnd-core/data"
+OUTPUT_ROOT = "output"
 
 
 def is_id(string: str) -> bool:
     return (
-        re.match(r"^[a-zA-Z_0-9]*:(?:[a-zA-Z_0-9]*\.)+[a-zA-Z_0-9]+@*(?:[^,]+,{0,1})*$", string)
+        re.match(
+            r"^[a-zA-Z_0-9]*:(?:[a-zA-Z_0-9]*\.)+[a-zA-Z_0-9]+@*(?:[^,]+,{0,1})*$",
+            string,
+        )
         is not None
     )
 
 
-def format_str(data_id: str, data_key: str | None, data_name: str, lang_code: str, data_params: str | None = None) -> str:
+def format_str(
+    data_id: str,
+    data_key: str | None,
+    data_name: str,
+    lang_code: str,
+    data_params: str | None = None,
+) -> str:
     namespace = data_id.split(":")[0]
     file_id = data_id.split(":")[1]
     if data_name == "":
@@ -50,7 +60,10 @@ def find_data_by_type(
                 with open(file_path) as json_file:
                     data_name = json.load(json_file)["name"]
                 results.append(
-                    {"id": data_id, "name": format_str(data_id, "name", data_name, lang_code)}
+                    {
+                        "id": data_id,
+                        "name": format_str(data_id, "name", data_name, lang_code),
+                    }
                 )
         return results
     except:
@@ -62,9 +75,13 @@ def find_data_by_id(data_id: str, lang_code: str = "zh_CN") -> dict:
     if len(data_id.split("@")) > 1:
         data_id, data_params = data_id.split("@")
     namespace, data_path = data_id.split(":")
+    if os.path.exists(f"{OUTPUT_ROOT}/{namespace}/{data_path}.json"):
+        with open(f"{OUTPUT_ROOT}/{namespace}/{data_path}.json") as file:
+            return json.load(file)
     file_path = f'{ROOT}/{namespace}/{data_path.replace(".", "/")}'
 
     try:
+
         def visit(val, key: str | None):
             if isinstance(val, list):
                 processed_list = []
@@ -76,10 +93,10 @@ def find_data_by_id(data_id: str, lang_code: str = "zh_CN") -> dict:
                 for k, v in val.items():
                     processed_dict[k] = visit(v, k)
                 return processed_dict
+            if isinstance(val, str):
+                val = format_str(data_id, key, val, lang_code, data_params)
             if is_id(str(val)):
                 return find_data_by_id(str(val))
-            if isinstance(val, str):
-                return format_str(data_id, key, val, lang_code, data_params)
             else:
                 return val
 
