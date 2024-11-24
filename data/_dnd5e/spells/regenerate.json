@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "transmutation", "spell_level": 7, "cast_time": [{"number": 1, "unit": "minute"}], "duration": [{"type": "timed", "duration": {"type": "hour", "amount": 1}}], "components": {"v": true, "s": true, "m": "a prayer wheel and holy water"}}

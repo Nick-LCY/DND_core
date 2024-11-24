@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "abjuration", "spell_level": 3, "cast_time": [{"number": 1, "unit": "minute"}], "duration": [{"type": "timed", "duration": {"type": "hour", "amount": 1}}], "components": {"v": true, "s": true, "m": {"text": "holy water or powdered silver and iron worth at least 100 gp, which the spell consumes", "cost": 10000, "consume": true}}}

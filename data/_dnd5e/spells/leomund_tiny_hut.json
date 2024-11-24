@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "evocation", "spell_level": 3, "cast_time": [{"number": 1, "unit": "minute"}], "duration": [{"type": "timed", "duration": {"type": "hour", "amount": 8}}], "components": {"v": true, "s": true, "m": "a small crystal bead"}}

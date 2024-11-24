@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "evocation", "spell_level": 2, "cast_time": [{"number": 1, "unit": "action"}], "duration": [{"type": "timed", "duration": {"type": "minute", "amount": 1}, "concentration": true}], "components": {"v": true, "s": true, "m": "several seeds of any moonseed plant and a piece of opalescent feldspar"}}

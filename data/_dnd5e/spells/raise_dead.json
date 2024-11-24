@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "necromancye", "spell_level": 5, "cast_time": [{"number": 1, "unit": "hour"}], "duration": [{"type": "instant"}], "components": {"v": true, "s": true, "m": {"text": "a diamond worth at least 500 gp, which the spell consumes", "cost": 50000, "consume": true}}}

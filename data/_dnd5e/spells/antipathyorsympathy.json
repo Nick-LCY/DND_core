@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "enchantment", "spell_level": 8, "cast_time": [{"number": 1, "unit": "hour"}], "duration": [{"type": "timed", "duration": {"type": "day", "amount": 10}}], "components": {"v": true, "s": true, "m": "either a lump of alum soaked in vinegar for the antipathy effect or a drop of honey for the sympathy effect"}}

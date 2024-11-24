@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "transmutation", "spell_level": 5, "cast_time": [{"number": 1, "unit": "bonus"}], "duration": [{"type": "timed", "duration": {"type": "minute", "amount": 1}, "concentration": true}], "components": {"v": true, "s": true, "m": "a quiver containing at least one piece of ammunition"}}

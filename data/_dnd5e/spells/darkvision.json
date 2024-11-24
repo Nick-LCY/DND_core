@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "transmutation", "spell_level": 2, "cast_time": [{"number": 1, "unit": "action"}], "duration": [{"type": "timed", "duration": {"type": "hour", "amount": 8}}], "components": {"v": true, "s": true, "m": "either a pinch of dried carrot or an agate"}}

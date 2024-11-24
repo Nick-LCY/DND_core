@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "abjuration", "spell_level": 3, "cast_time": [{"number": 1, "unit": "hour"}], "duration": [{"type": "permanent", "ends": ["dispel", "trigger"]}], "components": {"v": true, "s": true, "m": {"text": "incense and powdered diamond worth at least 200 gp, which the spell consumes", "cost": 20000, "consume": true}}}

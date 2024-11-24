@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "transmutation", "spell_level": 5, "cast_time": [{"number": 1, "unit": "hour"}], "duration": [{"type": "instant"}], "components": {"v": true, "s": true, "m": {"text": "rare oils and unguents worth at least 1,000 gp, which the spell consumes", "cost": 100000, "consume": true}}}

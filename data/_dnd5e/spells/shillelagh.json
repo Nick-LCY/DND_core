@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "transmutation", "spell_level": 0, "cast_time": [{"number": 1, "unit": "bonus"}], "duration": [{"type": "timed", "duration": {"type": "minute", "amount": 1}}], "components": {"v": true, "s": true, "m": "mistletoe, a shamrock leaf, and a club or quarterstaff"}}

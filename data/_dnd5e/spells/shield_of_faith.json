@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "abjuration", "spell_level": 1, "cast_time": [{"number": 1, "unit": "bonus"}], "duration": [{"type": "timed", "duration": {"type": "minute", "amount": 10}, "concentration": true}], "components": {"v": true, "s": true, "m": "a small parchment with a bit of holy text written on it"}}

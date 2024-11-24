@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "abjuration", "spell_level": 6, "cast_time": [{"number": 10, "unit": "minute"}], "duration": [{"type": "timed", "duration": {"type": "day", "amount": 1}}], "components": {"v": true, "s": true, "m": {"text": "a sprinkling of holy water, rare incense, and powdered ruby worth at least 1,000 gp", "cost": 100000, "consume": "optional"}}}

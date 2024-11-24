@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "evocation", "spell_level": 8, "cast_time": [{"number": 1, "unit": "action"}], "duration": [{"type": "timed", "duration": {"type": "hour", "amount": 24}}], "components": {"v": true, "s": true, "m": "a pair of linked silver rings"}}

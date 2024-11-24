@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "necromancye", "spell_level": 2, "cast_time": [{"number": 1, "unit": "action"}], "duration": [{"type": "timed", "duration": {"type": "day", "amount": 10}}], "components": {"v": true, "s": true, "m": "a pinch of salt and one copper piece placed on each of the corpse's eyes, which must remain there for the duration"}}

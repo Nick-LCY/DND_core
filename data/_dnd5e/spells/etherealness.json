@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "transmutation", "spell_level": 7, "cast_time": [{"number": 1, "unit": "action"}], "duration": [{"type": "timed", "duration": {"type": "hour", "amount": 8, "upTo": true}}], "components": {"v": true, "s": true}}

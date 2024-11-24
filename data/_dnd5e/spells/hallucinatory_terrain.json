@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "illusion", "spell_level": 4, "cast_time": [{"number": 10, "unit": "minute"}], "duration": [{"type": "timed", "duration": {"type": "hour", "amount": 24}}], "components": {"v": true, "s": true, "m": "a stone, a twig, and a bit of green plant"}}

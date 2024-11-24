@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "divination", "spell_level": 2, "cast_time": [{"number": 1, "unit": "minute"}], "duration": [{"type": "instant"}], "components": {"v": true, "s": true, "m": {"text": "specially marked sticks, bones, or similar tokens worth at least 25 gp", "cost": 2500}}}

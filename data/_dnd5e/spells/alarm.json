@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "abjuration", "spell_level": 1, "cast_time": [{"number": 1, "unit": "minute"}], "duration": [{"type": "timed", "duration": {"type": "hour", "amount": 8}}], "components": {"v": true, "s": true, "m": "a tiny bell and a piece of fine silver wire"}}

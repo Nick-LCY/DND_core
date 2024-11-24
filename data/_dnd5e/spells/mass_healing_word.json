@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "evocation", "spell_level": 3, "cast_time": [{"number": 1, "unit": "bonus"}], "duration": [{"type": "instant"}], "components": {"v": true}}

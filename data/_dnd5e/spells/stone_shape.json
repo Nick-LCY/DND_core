@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "transmutation", "spell_level": 4, "cast_time": [{"number": 1, "unit": "action"}], "duration": [{"type": "instant"}], "components": {"v": true, "s": true, "m": "soft clay, which must be worked into roughly the desired shape of the stone object"}}

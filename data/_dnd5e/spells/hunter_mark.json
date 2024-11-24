@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "divination", "spell_level": 1, "cast_time": [{"number": 1, "unit": "bonus"}], "duration": [{"type": "timed", "duration": {"type": "hour", "amount": 1}, "concentration": true}], "components": {"v": true}}

@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "illusion", "spell_level": 3, "cast_time": [{"number": 1, "unit": "action"}], "duration": [{"type": "timed", "duration": {"type": "minute", "amount": 1}, "concentration": true}], "components": {"s": true, "m": "a glowing stick of incense or a crystal vial filled with phosphorescent material"}}

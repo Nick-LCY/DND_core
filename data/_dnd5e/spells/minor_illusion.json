@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "illusion", "spell_level": 0, "cast_time": [{"number": 1, "unit": "action"}], "duration": [{"type": "timed", "duration": {"type": "minute", "amount": 1}}], "components": {"s": true, "m": "a bit of fleece"}}

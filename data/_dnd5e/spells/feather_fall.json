@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "transmutation", "spell_level": 1, "cast_time": [{"number": 1, "unit": "reaction", "condition": "which you take when you or a creature within 60 feet of you falls"}], "duration": [{"type": "timed", "duration": {"type": "minute", "amount": 1}}], "components": {"v": true, "m": "a small feather or a piece of down"}}

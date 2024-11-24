@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "transmutation", "spell_level": 0, "cast_time": [{"number": 1, "unit": "minute"}], "duration": [{"type": "instant"}], "components": {"v": true, "s": true, "m": "two lodestones"}}

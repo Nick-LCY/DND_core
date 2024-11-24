@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "illusion", "spell_level": 2, "cast_time": [{"number": 1, "unit": "minute"}], "duration": [{"type": "permanent", "ends": ["dispel"]}], "components": {"v": true, "s": true, "m": {"text": "a small bit of honeycomb and jade dust worth at least 10 gp, which the spell consumes", "cost": 1000, "consume": true}}}

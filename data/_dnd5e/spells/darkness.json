@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "evocation", "spell_level": 2, "cast_time": [{"number": 1, "unit": "action"}], "duration": [{"type": "timed", "duration": {"type": "minute", "amount": 10}, "concentration": true}], "components": {"v": true, "m": "bat fur and a drop of pitch or piece of coal"}}

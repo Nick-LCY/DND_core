@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "illusion", "spell_level": 5, "cast_time": [{"number": 1, "unit": "minute"}], "duration": [{"type": "special"}], "components": {"v": true, "s": true, "m": "a tiny piece of matter of the same type of the item you plan to create"}}

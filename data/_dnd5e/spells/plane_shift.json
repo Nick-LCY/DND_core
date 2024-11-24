@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "conjuration", "spell_level": 7, "cast_time": [{"number": 1, "unit": "action"}], "duration": [{"type": "instant"}], "components": {"v": true, "s": true, "m": {"text": "a forked, metal rod worth at least 250 gp, attuned to a particular plane of existence", "cost": 25000}}}

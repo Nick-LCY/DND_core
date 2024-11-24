@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "conjuration", "spell_level": 0, "cast_time": [{"number": 1, "unit": "action"}], "duration": [{"type": "instant"}], "components": {"v": true, "s": true}, "level_dice": {"1": "1d12", "5": "2d12", "11": "3d12", "17": "4d12"}}

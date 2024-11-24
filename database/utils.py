@@ -82,4 +82,4 @@ def save(root):
         with open(f"{root}/{'/'.join(dirs)}/{file}", "w") as file:
             json.dump(FILES[path], file)
     with open(f"{root}/zh_CN.json", "w") as file:
-        json.dump(TO_FILLED, file)
+        json.dump(TO_FILLED, file, ensure_ascii=False)

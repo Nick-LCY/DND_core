@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "evocation", "spell_level": 0, "cast_time": [{"number": 1, "unit": "action"}], "duration": [{"type": "instant"}], "components": {"v": true, "s": true}, "level_dice": {"1": "1d10", "5": "2d10", "11": "3d10", "17": "4d10"}}

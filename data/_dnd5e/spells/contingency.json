@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "evocation", "spell_level": 6, "cast_time": [{"number": 10, "unit": "minute"}], "duration": [{"type": "timed", "duration": {"type": "day", "amount": 10}}], "components": {"v": true, "s": true, "m": {"text": "a statuette of yourself carved from ivory and decorated with gems worth at least 1,500 gp", "cost": 150000}}}

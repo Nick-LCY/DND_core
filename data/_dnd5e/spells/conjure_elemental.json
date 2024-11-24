@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "conjuration", "spell_level": 5, "cast_time": [{"number": 1, "unit": "minute"}], "duration": [{"type": "timed", "duration": {"type": "hour", "amount": 1}, "concentration": true}], "components": {"v": true, "s": true, "m": "burning incense for air, soft clay for earth, sulfur and phosphorus for fire, or water and sand for water"}}

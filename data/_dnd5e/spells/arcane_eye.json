@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "divination", "spell_level": 4, "cast_time": [{"number": 1, "unit": "action"}], "duration": [{"type": "timed", "duration": {"type": "hour", "amount": 1}, "concentration": true}], "components": {"v": true, "s": true, "m": "a bit of bat fur"}}

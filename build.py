@@ -15,4 +15,4 @@ for folder in ["classes", "races", "backgrounds"]:
             file_id = ".".join(path[:-5].split("/")[2:])
             data = find_data_by_id(f"{NAMESPACE}:{file_id}", LANG)
             with open(f"{OUTPUT}/{NAMESPACE}/{file_id}.json", "w") as file:
-                json.dump(data, file)
+                json.dump(data, file, ensure_ascii=False)

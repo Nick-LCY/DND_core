@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "necromancye", "spell_level": 6, "cast_time": [{"number": 1, "unit": "minute"}], "duration": [{"type": "permanent", "ends": ["dispel"]}], "components": {"v": true, "s": true, "m": {"text": "a gem, crystal, reliquary, or some other ornamental container worth at least 500 gp", "cost": 50000}}}

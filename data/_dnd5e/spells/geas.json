@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "enchantment", "spell_level": 5, "cast_time": [{"number": 1, "unit": "minute"}], "duration": [{"type": "timed", "duration": {"type": "day", "amount": 30}}], "components": {"v": true}}

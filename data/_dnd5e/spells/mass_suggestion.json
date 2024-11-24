@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "enchantment", "spell_level": 6, "cast_time": [{"number": 1, "unit": "action"}], "duration": [{"type": "timed", "duration": {"type": "hour", "amount": 24}}], "components": {"v": true, "m": "a snake's tongue and either a bit of honeycomb or a drop of sweet oil"}}

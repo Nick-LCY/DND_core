@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "abjuration", "spell_level": 3, "cast_time": [{"number": 1, "unit": "action"}], "duration": [{"type": "timed", "duration": {"type": "hour", "amount": 8}}], "components": {"v": true, "s": true, "m": {"text": "a pinch of diamond dust worth 25 gp sprinkled over the target, which the spell consumes", "cost": 2500, "consume": true}}}

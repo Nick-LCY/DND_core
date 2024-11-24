@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "evocation", "spell_level": 7, "cast_time": [{"number": 1, "unit": "action"}], "duration": [{"type": "timed", "duration": {"type": "hour", "amount": 1}}], "components": {"v": true, "s": true, "m": {"text": "ruby dust worth 1,500 gp", "cost": 150000}}}

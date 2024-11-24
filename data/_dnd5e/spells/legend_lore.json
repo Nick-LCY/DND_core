@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "divination", "spell_level": 5, "cast_time": [{"number": 10, "unit": "minute"}], "duration": [{"type": "instant"}], "components": {"v": true, "s": true, "m": {"text": "incense worth at least 250 gp, which the spell consumes, and four ivory strips worth at least 50 gp each", "cost": 25000, "consume": true}}}

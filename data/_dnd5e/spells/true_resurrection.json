@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "necromancye", "spell_level": 9, "cast_time": [{"number": 1, "unit": "hour"}], "duration": [{"type": "instant"}], "components": {"v": true, "s": true, "m": {"text": "a sprinkle of holy water and diamonds worth at least 25,000 gp, which the spell consumes", "cost": 2500000, "consume": true}}}

@@ -1,0 +1,1 @@
+{"name": "", "description": "", "school": "abjuration", "spell_level": 4, "cast_time": [{"number": 1, "unit": "action"}], "duration": [{"type": "timed", "duration": {"type": "hour", "amount": 1}}], "components": {"v": true, "s": true, "m": "a leather strap, bound around the arm or a similar appendage"}}
