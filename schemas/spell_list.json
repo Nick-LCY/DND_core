@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "法表",
+    "description": "用于描述一个法表",
+    "properties": {
+        "name": {
+            "$ref": "internal/i18nKey.json",
+            "title": "法表名字"
+        },
+        "description": {
+            "$ref": "internal/i18nKey.json",
+            "title": "法表详情"
+        },
+        "list": {
+            "title": "法表所包含的法术",
+            "type": "array",
+            "items": {
+                "$ref": "internal/id.json"
+            }
+        }
+    },
+    "required": [
+        "name",
+        "description",
+        "spells",
+        "type"
+    ]
+}

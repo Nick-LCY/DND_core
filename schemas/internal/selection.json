@@ -5,7 +5,7 @@
     "description": "用于表达选择某些effects",
     "properties": {
         "choose": {
-            "description": "选择几个",
+            "description": "选择几个，如果是string类型会被自动转换为数字",
             "anyOf": [
                 {
                     "type": "integer"

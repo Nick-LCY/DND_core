@@ -1,0 +1,24 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "法术",
+    "description": "法术或戏法",
+    "properties": {
+        "name": {
+            "$ref": "internal/i18nKey.json",
+            "title": "名字"
+        },
+        "description": {
+            "$ref": "internal/i18nKey.json",
+            "title": "详情"
+        },
+        "spell_level": {
+            "type":"integer",
+            "title": "法术等级"
+        }
+    },
+    "required": [
+        "name",
+        "description",
+        "spell_level"
+    ]
+}
