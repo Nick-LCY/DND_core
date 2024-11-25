@@ -3,6 +3,7 @@
     "description": "",
     "category": "class_level_traits",
     "effects": [
-        "_dnd5e:spell_list_effects.bard"
+        "_dnd5e:spell_list_effects.bard.spells",
+        "_dnd5e:spell_list_effects.bard.cantrips"
     ]
 }

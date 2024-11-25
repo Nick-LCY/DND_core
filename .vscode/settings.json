@@ -41,6 +41,18 @@
                 "**/backgrounds/**/*.json"
             ],
             "url": "/schemas/background.json"
+        },
+        {
+            "fileMatch": [
+                "**/spell_list_effects/**/*.json"
+            ],
+            "url": "/schemas/spell_list_effect.json"
+        },
+        {
+            "fileMatch": [
+                "**/spells/**/*.json"
+            ],
+            "url": "/schemas/spell.json"
         }
     ]
 }

@@ -1,0 +1,25 @@
+{
+    "type": "spell_list_effect",
+    "name": "",
+    "description": "",
+    "spells": [
+        {"spell_only": true, "level": 1, "known": 4, "from": "_dnd5e:spell_lists.bard"},
+        {"spell_only": true, "level": 2, "known": 5, "from": "_dnd5e:spell_lists.bard"},
+        {"spell_only": true, "level": 3, "known": 6, "from": "_dnd5e:spell_lists.bard"},
+        {"spell_only": true, "level": 4, "known": 7, "from": "_dnd5e:spell_lists.bard"},
+        {"spell_only": true, "level": 5, "known": 8, "from": "_dnd5e:spell_lists.bard"},
+        {"spell_only": true, "level": 6, "known": 9, "from": "_dnd5e:spell_lists.bard"},
+        {"spell_only": true, "level": 7, "known": 8, "from": "_dnd5e:spell_lists.bard"},
+        {"spell_only": true, "level": 8, "known": 9, "from": "_dnd5e:spell_lists.bard"},
+        {"spell_only": true, "level": 9, "known": 10, "from": "_dnd5e:spell_lists.bard"},
+        {"spell_only": true, "level": 10, "known": 12, "from": "_dnd5e:spell_lists.bard"},
+        {"spell_only": true, "level": 11, "known": 13, "from": "_dnd5e:spell_lists.bard"},
+        {"spell_only": true, "level": 12, "known": 13, "from": "_dnd5e:spell_lists.bard"},
+        {"spell_only": true, "level": 13, "known": 14, "from": "_dnd5e:spell_lists.bard"},
+        {"spell_only": true, "level": 14, "known": 14, "from": "_dnd5e:spell_lists.bard"},
+        {"spell_only": true, "level": 15, "known": 15, "from": "_dnd5e:spell_lists.bard"},
+        {"spell_only": true, "level": 16, "known": 15, "from": "_dnd5e:spell_lists.bard"},
+        {"spell_only": true, "level": 17, "known": 16, "from": "_dnd5e:spell_lists.bard"},
+        {"spell_only": true, "start_level": 18, "known": 16, "from": "_dnd5e:spell_lists.bard"}
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "法表效果",
+    "description": "用于描述对法表产生影响的效果",
+    "properties": {
+        "type": {
+            "type": "string",
+            "enum": [
+                "spell_list_effect"
+            ]
+        },
+        "name": {
+            "$ref": "internal/i18nKey.json",
+            "title": "法表名字"
+        },
+        "description": {
+            "$ref": "internal/i18nKey.json",
+            "title": "法表详情"
+        },
+        "spells": {
+            "title": "法表细节",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "known": {
+                        "title": "限制从from的所有法术中选择多少个，如果为空则代表全选",
+                        "type": "integer"
+                    },
+                    "from": {
+                        "title": "可选的法术，内容可以是spell_list也可以是单个法术，最后会展开成要给单层的列表",
+                        "anyOf": [
+                            {
+                                "$ref": "internal/id.json"
+                            },
+                            {
+                                "type": "array",
+                                "items": {
+                                    "$ref": "internal/id.json"
+                                }
+                            }
+                        ]
+                    },
+                    "start_level": {
+                        "title": "从几级开始应用此法表与可学习法术，不能同时与level一起出现",
+                        "type": "integer"
+                    },
+                    "end_level": {
+                        "title": "从几级开始结束应用此法表与可学习法术，如果填start_level，不填这个则认为从start_level之后永远应用此效果",
+                        "type": "integer"
+                    },
+                    "level": {
+                        "title": "在第几级应用此法表，下一级就结束应用，不能与start_level一起出现",
+                        "type": "integer"
+                    },
+                    "cantrip_only": {
+                        "type": "boolean",
+                        "title": "是否只包含戏法？默认为false"
+                    },
+                    "spell_only": {
+                        "type": "boolean",
+                        "title": "是否只包含法术？（即1级以上法术）默认为false"
+                    }
+                },
+                "required": [
+                    "from"
+                ]
+            }
+        }
+    },
+    "required": [
+        "name",
+        "description",
+        "spells",
+        "type"
+    ]
+}
