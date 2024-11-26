@@ -123,7 +123,7 @@ def gen_translation():
                         re.sub(r"^\s+$", "", x) for x in description
                     ]
                     description = [
-                        re.sub(r"\s+", " ", x) for x in description
+                        re.sub(r"\s+", " ", x) + " " for x in description
                     ]
                     description_list.extend(description)
                 if content.name == "h4":
