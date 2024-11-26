@@ -1,8 +1,10 @@
 from flask import Flask
 from flask_cors import CORS
 from .data_finder import find_data_by_type, find_data_by_id
+from flask_compress import Compress
 
 app = Flask("dnd_core_api")
+Compress(app)
 cors = CORS(app, resources={r"/data/*": {"origins": ["https://dnd5e.nicklin.work"]}})
 
 @app.get("/data/<namespace>/<resource_type>")
