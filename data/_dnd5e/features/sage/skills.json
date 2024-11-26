@@ -1,1 +1,9 @@
-{"name": "", "description": "", "category": "background_proficiencies", "effects": ["_dnd5e:effects.proficiencies.skills.arcana", "_dnd5e:effects.proficiencies.skills.history"]}
+{
+    "name": "",
+    "description": "",
+    "category": "background_proficiencies",
+    "effects": [
+        "_dnd5e:effects.proficiencies.skills.arcana@1",
+        "_dnd5e:effects.proficiencies.skills.history@1"
+    ]
+}

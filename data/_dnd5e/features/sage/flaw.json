@@ -1,1 +1,1 @@
-{"name": "", "description": "", "category": "background_traits", "effects": [{"choose": 1, "available": [], "type": "selection"}]}
+{"name": "", "description": "", "category": "background_traits", "effects": [{"choose": 1, "available": ["_dnd5e:effects.background_traits.sage.flaw_d1", "_dnd5e:effects.background_traits.sage.flaw_d2", "_dnd5e:effects.background_traits.sage.flaw_d3", "_dnd5e:effects.background_traits.sage.flaw_d4", "_dnd5e:effects.background_traits.sage.flaw_d5", "_dnd5e:effects.background_traits.sage.flaw_d6"], "type": "selection"}]}

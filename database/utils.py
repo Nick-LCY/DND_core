@@ -39,7 +39,7 @@ def id_formating(original_id: str, namespaced: bool = False) -> str:
 def build_effect(file_categories: list[str], en_name: str):
     effect_id = f"{'.'.join(file_categories)}.{en_name}"
     effect_id = id_formating(effect_id)
-    data = {"name": "", "description": "", "expressions": []}
+    data = {"type": "effect", "name": "", "description": "", "expressions": []}
     add_to_files(effect_id, data)
     add_to_filled(f"{effect_id}/name")
     add_to_filled(f"{effect_id}/description")

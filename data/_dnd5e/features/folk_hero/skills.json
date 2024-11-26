@@ -1,1 +1,9 @@
-{"name": "", "description": "", "category": "background_proficiencies", "effects": ["_dnd5e:effects.proficiencies.skills.animal_handling", "_dnd5e:effects.proficiencies.skills.survival"]}
+{
+    "name": "",
+    "description": "",
+    "category": "background_proficiencies",
+    "effects": [
+        "_dnd5e:effects.proficiencies.skills.animal_handling@1",
+        "_dnd5e:effects.proficiencies.skills.survival@1"
+    ]
+}

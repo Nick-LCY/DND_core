@@ -1,1 +1,9 @@
-{"name": "", "description": "", "category": "background_proficiencies", "effects": ["_dnd5e:effects.proficiencies.skills.athletics", "_dnd5e:effects.proficiencies.skills.perception"]}
+{
+    "name": "",
+    "description": "",
+    "category": "background_proficiencies",
+    "effects": [
+        "_dnd5e:effects.proficiencies.skills.athletics@1",
+        "_dnd5e:effects.proficiencies.skills.perception@1"
+    ]
+}

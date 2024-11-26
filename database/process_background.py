@@ -65,7 +65,7 @@ for background in data["background"]:
                 build_feature(
                     ["features", bg_id],
                     "languages",
-                    "background_feature",
+                    "background_traits",
                     [
                         build_selection(
                             [
@@ -92,7 +92,7 @@ for background in data["background"]:
                 skills.append(build_selection([], v))
             else:
                 skills.append(
-                    f"_dnd5e:effects.proficiencies.skills.{id_formating(key)}"
+                    f"_dnd5e:effects.proficiencies.skills.{id_formating(key)}@1"
                 )
         features.append(
             id_formating(
