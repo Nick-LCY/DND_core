@@ -76,7 +76,7 @@ def format_str(
 
 def find_name(file_path: str):
     data_id = (
-        file_path.replace(ROOT + "/", NAMESPACE + ":")
+        file_path.replace(f"{ROOT}/", f"{NAMESPACE}:")
         .replace("/", ".")
         .replace(".json", "")
     )
@@ -115,8 +115,14 @@ if __name__ == "__main__":
         for dir in dirs:
             target["dirs"][dir] = {"files": [], "dirs": {}}
         for file in files:
-            print(f"{root}/{file}")
-            file_obj = {"id": file[:-5], "name": find_name(f"{root}/{file}")}
+            file_path = f"{root}/{file}"
+            print(file_path)
+            file_id = (
+                file_path.replace(f"{ROOT}/", f"{NAMESPACE}:")
+                .replace("/", ".")
+                .replace(".json", "")
+            )
+            file_obj = {"id": file_id, "name": find_name(f"{root}/{file}")}
             target["files"].append(file_obj)
 
     with open(f"{OUTPUT}/{NAMESPACE}/index.json", "w") as file:
