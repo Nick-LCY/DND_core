@@ -29,7 +29,7 @@ jobs:
 
       # Run the build script
       - name: Run build script
-        run: python build.py
+        run: python build/build.py
 
       # Upload to Cloudflare KV
       - name: Upload to Cloudflare KV
@@ -39,9 +39,4 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: |
           npm install -g wrangler
-          cd output/_dnd5e
-          for file in $(find . -type f); do
-            key=$(echo "$file" | sed -e 's|^\./||' -e 's|\.[^.]*$||')
-            wrangler kv:key put "$key" --path $file \
-              --namespace-id $CLOUDFLARE_NAMESPACE_ID
-          done
+          bash build/upload.sh

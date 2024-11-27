@@ -6,7 +6,7 @@
       "type": "shell",
       "command": "python",
       "args": [
-        "build.py"
+        "build/build.py"
       ],
       "group": {
         "kind": "build",
