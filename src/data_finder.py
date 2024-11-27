@@ -1,7 +1,7 @@
 import os, json, re
 
 
-ROOT = "/dnd-core/data"
+ROOT = "data"
 OUTPUT_ROOT = "output"
 
 
