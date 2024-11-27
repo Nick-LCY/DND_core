@@ -1,5 +1,5 @@
 cd output/_dnd5e
-KEYS=$(wrangler kv:key list --namespace-id $NAMESPACE_ID | grep -oP '"name": "\K[^"]+')
+KEYS=$(wrangler kv:key list --namespace-id $CLOUDFLARE_NAMESPACE_ID | grep -oP '"name": "\K[^"]+')
 echo "Deleting Keys!"
 for KEY in $KEYS; do
   wrangler kv:key delete --namespace-id $CLOUDFLARE_NAMESPACE_ID $KEY

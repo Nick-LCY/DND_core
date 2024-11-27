@@ -1,19 +1,24 @@
+const DEFAULT_HEADER = {
+  'Content-Type': 'application/json',
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+  'Access-Control-Allow-Headers': 'Content-Type, Authorization', 
+}
+
+
 export default {
   async fetch(request, env, _) {
     const path = new URL(request.url).pathname
     const idMatch = path.match(/^\/data\/([^\/]+)$/)
     if (idMatch) {
       console.log({ "result": "ID Matched", path })
-      const dataId = path.split("/")[1]
+      const dataId = path.split("/")[2]
       try {
         const data = await env.DND5E_KV_NS.get(dataId)
-        return new Response(
-          data,
-          { headers: { 'Content-Type': 'application/json' } },
-        )
+        return new Response(data, { headers: DEFAULT_HEADER })
       } catch (e) {
         console.error(e)
-        return new Response('Not Found', { status: 404 })
+        return new Response('Not Found', { status: 404, headers: DEFAULT_HEADER })
       }
     }
     const typeMatch = path.match(/^\/data\/([^\/]+)\/([^\/]+)$/);
@@ -26,14 +31,14 @@ export default {
         const index = JSON.parse(indexStr);
         return new Response(
           JSON.stringify(index.dirs[resourceType].files),
-          { headers: { 'Content-Type': 'application/json' } },
+          { headers: DEFAULT_HEADER },
         )
       } catch (e) {
         console.error(e)
-        return new Response('Not Found', { status: 404 })
+        return new Response('Not Found', { status: 404, headers: DEFAULT_HEADER })
       }
     }
     console.warn({ "result": "Nothing Matched", path })
-    return new Response('Not Found', { status: 404 })
+    return new Response('Not Found', { status: 404, headers: DEFAULT_HEADER })
   },
-};
+};;

@@ -114,6 +114,7 @@ if __name__ == "__main__":
                 target = target["dirs"][path]
         for dir in dirs:
             target["dirs"][dir] = {"files": [], "dirs": {}}
+        files = sorted(files)
         for file in files:
             file_path = f"{root}/{file}"
             print(file_path)
