@@ -1,0 +1,8 @@
+{
+    "name": "",
+    "description": "",
+    "type": "spell_list_effect",
+    "spells": [
+        {"start_level": 1, "from": "_dnd5e:spell_lists.cleric.life_domain"}
+    ]
+}

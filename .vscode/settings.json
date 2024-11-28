@@ -44,6 +44,12 @@
         },
         {
             "fileMatch": [
+                "**/spell_lists/**/*.json"
+            ],
+            "url": "/schemas/spell_list.json"
+        },
+        {
+            "fileMatch": [
                 "**/spell_list_effects/**/*.json"
             ],
             "url": "/schemas/spell_list_effect.json"

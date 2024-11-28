@@ -1,0 +1,46 @@
+{
+    "name": "",
+    "description": "",
+    "list": [
+        {
+            "level": 1,
+            "spell": "_dnd5e:spells.command"
+        },
+        {
+            "level": 1,
+            "spell": "_dnd5e:spells.identify"
+        },
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.augury"
+        },
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.suggestion"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.nondetection"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.speak_with_dead"
+        },
+        {
+            "level": 7,
+            "spell": "_dnd5e:spells.arcane_eye"
+        },
+        {
+            "level": 7,
+            "spell": "_dnd5e:spells.confusion"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.legend_lore"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.scrying"
+        }
+    ]
+}

@@ -5,6 +5,10 @@
     "leveled_features": [
         {
             "start_level": 1,
+            "feature": "_dnd5e:features.cleric.tempest.tempest_domain_spells"
+        },
+        {
+            "start_level": 1,
             "feature": "_dnd5e:features.cleric.tempest.bonus_proficiencies"
         },
         {

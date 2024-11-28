@@ -1,0 +1,46 @@
+{
+    "name": "",
+    "description": "",
+    "list": [
+        {
+            "level": 1,
+            "spell": "_dnd5e:spells.animal_friendship"
+        },
+        {
+            "level": 1,
+            "spell": "_dnd5e:spells.speak_with_animals"
+        },
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.barkskin"
+        },
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.spike_growth"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.plant_growth"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.wind_wall"
+        },
+        {
+            "level": 7,
+            "spell": "_dnd5e:spells.dominate_beast"
+        },
+        {
+            "level": 7,
+            "spell": "_dnd5e:spells.grasping_vine"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.insect_plague"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.tree_stride"
+        }
+    ]
+}

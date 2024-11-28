@@ -1,0 +1,46 @@
+{
+    "name": "",
+    "description": "",
+    "list": [
+        {
+            "level": 1,
+            "spell": "_dnd5e:spells.fog_cloud"
+        },
+        {
+            "level": 1,
+            "spell": "_dnd5e:spells.thunderwave"
+        },
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.gust_of_wind"
+        },
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.shatter"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.call_lightning"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.sleet_storm"
+        },
+        {
+            "level": 7,
+            "spell": "_dnd5e:spells.control_water"
+        },
+        {
+            "level": 7,
+            "spell": "_dnd5e:spells.ice_storm"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.destructive_wave"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.insect_plague"
+        }
+    ]
+}

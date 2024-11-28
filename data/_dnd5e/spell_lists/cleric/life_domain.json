@@ -1,0 +1,46 @@
+{
+    "name": "",
+    "description": "",
+    "list": [
+        {
+            "level": 1,
+            "spell": "_dnd5e:spells.bless"
+        },
+        {
+            "level": 1,
+            "spell": "_dnd5e:spells.cure_wounds"
+        },
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.lesser_restoration"
+        },
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.spiritual_weapon"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.beacon_of_hope"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.revivify"
+        },
+        {
+            "level": 7,
+            "spell": "_dnd5e:spells.death_ward"
+        },
+        {
+            "level": 7,
+            "spell": "_dnd5e:spells.guardian_of_faith"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.mass_cure_wounds"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.raise_dead"
+        }
+    ]
+}

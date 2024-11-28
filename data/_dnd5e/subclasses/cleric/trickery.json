@@ -5,6 +5,10 @@
     "leveled_features": [
         {
             "start_level": 1,
+            "feature": "_dnd5e:features.cleric.trickery.trickery_domain_spells"
+        },
+        {
+            "start_level": 1,
             "feature": "_dnd5e:features.cleric.trickery.blessing_of_the_trickster"
         },
         {

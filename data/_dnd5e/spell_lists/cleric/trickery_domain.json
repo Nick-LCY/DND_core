@@ -1,0 +1,46 @@
+{
+    "name": "",
+    "description": "",
+    "list": [
+        {
+            "level": 1,
+            "spell": "_dnd5e:spells.charm_person"
+        },
+        {
+            "level": 1,
+            "spell": "_dnd5e:spells.disguise_self"
+        },
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.mirror_image"
+        },
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.pass_without_trace"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.blink"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.dispel_magic"
+        },
+        {
+            "level": 7,
+            "spell": "_dnd5e:spells.dimension_door"
+        },
+        {
+            "level": 7,
+            "spell": "_dnd5e:spells.polymorph"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.dominate_person"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.modify_memory"
+        }
+    ]
+}

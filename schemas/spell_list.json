@@ -15,14 +15,33 @@
             "title": "法表所包含的法术",
             "type": "array",
             "items": {
-                "$ref": "internal/id.json"
+                "anyOf": [
+                    {
+                        "$ref": "internal/id.json"
+                    },
+                    {
+                        "type": "object",
+                        "properties": {
+                            "level": {
+                                "type": "integer",
+                                "title": "法术从职业等级几级开始可选，注意该选项优先级会覆盖法术本身的法术等级选项"
+                            },
+                            "spell": {
+                                "$ref": "internal/id.json"
+                            }
+                        },
+                        "required": [
+                            "level",
+                            "spell"
+                        ]
+                    }
+                ]
             }
         }
     },
     "required": [
         "name",
         "description",
-        "spells",
-        "type"
+        "list"
     ]
 }

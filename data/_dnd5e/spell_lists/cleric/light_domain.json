@@ -1,0 +1,46 @@
+{
+    "name": "",
+    "description": "",
+    "list": [
+        {
+            "level": 1,
+            "spell": "_dnd5e:spells.burning_hands"
+        },
+        {
+            "level": 1,
+            "spell": "_dnd5e:spells.faerie_fire"
+        },
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.flaming_sphere"
+        },
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.scorching_ray"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.daylight"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.fireball"
+        },
+        {
+            "level": 7,
+            "spell": "_dnd5e:spells.guardian_of_faith"
+        },
+        {
+            "level": 7,
+            "spell": "_dnd5e:spells.wall_of_fire"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.flame_strike"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.scrying"
+        }
+    ]
+}

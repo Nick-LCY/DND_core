@@ -5,6 +5,10 @@
     "leveled_features": [
         {
             "start_level": 1,
+            "feature": "_dnd5e:features.cleric.knowledge.knowledge_domain_spells"
+        },
+        {
+            "start_level": 1,
             "feature": "_dnd5e:features.cleric.knowledge.blessings_of_knowledge"
         },
         {
