@@ -1,1 +1,21 @@
-{"name": "", "description": "", "category": "subclass_level_traits", "effects": []}
+{
+    "name": "",
+    "description": "",
+    "category": "subclass_level_traits",
+    "effects": [
+        {
+            "choose": 1,
+            "type": "selection",
+            "available": [
+                "_dnd5e:spell_list_effects.druid.arctic",
+                "_dnd5e:spell_list_effects.druid.coast",
+                "_dnd5e:spell_list_effects.druid.desert",
+                "_dnd5e:spell_list_effects.druid.forest",
+                "_dnd5e:spell_list_effects.druid.grassland",
+                "_dnd5e:spell_list_effects.druid.mountain",
+                "_dnd5e:spell_list_effects.druid.swamp",
+                "_dnd5e:spell_list_effects.druid.underdark"
+            ]
+        }
+    ]
+}

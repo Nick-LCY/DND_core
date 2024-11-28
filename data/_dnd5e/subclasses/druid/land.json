@@ -13,19 +13,7 @@
         },
         {
             "start_level": 3,
-            "feature": "_dnd5e:features.druid.land.circle_spells@Ⅰ"
-        },
-        {
-            "start_level": 5,
-            "feature": "_dnd5e:features.druid.land.circle_spells@Ⅱ"
-        },
-        {
-            "start_level": 7,
-            "feature": "_dnd5e:features.druid.land.circle_spells@Ⅲ"
-        },
-        {
-            "start_level": 9,
-            "feature": "_dnd5e:features.druid.land.circle_spells@Ⅳ"
+            "feature": "_dnd5e:features.druid.land.circle_spells"
         },
         {
             "start_level": 6,

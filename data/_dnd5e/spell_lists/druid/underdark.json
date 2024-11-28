@@ -1,0 +1,38 @@
+{
+    "name": "",
+    "description": "",
+    "list": [
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.web"
+        },
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.spider_climb"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.gaseous_form"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.stinking_cloud"
+        },
+        {
+            "level": 7,
+            "spell": "_dnd5e:spells.greater_invisibility"
+        },
+        {
+            "level": 7,
+            "spell": "_dnd5e:spells.stone_shape"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.cloudkill"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.insect_plague"
+        }
+    ]
+}

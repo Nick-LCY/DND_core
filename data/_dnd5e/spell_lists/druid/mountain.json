@@ -1,0 +1,38 @@
+{
+    "name": "",
+    "description": "",
+    "list": [
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.spider_climb"
+        },
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.spike_growth"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.lightning_bolt"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.meld_into_stone"
+        },
+        {
+            "level": 7,
+            "spell": "_dnd5e:spells.stone_shape"
+        },
+        {
+            "level": 7,
+            "spell": "_dnd5e:spells.stoneskin"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.passwall"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.wall_of_stone"
+        }
+    ]
+}

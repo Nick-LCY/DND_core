@@ -3,6 +3,7 @@
     "description": "",
     "category": "subclass_level_traits",
     "effects": [
+        "_dnd5e:spell_list_effects.cleric.acolyte_of_nature",
         {
             "type": "selection",
             "choose": 1,

@@ -1,0 +1,27 @@
+{
+    "name": "",
+    "description": "",
+    "type": "spell_list_effect",
+    "spells": [
+        {
+            "cantrip_only": true,
+            "from": "_dnd5e:spell_lists.druid",
+            "start_level": 1,
+            "end_level": 4,
+            "known": 2
+        },
+        {
+            "cantrip_only": true,
+            "from": "_dnd5e:spell_lists.druid",
+            "start_level": 4,
+            "end_level": 10,
+            "known": 3
+        },
+        {
+            "cantrip_only": true,
+            "from": "_dnd5e:spell_lists.druid",
+            "start_level": 10,
+            "known": 4
+        }
+    ]
+}

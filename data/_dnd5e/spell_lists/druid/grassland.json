@@ -1,0 +1,38 @@
+{
+    "name": "",
+    "description": "",
+    "list": [
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.invisibility"
+        },
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.pass_without_trace"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.daylight"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.haste"
+        },
+        {
+            "level": 7,
+            "spell": "_dnd5e:spells.divination"
+        },
+        {
+            "level": 7,
+            "spell": "_dnd5e:spells.freedom_of_movement"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.dream"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.insect_plague"
+        }
+    ]
+}

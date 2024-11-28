@@ -1,0 +1,38 @@
+{
+    "name": "",
+    "description": "",
+    "list": [
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.mirror_image"
+        },
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.misty_step"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.water_breathing"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.water_walk"
+        },
+        {
+            "level": 7,
+            "spell": "_dnd5e:spells.control_water"
+        },
+        {
+            "level": 7,
+            "spell": "_dnd5e:spells.freedom_of_movement"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.conjure_elemental"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.scrying"
+        }
+    ]
+}

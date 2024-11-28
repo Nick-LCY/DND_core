@@ -1,0 +1,38 @@
+{
+    "name": "",
+    "description": "",
+    "list": [
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.barkskin"
+        },
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.spider_climb"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.call_lightning"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.plant_growth"
+        },
+        {
+            "level": 7,
+            "spell": "_dnd5e:spells.divination"
+        },
+        {
+            "level": 7,
+            "spell": "_dnd5e:spells.freedom_of_movement"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.commune_with_nature"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.tree_stride"
+        }
+    ]
+}
