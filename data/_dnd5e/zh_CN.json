@@ -3473,6 +3473,8 @@
     "features.fighter.champion.survivor/description": "你持续战斗的能力达到巅峰。你每回合开始时如果生命值不到上限的一半，则你恢复一部分生命值，其数值等于5＋你的体质调整值。你生命值为0时不能以此获益。",
     "subclasses.fighter.champion/name": "勇士",
     "subclasses.fighter.champion/description": "",
+    "spell_lists.fighter.wizard_abjuration/name": "法师 - 防护学派法术",
+    "spell_lists.fighter.wizard_evocation/name": "法师 - 塑能学派法术",
     "features.fighter.eldritch_knight.spellcasting/name": "施法",
     "features.fighter.eldritch_knight.spellcasting/description": "你学会以武斗技术施展法术的能力。参考第10章的施法规则，以及第11章的法师法术列表。",
     "features.fighter.eldritch_knight.weapon_bond/name": "武器联结",

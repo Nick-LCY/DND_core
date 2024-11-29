@@ -1,0 +1,20 @@
+{
+    "name": "",
+    "description": "",
+    "type": "spell_list_effect",
+    "spells": [
+        {
+            "from": "_dnd5e:spell_lists.wizard",
+            "known": 2,
+            "start_level": 3,
+            "end_level": 10,
+            "cantrip_only": true
+        },
+        {
+            "from": "_dnd5e:spell_lists.wizard",
+            "known": 2,
+            "start_level": 10,
+            "cantrip_only": true
+        }
+    ]
+}

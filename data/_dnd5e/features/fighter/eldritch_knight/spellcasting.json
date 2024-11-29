@@ -1,1 +1,10 @@
-{"name": "", "description": "", "category": "subclass_level_traits", "effects": []}
+{
+    "name": "",
+    "description": "",
+    "category": "subclass_level_traits",
+    "effects": [
+        "_dnd5e:spell_list_effects.fighter.eldritch_knight_abjuration_and_evocation",
+        "_dnd5e:spell_list_effects.fighter.eldritch_knight_wizard_spells",
+        "_dnd5e:spell_list_effects.fighter.eldritch_knight_wizard_cantrips"
+    ]
+}

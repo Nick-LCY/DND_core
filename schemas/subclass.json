@@ -22,6 +22,9 @@
             "items": {
                 "$ref": "internal/leveledFeature.json"
             }
+        },
+        "spell_slots": {
+            "$ref": "internal/spell_slots.json"
         }
     },
     "required": [

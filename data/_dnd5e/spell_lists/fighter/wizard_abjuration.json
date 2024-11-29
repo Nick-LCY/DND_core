@@ -1,0 +1,30 @@
+{
+    "name": "",
+    "description": "",
+    "list": [
+        "_dnd5e:spells.blade_ward",
+        "_dnd5e:spells.alarm",
+        "_dnd5e:spells.mage_armor",
+        "_dnd5e:spells.protection_from_evil_and_good",
+        "_dnd5e:spells.shield",
+        "_dnd5e:spells.arcane_lock",
+        "_dnd5e:spells.counterspell",
+        "_dnd5e:spells.dispel_magic",
+        "_dnd5e:spells.glyph_of_warding",
+        "_dnd5e:spells.magic_circle",
+        "_dnd5e:spells.nondetection",
+        "_dnd5e:spells.protection_from_energy",
+        "_dnd5e:spells.remove_curse",
+        "_dnd5e:spells.banishment",
+        "_dnd5e:spells.mordenkainen_private_sanctum",
+        "_dnd5e:spells.stoneskin",
+        "_dnd5e:spells.planar_binding",
+        "_dnd5e:spells.globe_of_invulnerability",
+        "_dnd5e:spells.guards_and_wards",
+        "_dnd5e:spells.symbol",
+        "_dnd5e:spells.antimagic_field",
+        "_dnd5e:spells.mind_blank",
+        "_dnd5e:spells.imprisonment",
+        "_dnd5e:spells.prismatic_wall"
+    ]
+}

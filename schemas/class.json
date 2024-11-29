@@ -41,39 +41,7 @@
             }
         },
         "spell_slots": {
-            "title": "法术环位",
-            "description": "描述每级会有多少法术环位",
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "spell_level": {
-                        "title": "法环等级",
-                        "type": "integer"
-                    },
-                    "class_level": {
-                        "title": "当到达列表中的等级时，会获得capacity中对应数量的法环",
-                        "type": "array",
-                        "items": {
-                            "title": "等级",
-                            "type": "integer"
-                        }
-                    },
-                    "capacity": {
-                        "title": "当class_level中到达某个等级时，获得此列表中对应的法环",
-                        "type": "array",
-                        "items": {
-                            "title": "法环数量",
-                            "type": "integer"
-                        }
-                    }
-                },
-                "required": [
-                    "spell_level",
-                    "class_level",
-                    "capacity"
-                ]
-            }
+            "$ref": "internal/spell_slots.json"
         }
     },
     "required": [
