@@ -1,0 +1,17 @@
+{
+    "name": "",
+    "description": "",
+    "type": "spell_list_effect",
+    "spells": [
+        {"known": 2, "level": 2, "from": "_dnd5e:spell_lists.ranger", "spell_only": true},
+        {"known": 3, "start_level": 3, "end_level": 5, "from": "_dnd5e:spell_lists.ranger", "spell_only": true},
+        {"known": 4, "start_level": 5, "end_level": 7, "from": "_dnd5e:spell_lists.ranger", "spell_only": true},
+        {"known": 5, "start_level": 7, "end_level": 9, "from": "_dnd5e:spell_lists.ranger", "spell_only": true},
+        {"known": 6, "start_level": 9, "end_level": 11, "from": "_dnd5e:spell_lists.ranger", "spell_only": true},
+        {"known": 7, "start_level": 11, "end_level": 13, "from": "_dnd5e:spell_lists.ranger", "spell_only": true},
+        {"known": 8, "start_level": 13, "end_level": 15, "from": "_dnd5e:spell_lists.ranger", "spell_only": true},
+        {"known": 9, "start_level": 15, "end_level": 17, "from": "_dnd5e:spell_lists.ranger", "spell_only": true},
+        {"known": 10, "start_level": 17, "end_level": 19, "from": "_dnd5e:spell_lists.ranger", "spell_only": true},
+        {"known": 11, "start_level": 19, "from": "_dnd5e:spell_lists.ranger", "spell_only": true}
+    ]
+}

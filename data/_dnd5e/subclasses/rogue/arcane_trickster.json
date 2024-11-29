@@ -345,5 +345,11 @@
             "Versatile Trickster|Rogue||Arcane Trickster||13",
             "Spell Thief|Rogue||Arcane Trickster||17"
         ]
-    }
+    },
+    "spell_slots": [
+        {"spell_level": 1, "class_level": [3, 4, 7], "capacity": [2, 3, 4]},
+        {"spell_level": 2, "class_level": [7, 10], "capacity": [2, 3]},
+        {"spell_level": 3, "class_level": [13, 16], "capacity": [2, 3]},
+        {"spell_level": 4, "class_level": [19], "capacity": [1]}
+    ]
 }

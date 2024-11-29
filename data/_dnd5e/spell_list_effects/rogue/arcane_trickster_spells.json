@@ -1,0 +1,18 @@
+{
+    "name": "",
+    "description": "",
+    "type": "spell_list_effect",
+    "spells": [
+        {"known": 3, "level": 3, "spell_only": true, "from": "_dnd5e:spell_lists.wizard"},
+        {"known": 4, "start_level": 4, "end_level": 7, "spell_only": true, "from": "_dnd5e:spell_lists.wizard"},
+        {"known": 5, "level": 7, "spell_only": true, "from": "_dnd5e:spell_lists.wizard"},
+        {"known": 6, "start_level": 8, "end_level": 10, "spell_only": true, "from": "_dnd5e:spell_lists.wizard"},
+        {"known": 7, "level": 10, "spell_only": true, "from": "_dnd5e:spell_lists.wizard"},
+        {"known": 8, "start_level": 11, "end_level": 13, "spell_only": true, "from": "_dnd5e:spell_lists.wizard"},
+        {"known": 9, "level": 13, "spell_only": true, "from": "_dnd5e:spell_lists.wizard"},
+        {"known": 10, "start_level": 14, "end_level": 16, "spell_only": true, "from": "_dnd5e:spell_lists.wizard"},
+        {"known": 11, "start_level": 16, "end_level": 19, "spell_only": true, "from": "_dnd5e:spell_lists.wizard"},
+        {"known": 12, "level": 19, "spell_only": true, "from": "_dnd5e:spell_lists.wizard"},
+        {"known": 13, "level": 20, "spell_only": true, "from": "_dnd5e:spell_lists.wizard"}
+    ]
+}
