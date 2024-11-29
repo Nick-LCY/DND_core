@@ -1,0 +1,16 @@
+{
+    "name": "",
+    "description": "",
+    "list": [
+        "_dnd5e:spells.burning_hands",
+        "_dnd5e:spells.command",
+        "_dnd5e:spells.blindnessordeafness",
+        "_dnd5e:spells.scorching_ray",
+        "_dnd5e:spells.fireball",
+        "_dnd5e:spells.stinking_cloud",
+        "_dnd5e:spells.fire_shield",
+        "_dnd5e:spells.wall_of_fire",
+        "_dnd5e:spells.flame_strike",
+        "_dnd5e:spells.hallow"
+    ]
+}

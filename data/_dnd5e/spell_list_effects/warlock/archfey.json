@@ -1,0 +1,21 @@
+{
+    "name": "",
+    "description": "",
+    "type": "spell_list_effect",
+    "spells": [
+        {"known": 2, "level": 1, "spell_only": true, "from": ["_dnd5e:spell_lists.warlock", "_dnd5e:spell_lists.warlock.archfey"]},
+        {"known": 3, "level": 2, "spell_only": true, "from": ["_dnd5e:spell_lists.warlock", "_dnd5e:spell_lists.warlock.archfey"]},
+        {"known": 4, "level": 3, "spell_only": true, "from": ["_dnd5e:spell_lists.warlock", "_dnd5e:spell_lists.warlock.archfey"]},
+        {"known": 5, "level": 4, "spell_only": true, "from": ["_dnd5e:spell_lists.warlock", "_dnd5e:spell_lists.warlock.archfey"]},
+        {"known": 6, "level": 5, "spell_only": true, "from": ["_dnd5e:spell_lists.warlock", "_dnd5e:spell_lists.warlock.archfey"]},
+        {"known": 7, "level": 6, "spell_only": true, "from": ["_dnd5e:spell_lists.warlock", "_dnd5e:spell_lists.warlock.archfey"]},
+        {"known": 8, "level": 7, "spell_only": true, "from": ["_dnd5e:spell_lists.warlock", "_dnd5e:spell_lists.warlock.archfey"]},
+        {"known": 9, "level": 8, "spell_only": true, "from": ["_dnd5e:spell_lists.warlock", "_dnd5e:spell_lists.warlock.archfey"]},
+        {"known": 10, "start_level": 9, "end_level": 11, "spell_only": true, "from": ["_dnd5e:spell_lists.warlock", "_dnd5e:spell_lists.warlock.archfey"]},
+        {"known": 11, "start_level": 11, "end_level": 13, "spell_only": true, "from": ["_dnd5e:spell_lists.warlock", "_dnd5e:spell_lists.warlock.archfey"]},
+        {"known": 12, "start_level": 13, "end_level": 15, "spell_only": true, "from": ["_dnd5e:spell_lists.warlock", "_dnd5e:spell_lists.warlock.archfey"]},
+        {"known": 13, "start_level": 15, "end_level": 17, "spell_only": true, "from": ["_dnd5e:spell_lists.warlock", "_dnd5e:spell_lists.warlock.archfey"]},
+        {"known": 14, "start_level": 17, "end_level": 19, "spell_only": true, "from": ["_dnd5e:spell_lists.warlock", "_dnd5e:spell_lists.warlock.archfey"]},
+        {"known": 15, "start_level": 19, "spell_only": true, "from": ["_dnd5e:spell_lists.warlock", "_dnd5e:spell_lists.warlock.archfey"]}
+    ]
+}

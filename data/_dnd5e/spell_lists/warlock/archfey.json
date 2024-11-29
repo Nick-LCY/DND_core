@@ -1,0 +1,16 @@
+{
+    "name": "",
+    "description": "",
+    "list": [
+        "_dnd5e:spells.faerie_fire",
+        "_dnd5e:spells.sleep",
+        "_dnd5e:spells.calm_emotions",
+        "_dnd5e:spells.phantasmal_force",
+        "_dnd5e:spells.blink",
+        "_dnd5e:spells.plant_growth",
+        "_dnd5e:spells.dominate_beast",
+        "_dnd5e:spells.greater_invisibility",
+        "_dnd5e:spells.dominate_person",
+        "_dnd5e:spells.seeming"
+    ]
+}

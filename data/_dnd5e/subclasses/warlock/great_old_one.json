@@ -8,6 +8,10 @@
             "feature": "_dnd5e:features.warlock.great_old_one.awakened_mind"
         },
         {
+            "start_level": 1,
+            "feature": "_dnd5e:features.warlock.great_old_one.expanded_spell_list"
+        },
+        {
             "start_level": 6,
             "feature": "_dnd5e:features.warlock.great_old_one.entropic_ward"
         },

@@ -1,0 +1,10 @@
+{
+    "name": "",
+    "description": "",
+    "type": "spell_list_effect",
+    "spells": [
+        {"known": 2, "start_level": 1, "end_level": 4, "cantrip_only": true, "from": "_dnd5e:spell_lists.warlock"},
+        {"known": 3, "start_level": 4, "end_level": 10, "cantrip_only": true, "from": "_dnd5e:spell_lists.warlock"},
+        {"known": 3, "start_level": 10, "cantrip_only": true, "from": "_dnd5e:spell_lists.warlock"}
+    ]
+}

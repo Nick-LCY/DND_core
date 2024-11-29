@@ -1,0 +1,16 @@
+{
+    "name": "",
+    "description": "",
+    "list": [
+        "_dnd5e:spells.dissonant_whispers",
+        "_dnd5e:spells.tasha_hideous_laughter",
+        "_dnd5e:spells.detect_thoughts",
+        "_dnd5e:spells.phantasmal_force",
+        "_dnd5e:spells.clairvoyance",
+        "_dnd5e:spells.sending",
+        "_dnd5e:spells.dominate_beast",
+        "_dnd5e:spells.evard_black_tentacles",
+        "_dnd5e:spells.dominate_person",
+        "_dnd5e:spells.telekinesis"
+    ]
+}

@@ -8,6 +8,10 @@
             "feature": "_dnd5e:features.warlock.fiend.dark_one_blessing"
         },
         {
+            "start_level": 1,
+            "feature": "_dnd5e:features.warlock.fiend.expanded_spell_list"
+        },
+        {
             "start_level": 6,
             "feature": "_dnd5e:features.warlock.fiend.dark_one_own_luck"
         },
