@@ -1,0 +1,46 @@
+{
+    "name": "",
+    "description": "",
+    "list": [
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.bane"
+        },
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.hunter_mark"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.hold_person"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.misty_step"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.haste"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.protection_from_energy"
+        },
+        {
+            "level": 13,
+            "spell": "_dnd5e:spells.banishment"
+        },
+        {
+            "level": 13,
+            "spell": "_dnd5e:spells.dimension_door"
+        },
+        {
+            "level": 17,
+            "spell": "_dnd5e:spells.hold_monster"
+        },
+        {
+            "level": 17,
+            "spell": "_dnd5e:spells.scrying"
+        }
+    ]
+}

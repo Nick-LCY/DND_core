@@ -1261,6 +1261,7 @@
         "**驱散不洁Turn the Unholy。** 作为一个动作，你可以用引导神力特性亮出圣徽高喊祷言，以逐退不死生物和邪魔。你身边30尺范围内能够看见圣徽或能听到你祷言的不死生物或邪魔都必须进行一次感知豁免，豁免失败者将受到驱散，其效应持续1分钟或直至其受到任何伤害。  ",
         "以该方式被驱散的生物必须花费其回合内的所有移动力尽量远离你，且无法主动靠近你30尺内。被驱散的生物无法执行反应，只能使用既有的疾走Dash动作或从任何妨碍其移动的效应中挣脱。该生物无路可走时将执行回避Dodge动作。  "
     ],
+    "spell_lists.paladin.devotion/name": "奉献圣誓法术",
     "features.paladin.devotion.oath_spells/name": "圣誓法术",
     "features.paladin.devotion.oath_spells/description": [
         "你获得以下圣誓法术。  ",
@@ -1303,6 +1304,7 @@
         "以该方式被驱散的生物必须花费其回合内的所有移动力尽量远离你，且无法主动靠近你30尺内。被驱散的生物无法执行反应，只能使用既有的疾走Dash动作或从任何妨碍其移动的效应中挣脱。该生物无路可走时会执行回避Dodge动作。  ",
         "如果被驱散生物的真实外形被幻术、变形、或其他效应掩盖，那么在被驱散后，它将显露出原形。  "
     ],
+    "spell_lists.paladin.ancients/name": "奉献圣誓法术",
     "features.paladin.ancients.oath_spells/name": "圣誓法术",
     "features.paladin.ancients.oath_spells/description": [
         "你获得以下圣誓法术。  ",
@@ -1349,6 +1351,7 @@
         "豁免成功，则目标生物的速度在接下来的1分钟内减半，直至其受到伤害。  ",
         "**仇敌誓言Vow of Enmity。** 作为一个附赠动作，你可以立下一个仇敌誓言，宣誓歼灭一个你可以看到，且距离你10尺以内的生物，同时使用你的引导神力。在接下来的1分钟内，你对该生物发动攻击时进行的攻击检定具有优势，直至该生物的生命值降至0或者陷入昏迷状态。  "
     ],
+    "spell_lists.paladin.vengeance/name": "奉献圣誓法术",
     "features.paladin.vengeance.oath_spells/name": "圣誓法术",
     "features.paladin.vengeance.oath_spells/description": [
         "你获得以下圣誓法术。  ",

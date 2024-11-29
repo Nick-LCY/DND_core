@@ -1,0 +1,46 @@
+{
+    "name": "",
+    "description": "",
+    "list": [
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.protection_from_evil_and_good"
+        },
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.sanctuary"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.lesser_restoration"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.zone_of_truth"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.beacon_of_hope"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.dispel_magic"
+        },
+        {
+            "level": 13,
+            "spell": "_dnd5e:spells.freedom_of_movement"
+        },
+        {
+            "level": 13,
+            "spell": "_dnd5e:spells.guardian_of_faith"
+        },
+        {
+            "level": 17,
+            "spell": "_dnd5e:spells.commune"
+        },
+        {
+            "level": 17,
+            "spell": "_dnd5e:spells.flame_strike"
+        }
+    ]
+}

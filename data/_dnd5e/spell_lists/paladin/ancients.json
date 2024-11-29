@@ -1,0 +1,46 @@
+{
+    "name": "",
+    "description": "",
+    "list": [
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.ensnaring_strike"
+        },
+        {
+            "level": 3,
+            "spell": "_dnd5e:spells.speak_with_animals"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.moonbeam"
+        },
+        {
+            "level": 5,
+            "spell": "_dnd5e:spells.misty_step"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.plant_growth"
+        },
+        {
+            "level": 9,
+            "spell": "_dnd5e:spells.protection_from_energy"
+        },
+        {
+            "level": 13,
+            "spell": "_dnd5e:spells.ice_storm"
+        },
+        {
+            "level": 13,
+            "spell": "_dnd5e:spells.stoneskin"
+        },
+        {
+            "level": 17,
+            "spell": "_dnd5e:spells.commune_with_nature"
+        },
+        {
+            "level": 17,
+            "spell": "_dnd5e:spells.tree_stride"
+        }
+    ]
+}
