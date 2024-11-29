@@ -1,0 +1,9 @@
+{
+    "name": "",
+    "description": "",
+    "type": "spell_list_effect",
+    "spells": [
+        {"start_level": 1, "spell_only": true, "from": "_dnd5e:spell_lists.wizard"}
+    ]
+}
+
